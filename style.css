@@ -106,3 +106,14 @@ a{color:var(--accent2)}
 .mdbody th,.mdbody td{border:1px solid var(--border);padding:8px 10px;text-align:left;vertical-align:top}
 .mdbody th{background:var(--panel2);font-weight:700;white-space:nowrap}
 .mdbody hr{border:none;border-top:1px solid var(--border);margin:18px 0}
+
+/* 아이콘 */
+.ic{vertical-align:-4px;flex-shrink:0}
+.btn .ic{vertical-align:-4px;margin-right:2px}
+#topbar .ic{vertical-align:-4px}
+
+/* 가리기(능동 회상) 모드: 굵은 핵심어를 가렸다가 탭하면 보임 */
+.mdbody.mask strong{background:var(--muted);color:transparent;border-radius:5px;
+  cursor:pointer;padding:0 3px;transition:background .12s, color .12s;user-select:none}
+.mdbody.mask strong::selection{background:transparent}
+.mdbody.mask strong.show{background:rgba(127,127,127,.14);color:var(--text)}

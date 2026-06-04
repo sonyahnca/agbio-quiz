@@ -14,6 +14,26 @@ const CHAP_NOTE = {1:'ch01-matter-atom',2:'ch02-chemical-bonding',3:'ch03-chemic
  15:'ch15-livestock-production'};
 let subj = SUBJECTS[0] || {subject:'(데이터 없음)', questions:[]};
 let timerInt = null;
+let maskMode = false; // 가리기(능동 회상) 모드
+
+/* 인라인 SVG 아이콘 (루시드 스타일, 무의존·오프라인) */
+const ICONS={
+ home:'<path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/>',
+ book:'<path d="M4 4h7a2 2 0 0 1 2 2v14a2 2 0 0 0-2-2H4z"/><path d="M20 4h-7a2 2 0 0 0-2 2v14a2 2 0 0 1 2-2h7z"/>',
+ zap:'<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
+ shuffle:'<path d="M16 3h5v5"/><path d="M4 20 21 3"/><path d="M21 16v5h-5"/><path d="M15 15l6 6"/><path d="M4 4l5 5"/>',
+ clipboard:'<rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M9 12h6"/><path d="M9 16h6"/>',
+ repeat:'<path d="M17 2l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/>',
+ marked:'<path d="M19 21l-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>',
+ chart:'<path d="M3 3v18h18"/><rect x="7" y="10" width="3" height="8"/><rect x="12" y="6" width="3" height="12"/><rect x="17" y="13" width="3" height="5"/>',
+ eye:'<path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+ eyeoff:'<path d="M9.9 4.2A9 9 0 0 1 12 5c6.5 0 10 7 10 7a13 13 0 0 1-2.2 2.9"/><path d="M6.6 6.6A13 13 0 0 0 2 12s3.5 7 10 7a9 9 0 0 0 3.4-.6"/><path d="M2 2l20 20"/>',
+ check:'<path d="M20 6L9 17l-5-5"/>',
+ x:'<path d="M18 6L6 18"/><path d="M6 6l12 12"/>',
+ list:'<path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/>',
+ pen:'<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/>'
+};
+function ic(n,sz){return '<svg class="ic" width="'+(sz||20)+'" height="'+(sz||20)+'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'+(ICONS[n]||'')+'</svg>';}
 
 /* ---------- 저장(진도) ---------- */
 const SKEY = 'quizStats_v1';
@@ -56,7 +76,7 @@ function render(){
 
 /* ---------- 홈 ---------- */
 function Home(){
-  $title.textContent='📚 '+subj.subject;
+  $title.innerHTML=ic('book',22)+' '+esc(subj.subject);
   const ch = chapters();
   const st = loadStats();
   const seen = Object.keys(st).length, mc = mcOnly(subj.questions).length;
@@ -72,15 +92,15 @@ function Home(){
       <div style="font-size:28px;font-weight:800">${subj.questions.length}문항 <small class="muted" style="font-size:16px">(객관식 ${mc} · 서술형 ${subj.questions.length-mc})</small></div>
       <div class="muted" style="margin-top:6px">학습한 문항 ${seen} · 전 15장 + 기출 4개년</div>
     </div>
-    <h3>📖 공부</h3>
-    <button class="btn" id="mNotes">📖 정리노트 (${(subj.notes||[]).length}장)</button>
-    <button class="btn sec" id="mCheat">⚡ 시험 직전 치트시트</button>
-    <h3>✏️ 문제 풀이</h3>
-    <button class="btn" id="mQuiz">🎲 랜덤 퀴즈</button>
-    <button class="btn sec" id="mExam">📝 모의고사 (타이머)</button>
-    <button class="btn sec" id="mWeak">🔁 약점 복습</button>
-    <button class="btn sec" id="mWrong">📕 오답노트 <span class="muted" style="font-weight:500">${wrongList().length}</span></button>
-    <button class="btn sec" id="mStats">📊 통계 / 진도</button>
+    <h3>공부</h3>
+    <button class="btn" id="mNotes">${ic('book')} 정리노트 (${(subj.notes||[]).length}장)</button>
+    <button class="btn sec" id="mCheat">${ic('zap')} 시험 직전 치트시트</button>
+    <h3>문제 풀이</h3>
+    <button class="btn" id="mQuiz">${ic('shuffle')} 랜덤 퀴즈</button>
+    <button class="btn sec" id="mExam">${ic('clipboard')} 모의고사 (타이머)</button>
+    <button class="btn sec" id="mWeak">${ic('repeat')} 약점 복습</button>
+    <button class="btn sec" id="mWrong">${ic('marked')} 오답노트 <span class="muted" style="font-weight:500">${wrongList().length}</span></button>
+    <button class="btn sec" id="mStats">${ic('chart')} 통계 / 진도</button>
     <p class="muted" style="text-align:center;font-size:13px;margin-top:20px">
       태블릿에서 "홈 화면에 추가"하면 앱처럼 오프라인 사용 가능</p>`;
   $app.querySelectorAll('[data-si]').forEach(b=>b.onclick=()=>{subj=SUBJECTS[+b.dataset.si];render();});
@@ -127,18 +147,25 @@ function Notes(){
     b.innerHTML=`<span>${esc(n.title)}</span><br><small class="muted">${imp} · 기출 ${n.exam_freq||0}회</small>`;
     b.onclick=()=>go('note',{slug:n.slug});nl.appendChild(b);});
 }
+function maskBtn(){return `<button class="btn sec" id="maskT">${maskMode?ic('eye'):ic('eyeoff')} ${maskMode?'전부 보이기':'가리기(암기 점검)'}</button>`;}
+function applyMask(root){
+  const body=root.querySelector('.mdbody'); if(!body)return;
+  if(maskMode){body.classList.add('mask');
+    body.querySelectorAll('strong').forEach(s=>s.onclick=()=>s.classList.toggle('show'));}
+}
 function NoteView(){
   const ns=subj.notes||[]; const i=ns.findIndex(x=>x.slug===route.slug); const n=ns[i];
   if(!n){go('notes');return;}
   $title.textContent=n.chapter+'장';
-  $app.innerHTML=`<div class="mdbody card">${n.html}</div>
-    <button class="btn" id="cq">🎲 이 장(${n.chapter}장) 문제 풀기</button>
+  $app.innerHTML=`${maskBtn()}<div class="mdbody card">${n.html}</div>
+    <button class="btn" id="cq">${ic('shuffle')} 이 장(${n.chapter}장) 문제 풀기</button>
     <div class="row">
       ${i>0?`<button class="btn sec" id="prevN" style="flex:1">← ${ns[i-1].chapter}장</button>`:''}
       ${i<ns.length-1?`<button class="btn sec" id="nextN" style="flex:1">${ns[i+1].chapter}장 →</button>`:''}
       <button class="btn sec" id="listN" style="flex:1">목록</button>
     </div>`;
-  hookNoteLinks($app);
+  hookNoteLinks($app); applyMask($app);
+  byId('maskT').onclick=()=>{maskMode=!maskMode;go('note',{slug:n.slug});};
   byId('cq').onclick=()=>{const pool=mcOnly(subj.questions.filter(q=>q.chapter===n.chapter));
     if(!pool.length){alert('이 장 객관식 문제가 없습니다.');return;}
     startQuiz(shuffle(pool),{mode:'quiz',title:n.chapter+'장 퀴즈'});};
@@ -150,8 +177,11 @@ function Cheat(){
   $title.textContent='⚡ 치트시트';
   const cs=subj.cheatsheets||[];
   if(!cs.length){$app.innerHTML='<div class="card muted">치트시트가 없습니다.</div>';return;}
-  if(cs.length===1){$app.innerHTML=`<div class="mdbody card">${cs[0].html}</div>`;hookNoteLinks($app);return;}
-  if(route.cs!=null){$app.innerHTML=`<div class="mdbody card">${cs[route.cs].html}</div>`;hookNoteLinks($app);return;}
+  const showSheet=(k)=>{$app.innerHTML=`${maskBtn()}<div class="mdbody card">${cs[k].html}</div>`;
+    hookNoteLinks($app);applyMask($app);
+    byId('maskT').onclick=()=>{maskMode=!maskMode;go('cheat',{cs:k});};};
+  if(cs.length===1){showSheet(0);return;}
+  if(route.cs!=null){showSheet(route.cs);return;}
   $app.innerHTML='<div id="cl"></div>';const cl=byId('cl');
   cs.forEach((c,k)=>{const b=document.createElement('button');b.className='btn sec';
     b.textContent=c.title||c.slug;b.onclick=()=>go('cheat',{cs:k});cl.appendChild(b);});
@@ -229,6 +259,10 @@ function QuizSetup(){
         <span>서술형 문제 포함</span>
         <input type="checkbox" id="short" ${incShort?'checked':''} style="width:26px;height:26px">
       </label>
+      <label class="card" style="display:flex;justify-content:space-between;align-items:center">
+        <span>스마트 출제 <small class="muted">(틀린·안 푼 문제 우선)</small></span>
+        <input type="checkbox" id="smart" ${QuizSetup.smart?'checked':''} style="width:26px;height:26px">
+      </label>
       <button class="btn" id="start">시작</button>`;
     const cg=byId('chips');
     Object.keys(ch).sort((a,b)=>a-b).forEach(c=>{
@@ -245,12 +279,19 @@ function QuizSetup(){
     byId('all').onclick=()=>{selChaps=new Set(Object.keys(ch).map(Number));draw();};
     byId('none').onclick=()=>{selChaps=new Set();draw();};
     byId('short').onchange=e=>{incShort=e.target.checked;QuizSetup.incShort=incShort;};
+    byId('smart').onchange=e=>{QuizSetup.smart=e.target.checked;};
     byId('start').onclick=()=>{
       let pool=subj.questions.filter(q=>selChaps.has(q.chapter));
       if(!incShort) pool=mcOnly(pool);
       if(!pool.length){alert('범위를 선택하세요.');return;}
-      pool=shuffle(pool); if(count!=='전체') pool=pool.slice(0,count);
-      startQuiz(pool,{mode:'quiz',title:'랜덤 퀴즈'});
+      pool=shuffle(pool);
+      if(QuizSetup.smart){ const st=loadStats();
+        // 우선순위: 최근 틀림(0) > 안 푼 것(1) > 맞춘 것(2)
+        const rank=q=>{const r=st[q.id]; if(r&&r.w>0&&r.last===0)return 0; if(!r)return 1; return 2;};
+        pool.sort((a,b)=>rank(a)-rank(b)); }
+      if(count!=='전체') pool=pool.slice(0,count);
+      if(QuizSetup.smart) pool=shuffle(pool); // 선정 후 순서는 섞기
+      startQuiz(pool,{mode:'quiz',title:QuizSetup.smart?'스마트 퀴즈':'랜덤 퀴즈'});
     };
   }
   draw();
@@ -283,7 +324,7 @@ function Quiz(){
         if(P.correctSet.includes(i))b.classList.add('correct');
         else if(i===disp)b.classList.add('wrong');});
       record(q.id,correct); if(correct)r.score++; else r.wrong.push(q);
-      $fb.innerHTML=`<div class="expl"><b>${correct?'✅ 정답':'❌ 오답'}</b> — 정답 ${P.correctSet.map(i=>CIRC[i]).join('·')}<br>${esc(q.explanation)}</div>`;
+      $fb.innerHTML=`<div class="expl"><b style="color:${correct?'var(--ok)':'var(--bad)'}">${ic(correct?'check':'x',18)} ${correct?'정답':'오답'}</b> — 정답 ${P.correctSet.map(i=>CIRC[i]).join('·')}<br>${esc(q.explanation)}</div>`;
       nextBar();
     }
   } else {
