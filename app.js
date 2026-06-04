@@ -1,0 +1,385 @@
+/* 시험 대비 퀴즈 — 정적 PWA (vanilla JS) */
+(function(){
+'use strict';
+const SUBJECTS = window.QUIZ_SUBJECTS || [];
+const $app = document.getElementById('app');
+const $home = document.getElementById('homeBtn');
+const $timer = document.getElementById('timer');
+const $title = document.getElementById('title');
+const CIRC = ['①','②','③','④','⑤'];
+const CHAP_NOTE = {1:'ch01-matter-atom',2:'ch02-chemical-bonding',3:'ch03-chemical-reaction',
+ 4:'ch04-aqueous-solution',5:'ch05-organic-chemistry',6:'ch06-biomolecules',7:'ch07-cells',
+ 8:'ch08-enzymes',9:'ch09-hormones',10:'ch10-carbohydrate-metabolism',11:'ch11-lipid-metabolism',
+ 12:'ch12-protein-metabolism',13:'ch13-nucleic-acid-metabolism',14:'ch14-crop-production',
+ 15:'ch15-livestock-production'};
+let subj = SUBJECTS[0] || {subject:'(데이터 없음)', questions:[]};
+let timerInt = null;
+
+/* ---------- 저장(진도) ---------- */
+const SKEY = 'quizStats_v1';
+function loadStats(){ try{return JSON.parse(localStorage.getItem(SKEY))||{}}catch(e){return{}} }
+function saveStats(s){ localStorage.setItem(SKEY, JSON.stringify(s)); }
+function record(qid, correct){
+  const s = loadStats(); const r = s[qid] || {s:0,c:0,w:0};
+  r.s++; correct ? r.c++ : r.w++; r.last = correct?1:0; s[qid]=r; saveStats(s);
+}
+function resetStats(){ if(confirm('진도·정오 기록을 모두 지울까요?')){localStorage.removeItem(SKEY);render();} }
+
+/* ---------- 유틸 ---------- */
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a;}
+function chapters(){const m={};subj.questions.forEach(q=>{m[q.chapter]=m[q.chapter]||{n:0,name:q.topic};m[q.chapter].n++});return m;}
+function mcOnly(qs){return qs.filter(q=>q.type==='mc');}
+function fmtTime(sec){const m=Math.floor(sec/60),s=sec%60;return String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');}
+function esc(t){const d=document.createElement('div');d.textContent=t==null?'':t;return d.innerHTML;}
+function stopTimer(){if(timerInt){clearInterval(timerInt);timerInt=null;}$timer.hidden=true;}
+
+/* 보기 셔플: {opts:[...], correctIdx, correctSet} */
+function prep(q){
+  const idx = q.options.map((o,i)=>i);
+  const sh = shuffle(idx);
+  const opts = sh.map(i=>q.options[i]);
+  const ansSet = q.answers && q.answers.length ? q.answers : (q.answer!=null?[q.answer]:[]);
+  const correctSet = sh.map((orig,disp)=>ansSet.includes(orig)?disp:-1).filter(x=>x>=0);
+  return {opts, correctSet};
+}
+
+/* ---------- 화면 전환 ---------- */
+let route = {name:'home'};
+function go(name, data){ stopTimer(); route={name,...data}; render(); window.scrollTo(0,0); }
+$home.onclick = ()=>{ if(route.name!=='home' && !confirm('홈으로 나갈까요? 진행 중 기록은 저장 안 됩니다.'))return; go('home'); };
+
+function render(){
+  $home.hidden = (route.name==='home');
+  const f = ({home:Home, quizSetup:QuizSetup, quiz:Quiz, examSetup:ExamSetup, exam:Exam, result:Result, stats:Stats, wrongbook:WrongBook, review:Quiz})[route.name] || Home;
+  $app.innerHTML=''; f();
+}
+
+/* ---------- 홈 ---------- */
+function Home(){
+  $title.textContent='📚 '+subj.subject;
+  const ch = chapters();
+  const st = loadStats();
+  const seen = Object.keys(st).length, mc = mcOnly(subj.questions).length;
+  let subjSel='';
+  if(SUBJECTS.length>1){
+    subjSel = `<div class="row" style="margin-bottom:10px">`+SUBJECTS.map((s,i)=>
+      `<button class="pill ${s===subj?'on':''}" data-si="${i}">${esc(s.subject)}</button>`).join('')+`</div>`;
+  }
+  $app.innerHTML = `
+    ${subjSel}
+    <div class="card">
+      <div class="muted">문제은행</div>
+      <div style="font-size:28px;font-weight:800">${subj.questions.length}문항 <small class="muted" style="font-size:16px">(객관식 ${mc} · 서술형 ${subj.questions.length-mc})</small></div>
+      <div class="muted" style="margin-top:6px">학습한 문항 ${seen} · 전 15장 + 기출 4개년</div>
+    </div>
+    <button class="btn" id="mQuiz">🎲 랜덤 퀴즈</button>
+    <button class="btn sec" id="mExam">📝 모의고사 (타이머)</button>
+    <button class="btn sec" id="mWeak">🔁 약점 복습</button>
+    <button class="btn sec" id="mWrong">📕 오답노트 <span class="muted" style="font-weight:500">${wrongList().length}</span></button>
+    <button class="btn sec" id="mStats">📊 통계 / 진도</button>
+    <p class="muted" style="text-align:center;font-size:13px;margin-top:20px">
+      태블릿에서 "홈 화면에 추가"하면 앱처럼 오프라인 사용 가능</p>`;
+  $app.querySelectorAll('[data-si]').forEach(b=>b.onclick=()=>{subj=SUBJECTS[+b.dataset.si];render();});
+  byId('mQuiz').onclick=()=>go('quizSetup');
+  byId('mExam').onclick=()=>go('examSetup');
+  byId('mStats').onclick=()=>go('stats');
+  byId('mWrong').onclick=()=>go('wrongbook');
+  byId('mWeak').onclick=()=>{
+    const st=loadStats();
+    const pool=subj.questions.filter(q=>{const r=st[q.id];return r&&r.w>0&&r.last===0&&!r.m;});
+    if(!pool.length){alert('약점(최근 틀린) 문항이 없습니다. 퀴즈를 먼저 풀어보세요.');return;}
+    startQuiz(shuffle(pool), {mode:'review',title:'약점 복습'});
+  };
+}
+function byId(id){return document.getElementById(id);}
+
+/* 오답노트 대상: 한 번이라도 틀렸고(w>0) '이해함' 처리 안 한 문항 */
+function wrongList(){
+  const st=loadStats();
+  return subj.questions.map(q=>({q,r:st[q.id]})).filter(x=>x.r&&x.r.w>0&&!x.r.m);
+}
+function setMastered(qid,v){const s=loadStats();if(s[qid]){s[qid].m=v?1:0;saveStats(s);}}
+
+/* ---------- 오답노트 ---------- */
+function WrongBook(){
+  $title.textContent='📕 오답노트';
+  const items=wrongList();
+  if(!items.length){
+    $app.innerHTML=`<div class="card" style="text-align:center">
+      <div style="font-size:40px">🎉</div><div>오답노트가 비어 있습니다.</div>
+      <div class="muted">퀴즈·모의고사에서 틀린 문제가 여기 모입니다.</div></div>`;
+    return;
+  }
+  // 장별 오답 개수 분포 (많은 순)
+  const dist={};
+  items.forEach(({q})=>{dist[q.chapter]=dist[q.chapter]||{n:0,name:q.topic,weak:0};
+    dist[q.chapter].n++; });
+  const order=Object.keys(dist).map(Number).sort((a,b)=>dist[b].n-dist[a].n);
+  const maxN=Math.max(...order.map(c=>dist[c].n));
+  let distHtml=order.map(c=>{
+    const o=dist[c];const note=CHAP_NOTE[c]||'';
+    return `<div class="bar"><div class="lbl">${c}장 ${esc(o.name)}</div>
+      <div class="track"><i style="width:${o.n/maxN*100}%;background:var(--bad)"></i></div>
+      <div style="width:78px;text-align:right">오답 ${o.n}개</div></div>
+      <div class="muted" style="font-size:12px;margin:-2px 0 8px 0">📄 정리노트 복습: ${note}</div>`;
+  }).join('');
+
+  // 장별 문제 목록
+  let listHtml='';
+  order.forEach(c=>{
+    listHtml+=`<h3>${c}장 ${esc(dist[c].name)} (${dist[c].n})</h3>`;
+    items.filter(x=>x.q.chapter===c).forEach(({q,r})=>{
+      const ans=(q.answers&&q.answers.length?q.answers:[q.answer]).map(i=>CIRC[i]+' '+q.options[i]).join(' / ');
+      const tag=r.last===0?`<span class="pill" style="color:var(--bad)">현재 약점</span>`:`<span class="pill" style="color:var(--warn)">교정됨</span>`;
+      listHtml+=`<div class="card" data-q="${q.id}">
+        <div style="display:flex;justify-content:space-between;gap:8px">
+          <div style="font-weight:600">${esc(q.question)}</div>${tag}</div>
+        <div class="muted" style="font-size:13px">틀린 횟수 ${r.w} · 시도 ${r.s}${q.source?' · '+q.source:''}</div>
+        <div class="expl"><b>정답: ${esc(ans)}</b><br>${esc(q.explanation)}</div>
+        <button class="btn sec mastered" data-id="${q.id}" style="margin-top:8px">✓ 이해함 (오답노트에서 빼기)</button>
+      </div>`;
+    });
+  });
+
+  $app.innerHTML=`
+    <div class="card"><div class="muted">오답 분포 — 많은 장부터 보충</div>
+      <div style="font-size:24px;font-weight:800">총 ${items.length}개 오답 · ${order.length}개 장</div></div>
+    ${distHtml}
+    <button class="btn" id="reviewWeak">🔁 현재 약점만 다시 풀기</button>
+    ${listHtml}`;
+  byId('reviewWeak').onclick=()=>{
+    const pool=items.filter(x=>x.r.last===0).map(x=>x.q);
+    if(!pool.length){alert('현재 약점(최근 틀린) 문항이 없습니다. 모두 교정됨 상태예요.');return;}
+    startQuiz(shuffle(pool),{mode:'review',title:'오답 복습'});
+  };
+  $app.querySelectorAll('.mastered').forEach(b=>b.onclick=()=>{setMastered(b.dataset.id,true);go('wrongbook');});
+}
+
+/* ---------- 랜덤 퀴즈 설정 ---------- */
+let selChaps = null;
+function QuizSetup(){
+  $title.textContent='랜덤 퀴즈 설정';
+  const ch = chapters();
+  if(selChaps===null) selChaps = new Set(Object.keys(ch).map(Number));
+  let count = QuizSetup.count || 20, incShort = QuizSetup.incShort||false;
+  function draw(){
+    $app.innerHTML = `
+      <h2>출제 범위</h2>
+      <div class="row"><button class="pill" id="all">전체</button><button class="pill" id="none">해제</button></div>
+      <div class="chip-grid" id="chips"></div>
+      <h2>문항 수</h2><div class="seg" id="cnt"></div>
+      <label class="card" style="display:flex;justify-content:space-between;align-items:center">
+        <span>서술형 문제 포함</span>
+        <input type="checkbox" id="short" ${incShort?'checked':''} style="width:26px;height:26px">
+      </label>
+      <button class="btn" id="start">시작</button>`;
+    const cg=byId('chips');
+    Object.keys(ch).sort((a,b)=>a-b).forEach(c=>{
+      const on=selChaps.has(+c);
+      const b=document.createElement('button');b.className='chip'+(on?' on':'');
+      b.innerHTML=`<span>${c}장 ${esc(ch[c].name)}</span><small>${ch[c].n}</small>`;
+      b.onclick=()=>{on?selChaps.delete(+c):selChaps.add(+c);draw();};
+      cg.appendChild(b);
+    });
+    const seg=byId('cnt');[10,20,30,'전체'].forEach(n=>{
+      const b=document.createElement('button');b.textContent=n;b.className=(count===n?'on':'');
+      b.onclick=()=>{count=n;QuizSetup.count=n;draw();};seg.appendChild(b);
+    });
+    byId('all').onclick=()=>{selChaps=new Set(Object.keys(ch).map(Number));draw();};
+    byId('none').onclick=()=>{selChaps=new Set();draw();};
+    byId('short').onchange=e=>{incShort=e.target.checked;QuizSetup.incShort=incShort;};
+    byId('start').onclick=()=>{
+      let pool=subj.questions.filter(q=>selChaps.has(q.chapter));
+      if(!incShort) pool=mcOnly(pool);
+      if(!pool.length){alert('범위를 선택하세요.');return;}
+      pool=shuffle(pool); if(count!=='전체') pool=pool.slice(0,count);
+      startQuiz(pool,{mode:'quiz',title:'랜덤 퀴즈'});
+    };
+  }
+  draw();
+}
+
+/* ---------- 퀴즈(즉시 채점) ---------- */
+function startQuiz(pool,opt){ go('quiz',{pool,i:0,score:0,wrong:[],opt,prep:prep(pool[0])}); }
+function Quiz(){
+  const r=route; const q=r.pool[r.i]; $title.textContent=r.opt.title;
+  const total=r.pool.length;
+  const wrap=document.createElement('div');
+  wrap.innerHTML=`<div class="card">
+    <div class="qmeta"><span class="qnum">${r.i+1} / ${total}</span>
+      <span class="qsrc">${q.chapter}장 ${esc(q.topic)}${q.source?' · '+q.source:''}</span></div>
+    <div class="qtext">${esc(q.question)}</div>
+    <div id="opts"></div><div id="fb"></div></div>`;
+  $app.appendChild(wrap);
+  const $opts=wrap.querySelector('#opts'), $fb=wrap.querySelector('#fb');
+
+  if(q.type==='mc'){
+    const P=r.prep;
+    P.opts.forEach((o,disp)=>{
+      const b=document.createElement('button');b.className='opt';
+      b.innerHTML=`<span class="num">${CIRC[disp]}</span><span>${esc(o)}</span>`;
+      b.onclick=()=>answerMC(disp);$opts.appendChild(b);
+    });
+    function answerMC(disp){
+      const correct=P.correctSet.includes(disp);
+      [...$opts.children].forEach((b,i)=>{b.disabled=true;
+        if(P.correctSet.includes(i))b.classList.add('correct');
+        else if(i===disp)b.classList.add('wrong');});
+      record(q.id,correct); if(correct)r.score++; else r.wrong.push(q);
+      $fb.innerHTML=`<div class="expl"><b>${correct?'✅ 정답':'❌ 오답'}</b> — 정답 ${P.correctSet.map(i=>CIRC[i]).join('·')}<br>${esc(q.explanation)}</div>`;
+      nextBar();
+    }
+  } else {
+    const b=document.createElement('button');b.className='btn sec';b.textContent='정답 보기';
+    b.onclick=()=>{
+      $fb.innerHTML=`<div class="expl short"><b>정답</b><br>${esc(q.explanation)}</div>
+        <div class="row" style="margin-top:10px"><button class="btn" id="ok" style="background:var(--ok)">맞음</button>
+        <button class="btn" id="ng" style="background:var(--bad)">틀림</button></div>`;
+      byId('ok').onclick=()=>{record(q.id,true);r.score++;next();};
+      byId('ng').onclick=()=>{record(q.id,false);r.wrong.push(q);next();};
+    };
+    $opts.appendChild(b);
+  }
+  function nextBar(){
+    const bar=document.createElement('div');bar.className='fixedbar';
+    bar.innerHTML=`<div class="progress"><i style="width:${(r.i+1)/total*100}%"></i></div>
+      <button class="btn" id="nx" style="flex:0 0 130px">${r.i+1<total?'다음 →':'결과 보기'}</button>`;
+    $app.appendChild(bar);byId('nx').onclick=next;
+  }
+  function next(){ if(r.i+1<total){r.i++;r.prep=prep(r.pool[r.i]);go('quiz',r);} else finishQuiz(r); }
+}
+function finishQuiz(r){
+  go('result',{kind:'quiz',title:r.opt.title,total:r.pool.length,score:r.score,wrong:r.wrong,pool:r.pool});
+}
+
+/* ---------- 모의고사 설정 ---------- */
+function ExamSetup(){
+  $title.textContent='모의고사 설정';
+  const mc=mcOnly(subj.questions);
+  let count=ExamSetup.count||35, mins=ExamSetup.mins||50;
+  function draw(){
+    $app.innerHTML=`
+      <div class="card muted">실제 시험은 객관식. 문제은행 객관식 <b>${mc.length}문항</b>에서 무작위 출제, 제출 후 일괄 채점합니다.</div>
+      <h2>문항 수</h2><div class="seg" id="cnt"></div>
+      <h2>제한 시간(분)</h2><div class="seg" id="min"></div>
+      <button class="btn" id="start">모의고사 시작</button>`;
+    const c=byId('cnt');[20,35,70,'전체'].forEach(n=>{const real=(n==='전체')?mc.length:n;
+      const b=document.createElement('button');b.textContent=n+(n==='전체'?` (${mc.length})`:'');
+      b.className=(count===n?'on':'');b.onclick=()=>{count=n;ExamSetup.count=n;draw();};
+      if(typeof n==='number'&&n>mc.length)b.disabled=true,b.style.opacity=.4;c.appendChild(b);});
+    const m=byId('min');[0,30,50,70].forEach(n=>{const b=document.createElement('button');
+      b.textContent=n===0?'무제한':n;b.className=(mins===n?'on':'');
+      b.onclick=()=>{mins=n;ExamSetup.mins=n;draw();};m.appendChild(b);});
+    byId('start').onclick=()=>{
+      let pool=shuffle(mc);const n=(count==='전체')?mc.length:Math.min(count,mc.length);
+      pool=pool.slice(0,n).map(q=>({q,prep:prep(q),pick:null}));
+      go('exam',{pool,i:0,mins,started:Date.now()});
+    };
+  }
+  draw();
+}
+
+/* ---------- 모의고사(OMR, 타이머) ---------- */
+function Exam(){
+  const r=route;$title.textContent='모의고사';
+  if(r.mins>0){$timer.hidden=false;
+    const tick=()=>{const left=r.mins*60-Math.floor((Date.now()-r.started)/1000);
+      if(left<=0){$timer.textContent='00:00';submitExam(r);return;}
+      $timer.textContent=fmtTime(left);};
+    tick();timerInt=setInterval(tick,1000);
+  } else {$timer.hidden=false;const t0=r.started;
+    timerInt=setInterval(()=>$timer.textContent=fmtTime(Math.floor((Date.now()-t0)/1000)),1000);}
+  drawQ();
+  function drawQ(){
+    const it=r.pool[r.i],q=it.q,P=it.prep,total=r.pool.length;
+    $app.innerHTML=`<div class="card">
+      <div class="qmeta"><span class="qnum">${r.i+1} / ${total}</span><span class="qsrc">${q.chapter}장</span></div>
+      <div class="qtext">${esc(q.question)}</div><div id="opts"></div></div>
+      <div id="nav"></div>`;
+    const $o=byId('opts');
+    P.opts.forEach((o,disp)=>{const b=document.createElement('button');
+      b.className='opt'+(it.pick===disp?' sel':'');
+      b.innerHTML=`<span class="num">${CIRC[disp]}</span><span>${esc(o)}</span>`;
+      b.onclick=()=>{it.pick=disp;drawQ();};$o.appendChild(b);});
+    const nav=byId('nav');
+    nav.innerHTML=`<h3>답안지 (탭하여 이동)</h3><div class="omr" id="omr"></div>`;
+    const omr=byId('omr');
+    r.pool.forEach((x,k)=>{const b=document.createElement('button');b.textContent=k+1;
+      if(x.pick!=null)b.classList.add('done');if(k===r.i)b.classList.add('cur');
+      b.onclick=()=>{r.i=k;drawQ();};omr.appendChild(b);});
+    const bar=document.createElement('div');bar.className='fixedbar';
+    const done=r.pool.filter(x=>x.pick!=null).length;
+    bar.innerHTML=`<button class="btn sec" id="prev" style="flex:0 0 90px" ${r.i===0?'disabled':''}>← 이전</button>
+      <button class="btn sec" id="next" style="flex:0 0 90px" ${r.i+1>=total?'disabled':''}>다음 →</button>
+      <button class="btn" id="sub">제출 (${done}/${total})</button>`;
+    $app.appendChild(bar);
+    byId('prev').onclick=()=>{r.i--;drawQ();};byId('next').onclick=()=>{r.i++;drawQ();};
+    byId('sub').onclick=()=>{const left=total-done;
+      if(left>0&&!confirm(`미응답 ${left}문항이 있습니다. 제출할까요?`))return;submitExam(r);};
+  }
+}
+function submitExam(r){
+  stopTimer();let score=0;const wrong=[];const byChap={};
+  r.pool.forEach(it=>{const correct=it.pick!=null&&it.prep.correctSet.includes(it.pick);
+    record(it.q.id,correct);if(correct)score++;else wrong.push(it.q);
+    const c=it.q.chapter;byChap[c]=byChap[c]||{c:0,t:0,name:it.q.topic};byChap[c].t++;if(correct)byChap[c].c++;});
+  go('result',{kind:'exam',title:'모의고사 결과',total:r.pool.length,score,wrong,byChap,
+    pool:r.pool.map(x=>x.q),elapsed:Math.floor((Date.now()-r.started)/1000)});
+}
+
+/* ---------- 결과 ---------- */
+function Result(){
+  const r=route;$title.textContent=r.title;
+  const pct=Math.round(r.score/r.total*100);
+  const grade=pct>=80?'grade-good':pct>=60?'':'grade-bad';
+  let chHtml='';
+  if(r.byChap){chHtml='<h3>장별 정답률</h3>';
+    Object.keys(r.byChap).sort((a,b)=>a-b).forEach(c=>{const o=r.byChap[c];const p=Math.round(o.c/o.t*100);
+      const col=p>=80?'var(--ok)':p>=50?'var(--warn)':'var(--bad)';
+      chHtml+=`<div class="bar"><div class="lbl">${c}장 ${esc(o.name)}</div>
+        <div class="track"><i style="width:${p}%;background:${col}"></i></div><div>${o.c}/${o.t}</div></div>`;});
+  }
+  let wrongHtml='';
+  if(r.wrong.length){wrongHtml='<h3>틀린 문제 ('+r.wrong.length+')</h3>';
+    r.wrong.forEach(q=>{const ans=(q.answers&&q.answers.length?q.answers:[q.answer]).map(i=>CIRC[i]+' '+q.options[i]).join(' / ');
+      wrongHtml+=`<div class="card"><div style="font-weight:600">${esc(q.question)}</div>
+        <div class="expl"><b>정답: ${esc(ans)}</b><br>${esc(q.explanation)}</div></div>`;});
+  }
+  $app.innerHTML=`
+    <div class="card"><div class="score ${grade}">${pct}<small>%</small></div>
+      <div style="text-align:center" class="muted">${r.score} / ${r.total} 정답${r.elapsed!=null?' · 소요 '+fmtTime(r.elapsed):''}</div></div>
+    ${chHtml}
+    ${r.wrong.length?`<button class="btn" id="re">🔁 틀린 문제만 다시 풀기</button>`:''}
+    <button class="btn sec" id="again">다시 (같은 모드)</button>
+    <button class="btn sec" id="home2">홈으로</button>
+    ${wrongHtml}`;
+  if(r.wrong.length)byId('re').onclick=()=>startQuiz(shuffle(r.wrong.slice()),{mode:'review',title:'오답 복습'});
+  byId('again').onclick=()=>go(r.kind==='exam'?'examSetup':'quizSetup');
+  byId('home2').onclick=()=>go('home');
+}
+
+/* ---------- 통계 ---------- */
+function Stats(){
+  $title.textContent='통계 / 진도';const st=loadStats();const ch=chapters();
+  const agg={};let tot=0,cor=0;
+  subj.questions.forEach(q=>{const r=st[q.id];if(!r)return;
+    agg[q.chapter]=agg[q.chapter]||{s:0,c:0,name:q.topic};
+    agg[q.chapter].s+=r.s;agg[q.chapter].c+=r.c;tot+=r.s;cor+=r.c;});
+  let bars='';Object.keys(ch).sort((a,b)=>a-b).forEach(c=>{const o=agg[c];
+    const p=o?Math.round(o.c/o.s*100):null;const col=p==null?'var(--border)':p>=80?'var(--ok)':p>=50?'var(--warn)':'var(--bad)';
+    bars+=`<div class="bar"><div class="lbl">${c}장 ${esc(ch[c].name)}</div>
+      <div class="track"><i style="width:${p||0}%;background:${col}"></i></div>
+      <div>${o?o.c+'/'+o.s:'-'}</div></div>`;});
+  $app.innerHTML=`
+    <div class="card"><div class="muted">누적 정답률</div>
+      <div class="score">${tot?Math.round(cor/tot*100):0}<small>%</small></div>
+      <div class="muted" style="text-align:center">전체 시도 ${tot}회</div></div>
+    <h3>장별 정답률 (낮은 장 = 약점)</h3>${bars}
+    <button class="btn" id="toWrong" style="margin-top:14px">📕 오답노트 (${wrongList().length})</button>
+    <button class="btn sec" id="reset" style="margin-top:8px;color:var(--bad)">기록 초기화</button>`;
+  byId('toWrong').onclick=()=>go('wrongbook');
+  byId('reset').onclick=resetStats;
+}
+
+render();
+})();

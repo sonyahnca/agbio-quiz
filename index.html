@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1f6feb">
+<title>시험 대비 퀴즈</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="topbar">
+  <button id="homeBtn" class="ghost" hidden>← 홈</button>
+  <div id="title">📚 시험 대비 퀴즈</div>
+  <div id="timer" hidden>00:00</div>
+</header>
+
+<main id="app"></main>
+
+<!-- 과목 데이터: 새 과목은 아래에 script 한 줄 추가 -->
+<script src="data/농업생물화학.js"></script>
+<script src="app.js"></script>
+<script>
+if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+</script>
+</body>
+</html>
