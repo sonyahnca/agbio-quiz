@@ -50,7 +50,7 @@ $home.onclick = ()=>{ if(route.name!=='home' && !confirm('홈으로 나갈까요
 
 function render(){
   $home.hidden = (route.name==='home');
-  const f = ({home:Home, quizSetup:QuizSetup, quiz:Quiz, examSetup:ExamSetup, exam:Exam, result:Result, stats:Stats, wrongbook:WrongBook, review:Quiz})[route.name] || Home;
+  const f = ({home:Home, quizSetup:QuizSetup, quiz:Quiz, examSetup:ExamSetup, exam:Exam, result:Result, stats:Stats, wrongbook:WrongBook, notes:Notes, note:NoteView, cheat:Cheat, review:Quiz})[route.name] || Home;
   $app.innerHTML=''; f();
 }
 
@@ -72,6 +72,10 @@ function Home(){
       <div style="font-size:28px;font-weight:800">${subj.questions.length}문항 <small class="muted" style="font-size:16px">(객관식 ${mc} · 서술형 ${subj.questions.length-mc})</small></div>
       <div class="muted" style="margin-top:6px">학습한 문항 ${seen} · 전 15장 + 기출 4개년</div>
     </div>
+    <h3>📖 공부</h3>
+    <button class="btn" id="mNotes">📖 정리노트 (${(subj.notes||[]).length}장)</button>
+    <button class="btn sec" id="mCheat">⚡ 시험 직전 치트시트</button>
+    <h3>✏️ 문제 풀이</h3>
     <button class="btn" id="mQuiz">🎲 랜덤 퀴즈</button>
     <button class="btn sec" id="mExam">📝 모의고사 (타이머)</button>
     <button class="btn sec" id="mWeak">🔁 약점 복습</button>
@@ -83,6 +87,8 @@ function Home(){
   byId('mQuiz').onclick=()=>go('quizSetup');
   byId('mExam').onclick=()=>go('examSetup');
   byId('mStats').onclick=()=>go('stats');
+  byId('mNotes').onclick=()=>go('notes');
+  byId('mCheat').onclick=()=>go('cheat');
   byId('mWrong').onclick=()=>go('wrongbook');
   byId('mWeak').onclick=()=>{
     const st=loadStats();
@@ -99,6 +105,57 @@ function wrongList(){
   return subj.questions.map(q=>({q,r:st[q.id]})).filter(x=>x.r&&x.r.w>0&&!x.r.m);
 }
 function setMastered(qid,v){const s=loadStats();if(s[qid]){s[qid].m=v?1:0;saveStats(s);}}
+
+/* ---------- 정리노트 / 치트시트 ---------- */
+function hookNoteLinks(root){
+  root.querySelectorAll('a[href^="#note:"]').forEach(a=>{
+    a.onclick=e=>{e.preventDefault();
+      const slug=decodeURIComponent(a.getAttribute('href').slice(6));
+      if((subj.notes||[]).some(n=>n.slug===slug)) go('note',{slug});
+    };
+  });
+}
+function Notes(){
+  $title.textContent='📖 정리노트';
+  const ns=subj.notes||[];
+  if(!ns.length){$app.innerHTML='<div class="card muted">정리노트가 없습니다.</div>';return;}
+  $app.innerHTML='<p class="muted">장을 골라 읽고, 바로 그 장 문제를 풀 수 있습니다.</p><div id="nl"></div>';
+  const nl=byId('nl');
+  ns.forEach(n=>{const b=document.createElement('button');b.className='btn sec';
+    b.style.textAlign='left';
+    const imp=n.importance==='high'?'★★★':n.importance==='med'?'★★':'★';
+    b.innerHTML=`<span>${esc(n.title)}</span><br><small class="muted">${imp} · 기출 ${n.exam_freq||0}회</small>`;
+    b.onclick=()=>go('note',{slug:n.slug});nl.appendChild(b);});
+}
+function NoteView(){
+  const ns=subj.notes||[]; const i=ns.findIndex(x=>x.slug===route.slug); const n=ns[i];
+  if(!n){go('notes');return;}
+  $title.textContent=n.chapter+'장';
+  $app.innerHTML=`<div class="mdbody card">${n.html}</div>
+    <button class="btn" id="cq">🎲 이 장(${n.chapter}장) 문제 풀기</button>
+    <div class="row">
+      ${i>0?`<button class="btn sec" id="prevN" style="flex:1">← ${ns[i-1].chapter}장</button>`:''}
+      ${i<ns.length-1?`<button class="btn sec" id="nextN" style="flex:1">${ns[i+1].chapter}장 →</button>`:''}
+      <button class="btn sec" id="listN" style="flex:1">목록</button>
+    </div>`;
+  hookNoteLinks($app);
+  byId('cq').onclick=()=>{const pool=mcOnly(subj.questions.filter(q=>q.chapter===n.chapter));
+    if(!pool.length){alert('이 장 객관식 문제가 없습니다.');return;}
+    startQuiz(shuffle(pool),{mode:'quiz',title:n.chapter+'장 퀴즈'});};
+  if(i>0)byId('prevN').onclick=()=>go('note',{slug:ns[i-1].slug});
+  if(i<ns.length-1)byId('nextN').onclick=()=>go('note',{slug:ns[i+1].slug});
+  byId('listN').onclick=()=>go('notes');
+}
+function Cheat(){
+  $title.textContent='⚡ 치트시트';
+  const cs=subj.cheatsheets||[];
+  if(!cs.length){$app.innerHTML='<div class="card muted">치트시트가 없습니다.</div>';return;}
+  if(cs.length===1){$app.innerHTML=`<div class="mdbody card">${cs[0].html}</div>`;hookNoteLinks($app);return;}
+  if(route.cs!=null){$app.innerHTML=`<div class="mdbody card">${cs[route.cs].html}</div>`;hookNoteLinks($app);return;}
+  $app.innerHTML='<div id="cl"></div>';const cl=byId('cl');
+  cs.forEach((c,k)=>{const b=document.createElement('button');b.className='btn sec';
+    b.textContent=c.title||c.slug;b.onclick=()=>go('cheat',{cs:k});cl.appendChild(b);});
+}
 
 /* ---------- 오답노트 ---------- */
 function WrongBook(){

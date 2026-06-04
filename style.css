@@ -87,3 +87,22 @@ button{font:inherit;cursor:pointer;border:none;border-radius:var(--radius)}
 h2{font-size:22px;margin:4px 0 10px}
 h3{font-size:17px;margin:18px 0 6px;color:var(--muted)}
 a{color:var(--accent2)}
+
+/* 정리노트/치트시트 마크다운 본문 */
+.mdbody{font-size:16px;line-height:1.65;overflow-wrap:break-word}
+.mdbody h1{font-size:23px;margin:2px 0 12px;border-bottom:2px solid var(--border);padding-bottom:8px}
+.mdbody h2{font-size:20px;margin:22px 0 8px;color:var(--accent2)}
+.mdbody h3{font-size:17px;margin:16px 0 6px;color:var(--text)}
+.mdbody p{margin:8px 0}
+.mdbody ul,.mdbody ol{margin:8px 0;padding-left:22px}
+.mdbody li{margin:4px 0}
+.mdbody strong{color:var(--text);font-weight:700}
+.mdbody code{background:var(--panel2);padding:2px 6px;border-radius:6px;font-size:14px}
+.mdbody blockquote{margin:10px 0;padding:10px 14px;background:var(--panel2);
+  border-left:4px solid var(--warn);border-radius:8px;color:var(--text)}
+.mdbody blockquote p{margin:4px 0}
+.mdbody a[href^="#note:"]{color:var(--accent2);text-decoration:underline;cursor:pointer}
+.mdbody table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px;display:block;overflow-x:auto}
+.mdbody th,.mdbody td{border:1px solid var(--border);padding:8px 10px;text-align:left;vertical-align:top}
+.mdbody th{background:var(--panel2);font-weight:700;white-space:nowrap}
+.mdbody hr{border:none;border-top:1px solid var(--border);margin:18px 0}
