@@ -59,7 +59,7 @@ node _app/serve.js                   # http://localhost:8778 (절대경로 ROOT 
 # 배포(GitHub Pages): _app가 자체 git repo. push 하면 deploy.yml가 자동 배포
 cd _app && git add -A && git commit -m "..." && git push    # → https://<id>.github.io/<repo>/
 ```
-- 새 과목 추가: `build_questions.py`의 `SUBJ_DIR/SUBJECT/CHAP_NAME`을 과목에 맞게(또는 인자화) → 빌드 → `index.html`에 `<script>` 추가.
+- 새 과목 추가: `build_questions.py`의 **`SUBJECTS` 리스트에 한 줄**(`subject/dir/prefix/drill_glob/topic_glob/chap`) 추가 → 빌드(전 과목 루프) → `index.html`에 `<script src="data/<과목>.js">` 1줄 + `sw.js` ASSETS에 추가(캐시 N 올림). `prefix`·파일 접두(`soil-`)는 vault 전체 유일.
 - SW는 **network-first(`quiz-vN`)** — 온라인이면 갱신 즉시 반영. 전략 바꾸면 캐시 버전(N) 올릴 것.
 
 ## 5. app.js 구조 요약 (수정 지점)

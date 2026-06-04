@@ -90,7 +90,7 @@ function Home(){
     <div class="card">
       <div class="muted">문제은행</div>
       <div style="font-size:28px;font-weight:800">${subj.questions.length}문항 <small class="muted" style="font-size:16px">(객관식 ${mc} · 서술형 ${subj.questions.length-mc})</small></div>
-      <div class="muted" style="margin-top:6px">학습한 문항 ${seen} · 전 15장 + 기출 4개년</div>
+      <div class="muted" style="margin-top:6px">학습한 문항 ${seen} · 정리노트 ${(subj.notes||[]).length}장</div>
     </div>
     <h3>공부</h3>
     <button class="btn" id="mNotes">${ic('book')} 정리노트 (${(subj.notes||[]).length}장)</button>
