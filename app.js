@@ -69,6 +69,16 @@ function prepPlain(q){
   const a = q.answers && q.answers.length ? q.answers : (q.answer!=null?[q.answer]:[]);
   return {opts:q.options.slice(), correctSet:a.slice()};
 }
+/* 빈칸(단답) 채점: 공백·괄호·붙임표 무시, 괄호 안/밖 둘 다 정답 인정 */
+function normAns(s){return (s||'').toLowerCase().replace(/[\s()（）·,]/g,'').replace(/[–—\-]/g,'');}
+function acceptSet(q){
+  const raw=q.options[q.answer]||''; const set=new Set([normAns(raw)]);
+  const m=raw.match(/^(.+?)[（(]([^)）]+)[)）]\s*$/);   // "황산암모늄(유안)" → 둘 다 인정
+  if(m){set.add(normAns(m[1]));set.add(normAns(m[2]));}
+  return set;
+}
+function gradeBlank(q,v){ if(!v||!v.trim())return false; return acceptSet(q).has(normAns(v)); }
+function isBlank(q){ return route.opt&&route.opt.blank&&q.type==='mc'&&q.blankable&&q.answer!=null; }
 
 /* 도움말(필수 용어) 팝업 */
 function showHelp(){
@@ -284,6 +294,10 @@ function QuizSetup(){
         <span>스마트 출제 <small class="muted">(틀린·안 푼 문제 우선)</small></span>
         <input type="checkbox" id="smart" ${QuizSetup.smart?'checked':''} style="width:26px;height:26px">
       </label>
+      <label class="card" style="display:flex;justify-content:space-between;align-items:center">
+        <span>빈칸 모드 <small class="muted">(보기 대신 정답 직접 입력 · 가능한 문제만)</small></span>
+        <input type="checkbox" id="blank" ${QuizSetup.blank?'checked':''} style="width:26px;height:26px">
+      </label>
       <button class="btn" id="start">시작</button>`;
     const cg=byId('chips');
     Object.keys(ch).sort((a,b)=>a-b).forEach(c=>{
@@ -301,6 +315,7 @@ function QuizSetup(){
     byId('none').onclick=()=>{selChaps=new Set();draw();};
     byId('short').onchange=e=>{incShort=e.target.checked;QuizSetup.incShort=incShort;};
     byId('smart').onchange=e=>{QuizSetup.smart=e.target.checked;};
+    byId('blank').onchange=e=>{QuizSetup.blank=e.target.checked;};
     byId('start').onclick=()=>{
       let pool=subj.questions.filter(q=>selChaps.has(q.chapter));
       if(!incShort) pool=mcOnly(pool);
@@ -312,7 +327,7 @@ function QuizSetup(){
         pool.sort((a,b)=>rank(a)-rank(b)); }
       if(count!=='전체') pool=pool.slice(0,count);
       if(QuizSetup.smart) pool=shuffle(pool); // 선정 후 순서는 섞기
-      startQuiz(pool,{mode:'quiz',title:QuizSetup.smart?'스마트 퀴즈':'랜덤 퀴즈'});
+      startQuiz(pool,{mode:'quiz',title:QuizSetup.smart?'스마트 퀴즈':'랜덤 퀴즈',blank:QuizSetup.blank});
     };
   }
   draw();
@@ -332,7 +347,26 @@ function Quiz(){
   $app.appendChild(wrap);
   const $opts=wrap.querySelector('#opts'), $fb=wrap.querySelector('#fb');
 
-  if(q.type==='mc'){
+  if(isBlank(q)){
+    $opts.innerHTML=`<div class="blankrow">
+      <input id="bi" class="blankin" type="text" inputmode="text" autocomplete="off" autocapitalize="off" placeholder="정답을 입력하고 Enter">
+      <button class="btn" id="bchk" style="flex:0 0 64px">확인</button></div>
+      <button class="btn sec" id="bskip">모르겠음 (정답 보기)</button>`;
+    const inp=byId('bi'); setTimeout(()=>inp.focus(),50);
+    let done=false;
+    const submit=(skip)=>{
+      if(done)return; done=true;
+      const val=inp.value.trim(); const ok=!skip&&gradeBlank(q,val);
+      inp.disabled=true; byId('bchk').disabled=true; byId('bskip').disabled=true;
+      record(q.id,ok); if(ok)r.score++; else r.wrong.push(q);
+      const ca=q.options[q.answer];
+      $fb.innerHTML=`<div class="expl"><b style="color:${ok?'var(--ok)':'var(--bad)'}">${ic(ok?'check':'x',18)} ${ok?'정답':(skip?'넘어감':'오답')}</b> — 정답: <b>${esc(ca)}</b>${(!ok&&val)?` <span class="muted">(입력: ${esc(val)})</span>`:''}<br>${esc(q.explanation)}</div>`;
+      nextBar();
+    };
+    byId('bchk').onclick=()=>submit(false);
+    byId('bskip').onclick=()=>submit(true);
+    inp.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();submit(false);}});
+  } else if(q.type==='mc'){
     const P=r.prep;
     P.opts.forEach((o,disp)=>{
       const b=document.createElement('button');b.className='opt';

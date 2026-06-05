@@ -19,7 +19,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "토양생성의 5대 인자는 모재, 기후, 지형, 식생(생물상), 시간이다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch01-2-1",
@@ -37,7 +38,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "A층은 토양의 표면이 되는 부분으로 많은 성분이 빗물에 의하여 밑으로 씻겨 내려간 토양으로서 용탈층이라 부르며, B층은 A층으로부터 용탈된 물질이 쌓이는 층으로서 집적층이라 부른다. A층은 부식의 함량이 높은 층이어서 B층에 비하여 검은(어두운) 빛을 띠는 것이 보통이다. C층은 A층과 B층을 이루는 풍화된 그대로이거나 또는 풍화 도중에 있는 모재층이다. O층은 A층 위의 유기물집적층이며 R층은 C층 밑의 모암층(기암층)이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch01-3-2",
@@ -55,7 +57,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "탄소, 수소 및 산소는 광합성 과정을 통하여 물과 공기에서 얻으며 나머지 14원소는 토양에서 얻는다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch01-4-3",
@@ -73,7 +76,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "풍화에 잘 견디는 광물의 순서는 석영(가장 강함)>백운모, 정장석(K장석)＞사장석(Na와 Ca 장석)＞흑운모, 각섬석(hornblede), 휘석(augite)＞감람석(olivine)＞백운석(dolomite), 방해석(calcite)＞석고(gypsum) 순이다. 일반적으로 색깔이 밝은 광물은 어두운 광물에 비하여 풍화에 잘 견딘다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch01-5-4",
@@ -91,7 +95,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "주요한 감식층위의 유무와 그 종류에 의하여 12개의 목으로 분류하고, 다음으로 아목(亞目: suborder), 대군(大群: great group)․아군(亞群: subgroup)․속(屬: family)․통(統: series)으로 분류하고 있다. 12목의 이름은 알피졸, 안디졸, 아리디졸, 엔티졸, 젤리졸, 히스토졸, 인셉티졸, 몰리졸, 옥시졸, 스포도졸, 울티졸, 버티졸 등이다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch01-6-5",
@@ -109,7 +114,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "규산 함량이 많은 것은 산성암이다. 산성암은 SiO2가 66% 이상으로 화강암, 석영반암, 유문암 등이 있다<표 1–2>.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch01-7-6",
@@ -127,7 +133,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "퇴적암은 무게로는 암석권의 5%에 불과하지만, 지표면의 약 75%를 덮고 있고, 우리나라에서는 중생대에 속하는 경상계 지층인 경상분지에 넓게 분포되어 있다. 이들 퇴적암은 물에 의해 퇴적된 것이 대부분이므로 수성암이라고도 하였으나, 화산재 등이 바람에 날아가 퇴적된 것도 포함시켜 퇴적암이라 부른다. 퇴적암은 입자의 직경이나 구성성분에 따라 사암(sand stone), 역암(conglomerate), 혈암(shale), 석회암(lime stone), 응회암(tuff) 등이 있다. 현무암은 화성암 중 염기성암에 속한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch01-8-7",
@@ -145,7 +152,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "화성암을 구성하는 주요 광물은 석영(quartz), 장석(feldspar), 운모(mica), 각섬석(hornblende), 휘석(augite, pyroxene) 등이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch01-9-8",
@@ -163,7 +171,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "우리나라에는 인셉티졸, 엔티졸 등이 80%가 넘으며, 이 외에 알피졸, 몰리졸, 울티졸, 히스토졸 등이 있다. 제주에는 안디졸로 주로 화산회토가 있다. 인셉티졸(Inceptisol)은 토양의 층위가 발달하기 시작한 젊은 토양이고 엔티졸(Entisols)은 토양 생성 발달이 미약하여 층위의 분화가 없는 새로운 토양이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch01-10-9",
@@ -181,7 +190,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "히스토졸(Histosols): 유기질 토양으로 물이 포화된 지역이나 늪지대에 분포한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch01-11-10",
@@ -199,7 +209,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "안디졸(Andisols): 화산회토. Allophane과 Al–유기복합체가 풍부한 토양",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch01-12-11",
@@ -217,7 +228,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "① 가수분해, ② 수화, ③ 탄산화작용, ④ 산화작용",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch01-13-12",
@@ -235,7 +247,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "A층(무기물 표층: topmost mineral horizon): 부식화된 유기물과 섞여 있기 때문에 아래 층위보다는 암색을 띠고 있고 물리성이 좋다. 대부분 입단구조가 발달되어 있으며 식물의 잔뿌리가 많이 뻗어 있다. O층이 없거나 경사지, 개간지 또는 토심이 얕아 투수량이 적은 암쇄토로 구성된 곳의 A층은 침식을 받기 쉽다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch01-14-13",
@@ -253,7 +266,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "A층 위 유기물집적층 = O층",
-   "source": "2015-Q36"
+   "source": "2015-Q36",
+   "blankable": true
   },
   {
    "id": "soil-ch01-15-14",
@@ -271,7 +285,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "풍화에 가장 **약한** 광물. (강한 순: 석영>백운모>장석>흑운모·각섬석·휘석>감람석>방해석>석고)",
-   "source": "2015-Q37"
+   "source": "2015-Q37",
+   "blankable": true
   },
   {
    "id": "soil-ch01-16-15",
@@ -289,7 +304,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "풍화에 가장 **강한** 광물",
-   "source": "2016-Q37"
+   "source": "2016-Q37",
+   "blankable": true
   },
   {
    "id": "soil-ch01-17-16",
@@ -307,7 +323,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "부식 많아 검은색, 용탈층",
-   "source": "2017-Q37"
+   "source": "2017-Q37",
+   "blankable": true
   },
   {
    "id": "soil-ch01-18-17",
@@ -325,7 +342,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "Fe²⁺→Fe³⁺ = 산화(화학적 풍화)",
-   "source": "2018-Q36"
+   "source": "2018-Q36",
+   "blankable": false
   },
   {
    "id": "soil-ch01-19-18",
@@ -343,7 +361,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "퇴적암 **아닌** 것(현무암=화성암). 퇴적암=사암·혈암·석회암",
-   "source": "2019-Q36"
+   "source": "2019-Q36",
+   "blankable": true
   },
   {
    "id": "soil-ch01-20-19",
@@ -361,7 +380,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "부식 혼합 검은 무기물층",
-   "source": "2019-Q37"
+   "source": "2019-Q37",
+   "blankable": true
   },
   {
    "id": "soil-ch02-1-20",
@@ -379,7 +399,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "토양 3상 비율 중에서 고상의 비율이 일정할 때 액상의 비율이 커지면 기상은 줄어들며 통기성이 나빠진다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch02-2-21",
@@ -397,7 +418,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "일반적인 토양의 고상의 비율은 약 50% 내외이며, 나머지 50%가 공간이다. 공간에는 물과 공기가 채워지는데, 비가 오는 경우에는 액상은 늘어나고 기상은 줄어든다. 반면 건조가 계속되는 경우에는 액상은 줄어들고 기상은 많아지게 된다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch02-3-22",
@@ -415,7 +437,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "토양의 무기입자를 모래, 미사 및 점토로 구분하고 이들의 함량비, 즉 입경조성에 따라 결정되는 토양의 종류를 토성(soil texture)이라고 한다. 토성은 토양이 양분을 지니면서 공급하는 능력뿐만 아니라 보수성, 배수성, 통기성, 경운의 난이 등 식물생육과 밀접하게 관계되는 매우 중요한 토양의 기본적인 성질이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch02-4-23",
@@ -433,7 +456,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "자갈의 크기는 2.0mm 이상",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch02-5-24",
@@ -451,7 +475,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "우리나라 밭토양에 많은 토성은 양토이며, 점토함량은 20% 내외이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch02-6-25",
@@ -469,7 +494,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "우리나라 논토양의 경반층을 이루는 구조가 판상구조이며, 점토가 집적되어 물의 하향 이동을 방해하고 뿌리의 신장을 불리하게 한다. 이런 토양을 개선하기 위해 깊이갈이를 추천하고 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch02-7-26",
@@ -487,7 +513,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "용적밀도(bulk density)는 고상을 구성하는 고형입자의 무게(Ms)를 전체 용적(Vt=Va + Vw + Vs)으로 나눈 것이며, 단위는 g/cm3 또는 Mg/m 3으로 나타낸다. 경작지양토의 평균 용적밀도는 대략 1.1∼1.4 g/cm 3의 범위에 있다. 작물의 생육에 지장이 없도록 하기 위하여 용적밀도가 식질토에 대해서는 1.4 g/cm 3, 사질토에 대해서는 1.6 g/cm 3 이하로 유지되도록 하는 것이 바람직하다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch02-8-27",
@@ -505,7 +532,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "용적밀도가 클수록 단위용적당 토양(고상)의 비율이 높은 것을 의미하며, 수분과 공기가 들어갈 수 있는 공간이 작은 것을 의미한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch02-9-28",
@@ -523,7 +551,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "입자밀도(particle density)는 고상을 구성하는 유기물을 포함한 토양의 고형입자 자체의 밀도를 말한다. 즉 토양이 갖고 있는 고유한 밀도로 인위적인 요인에 의해 변하지 않는다. 단위는 고형입자의 무게(Ms)를 고형입자의 용적(Vs)으로 나누기 때문에 g/cm3 또는 Mg/m 3으로 나타낸다. 밀도 개념은 반드시 단위를 명시해야 하므로 주의해야 한다. ρs (g/cm 3)=고형입자의 무게/고형입자의 용적 =Ms/Vs 토양의 입자밀도는 토양의 무게(105℃에서 건조시킨 후의 무게)를 토양입자들이 차지하는 부피로 나누어 얻은 값이며 고체입자들만의 밀도이므로 그 부피의 계산에 고체입자들 사이에 있는 물이나 공극의 부피를 포함하지 않는다. 따라서 한 토양의 입자밀도는 입자들 사이의 공극량에 의해서 변하지 않으며 일정한 값을 갖는다. 토양의 주요광물인 석영, 장석 및 운모의 밀도는 대략 2.65 g/cm3이다. 따라서 보통 무기질 토양의 입자밀도는 평균적으로 2.65 g/cm 3이며 유기물함량이나 광물조성이 크게 변하지 않는 한 이 값에서 크게 벗어나지 않는다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch02-10-29",
@@ -541,7 +570,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "공극률(%)=[1 -(용적밀도/입자밀도)]×100 =[1 -(1.33/2.65)]×100 =49.8%≒50%",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch02-11-30",
@@ -559,7 +589,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "Munsell 토색첩은 색의 3가지 속성, 즉 색상(Hue: H), 명도(Value: V), 채도(Chroma: C)를 적용하여 색상(H) 명도(V)/채도(C)의 순서로 표기하는데 이를 Munsell 명명법이라고 한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch02-12-31",
@@ -577,7 +608,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "부식의 구성 요소는 부식으로 짙은 밤색, 또는 검은색을 띤다(<표 2–8> 토양 구성 요소별 토색 변화 특성).",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch02-13-32",
@@ -595,7 +627,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "토양의 지온 상승은 토양의 비열과 관련이 있다. 비열이란 어떤 물질 1g의 온도를 1℃ 높이는 데 필요한 열량을 말한다. 단위는 보통 cal/g℃이다. 토양의 무기입자의 비열은 대략 0.2이고 물의 비열은 1.0으로서 물의 비열은 토양의 무기입자보다 5배나 높다. 따라서 토양수분함량이 증가할수록 토양의 비열은 증가하고 토양온도를 올리는 데 필요한 열량은 증가한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch02-14-33",
@@ -613,7 +646,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "<구상> - 입상(granualar): 입단의 모양은 구형이며 표토에서 볼 수 있다.- 분상(crumb): 입상과 비슷하나 다공성이다. <괴상> - 각괴상(angular blocky): 구조 단위의 가로 세로축의 길이가 비슷하고 Bt층에 나타난다.- 아각괴상(subangular blocky): 각괴상과 비슷하나 모가 없어진 것이다. Bt층에서 나타난다. <판상(platy)> - 가로축의 길이가 세로축의 길이보다 길며 E층과 점토반층에서 나타난다. <주상> - 각주상(prismatic): 세로축의 길이가 가로축의 길이보다 길며 모가 있고 Bt층에서 나타난다. - 원주상(columnar): 각주상과의 차이는 모가 없다는 것이며 B층에서 나타난다.입단이 형성됨으로 인하여 1차입자들 사이에 있는 것보다는 더 큰 공극이 입단들 사이에 생기게 되는 것이다. 2차적으로 생기는 이러한 큰 공극을 통하여 물과 공기가 쉽게 유통하게 되고, 입단 내의 작은 1차공극에서는 보수력이 발현되므로 구조가 좋게 발달되어 있으면 배수성도 좋으면서 보수성도 좋은 토양이 되는 것이다. 그러나 판상구조의 토양에서는 물이 상하ㆍ수직방향으로 이동하기 어려울 뿐만 아니라 뿌리가 뻗어 나가기도 매우 어렵다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch02-15-34",
@@ -631,7 +665,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "문제 14번 해설 참조",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch02-16-35",
@@ -649,7 +684,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "점토 입경. (모래 2.0~0.05, 미사 0.05~0.002, 점토 <0.002)",
-   "source": "2015-Q38"
+   "source": "2015-Q38",
+   "blankable": false
   },
   {
    "id": "soil-ch02-17-36",
@@ -667,7 +703,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "지각·토양 최다 원소 = 산소(O)>규소(Si)>Al>Fe",
-   "source": "2015-Q39"
+   "source": "2015-Q39",
+   "blankable": false
   },
   {
    "id": "soil-ch02-18-37",
@@ -685,7 +722,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "뿌리 뻗기 가장 용이 = 용적밀도 가장 낮음",
-   "source": "2015-Q42"
+   "source": "2015-Q42",
+   "blankable": false
   },
   {
    "id": "soil-ch02-19-38",
@@ -703,7 +741,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "산화철(Fe³⁺) 많으면 적색. 환원(회청색)과 대비",
-   "source": "2015-Q43"
+   "source": "2015-Q43",
+   "blankable": true
   },
   {
    "id": "soil-ch02-20-39",
@@ -721,7 +760,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "물 이동·뿌리 모두 어려움 (경반층)",
-   "source": "2015-Q44"
+   "source": "2015-Q44",
+   "blankable": true
   },
   {
    "id": "soil-ch02-21-40",
@@ -739,7 +779,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "\"액상↑→통기성↑\"이 틀림. 액상↑이면 기상↓→통기성↓",
-   "source": "2016-Q36"
+   "source": "2016-Q36",
+   "blankable": false
   },
   {
    "id": "soil-ch02-22-41",
@@ -757,7 +798,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "모래 입경",
-   "source": "2016-Q38"
+   "source": "2016-Q38",
+   "blankable": false
   },
   {
    "id": "soil-ch02-23-42",
@@ -775,7 +817,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "우리나라 밭토양 흔한 토성",
-   "source": "2016-Q39"
+   "source": "2016-Q39",
+   "blankable": true
   },
   {
    "id": "soil-ch02-24-43",
@@ -793,7 +836,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "1-(용적/입자)=1-1.33/2.65≈0.50",
-   "source": "2016-Q43"
+   "source": "2016-Q43",
+   "blankable": false
   },
   {
    "id": "soil-ch02-25-44",
@@ -811,7 +855,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "경작지양토 평균 용적밀도",
-   "source": "2016-Q44"
+   "source": "2016-Q44",
+   "blankable": false
   },
   {
    "id": "soil-ch02-26-45",
@@ -829,7 +874,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "부식 많으면 암색",
-   "source": "2016-Q45"
+   "source": "2016-Q45",
+   "blankable": true
   },
   {
    "id": "soil-ch02-27-46",
@@ -847,7 +893,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "논 경반층",
-   "source": "2016-Q46"
+   "source": "2016-Q46",
+   "blankable": true
   },
   {
    "id": "soil-ch02-28-47",
@@ -865,7 +912,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "입경조성으로 결정되는 토양 종류",
-   "source": "2017-Q38"
+   "source": "2017-Q38",
+   "blankable": true
   },
   {
    "id": "soil-ch02-29-48",
@@ -883,7 +931,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "고형입자무게/**전체**용적",
-   "source": "2017-Q39"
+   "source": "2017-Q39",
+   "blankable": true
   },
   {
    "id": "soil-ch02-30-49",
@@ -901,7 +950,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "경작지양토",
-   "source": "2017-Q40"
+   "source": "2017-Q40",
+   "blankable": false
   },
   {
    "id": "soil-ch02-31-50",
@@ -919,7 +969,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "1-1.1/2.5≈0.56",
-   "source": "2017-Q41"
+   "source": "2017-Q41",
+   "blankable": false
   },
   {
    "id": "soil-ch02-32-51",
@@ -937,7 +988,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "먼셀 5YR 6/4: 5YR=색상(Hue), 6=명도, 4=채도",
-   "source": "2017-Q42"
+   "source": "2017-Q42",
+   "blankable": true
   },
   {
    "id": "soil-ch02-33-52",
@@ -955,7 +1007,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "일반 토양 3상",
-   "source": "2018-Q38"
+   "source": "2018-Q38",
+   "blankable": false
   },
   {
    "id": "soil-ch02-34-53",
@@ -973,7 +1026,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "고형입자무게/**고형입자**용적",
-   "source": "2018-Q39"
+   "source": "2018-Q39",
+   "blankable": true
   },
   {
    "id": "soil-ch02-35-54",
@@ -991,7 +1045,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "10⁸cm³×1.0g/cm³=10⁸g=100톤",
-   "source": "2018-Q40"
+   "source": "2018-Q40",
+   "blankable": true
   },
   {
    "id": "soil-ch02-36-55",
@@ -1009,7 +1064,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "1-1.33/2.65",
-   "source": "2018-Q41"
+   "source": "2018-Q41",
+   "blankable": false
   },
   {
    "id": "soil-ch02-37-56",
@@ -1027,7 +1083,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "지각 최다",
-   "source": "2018-Q46"
+   "source": "2018-Q46",
+   "blankable": true
   },
   {
    "id": "soil-ch02-38-57",
@@ -1045,7 +1102,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "",
-   "source": "2019-Q38"
+   "source": "2019-Q38",
+   "blankable": false
   },
   {
    "id": "soil-ch02-39-58",
@@ -1063,7 +1121,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "경작지양토",
-   "source": "2019-Q39"
+   "source": "2019-Q39",
+   "blankable": false
   },
   {
    "id": "soil-ch02-40-59",
@@ -1081,7 +1140,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "2차 광물 함유 무기입자",
-   "source": "2019-Q43"
+   "source": "2019-Q43",
+   "blankable": true
   },
   {
    "id": "soil-ch03-1-60",
@@ -1099,7 +1159,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "토양–수분계에서 토양입자에 의하여 수분이 보유되는 데는 부착력과 응집력 두 가지 인력이 작용한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch03-2-61",
@@ -1117,7 +1178,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "응집력: 물분자끼리 서로 당기는 힘 부착력: 토양입자와 물분자 사이의 인력",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch03-3-62",
@@ -1135,7 +1197,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "토양의 고체입자 표면에서는 부착력이 상대적으로 크게 작용하고, 토양입자 표면으로부터 더 멀리 떨어지면 부착력보다 응집력이 더 크게 작용한다. 토양의 고체입자 표면에서 멀리 떨어질수록 물분자들은 응집력에 의하여 비교적 자유롭게 서로 뭉쳐 있게 된다. 그러므로 토양입자 표면으로부터 멀리 떨어져 있는 수분은 비교적 쉽게 움직일 수 있을 뿐 아니라 식물이 손쉽게 이용할 수 있는 것이다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch03-4-63",
@@ -1153,7 +1216,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "단위량의 토양수분이 갖는 에너지를 토양수분포텐셜이라 하며, 물은 에너지가 높은 곳에서 낮은 곳으로 흐른다. 소금물은 소금분자로 인하여 물분자가 자유롭지 못해 물 에너지(포텐셜)가 순수한 물보다 낮다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch03-5-64",
@@ -1171,7 +1235,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "토양수분포텐셜은 위치에 의한 중력포텐셜, 수압에 의한 압력포텐셜(또는 장력에 의한 매트릭포텐셜), 물에 녹아 있는 용질에 의한 삼투포텐셜 등으로 구성되어 있으며 Φ= Z +P +Π 과 같이 표현할 수 있다. 여기서, Φ는 토양수분의 총포텐셜, Z는 중력포텐셜, P는 압력포텐셜, 그리고 Π는 삼투포텐셜을 각각 나타낸다. 토양 내 수분이 대기압보다 높은 수압을 받고 있을 때 수분이 지닌 압력포텐셜은 양의 값인 반면, 수분이 대기압보다 낮은 압력(일반적으로 장력) 하에 있을 때는 항상 음의 압력포텐셜을 지닌다. 즉, 자유수면을 기준으로 하여 아래에 존재하는 수분은 양의 압력포텐셜을, 자유수면의 수분은 영의 압력포텐셜을, 그리고 자유수면 위에 존재하는(모세관에 의하여 상승한) 수분은 음의 압력포텐셜을 지닌다. 특히 음의 압력포텐셜은 ‘매트릭포텐셜’(metric potential)이라는 또 다른 용어로 불린다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch03-6-65",
@@ -1189,7 +1254,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "중량법에 의한 토양의 수분함량은 (수분무게)÷(마른 토양 무게)×100%=30g/120g ×100%=25%이다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch03-7-66",
@@ -1207,7 +1273,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "용적수분함량(%)=중량수분함량(%)×용적밀도 =25×1.33 =33.25%",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch03-8-67",
@@ -1225,7 +1292,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "토양의 유효수분은 (포장용수량 수분-위조점 수분)=35%-10%=25%",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch03-9-68",
@@ -1243,7 +1311,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "포장용수량에서의 매트릭포텐셜은 -1/3bars이며, 수분상태로는 식물이 생육하기에 가장 좋은 조건이다. 위조점에서의 매트릭포텐셜은 -15bars, 흡수계수의 매트릭포텐셜은 -31bars이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch03-10-69",
@@ -1261,7 +1330,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "교과서 <그림 3–7> 참조. 포장용수량과 위조점 사이의 수분이 식물에 이용될 수 있는 수분으로 될 때 이를 유효수분이라 한다. 포장용수량과 위조점이 토양마다 다르기 때문에 유효수분의 양도 토양마다 달라진다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch03-11-70",
@@ -1279,7 +1349,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "토양수분함량 측정법에는 중량법(gravimetry). 전기저항법(electrical resistance), 중성자산란법(neutron scattering), 전자기적 방법(electromagnetic methods)이 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch03-12-71",
@@ -1297,7 +1368,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "수분이 토양에 침투할 때 토성이 미세할수록 침투율은 감소한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch03-13-72",
@@ -1315,7 +1387,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "식토는 동일한 수분포텐셜에서 양토 혹은 사토에 비해 훨씬 많은 물을 보유한다. 또한 동일한 수분함량에서 물은 식토에서 양토나 사토에 비하여 훨씬 강하게 보유되어 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch03-14-73",
@@ -1333,7 +1406,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "건조기준=(습-건)/건=(120-100)/100=20%",
-   "source": "2015-Q41"
+   "source": "2015-Q41",
+   "blankable": false
   },
   {
    "id": "soil-ch03-15-74",
@@ -1351,7 +1425,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "물분자끼리 = 응집력 / 입자-물 = 부착력",
-   "source": "2015-Q45"
+   "source": "2015-Q45",
+   "blankable": true
   },
   {
    "id": "soil-ch03-16-75",
@@ -1369,7 +1444,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "유효수분=포장용수량-위조점=30-10=20%",
-   "source": "2015-Q46"
+   "source": "2015-Q46",
+   "blankable": false
   },
   {
    "id": "soil-ch03-17-76",
@@ -1387,7 +1463,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "동일 포텐셜서 수분 최다 보유 = 점토 많음",
-   "source": "2016-Q47"
+   "source": "2016-Q47",
+   "blankable": true
   },
   {
    "id": "soil-ch03-18-77",
@@ -1405,7 +1482,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "용적수분=중량수분×용적밀도=20%×1.2",
-   "source": "2016-Q48"
+   "source": "2016-Q48",
+   "blankable": false
   },
   {
    "id": "soil-ch03-19-78",
@@ -1423,7 +1501,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "정전용량·TDR = 전자기적",
-   "source": "2016-Q49"
+   "source": "2016-Q49",
+   "blankable": true
   },
   {
    "id": "soil-ch03-20-79",
@@ -1441,7 +1520,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "(150-120)/120=25%",
-   "source": "2017-Q43"
+   "source": "2017-Q43",
+   "blankable": false
   },
   {
    "id": "soil-ch03-21-80",
@@ -1459,7 +1539,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "20%×1.4",
-   "source": "2017-Q44"
+   "source": "2017-Q44",
+   "blankable": false
   },
   {
    "id": "soil-ch03-22-81",
@@ -1477,7 +1558,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "물분자끼리",
-   "source": "2018-Q42"
+   "source": "2018-Q42",
+   "blankable": true
   },
   {
    "id": "soil-ch03-23-82",
@@ -1495,7 +1577,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "염류집적토양서 무시 못함",
-   "source": "2018-Q43"
+   "source": "2018-Q43",
+   "blankable": true
   },
   {
    "id": "soil-ch03-24-83",
@@ -1513,7 +1596,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "20%×1.3",
-   "source": "2018-Q44"
+   "source": "2018-Q44",
+   "blankable": false
   },
   {
    "id": "soil-ch03-25-84",
@@ -1531,7 +1615,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "TDR·정전용량",
-   "source": "2018-Q45"
+   "source": "2018-Q45",
+   "blankable": true
   },
   {
    "id": "soil-ch03-26-85",
@@ -1549,7 +1634,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "수분 보유 두 인력",
-   "source": "2019-Q40"
+   "source": "2019-Q40",
+   "blankable": false
   },
   {
    "id": "soil-ch03-27-86",
@@ -1567,7 +1653,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "(150-120)/120",
-   "source": "2019-Q41"
+   "source": "2019-Q41",
+   "blankable": false
   },
   {
    "id": "soil-ch03-28-87",
@@ -1585,7 +1672,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "동일 수분함량서 물 가장 강하게 보유",
-   "source": "2019-Q42"
+   "source": "2019-Q42",
+   "blankable": true
   },
   {
    "id": "soil-ch04-1-88",
@@ -1603,7 +1691,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "지각을 구성하는 주요원소는 산소(46.6%), 규소(27.7%), 알루미늄(8.1%), 철(5.0%), 칼슘(3.6%), 나트륨(2.8%), 칼륨 (2.6%), 마그네슘(2.1%) 순이다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch04-2-89",
@@ -1621,7 +1710,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "토양의 무기입자 중에서 모래와 미사는 토양의 모재 또는 암석에 함유되었던 광물, 즉 1차광물로 구성되어 있다. 그러나 점토를 이루고 있는 광물은 모래나 미사에 있는 것과는 다르며 주로 점토에는 특유한 광물로 구성되어 있다. 점토를 구성하는 주된 광물은 암석이나 또는 모재가 풍화되는 과정에서 원광물의 변질, 또는 가용성 성분의 재결합에 의하여 새로 생성된 것이므로 2차광물이라고 하며 1차광물과 구분된다. 점토는 대부분 2차광물로 구성되어 있기 때문에 흔히 점토광물과 2차광물은 동의어로 사용된다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch04-3-90",
@@ -1639,7 +1729,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "규산 4면체층과 알루미나 8면체층은 규산염 점토광물을 구성하는 기본 단위로서, 이들이 서로 결합하여 마치 생물체의 세포와 같은 하나의 구조단위(unit cell)가 형성되는 것이다. 규산 4면체층과 알루미나 8면체층이 결합하는 방식과 구조단위 사이에 작용하는 힘의 종류에 따라 점토광물은 여러 가지 종류로 분류된다. 이들 층이 겹치는 모양과 성질에 따라 결정질 규산염과 점토광물을 분류하는데, 주요한 세 가지는 카올리나이트(Kaolinite)군, 일라이트(illite)군, 몽모리오나이트(montmorillonite)군이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch04-4-91",
@@ -1657,7 +1748,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "카올리나이트는 규산 4면체층과 알루미나 8면체층이 1：1로 결합하여 하나의 결정단위를 이루고, 이와 같은 결정단위가 7.2A의 간격을 두고 여러 층이 겹쳐서 이루어진 점토광물이다. 규산 4면체층과 알루미나 8면체층이 1 ：1의 비율로 결합되어 있으므로 1 ：1형 점토광물 또는 2층형 광물이라고도 한다. 화학식은 Al 4Si 4O 10(OH)8이지만 Al 2O 3 ․2SiO 2 ․2H 2O라 쓸 수 있으며, 규산과 알루미나의 분자비, 즉 규반비 SiO 2/Al 2O 3는 2이다. 팽창하지 않는 성질이 있어 도자기, 타일 등의 원료로 쓰인다. 온난습윤지대의 배수가 양호한 곳에서 나타나는 토양의 주요 규산염 점토광물이다. 우리나라 토양의 주된 점토광물은 카올리나이트 이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch04-5-92",
@@ -1675,7 +1767,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "몽모리오나이트군은 동형치환이 일어나는 이온의 종류와 다소에 의해서 몇 가지로 분류된다. 알루미나 8면체의 Al3+이 Mg 2+(때로는 Fe 2+)으로 동형치환된 것이 몽모리오나이트이며, 규산 4면체의 Si 4+가 Al 3+으로 치환된 것은 베이델라이트(Beidellite)이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch04-6-93",
@@ -1693,7 +1786,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "일라이트는 가수운모(hydrous mica)라고도 불린다. 일라이트군은 한 개의 알루미나 8면체층이 두 개의 규산 4면체층 사이에 끼어서 하나의 결정단위를 이루고 있는 2：1형 점토광물이며 3층형 광물이라고도 한다. 몽모리오나이트군은 일라이트 점토광물과 같이 2 ：1형 점토광물이지만 팽창성 점토광물이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch04-7-94",
@@ -1711,7 +1805,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "비정질 점토광물로서 대표적인 것은 알로팬(allophane)이다. 이것은 주로 규산과 알루미나 가수산화물로 구성되며 구조 내에 Si–O–Al 결합을 갖지만 부정형 점토광물이다. 화학적 조성은 일정치 않지만 SiO2/Al 2O 3 분자비는 2 정도이다. 비정질이라고 해서 원자의 배열에 규칙성이 전혀 없는 것은 아니다. 예를 들면, 규소원자를 둘러싸서 4면체를 이루도록 산소원자가 알루미늄원자를 둘러싸서 8면체를 이루도록 OH기가 위치하고 있다. 이와 같은 원자집단이 존재하기 때문에 원자가 배열되는 데 있어서 어느 정도 규칙성이 나타난다. 알로팬은 화산회로부터 생성된 토양에 존재하는 점토광물이다. 제주도 토양의 점토광물은 대개의 경우 알로팬이다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch04-8-95",
@@ -1729,7 +1824,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "모래는 표면에 전하가 없으며, 크기가 0.05mm 이상이기 때문에 콜로이드라고 하지 않는다. 일반적으로 무기입자의 크기가 1µm보다 작은 것을 콜로이드라고 한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch04-9-96",
@@ -1747,7 +1843,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "카올리나이트의 양이온 교환용량은 10 cmolc/kg으로 여러 점토광물 중에서 가장 낮다(<표 4–2> 토양콜로이드의 양이온 교환용량 참조).",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch04-10-97",
@@ -1765,7 +1862,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "토양의 양이온 교환용량은 pH의 변화에 따라 변한다. 산성인 경우에는 H+ 농도가 높아 ─Si─OH, ─Al─OH, ─COOH기의 해리가 잘 일어나지 않기 때문에 양이온 교환용량이 낮다. 그러나 pH가 높아지면 이들의 해리가 증가하므로 양이온 교환용량이 높아진다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch04-11-98",
@@ -1783,7 +1881,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "염기포화도=[(1.5 + 4.5 + 1.0)/10] × 100 = 70%",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch04-12-99",
@@ -1801,7 +1900,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "교환침입력: Al3+∼H +＞Ca 2+＞Mg 2+＞K +=NH 4+＞Na 교환침출력: Al3+∼H +＜Ca 2+＜Mg 2+＜K +=NH 4+＜Na",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch04-13-100",
@@ -1819,7 +1919,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "교환침입력: Al3+∼H +＞Ca 2+＞Mg 2+＞K +=NH 4+＞Na 교환침출력: Al3+∼H +＜Ca 2+＜Mg 2+＜K +=NH 4+＜Na",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch04-14-101",
@@ -1837,7 +1938,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "(K+Ca+Mg)/CEC=(1.5+4.5+1.0)/10=70%",
-   "source": "2015-Q40"
+   "source": "2015-Q40",
+   "blankable": false
   },
   {
    "id": "soil-ch04-15-102",
@@ -1855,7 +1957,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "콜로이드 아닌 것. (점토·유기물·Fe/Al수산화물=콜로이드)",
-   "source": "2016-Q40"
+   "source": "2016-Q40",
+   "blankable": true
   },
   {
    "id": "soil-ch04-16-103",
@@ -1873,7 +1976,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "점토 많을수록 CEC↑",
-   "source": "2016-Q41"
+   "source": "2016-Q41",
+   "blankable": true
   },
   {
    "id": "soil-ch04-17-104",
@@ -1891,7 +1995,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "(1.0+5.0+2.0)/10=80%",
-   "source": "2016-Q42"
+   "source": "2016-Q42",
+   "blankable": false
   },
   {
    "id": "soil-ch04-18-105",
@@ -1909,7 +2014,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "(1.2+4.0+1.1)/10=63%",
-   "source": "2017-Q45"
+   "source": "2017-Q45",
+   "blankable": false
   },
   {
    "id": "soil-ch04-19-106",
@@ -1927,7 +2033,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "염기포화도 낮을수록 H⁺ 상대증가",
-   "source": "2017-Q46"
+   "source": "2017-Q46",
+   "blankable": false
   },
   {
    "id": "soil-ch04-20-107",
@@ -1945,7 +2052,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "COOH·-NH₂ 보유",
-   "source": "2018-Q47"
+   "source": "2018-Q47",
+   "blankable": true
   },
   {
    "id": "soil-ch04-21-108",
@@ -1963,7 +2071,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "교환침출력(가장 쉽게 침출·치환되는 이온)",
-   "source": "2018-Q48"
+   "source": "2018-Q48",
+   "blankable": false
   },
   {
    "id": "soil-ch05-1-109",
@@ -1981,7 +2090,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "Fe는 산성에서 용해도가 높아 산성에서 흡수가 잘 된다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch05-2-110",
@@ -1999,7 +2109,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "Al은 토양에서 Si 다음으로 많은 성분이며, 물과 만나 반응하면 H 이온을 방출하여 토양을 산성화시킨다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch05-3-111",
@@ -2017,7 +2128,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "교재 그림 5–4 참고: 완두, 파, 시금치는 중성에서 잘 자라며, 녹차는 산성 토양에서 잘 자란다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch05-4-112",
@@ -2035,7 +2147,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "식물을 산성에 견디는 정도에 따라서 나누면 다음과 같다. ① 저항력이 매우 강하고 약간의 산성을 요구하는 것: 벼, 밭벼, 담배, 루핀, 철쭉류, 소나무류 ② 저항력이 강하고 약산 내지 중성이 알맞은 것: 무, 대두, 감두, 호밀, 고구마, 싸리나무류 ③ 저항력이 조금 강한 것: 토마토, 밀, 감자, 옥수수, 참나무류 ④ 저항력이 약한 것: 팥 ⑤ 저항력이 매우 약한 것: 보리, 가지, 완두, 시금치, 파, 알팔파, 자운영, 양파, 아스파라거스, 느티나무 류",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch05-5-113",
@@ -2053,7 +2166,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "산성 토양을 개량하는 석회질비료는 소석회, 석회석, 석회고토, 패화석, 생석회 등이 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch05-6-114",
@@ -2071,7 +2185,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "석회요구량은 pH 6.4까지 개량하는 데 필요로 하는 석회질비료의 양을 말한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch05-7-115",
@@ -2089,7 +2204,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "•수소이온의 직접적인 해작용: 작물 뿌리에 들어가 단백질의 응고, 효소작용의 방해로 양분 흡수력을 약화, 세포의 투과성 약화, 양분균형의 파괴 •수소이온의 간접적인 해작용: 물리성 약화, 미생물활동의 억제",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch05-8-116",
@@ -2107,7 +2223,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "몰리브덴(Mo)은 다른 미량원소와는 달리 오히려 산성에서 용해도가 감소되어 결핍되기 쉽다. 몰리브덴(Mo)은 알칼리성에서 그 유효도가 크다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch05-9-117",
@@ -2125,7 +2242,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "토양수에 수소이온농도가 증가하는 원인을 들면 다음과 같다. (1) 모재에서 오는 토양산성화 (2) 식물뿌리와 미생물 호흡에서 오는 토양산성화 (3) 토양에 시용된 암모니아태의 질소질비료 (4) 황산이온에 의한 토양산성화 (5) 대기의 산화물에 의한 토양산성화 (6) 식물뿌리 수소이온에 의한 토양산성화 (7) 알루미늄의 해리에 의한 토양산성화 (8) 작물의 염기 흡수에 의한 토양산성화",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch05-10-118",
@@ -2143,7 +2261,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "산성토양에서 흡수↑ = 미량원소(Fe·Mn·Zn)",
-   "source": "2015-Q47"
+   "source": "2015-Q47",
+   "blankable": false
   },
   {
    "id": "soil-ch05-11-119",
@@ -2161,7 +2280,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "물과 반응해 H⁺ 내놓아 산성화",
-   "source": "2016-Q50"
+   "source": "2016-Q50",
+   "blankable": false
   },
   {
    "id": "soil-ch05-12-120",
@@ -2179,7 +2299,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "산성서 유효도↑ = 미량원소",
-   "source": "2017-Q47"
+   "source": "2017-Q47",
+   "blankable": false
   },
   {
    "id": "soil-ch05-13-121",
@@ -2197,7 +2318,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "황산염 집적층 100cm 이내",
-   "source": "2018-Q37"
+   "source": "2018-Q37",
+   "blankable": true
   },
   {
    "id": "soil-ch05-14-122",
@@ -2215,7 +2337,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "산성 원인 **아닌** 것(염기 풍부=중성~염기)",
-   "source": "2018-Q49"
+   "source": "2018-Q49",
+   "blankable": false
   },
   {
    "id": "soil-ch05-15-123",
@@ -2233,7 +2356,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "산성서 유효도↑",
-   "source": "2019-Q44"
+   "source": "2019-Q44",
+   "blankable": false
   },
   {
    "id": "soil-ch05-16-124",
@@ -2251,7 +2375,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "물과 반응 H⁺ 방출",
-   "source": "2019-Q45"
+   "source": "2019-Q45",
+   "blankable": false
   },
   {
    "id": "soil-ch06-1-125",
@@ -2269,7 +2394,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "세균의 수가 가장 많다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch06-2-126",
@@ -2287,7 +2413,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "사상균 중에서 뿌리와 공생관계를 가져서 뿌리에서 뻗어 나온 균사가 작물의 흡수하기 어려운 양분을 흡수하는 미생물은 균근(mycorrhizae)이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch06-3-127",
@@ -2305,7 +2432,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "(1) 자급영양세균: 토양에서 광영양세균은 광합성작용에 의하여 필요한 에너지를 태양광으로부터 얻는 것으로 토양에 별로 중요한 것은 아니다. 그러나 토양에서 화학영양세균은 질소, 황, 철, 수소 등의 무기화합물을 산화시켜 에너지를 얻는 것으로 농업적으로 매우 중요한 역할을 한다. 암모늄을 아질산으로 산화시키는 니트로소모나스(Nitrosomonas), 아질산을 질산으로 산화시키는 니트로박터(Nitrobacter), 수소를 산화시키는 수소박테리아(Bacteria), 그리고 황을 산화시키는 티오바실루스(Thiobacillus) 등이 이에 속한다. (2) 타급영양세균: 타급영양세균은 유기물질을 분해하여 에너지와 탄소를 얻는 세균으로 자연계의 유기물로 된 모든 물질을 분해한다. 질소고정균, 암모늄화균, 셀룰로오스분해균 등이 여기에 속한다. 질소고정균과 질소비고정균으로 나눌 때, 질소고정균은 단독질소고정균(nonsymbiotic)과 공생질소고정균(symbiotic)으로 분류된다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch06-4-128",
@@ -2323,7 +2451,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "미생물 중에서 사상균만 산성에 강하다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch06-5-129",
@@ -2341,7 +2470,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "균근은 ‘사상균 뿌리’라는 뜻으로, 사상균과 식물 뿌리의 공생관계를 의미한다. 사상균 중 담자균이 식물의 뿌리에 붙어서 공생관계를 맺어 균근이라는 특수한 형태를 형성한다. 뿌리로부터 뻗어 나온 균근은 토양 중에서 이동성이 낮은 인산, 아연, 철, 몰리브덴과 같은 성분을 흡수하여 뿌리 역할을 해준다. 그 대신 균근은 기주식물로부터 수액을 공급받아 생활한다. 뿌리에 보호막을 형성하여 가뭄에 대한 저항성을 높이고 가뭄의 피해를 덜어 준다. 균근은 크게 외생균근과 내생균근으로 나눈다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch06-6-130",
@@ -2359,7 +2489,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "자급영양미생물은 탄소원으로 이산화탄소가 필요하며 질소고정균은 유리질소를 요구한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch06-7-131",
@@ -2377,7 +2508,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "부식이란 말은 흔히 토양유기물과 동의어로 사용되는 경우와 토양에 있는 유기물 중 암색 무정형의 고분자물질에 한정해서 사용되는 경우가 있다. 미생물의 분해에 저항성을 갖고 토양의 양이온 교환용량에 기여한다. 인공부식의 탄질률(C/N)은 11이다(표 6–3).",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch06-8-132",
@@ -2395,7 +2527,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "부식은 산 혹은 알칼리 등의 시약에 대한 용해성의 차이를 이용하여 부식산(humic acid), 풀빈산(fulvic acid) 및 휴민(humine)으로 대별한다. 부식산은 토양유기물의 대표가 되는 것으로 황갈색 내지 흑갈색의 무정형 고분자 산성 물질이다. 부식산은 1가의 양이온과는 수용성 염을 만들지만 칼슘, 알루미늄, 철 등 다가 양이온과의 염은 물에 난용성이다. 무기질 토양의 경우 A층으로부터 추출되는 부식의 약 반가량은 풀빈산이며 하층토로 내려갈수록 부식에서 풀빈산이 점유하는 비율은 증가한다. 풀빈산은 매우 많은 종류의 유기화합물의 혼합물로 알려졌다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch06-9-133",
@@ -2413,7 +2546,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "질산화작용(nitrification): 암모늄화작용으로 생긴 암모늄태 질소 또는 비료로서 토양에 들어간 암모니아태 질소가 미생물에 의해 아질산태 질소를 거쳐 질산태 질소로 변하는 과정을 질산화작용이라 한다. 이때 암모니아태 질소가 아질산태 질소로 변하는 것은 아질산균의 작용이다. 2NH3 + 3O 2 → 아질산균(Nitrosomonas) → 2HNO 2 + 2H 2O + 에너지 2HNO2 + O 2 → 질산균(Nitrobacter) → 2HNO 3 + 에너지",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch06-10-134",
@@ -2431,7 +2565,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "탈질작용은 물이 차 있는 논에서와 같이 산소가 부족하고 유기물이 많은 곳에서 일어나기 쉽다. 이것은 탈질균이 질산을 환원시켜 방출되는 산소로서 유기물을 산화시킬 때 나오는 에너지를 이용하기 위한 작용이다. C6H 12O 6 + 4NO 3 - → 6CO 2 + 6H 2O + 2N 2 탈질작용은 농업상 손실을 가져오는 작용인데, 우리나라 논에서 많이 일어난다. 즉, 요소비료를 표층에 시비했을 때 논토양의 산화층에서 암모니아가 산화되어 질산태 질소로 되고 이동성이 빨라지면서 밑에 있는 환원층으로 내려온 질산태 질소는 N2 가스로 변하여 공기 중으로 되돌아가는 탈질작용이 일어나 토양의 질소가 손실된다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch06-11-135",
@@ -2449,7 +2584,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "탄질비가 높은 유기물(탄질비가 30 이상)이 분해될 때 대표적으로 나타나는 현상은 질소기아현상이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch06-12-136",
@@ -2467,7 +2603,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "① 식물에 대한 무기양분공급원으로서 작용한다. ② 미생물에 의하여 분해될 때 생성되는 유기산은 난용성 성분의 용해도를 높임으로써 양분유효도를 증진한다. ③ 미량원소와 킬레이트(Chelate)화합물을 만들어 양분의 유효도를 증가시킨다. ④ 토양유기물 중에는 식물의 생육을 촉진하는 생리활성물질이 존재한다. ⑤ 토양의 양이온 교환용량을 높여줌으로써 양분저장능력을 증대시킨다. ⑥ 내수성 입단을 형성하여 물과 양분의 공급을 원활하게 하고 경운을 쉽게 하는 등 물리성을 개량한다. ⑦ Al 또는 기타의 유독성 중금속과 킬레이트를 만들어 독성을 감소시켜 주는 완충작용을 한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch06-13-137",
@@ -2485,7 +2622,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "① 유기물함량을 적정하게 유지하기 위해 유기물을 토양에 지속적으로 공급 ② 녹비작물 재배로 토양 침식으로 인한 유기물의 손실 방지 ③ 토양 경운을 최소화하여 유기물 보존 및 토양 침식 방지 ④ 밭토양은 논에 비해 산소의 유통이 원활하기 때문에 유기물 분해가 빠르다. 따라서 밭토양에는 보다 많은 유기물을 투입하여야 한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch06-14-138",
@@ -2503,7 +2641,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "산성에 강한 미생물 = 사상균(곰팡이)",
-   "source": "2015-Q48"
+   "source": "2015-Q48",
+   "blankable": true
   },
   {
    "id": "soil-ch06-15-139",
@@ -2521,7 +2660,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "탄질률 70(높음)→미생물이 N 흡수→질소기아",
-   "source": "2015-Q64"
+   "source": "2015-Q64",
+   "blankable": true
   },
   {
    "id": "soil-ch06-16-140",
@@ -2539,7 +2679,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "사상균 뿌리(mycorrhiza), 뿌리와 공생",
-   "source": "2016-Q51"
+   "source": "2016-Q51",
+   "blankable": true
   },
   {
    "id": "soil-ch06-17-141",
@@ -2557,7 +2698,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "탄질비 높은 유기물 분해 시",
-   "source": "2016-Q52"
+   "source": "2016-Q52",
+   "blankable": true
   },
   {
    "id": "soil-ch06-18-142",
@@ -2575,7 +2717,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "사상균-뿌리 공생, 난흡수 양분 흡수",
-   "source": "2017-Q48"
+   "source": "2017-Q48",
+   "blankable": true
   },
   {
    "id": "soil-ch06-19-143",
@@ -2593,7 +2736,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "부식 구성 아닌 것. (부식산·풀빈산·휴민=부식)",
-   "source": "2017-Q49"
+   "source": "2017-Q49",
+   "blankable": true
   },
   {
    "id": "soil-ch06-20-144",
@@ -2611,7 +2755,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "아질산균 Nitrosomonas",
-   "source": "2017-Q50"
+   "source": "2017-Q50",
+   "blankable": false
   },
   {
    "id": "soil-ch06-21-145",
@@ -2629,7 +2774,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "유기물 높이는 법 **아닌** 것(경운↑=분해↑)",
-   "source": "2017-Q51"
+   "source": "2017-Q51",
+   "blankable": true
   },
   {
    "id": "soil-ch06-22-146",
@@ -2647,7 +2793,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "탄질률 높을수록 질소기아 위험↑",
-   "source": "2017-Q63"
+   "source": "2017-Q63",
+   "blankable": true
   },
   {
    "id": "soil-ch06-23-147",
@@ -2665,7 +2812,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "셀룰로오스·케라틴 등 난분해물 분해",
-   "source": "2018-Q50"
+   "source": "2018-Q50",
+   "blankable": true
   },
   {
    "id": "soil-ch06-24-148",
@@ -2683,7 +2831,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "아질산→질산 산화",
-   "source": "2018-Q51"
+   "source": "2018-Q51",
+   "blankable": false
   },
   {
    "id": "soil-ch06-25-149",
@@ -2701,7 +2850,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "C/N 높음→질소기아",
-   "source": "2018-Q52"
+   "source": "2018-Q52",
+   "blankable": true
   },
   {
    "id": "soil-ch06-26-150",
@@ -2719,7 +2869,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "부식 설명 **틀린** 것(인공부식 C/N≈10)",
-   "source": "2019-Q46"
+   "source": "2019-Q46",
+   "blankable": false
   },
   {
    "id": "soil-ch06-27-151",
@@ -2737,7 +2888,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "사상균-뿌리 공생",
-   "source": "2019-Q47"
+   "source": "2019-Q47",
+   "blankable": true
   },
   {
    "id": "soil-ch06-28-152",
@@ -2755,7 +2907,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "",
-   "source": "2019-Q59"
+   "source": "2019-Q59",
+   "blankable": true
   },
   {
    "id": "soil-ch07-1-153",
@@ -2773,7 +2926,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "오염토양 복원 비용은 소각법 ＞토양경작법 ＞식물정화법 ＞자연경감법 순으로 소요된다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch07-2-154",
@@ -2791,7 +2945,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "Cd, Cu, Zn은 우리나라 토양환경보전법상 오염물질이다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch07-3-155",
@@ -2809,7 +2964,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "상하경운은 토양침식이 가장 많이 일어날 수 있는 조건이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch07-4-156",
@@ -2827,7 +2983,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "토양보전인자: 상하경 1.0, 등고선 재배 0.63, 초생대 0.17, 부초 0.09, 혼층구 0.37, 심토파쇄 0.30(<표 7–4> 토양관리방법에 따른 토양보전인자 값의 변화 참조)",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch07-5-157",
@@ -2845,7 +3002,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "•세류상침식: 미세한 도랑이 생겨 유속이 빨라져 침식력 또한 강해져 많은 양의 토 양이 유실되는 침식 •구상침식: 세류상침식이 더욱 진행되어 넓고 깊은 도랑이 생겨 일어나는 침식 •지질학적 침식: 외부 영향의 작용 없이 자연상태에서 일어나는 침식. 속도가 느리다. •가속침식: 인간의 활동인 토지이용의 결과 비, 바람의 작용을 직접 받게 되어 침식이 가속적으로 진행되는 것",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch07-6-158",
@@ -2863,7 +3021,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "R(강우인자), K(토양수식성), L(경사장)은 모두 USLE를 구성하는 요소이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch07-7-159",
@@ -2881,7 +3040,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "토양유실을 줄이기 위하여 이용되고 있는 토양보존법은 보통 경사도가 15% 이하일 때는 등고선재배와 등고선–대상재배를, 15∼25%일 때는 배수로 설치제도와 초생대 재배를, 25% 이상일 때는 반계단식이나 계단식재배를 하는 것이 효과적이다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch07-8-160",
@@ -2899,7 +3059,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "토양의 수분을 적절히 유지시킬 경우 풍식이 현저히 감소되므로 토양이 너무 메마르지 않도록 하는 것이 바람직하다. 가장 좋은 방법은 경작지에 적당한 간격으로 방풍림을 조성하거나 담 또는 망으로 바람막이(windbreak)를 설치하여 풍속을 줄여 주는 것이다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch07-9-161",
@@ -2917,7 +3078,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "비용 가장 적음 (굴착·소각이 가장 비쌈)",
-   "source": "2015-Q49"
+   "source": "2015-Q49",
+   "blankable": true
   },
   {
    "id": "soil-ch07-10-162",
@@ -2935,7 +3097,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "경사방향 경운=침식 최대. 등고선·계단식=방지",
-   "source": "2015-Q50"
+   "source": "2015-Q50",
+   "blankable": true
   },
   {
    "id": "soil-ch07-11-163",
@@ -2953,7 +3116,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "피복(부초)이 유실방지 효과 최대",
-   "source": "2015-Q51"
+   "source": "2015-Q51",
+   "blankable": true
   },
   {
    "id": "soil-ch07-12-164",
@@ -2971,7 +3135,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "비용 가장 **많이** 드는 복원",
-   "source": "2016-Q53"
+   "source": "2016-Q53",
+   "blankable": true
   },
   {
    "id": "soil-ch07-13-165",
@@ -2989,7 +3154,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "유실량 가장 적은 작부(피복도↑)",
-   "source": "2016-Q54"
+   "source": "2016-Q54",
+   "blankable": true
   },
   {
    "id": "soil-ch07-14-166",
@@ -3007,7 +3173,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "",
-   "source": "2016-Q55"
+   "source": "2016-Q55",
+   "blankable": true
   },
   {
    "id": "soil-ch07-15-167",
@@ -3025,7 +3192,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "",
-   "source": "2019-Q48"
+   "source": "2019-Q48",
+   "blankable": true
   },
   {
    "id": "soil-ch08-1-168",
@@ -3038,7 +3206,8 @@
    "answer": null,
    "answers": null,
    "explanation": "**정답:** 흙토람 — 농촌진흥청이 PC, 모바일로 제공하는 토양환경정보시스템",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch08-2-169",
@@ -3056,7 +3225,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "전 세계의 토양을 12개 목으로 분류한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch08-3-170",
@@ -3074,7 +3244,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "전 세계의 토양은 12개의 목으로 분류한다. 이를 Soil Taxonomy라고 하며, 분류체계는 목(order), 아목(suborder), 대군(great group), 아군(subgroup), 속(family), 통(series) 등의 6단계로 구성되어 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch08-4-171",
@@ -3092,7 +3263,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "아리디졸은 건조지역에서 발견되며, 국내에는 없다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch08-5-172",
@@ -3110,7 +3282,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "엔티졸(Entisol)은 토양발달과정이 거의 진행되지 않은 토양이다. 따라서 기후조건에 관계없이 풍화에 대한 저항성이 매우 강한 모재로 된 토양이나 최근 형성된 모재의 토양에서 나타날 수 있다. 계속적인 침식으로 현저한 토층의 발달이 어려운 경사지형에서도 나타난다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch08-6-173",
@@ -3128,7 +3301,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "히스토졸(Histosol)은 부분적으로 또는 심하게 분해된 수생식물의 잔재가 얕은 연못이나 습지에서 퇴적되어 형성된 토양을 포함한 유기질 토양이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch08-7-174",
@@ -3146,7 +3320,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "몰리졸(Mollisol)은 표층에 유기물이 많이 축적되어 있고, Ca이 풍부한 토양으로 매우 비옥한 토양이다. 우리나라에는 0.1%가 분포되어 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch08-8-175",
@@ -3164,7 +3339,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "옥시졸(Oxisol)은 풍화와 용탈이 매우 심하게 일어나는 고온다습한 열대기후 지역에서 발달한다. 철산화물의 영향으로 일반적으로 적색 또는 황색을 띠며 양분 보유량이 적으므로 비옥도도 낮다. 우리나라에는 없다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch08-9-176",
@@ -3182,7 +3358,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "비료사용처방에서 토양검정결과와 시비처방량을 볼 수 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch08-10-177",
@@ -3200,7 +3377,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "토양단면조사의 사항: 토색(soil colour), 토성(soil texture), 토양구조(soil structure), 토양의 견결도(soil stickiness, plasticity), 반문(soil mottle), 토양반응(soil reaction), 감식층위(diagnostic horizone)의 존재 유무, 층위(soil horizone)의 모양, 기타[유기물과 식물의 뿌리, 공극, 자갈, 결핵(탄산석회, 철, 망간 등에 의하여 생김) 함량] 등",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch08-11-178",
@@ -3218,7 +3396,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "Ca 풍부·비옥(초원토).",
-   "source": "2015-Q52"
+   "source": "2015-Q52",
+   "blankable": true
   },
   {
    "id": "soil-ch08-12-179",
@@ -3236,7 +3415,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "우리나라에 없는 목(사막토).",
-   "source": "2016-Q56"
+   "source": "2016-Q56",
+   "blankable": true
   },
   {
    "id": "soil-ch08-13-180",
@@ -3254,7 +3434,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "흙토람 메뉴",
-   "source": "2016-Q57"
+   "source": "2016-Q57",
+   "blankable": true
   },
   {
    "id": "soil-ch08-14-181",
@@ -3272,7 +3453,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "우리나라 80%↑ (미숙·신성토양)",
-   "source": "2017-Q36"
+   "source": "2017-Q36",
+   "blankable": true
   },
   {
    "id": "soil-ch08-15-182",
@@ -3290,7 +3472,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "세계 토양 = 12목",
-   "source": "2017-Q52"
+   "source": "2017-Q52",
+   "blankable": false
   },
   {
    "id": "soil-ch08-16-183",
@@ -3308,7 +3491,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "단면조사 항목 **아닌** 것",
-   "source": "2019-Q49"
+   "source": "2019-Q49",
+   "blankable": true
   },
   {
    "id": "soil-ch08-17-184",
@@ -3326,7 +3510,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "세계 토양 12목",
-   "source": "2019-Q50"
+   "source": "2019-Q50",
+   "blankable": false
   },
   {
    "id": "soil-ch08-18-185",
@@ -3344,7 +3529,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "습지 유기물토양",
-   "source": "2019-Q51"
+   "source": "2019-Q51",
+   "blankable": true
   },
   {
    "id": "soil-ch09-1-186",
@@ -3362,7 +3548,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "참여형 도시농업의 형태는 목적에 따라 먹거리 생산, 학교 교육형, 공동체 회복, 환경개선형으로 나누는데 옥상 공동체 정원, 주택 공동체 가든, 파머스 마켓 등은 공동체 회복이 목적이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch09-2-187",
@@ -3380,7 +3567,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "환경개선형은 도심쌈지공원, 가로화단, 주도시농업공원, 옥상정원, 벽면녹화, 게릴라 가든 등이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch09-3-188",
@@ -3398,7 +3586,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "도시농업은 도시민 중 사회적 소외계층을 위한 사회복지 수단으로서 가치가 매우 크다. 도시농업을 통하여 생산한 식품을 사회적 소회계층이나 저소득층에게 무료 또는 저가에 제공함으로써 이들의 건강 증진에 기여할 수 있다. 도시농업은 단순한 작물재배 차원을 벗어나 급격한 도시화 및 산업화에 따라 단절된 지역 간 연결고리 복원이라는 매우 큰 사회적 가치를 가진다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch09-4-189",
@@ -3416,7 +3605,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "생태발자국은 1996년 캐나다 경제학자 마티스 웨커네이걸과 윌리엄 리스가 개발한 개념이다. 지구가 기본적으로 감당해 낼 수 있는 면적 기준은 1인당 1.8ha이고 면적이 넓을수록 환경문제가 심각하다는 의미가 된다. 선진국으로 갈수록 이 면적이 넓은 것으로 나타났으며, 선진국에 살고 있는 사람들 가운데 20%가 세계 자원의 86%를 소비하고 있다. 대한민국은 1995년을 기준으로 이 기준점을 넘기 시작했고, 2005년에는 3.0ha에 이르렀다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch09-5-190",
@@ -3434,7 +3624,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "음식(식량, 식품, 먹거리)정의란 식량의 생산과 가공, 유통, 소비 등에서 보이는 불평등이나 불의에 대한 대응을 말한다. 도시농업은 식품사막(food deserts, 신선한 음식을 구매하기 어렵거나 그런 음식이 너무 비싼 지역) 지역에서 환경정의와 식품(음식, 먹거리, 식량)정의를 선도할 수도 있다. 도시농업이 식품사막 지역 주민이 지역에서 재배한 신선한 식품을 적당한 가격에 구입하는 것을 가능하게 한다면, 도시농업은 건강한 식품을 접할 수 있는 인종과 계급의 불평등을 줄일 수 있다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch09-6-191",
@@ -3452,7 +3643,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "쿠바의 도시농업은 1989년 베를린장벽 붕괴와 함께 시작되었다. 베를린장벽 붕괴에 따른 당시 소련의 원조 삭감, 1993년 허리케인으로 인한 사탕수수 농작물 피해, 1990년대 초 미국의 경제 봉쇄 등으로 식량 위기에 처한 쿠바는 1990년대부터 도시에서의 식량 생산을 장려하기 시작했다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch09-7-192",
@@ -3470,7 +3662,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "얼랏먼트는 작물을 기르기 위한 목적으로 개인에게 임대된 토지의 작은 부분, 한 구획을 말한다. 통상 먹거리 생산이나 꽃을 키우며 어떤 구획은 순수하게 정원을 가지지 못한 사람들의 레저를 위해 이용된다. 구획의 표준 크기는 없으나 대부분 10rods, 대략 254~302m2 정도이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch09-8-193",
@@ -3488,7 +3681,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "뉴욕의 그린 썸(Green Thumb) 프로그램은 시민사회단체가 운영하는 도시텃밭을 시정부가 지원하는 유형의 전형적인 예이다. 1973년 환경단체인 그린 게릴라가 1970년대의 재정 위기 상황에서 뉴욕 시에 방치된 공한지를 줄이고 정비하고자 도시텃밭운동을 시작했다. 뉴욕의 그린 썸 프로그램은 미국에서 가장 성공적인 시영 도시텃밭사업이다. 그린 썸은 미국 내 최대 도시텃밭 프로그램으로 600개소의 텃밭에 약 2만 명의 경작자가 참여하고 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch09-9-194",
@@ -3506,7 +3700,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "도시농업은 식품사막(food deserts, 신선한 음식을 구매하기 어렵거나 그런 음식이 너무 비싼 지역) 지역에서 환경정의와 식품(음식, 먹거리, 식량)정의를 선도할 수도 있다. 도시농업이 식품사막 지역 주민이 지역에서 재배한 신선한 식품을 적당한 가격에 구입하는 것을 가능하게 한다면, 도시농업은 건강한 식품을 접할 수 있는 인종과 계급의 불평등을 줄일 수 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch09-10-195",
@@ -3524,7 +3719,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "도시농업은 도시 폐수와 유기성 폐자원을 각각 관개수와 비료로 사용함으로써 자원순환 도모, 농촌에서 도시로 농산물을 운반하는 데 드는 에너지 감소, 녹화를 통하여 도시환경오염 감소, 도시민의 배고픔과 양분 불균형 개선 및 어린이들에게 건강한 식습관을 가르칠 수 있는 효과적인 도구이다. 제 2 부 비료학 >>> 제10장 비료와 식물영양소 >>> 제11장 무기양분의 흡수와 동화 >>> 제12장 비료성분의 분류와 성질 >>> 제13장 비료성분의 토양 중 변동 >>> 제14장 비료의 종류와 이용(1): 보통비료 >>> 제15장 비료의 종류와 이용(2): 부산물비료 >>> 제16장 비료시용법의 원리와 응용 >>> 제17장 비료시험과 영양진단",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch09-11-196",
@@ -3542,7 +3738,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "food desert",
-   "source": "2015-Q53"
+   "source": "2015-Q53",
+   "blankable": true
   },
   {
    "id": "soil-ch09-12-197",
@@ -3560,7 +3757,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "영국 임대 텃밭 구획(allotment)",
-   "source": "2016-Q58"
+   "source": "2016-Q58",
+   "blankable": true
   },
   {
    "id": "soil-ch09-13-198",
@@ -3578,7 +3776,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "파머스마켓 목적",
-   "source": "2019-Q52"
+   "source": "2019-Q52",
+   "blankable": true
   },
   {
    "id": "soil-ch09-14-199",
@@ -3596,7 +3795,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "환경개선형",
-   "source": "2019-Q53"
+   "source": "2019-Q53",
+   "blankable": true
   },
   {
    "id": "soil-ch10-1-200",
@@ -3614,7 +3814,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "식물체에서 발견되는 원소 중에서 현재까지 17가지가 필수원소인 것으로 밝혀져 있다. 탄소(C), 산소(O), 수소(H), 질소(N), 인(P), 칼륨(K), 칼슘(Ca),마그네슘(Mg), 황(S)은 식물체 중의 함량이 % 수준이며, 다량원소(macroelement)라고 한다. 철(Fe), 염소(Cl), 망간(Mn), 아연(Zn), 붕소(B), 구리(Cu),니켈(Ni), 몰리브덴(Mo)은 대략 5~200ppm 수준으로 함유되어 있으며, 미량원소(micro–element)라고 한다. 또 식물의 종류에 따라서는 규소(Si), 나트륨(Na), 코발트(Co), 셀레늄(Se) 등을 필수원소로 요구하는 것이 있으므로, 이들을 유익원소(beneficial element)라고 한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch10-2-201",
@@ -3632,7 +3833,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "<표 10–5> 식물의 필수원소 평균 함량 (건물기준): 탄소(C) 45%, 산소(O) 45%, 수소 (H) 6%, 질소(N) 1.5%, 칼륨(K) 1.0%, 칼슘(Ca) 0.5%, 마그네슘(Mg) 0.2%, 인(P) 0.2%, 황(S) 0.1%",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch10-3-202",
@@ -3650,7 +3852,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "<표 10–6> 식물의 주요 유기화합물을 구성하는 원소: 질소가 구성원소인 유기화합물은 단백질, 아미노산, 핵산, 엽록소이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch10-4-203",
@@ -3671,7 +3874,8 @@
     3
    ],
    "explanation": "문제 3 해설 참조",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch10-5-204",
@@ -3689,7 +3893,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "식물체 안의 인은 흡수된 인산(H2PO 4- 또는 HPO 4 2-)이 유기물의 -OH와 결합한 에스테르(ester)형태이거나 2분자의 인산에서 탈수되어 결합한 무기물형태로 존재하나 공급이 충분하면 무기태로도 많이 존재한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch10-6-205",
@@ -3707,7 +3912,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "기공이 열리고 닫히는 데에도 K은 매우 중요한 역할을 하여 식물의 수분조절작용에 관련되며 효소계를 활성화시킨다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch10-7-206",
@@ -3725,7 +3931,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "과수와 채소류의 과실에서 칼슘 결핍으로 인한 특징적인 생리장해가 잘 나타나는데, 예를 들면 토마토와 고추의 배꼽썩음병(blossom–end rot), 사과의 고두병(bitter pit) 등이다. 칼슘은 식물체 내 이동성이 아주 낮으므로 식물 조직은 대부분 증산류를 통하여 토양으로부터 흡수된 칼슘을 전달받는다. 만약 칼슘 흡수가 부족하거나 습한 기후조건에서 증산율이 낮으면 과실에 칼슘이 잘 전달되지 못하므로 결핍증상이 쉽게 발생한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch10-8-207",
@@ -3743,7 +3950,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "황은 식물생육에 필수적인 각종 유기화합물의 구성 원소이다. 메티오닌(methionine), 시스테인(cysteine), 시스틴(cystine)은 황 함유 아미노산으로 효소를 비롯한 각종 단백질의 합성에 필요하며, 특히 시스테인(cysteine)의 황은 –S–S– 결합(disulfide bond)을 통해 단백질의 입체구조를 결정하는 데 기여한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch10-9-208",
@@ -3761,7 +3969,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "철은 광합성작용이나 호흡대작용에 관여하는데, Fe2+와 Fe 3+ 사이의 전환을 통해 전자의 전달이 가능하기 때문이다. 산화환원반응에서 전자전달의 역할을 하는 철 함유 단백질로는 카탈라제 효소(catalase, CAT), 사이토크롬 산화효소(cytochrome oxidase), 과산화효소(peroxidase, POD), 질소고정효소(nitrogenase), 질산환원효소(nitrate reductase) 등의 효소와 광합성과 호흡과정의 전자전달계에서 작용하는 사이토크롬(cytochrome), 페레독신(ferredoxin) 등을 들 수 있다. 구리의 중요한 생리적 작용은 산화환원작용의 조절이다. 페놀산화효소(phenol oxidase), 아스코르빈산산화효소(ascorbate oxidasse), 시토크롬산화효소(cytochrome oxidase) 등은 구리를 보조인자로 함유하고 있는 대표적인 산화효소이며, 여기서 구리는 전자 전달의 역할을 담당한다. 구리 함유 단백질인 플라스토시아닌(plastocyanin)은 엽록체의 광합성시스템에 존재하는 전자전달물질이며, 광계 Ⅱ에서 광계 Ⅰ로 전자를 전달한다. 활성산소 분해효소(superoxide dismutase, SOD)는 구리와 아연을 함유하고 있으며, 유해한 산소라디칼(O 2 -)을 과산화수소(H 2O 2)와 산소(O 2)로 분해시키는 효소이다. SOD는 대부분 엽록체에 존재하며, 광합성 관련 기관들을 보호하는 데 중요한 역할을 하는 것으로 짐작된다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch10-10-209",
@@ -3779,7 +3988,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "질소 함유 유기성분 (셀룰로오스·카로틴·펙틴은 N 없음)",
-   "source": "2015-Q54"
+   "source": "2015-Q54",
+   "blankable": true
   },
   {
    "id": "soil-ch10-11-210",
@@ -3797,7 +4007,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "시스테인=황 함유, 단백질 입체구조(S-S 결합)",
-   "source": "2015-Q55"
+   "source": "2015-Q55",
+   "blankable": false
   },
   {
    "id": "soil-ch10-12-211",
@@ -3815,7 +4026,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "기공 개폐 = K",
-   "source": "2016-Q59"
+   "source": "2016-Q59",
+   "blankable": true
   },
   {
    "id": "soil-ch10-13-212",
@@ -3833,7 +4045,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "황 미함유 아미노산. (메티오닌·시스테인·시스틴=황)",
-   "source": "2016-Q60"
+   "source": "2016-Q60",
+   "blankable": false
   },
   {
    "id": "soil-ch10-14-213",
@@ -3851,7 +4064,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "질소 구성 **아닌** 유기성분",
-   "source": "2017-Q53"
+   "source": "2017-Q53",
+   "blankable": true
   },
   {
    "id": "soil-ch10-15-214",
@@ -3869,7 +4083,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "인 부족→안토시안(붉은색) 형성",
-   "source": "2017-Q54"
+   "source": "2017-Q54",
+   "blankable": false
   },
   {
    "id": "soil-ch10-16-215",
@@ -3887,7 +4102,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "엽록소 구성 **아닌** 원소(엽록소=C·N·Mg 등)",
-   "source": "2018-Q53"
+   "source": "2018-Q53",
+   "blankable": false
   },
   {
    "id": "soil-ch10-17-216",
@@ -3905,7 +4121,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "기공 개폐",
-   "source": "2018-Q54"
+   "source": "2018-Q54",
+   "blankable": false
   },
   {
    "id": "soil-ch10-18-217",
@@ -3923,7 +4140,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "17필수원소 **아닌** 것",
-   "source": "2019-Q54"
+   "source": "2019-Q54",
+   "blankable": false
   },
   {
    "id": "soil-ch10-19-218",
@@ -3941,7 +4159,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "다량원소 중 식물체 평균함량 상대적 낮음",
-   "source": "2019-Q55"
+   "source": "2019-Q55",
+   "blankable": false
   },
   {
    "id": "soil-ch10-20-219",
@@ -3959,7 +4178,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "질소 구성 **아닌** 것",
-   "source": "2019-Q57"
+   "source": "2019-Q57",
+   "blankable": true
   },
   {
    "id": "soil-ch10-21-220",
@@ -3977,7 +4197,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "황 미함유 (시스테인·시스틴·메티오닌=황)",
-   "source": "2019-Q58"
+   "source": "2019-Q58",
+   "blankable": false
   },
   {
    "id": "soil-ch11-1-221",
@@ -3995,7 +4216,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "단순확산과 촉진확산 같이 용질의 농도가 높은 쪽에서 낮은 쪽으로 이동되며 에너지(ATP) 소모가 없는 수송을 수동적 수송이라 한다. 반면 농도구배에 역행하여 낮은 농도에서 높은 농도로 용질을 이동시키는 현상으로 에너지(ATP) 소모가 있는 수송을 능동적 수송이라 한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch11-2-222",
@@ -4013,7 +4235,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "에너지(ATP) 소모가 있는 수송을 능동적 수송이라 하는데 식물에 있어서 에너지가 되는 ATP는 호흡대사과정에서 얻어진다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch11-3-223",
@@ -4031,7 +4254,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "일반적으로 식물은 필요한 수분과 양분을 대부분 뿌리를 통하여 토양에서 흡수한다. 그 첫 번째 단계로 뿌리털 표면에서 토양입자가 가진 무기이온의 흡착과 교환이 일어난다(그림 11–1). 토양입자는 음(-)전하를 띠고 있어서 칼륨(K+), 마그네슘(Mg 2+), 칼슘(Ca 2+) 등의 양이온을 흡착하고 있다. 뿌리가 수소이온(H +)을 방출하여 토양에 결합되어 있는 양이온들과 교환되는데, 토양에서 방출되어 나온 양이온 등을 뿌리가 흡수한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch11-4-224",
@@ -4049,7 +4273,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "뿌리털은 표면적이 넓어 가장 식물 뿌리에서 양분의 흡수가 가장 많은 부위다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch11-5-225",
@@ -4067,7 +4292,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "뿌리털에 흡착된 무기이온은 물과 함께 표피세포(epidermis)와 피층세포(cortex)로 이루어진 뿌리의 바깥층에서 세포벽 경로(아포플라스트 경로: apoplast pathway)와 세포막 안의 원형질 경로(심플라스트 경로: symplast pathway)로 나누어져 중심주(stele)에 있는 물관(xylem)까지 이르고 이 물관을 따라 식물체에 빠르게 분배된다(그림 11–5). 무기이온이 원형질 경로로 가는 경우는 표피나 피층의 세포막을 세포막의 운반체에 의해 통과하여 원형질연락사(plasmadesmata)를 통해 세포에서 세포로 이동된다. 아포플라스트 경로의 경우는 내피(endodermis)에서 카스파리대(casparian band)에 의해 양수분이 중심주로 들어가지 못하도록 차단되므로 내피세포의 세포막을 세포막의 운반체에 의해 통과하여 원형질 경로로 가게 되고, 내초(pericycle)까지 도달한 무기이온은 내초 세포막을 세포막의 운반체에 의해 통과하여 물관으로 이동되어 물과 만나게 되고 증산작용의 원리로 식물체 지상부로 이동된다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch11-6-226",
@@ -4085,7 +4311,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "뿌리양분의 상승속도에 대한 증산류의 영향은 NO3 -＜K +＜H 2PO 4 -＜Ca 2+ 순으로 칼슘이 가장 크게 받는다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch11-7-227",
@@ -4103,7 +4330,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "토양용액의 pH는 양분흡수에 큰 영향을 미친다. ① 토양용액의 pH는 토양용액 내에 존재하는 무기이온양분의 화학종(chemical species)에 영향을 준다. 즉, pH 수준에 따라 무기이온양분의 용해도가 달라져 식물이 흡수 가능한 양분의 화학적 형태 또는 그렇지 않은 형태의 비율이 달라지므로 토양의 양분 공급력이 변하는 것이다. ② 또 다른 작용은 양성자(H+) 또는 수산화이온(OH -)의 직접적인 영향이다. 또한, 전기화학적 구배에 역행하여 이온이나 다른 용질들이 축적되기 위해서는 직접적 또는 간접적인 에너지 소비가 필요하다. 뿌리를 포함한 비광합성세포나 조직들의 주요 에너지원은 호흡이다. 따라서 호흡에 영향을 주는 모든 요인들, 즉 산소, 탄수화물, 온도, 광 등은 이온축적에 영향을 준다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch11-8-228",
@@ -4121,7 +4349,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "알칼리성 토양에서는 인(P), 아연(Zn), 철(Fe), 망간(Mn), 구리(Cu), 붕소(B)가 불용화되어 결핍증을 일으킬 수 있다. 석회과용으로 철 결핍에 의한 황화현상이 대표적인 예이다. 또한 알칼리성 토양에서는 NH4–N의 흡수가 NO 3–N보다 많아진다. 산성 토양에서는 알루미늄(Al 3+)과 망간(Mn 2+)의 과잉흡수장해를 일으킬 수 있다. 인산은 심한 산성이나 알칼리성에서는 흡수되기 어려운 형태로 되며, 인산이온의 형태도 산성에서 알칼리성으로 됨에 따라 H 2PO 4 - → HPO 4 2- → PO 4 3-으로 변하게 되고, H 2PO 4 -가 흡수되기 가장 쉬운 형태이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch11-9-229",
@@ -4139,7 +4368,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "질산태질소(질산염, NO3–N )와 암모니아태질소(NH 4 +)의 두 가지 형태로 흡수된다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch11-10-230",
@@ -4157,7 +4387,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "흡수된 NO3 -은 뿌리나 잎의 액포에 저장되거나 세포질에서 질산환원효소에 의해 아질산염(NO 2 -)으로 환원되고(1단계), NO 2 -은 뿌리에서는 색소체(백색체)에서 잎에서는 엽록체에서 아질산환원효소에 의하여 암모니아(NH 3)로 환원된다(2단계). 수용액에서는 암모늄염(NH 4 +)으로 존재한다(표 11–6).",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch11-11-231",
@@ -4175,7 +4406,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "암모니아의 동화는 두 가지 중요한 형태의 질소화합물을 생기게 한다. 하나는 단백질을 형성하는 가장 흔한 아미노산인 글루탐산이고(그림 11–8), 다른 하나는 아미드(amide)화합물이다(그림 11–9). 아미드란 카복시기(-COOH)에서 수산기(-OH)가 암모니아 중의 수소(H) 하나와 함께 물로 빠지고, 그 자리에 아미노기(NH2)가 치환되어 아미드기(-CO–NH 2)를 형성하는 아미노산이다. 암모니아가 α–케토산의 하나인 α–케토글루타르산과 결합하여 α–아미노글루타르산을 거쳐 글루탐산이라는 아미노산을 생성한다. 글루탐산은 글루타민, 아스파르트산은 아스파라긴이라는 아미드를 생성한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch11-12-232",
@@ -4193,7 +4425,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "유기성분에 들어 있는 인산의 결합 형태는 두 가지인데, 그중 하나는 흡수된 인산이온이 환원되지 않고 다른 인산분자와 탈수되면서 결합된 것(무수물형)이고, 또 하나는 여러 유기성분의 -OH기와 탈수되어 결합된 것(에스테르형)이다(그림 11–7).",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch11-13-233",
@@ -4211,7 +4444,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "암모니아의 동화는 두 가지 중요한 형태의 질소화합물을 생기게 한다. 하나는 단백질을 형성하는 가장 흔한 아미노산인 글루탐산이고(그림 11–8), 다른 하나는 아미드(amide)화합물이다(그림 11–9). 아미드란 카복시기(-COOH)에서 수산기(-OH)가 암모니아 중의 수소(H) 하나와 함께 물로 빠지고, 그 자리에 NH2가 치환되어 아미드기(-CO-NH 2)를 형성하는 아미노산이다. 암모니아가 α–케토산의 하나인 α–케토글루타르산과 결합하여 α–아미노글루타르산을 거쳐 글루탐산이라는 아미노산을 생성한다. 글루탐산은 글루타민, 아스파르트산은 아스파라긴이라는 아미드를 생성한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch11-14-234",
@@ -4229,7 +4463,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "작물 질소 흡수 두 형태",
-   "source": "2015-Q56"
+   "source": "2015-Q56",
+   "blankable": false
   },
   {
    "id": "soil-ch11-15-235",
@@ -4247,7 +4482,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "질산 환원(NO₃⁻→NO₂⁻→NH₃) 동화 후 첫 물질",
-   "source": "2015-Q57"
+   "source": "2015-Q57",
+   "blankable": true
   },
   {
    "id": "soil-ch11-16-236",
@@ -4265,7 +4501,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "농도 역행 + ATP 소모",
-   "source": "2015-Q58"
+   "source": "2015-Q58",
+   "blankable": true
   },
   {
    "id": "soil-ch11-17-237",
@@ -4283,7 +4520,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "증산류 영향 가장 **적게** 받는 이온(키 기준)",
-   "source": "2015-Q59"
+   "source": "2015-Q59",
+   "blankable": false
   },
   {
    "id": "soil-ch11-18-238",
@@ -4301,7 +4539,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "뿌리 방출 이온(양분과 교환)",
-   "source": "2016-Q61"
+   "source": "2016-Q61",
+   "blankable": true
   },
   {
    "id": "soil-ch11-19-239",
@@ -4319,7 +4558,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "질산 환원 후 첫 물질",
-   "source": "2016-Q62"
+   "source": "2016-Q62",
+   "blankable": true
   },
   {
    "id": "soil-ch11-20-240",
@@ -4337,7 +4577,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "세포벽 경로를 카스파리대가 차단",
-   "source": "2016-Q63"
+   "source": "2016-Q63",
+   "blankable": false
   },
   {
    "id": "soil-ch11-21-241",
@@ -4355,7 +4596,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "증산류 영향 **가장 크게** 받는 이온",
-   "source": "2016-Q64"
+   "source": "2016-Q64",
+   "blankable": false
   },
   {
    "id": "soil-ch11-22-242",
@@ -4373,7 +4615,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "농도 높→낮 수송 **아닌** 것",
-   "source": "2017-Q55"
+   "source": "2017-Q55",
+   "blankable": true
   },
   {
    "id": "soil-ch11-23-243",
@@ -4391,7 +4634,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "증산류 영향 가장 많이",
-   "source": "2017-Q56"
+   "source": "2017-Q56",
+   "blankable": false
   },
   {
    "id": "soil-ch11-24-244",
@@ -4409,7 +4653,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "",
-   "source": "2017-Q57"
+   "source": "2017-Q57",
+   "blankable": true
   },
   {
    "id": "soil-ch11-25-245",
@@ -4427,7 +4672,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "",
-   "source": "2017-Q58"
+   "source": "2017-Q58",
+   "blankable": false
   },
   {
    "id": "soil-ch11-26-246",
@@ -4445,7 +4691,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "ATP 공급=호흡",
-   "source": "2018-Q55"
+   "source": "2018-Q55",
+   "blankable": true
   },
   {
    "id": "soil-ch11-27-247",
@@ -4463,7 +4710,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "영향 가장 많이",
-   "source": "2018-Q56"
+   "source": "2018-Q56",
+   "blankable": false
   },
   {
    "id": "soil-ch11-28-248",
@@ -4481,7 +4729,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "인의 흡수형태",
-   "source": "2018-Q57"
+   "source": "2018-Q57",
+   "blankable": false
   },
   {
    "id": "soil-ch11-29-249",
@@ -4499,7 +4748,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "직접 요인 **아닌** 것",
-   "source": "2018-Q58"
+   "source": "2018-Q58",
+   "blankable": true
   },
   {
    "id": "soil-ch11-30-250",
@@ -4517,7 +4767,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "아미드 화합물",
-   "source": "2018-Q59"
+   "source": "2018-Q59",
+   "blankable": true
   },
   {
    "id": "soil-ch11-31-251",
@@ -4535,7 +4786,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "농도 낮→높 + ATP",
-   "source": "2019-Q56"
+   "source": "2019-Q56",
+   "blankable": true
   },
   {
    "id": "soil-ch11-32-252",
@@ -4553,7 +4805,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "질산 환원 후 첫 물질",
-   "source": "2019-Q66"
+   "source": "2019-Q66",
+   "blankable": true
   },
   {
    "id": "soil-ch11-33-253",
@@ -4571,7 +4824,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "SO₄²⁻→SO₃²⁻ = 환원",
-   "source": "2019-Q68"
+   "source": "2019-Q68",
+   "blankable": true
   },
   {
    "id": "soil-ch12-1-254",
@@ -4584,7 +4838,8 @@
    "answer": null,
    "answers": null,
    "explanation": "**정답:** 암모늄태(NH4 +), 질산태(NO 3 -) — 질소의 흡수형태는 수용성인 암모늄태와 질산태이다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch12-2-255",
@@ -4602,7 +4857,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "요소비료에 함유된 질소형태는 아미드태이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch12-3-256",
@@ -4620,7 +4876,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "용성인비에 함유된 인산형태는 구연산에 용해되는 구용성이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch12-4-257",
@@ -4638,7 +4895,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "질산칼슘은 생리적 염기성비료이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch12-5-258",
@@ -4656,7 +4914,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "NO3–N는 수용성이며 속효성이나 질산이온은 토양입자에 잘 흡착되지 않으므로 물에 씻겨 내려가기 쉽다. 논토양에서는 탈질작용에 의하여 질소의 손실이 일어나기 쉬우므로 적합하지 않으며, 밭작물에게는 덧거름으로 쓰는 것이 적당하다. 이에 반해 NH 4–N는 대개 수용성이며 작물에 잘 흡수된다. 또 토양입자에도 잘 흡착되므로 물에 씻겨 내려갈 염려가 적다. 논이나 밭에 모두 쓸 수 있으나 다만 논토양의 표면에서는 질산으로 산화된 다음 탈질되기 쉬우므로 전층 또는 심층 시비하는 것이 손실이 적다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch12-6-259",
@@ -4674,7 +4933,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "아미드태질소는 현재 우리나라에서 가장 많이 쓰이는 것으로 요소비료가 있고, 그 밖에 사람이나 가축의 오줌에도 많이 들어 있으며 물에 잘 녹는다. 요소의 질소는 토양미생물이 생산하는 효소 우레아제(urease)에 의하여 가수분해되어 암모니아 상태로 흡수된다. 작물에 따라 요소 수용액을 엽면에 살포하여 효과를 거둘 수도 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch12-7-260",
@@ -4692,7 +4952,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "(1) 산성비료: 과인산석회, 중과인산석회, 황산암모늄 (2) 중성비료: ① 중성염류: 질산암모늄, 황산칼륨, 염화칼륨, 질산칼륨② 유기화합물: 요소 (3) 염기성비료 ① 알칼리성 물질: 생석회, 소석회, 암모니아수② 강염기염 물질: 탄산칼륨, 탄산암모니아③ 석회 과잉 함유: 석회질소, 용성인비, 규산질비료, 규회석비료",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch12-8-261",
@@ -4710,7 +4971,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "(1) 생리적 산성비료: 황산암모늄, 염화암모늄, 황산칼륨 (2) 생리적 중성비료: 질산암모늄, 질산칼륨, 요소 (3) 생리적 염기성비료: 질산나트륨, 질산칼슘, 탄산칼륨(초목회)",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch12-9-262",
@@ -4728,7 +4990,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "석회질비료는 화학적 형태에 따라 알칼리도에 차이가 있으며, 생석회, 소석회 및 탄산석회의 알칼리도는 각각 80%, 60%, 45%로 규정되어 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch12-10-263",
@@ -4746,7 +5009,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "비료 등의 염류가 공기 중에서 흡습성이 큰 순위에 따라 몇 가지 비료의 종류를 들면 다음과 같다. 질산암모늄＞요소 ＞염화암모늄 ＞황산암모늄 ＞염화칼륨 ＞황산칼륨",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch12-11-264",
@@ -4764,7 +5028,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "용과린과 용성인비 등에 들어 있는 Mg과 Si는 유효한 양분이 된다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch12-12-265",
@@ -4782,7 +5047,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "복합비료가 20kg 포대이므로, 1포대에 N 4.2kg, P2O 5 3.4kg, K 2O 3.4kg 포함되어 있는 것이다. P 2O 5의 분자량은 142g이고 이 중 P의 질량은 62g(원자량 31인 P이 2개 있으므로)이다. 따라서, 다음 비례식으로 풀이 가능하다. <비례식> 142g(P2O 5의 분자량) : 62g (P 2O 5 분자량 내에 P의 질량)=3,400g : x =1,484g =1.48kg",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch12-13-266",
@@ -4800,7 +5066,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "복합비료가 20kg 포대이므로 1포대에, N 4.2kg, P2O 5 3.4kg, K 2O 3.4kg 포함되어 있는 것이다. K 2O의 분자량은 94.2g이고 이 중 K의 질량은 78.2g(원자량 39.1인 K이 2개 있으므로)이다. 따라서, 다음 비례식으로 풀이 가능하다. <비례식> 94.2g(K2O의 분자량) : 78.2g (K 2O 분자량 내에 K의 질량)=3,400g : x =2,822g =2.82kg",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch12-14-267",
@@ -4818,7 +5085,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "요소 N = 아미드태",
-   "source": "2015-Q60"
+   "source": "2015-Q60",
+   "blankable": true
   },
   {
    "id": "soil-ch12-15-268",
@@ -4836,7 +5104,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "생리적 염기성 비료",
-   "source": "2015-Q61"
+   "source": "2015-Q61",
+   "blankable": true
   },
   {
    "id": "soil-ch12-16-269",
@@ -4854,7 +5123,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "화학적·생리적 중성",
-   "source": "2015-Q62"
+   "source": "2015-Q62",
+   "blankable": true
   },
   {
    "id": "soil-ch12-17-270",
@@ -4872,7 +5142,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "구용성(구연산 가용), 물엔 안 녹음",
-   "source": "2015-Q65"
+   "source": "2015-Q65",
+   "blankable": true
   },
   {
    "id": "soil-ch12-18-271",
@@ -4890,7 +5161,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "",
-   "source": "2016-Q65"
+   "source": "2016-Q65",
+   "blankable": true
   },
   {
    "id": "soil-ch12-19-272",
@@ -4908,7 +5180,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "생리적 산성 **아닌** 것",
-   "source": "2016-Q66"
+   "source": "2016-Q66",
+   "blankable": true
   },
   {
    "id": "soil-ch12-20-273",
@@ -4926,7 +5199,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "요소 질소함량(최고)",
-   "source": "2016-Q68"
+   "source": "2016-Q68",
+   "blankable": false
   },
   {
    "id": "soil-ch12-21-274",
@@ -4944,7 +5218,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "요소 화학식",
-   "source": "2017-Q59"
+   "source": "2017-Q59",
+   "blankable": false
   },
   {
    "id": "soil-ch12-22-275",
@@ -4962,7 +5237,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "유안 질소함량 공정규격",
-   "source": "2017-Q60"
+   "source": "2017-Q60",
+   "blankable": true
   },
   {
    "id": "soil-ch12-23-276",
@@ -4980,7 +5256,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "",
-   "source": "2017-Q61"
+   "source": "2017-Q61",
+   "blankable": true
   },
   {
    "id": "soil-ch12-24-277",
@@ -4998,7 +5275,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "생리적 산성 **아닌** 것(중성)",
-   "source": "2017-Q62"
+   "source": "2017-Q62",
+   "blankable": true
   },
   {
    "id": "soil-ch12-25-278",
@@ -5016,7 +5294,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "물에 가장 안 녹음",
-   "source": "2018-Q60"
+   "source": "2018-Q60",
+   "blankable": true
   },
   {
    "id": "soil-ch12-26-279",
@@ -5034,7 +5313,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "옳은 설명",
-   "source": "2018-Q61"
+   "source": "2018-Q61",
+   "blankable": false
   },
   {
    "id": "soil-ch12-27-280",
@@ -5052,7 +5332,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "용성인비 함유 원소",
-   "source": "2018-Q62"
+   "source": "2018-Q62",
+   "blankable": false
   },
   {
    "id": "soil-ch12-28-281",
@@ -5070,7 +5351,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "옳은 설명",
-   "source": "2018-Q63"
+   "source": "2018-Q63",
+   "blankable": false
   },
   {
    "id": "soil-ch12-29-282",
@@ -5088,7 +5370,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "아미드태 질소비료",
-   "source": "2019-Q60"
+   "source": "2019-Q60",
+   "blankable": true
   },
   {
    "id": "soil-ch12-30-283",
@@ -5106,7 +5389,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "물에 가장 안 녹음",
-   "source": "2019-Q64"
+   "source": "2019-Q64",
+   "blankable": true
   },
   {
    "id": "soil-ch12-31-284",
@@ -5124,7 +5408,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "생리적 중성",
-   "source": "2019-Q65"
+   "source": "2019-Q65",
+   "blankable": true
   },
   {
    "id": "soil-ch13-1-285",
@@ -5142,7 +5427,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "암모니아 휘산은 토양이 염기성 반응을 나타내는 곳에서 많이 일어난다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch13-2-286",
@@ -5160,7 +5446,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "K+은 2 ：1형 점토광물에서 고정되는 양상이 NH 4 +와 유사하다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch13-3-287",
@@ -5178,7 +5465,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "탄질률이 30∼35 이상으로 높은 유기물을 시용할 경우 미생물은 유기물에서 부족한 질소를 토양 중 NH4 +나 NO 3 -를 흡수하여 보충함으로써 식물이 흡수할 수 있는 질소가 일시적으로 부족해지는 질소기아를 유발한다 .",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch13-4-288",
@@ -5196,7 +5484,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "물리적 현상에 의한 것: 휘산, 용탈, 세탈",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch13-5-289",
@@ -5214,7 +5503,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "토양 상부층(주로 A층)에서 질소의 95% 이상이 유기태이며, 그 구성을 보면 아미노산 질소가 30∼50%, 아미노당 질소 5∼15%, 아미드태 질소 15%, 비가수분해성인 것이 30%가량이다. 무기태 질소로는 NH4 +과 NO 3 -가 대부분이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch13-6-290",
@@ -5232,7 +5522,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "토양의 pH가 염기성이면 토양용액 중의 암모늄(NH4 +)이 암모니아가 되어 대기 중으로 휘산된다. NH4 + + OH - → NH 3(g) + H 2O CO(NH2)2 + H 2O → 2NH 3(g) + CO 2(g)",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch13-7-291",
@@ -5250,7 +5541,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "질소를 함유하는 유기화합물이 분해되면서 질소가 무기물 형태로 유리된다. 이러한 무기화작용(mineralization)은 단백질분해 미생물을 포함하여 매우 다양한 토양 미생물의 작용을 통해 일어난다. 대부분 아민 형태인 유기물의 질소는 무기화과정에서 아래 반응식과 같이 암모니아로 떨어져 나오는데, 이를 암모니아화작용(ammonification)이라고 한다. 생성된 NH3는 토양 용액에서 물과 반응하여 NH 4 +이 된다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch13-8-292",
@@ -5268,7 +5560,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "NH4 +은 토양조건에 따라 여러 미생물군에 의해 NO 2 -를 거쳐 NO 3 -까지 산화된다. 반대로 무기태 질소화합물 NH 4 +과 NO 3 -는 미생물에 흡수 동화되어 유기태로 변화하며, 이를 질소의 부동화(immobilization)라고 부른다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch13-9-293",
@@ -5286,7 +5579,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "탄질률이 30∼35 이상으로 높은 유기물을 시용할 경우 미생물이 유기물에서 부족한 질소를 토양 중 NH4 +나 NO 3 -를 흡수하여 보충함으로써 식물이 흡수할 수 있는 질소가 일시적으로 부족해지는 질소기아를 유발한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch13-10-294",
@@ -5304,7 +5598,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "질산화작용은 NH4 +이 NO 3 -로 산화되는 과정이며, 특정한 미생물에 의하여 이루어지는 생물학적 현상이다. NH 4 +을 함유한 질소비료나 요소와 유기물의 분해에서 생성된 NH 4 +은 산소공급이 원활한 환경에서 아래와 같은 두 단계의 반응을 거쳐 NO 3 -로 산화된다. 질산화에서 NO 2 -의 산화과정은 빠르게 진행되므로 토양 중의 NO 2 - 함량은 보통 낮은 편이다. NH4 + + 3/2O 2 → NO 2 - + H 2O + 2H + NO2 - + 1/2O 2 → NO 3 - + H 2O",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch13-11-295",
@@ -5322,7 +5617,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "산소가 부족한 혐기적인 환경조건에서 일부 미생물이 호흡과정에서 NO3 -를 전자수용체로 이용하는데, 결과적으로 NO 3 -는 기체화합물인 NO, N 2O, N 2 등으로 환원되어 대기 중으로 유실된다. 이를 탈질작용이라고 하며, 특히 논토양에서 질소비료의 효율을 떨어뜨리는 중요한 원인이 된다. 따라서 nitrapyrin 등의 질산화억제제(nirification inhibotors)를 요소나 암모늄태 질소비료와 함께 사용하면 질소의 유실과 채소류와 목초의 NO 3 - 과잉 축적을 막을 수 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch13-12-296",
@@ -5340,7 +5636,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "토양용액 중에 있는 인산 이온은 H2PO 4 - 및 HPO 4 2-이다. 이 두 이온의 비율은 토양 pH에 따라 다르며, pH 6.0 이하의 토양에서는 H 2PO 4 -가 대부분을 차지한다. 토양용액의 인산 이온의 농도는 다른 다량원소에 비해 일반적으로 매우 낮아 0.001~1.0mg/L 범위이다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch13-13-297",
@@ -5358,7 +5655,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "식물이 흡수 이용할 수 있는 칼륨의 형태는 토양용액이나 교질에 교환성으로 흡착되어 있는 K+ 이온이며, 점토광물의 구성성분이나 광물격자에 고정된 형태로 존재하는 비교환성의 칼륨은 쉽게 이용될 수 없다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch13-14-298",
@@ -5376,7 +5674,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "토양에 들어간 황은 식물이나 미생물에 의해 유기화합물로 동화되는데, 식물은 SO4 2- 형태의 무기 황을 흡수하여 환원과정[SO 4 2- → SO 3 2- → -SH(유기태 S)]을 거쳐 유기화합물로 동화한다. 유기화합물의 황은 다시 미생물에 의하여 분해되면 결국 SO 4 2-와 같은 식물이 흡수할 수 있는 형태로 무기화된다. 동화와 무기화 과정 외에 무기태 황의 다양한 산화 및 환원과정이 토양에서 항상 일어난다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch13-15-299",
@@ -5394,7 +5693,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "암모늄+석회→NH₃ 가스 발생",
-   "source": "2015-Q66"
+   "source": "2015-Q66",
+   "blankable": true
   },
   {
    "id": "soil-ch13-16-300",
@@ -5412,7 +5712,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "유효성 가장 큼",
-   "source": "2015-Q67"
+   "source": "2015-Q67",
+   "blankable": false
   },
   {
    "id": "soil-ch13-17-301",
@@ -5430,7 +5731,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "NH₃ 휘산 가장 적은 조건(산성에선 NH₄⁺ 안정)",
-   "source": "2016-Q67"
+   "source": "2016-Q67",
+   "blankable": false
   },
   {
    "id": "soil-ch13-18-302",
@@ -5448,7 +5750,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "논엔 암모늄태를 심층/전층 시비. \"질산태 표층시비\"는 탈질로 손실",
-   "source": "2016-Q70"
+   "source": "2016-Q70",
+   "blankable": false
   },
   {
    "id": "soil-ch13-19-303",
@@ -5466,7 +5769,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "화학적 현상 **아닌** 것(휘산=물리적)",
-   "source": "2017-Q64"
+   "source": "2017-Q64",
+   "blankable": true
   },
   {
    "id": "soil-ch13-20-304",
@@ -5484,7 +5788,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "염기성서 NH₄⁺→NH₃ 휘산",
-   "source": "2017-Q65"
+   "source": "2017-Q65",
+   "blankable": false
   },
   {
    "id": "soil-ch13-21-305",
@@ -5502,7 +5807,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "",
-   "source": "2017-Q66"
+   "source": "2017-Q66",
+   "blankable": false
   },
   {
    "id": "soil-ch13-22-306",
@@ -5520,7 +5826,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "NH₃ 휘산 가장 적은 조건",
-   "source": "2019-Q61"
+   "source": "2019-Q61",
+   "blankable": false
   },
   {
    "id": "soil-ch13-23-307",
@@ -5538,7 +5845,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "NH₄⁺과 고정양상 유사(점토층 사이 고정)",
-   "source": "2019-Q62"
+   "source": "2019-Q62",
+   "blankable": false
   },
   {
    "id": "soil-ch14-1-308",
@@ -5556,7 +5864,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "용성인비는 물에는 용해되지 않고 구연산에 용해되는 비료이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch14-2-309",
@@ -5574,7 +5883,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "질소비료와 석회질비료를 배합하면 암모니아 가스가 발생한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch14-3-310",
@@ -5592,7 +5902,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "요소[Urea, CO(NH2)2]는 질소의 함량이 높은(이론값 46.6%) 비료이며, CO 2와 암모니아를 이용하여 직접합성법으로 제조한다. 2NH3 + CO 2 → [NH 2CO 2NH 4] ↔ NH 2CONH 2 + H 2O",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch14-4-311",
@@ -5610,7 +5921,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "요소 화합물의 질소함량은 46.6%이다. 우리나라 비료공정규격에서는 요소비료의 질소 최소함유량을 45% 이상으로 규정하고 있으며, 질소함량이 46%인 요소비료가 보급되고 있다. 따라서 0.45×25kg =11.25kg",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch14-5-312",
@@ -5628,7 +5940,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "토양과 기상 조건에 따라 요소에서 암모니아의 휘산이 발생되므로 전면시비한 뒤에 곧 물을 대는 것이 좋으며, 조금 낮은 온도에서는 전층시비한 뒤에 물을 대기까지 7~10일 가량 방치하여도 비료에는 별로 큰 변화가 없다. 요소는 모든 밭작물에 대하여도 밑거름 또는 덧거름으로 쓰이며, 대개 밭에서도 전층 또는 심층시비로 한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch14-6-313",
@@ -5646,7 +5959,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "요소비료에는 뷰렛(biuret)이 유해성분으로 함유될 수 있으며, 비료공정규격에서 그 함량을 규제하고 있다. 발아 초기에 식물에게 해로우므로 뷰렛이 많이 들어 있는 요소를 사용할 경우 작물이 해를 입게 된다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch14-7-314",
@@ -5664,7 +5978,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "토양 중에서 요소는 가수분해 효소 우레아제(urease)에 의해 탄산암모늄을 거쳐 CO2와 암모니아로 분해된 뒤 암모니아태질소(NH 4 +)가 된다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch14-8-315",
@@ -5682,7 +5997,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "2NH3 + H 2SO 4 → (NH 4)2SO 4",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch14-9-316",
@@ -5700,7 +6016,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "요소비료는 모든 작물에 엽면시비용으로 사용할 수 있으며, 살포 농도는 작물의 종류와 생육시기에 따라 차이가 있으나 대게 0.3~0.5％이며 1％를 넘지 않는 것이 좋다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch14-10-317",
@@ -5718,7 +6035,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "염기성의 비료나 물질과 배합하면 암모늄태질소가 암모니아가스로 되어 휘산되므로 주의해야 한다. 황산암모늄은 중성염이지만 연용하거나 많이 사용하면 토양을 산성화시키는 생리적 산성비료이며, 토양 염기류의 용탈을 촉진시키고 노후화된 논에서는 SO4 2-의 환원으로 황화수소(H 2S)가 발생되어 벼 뿌리를 썩게 하고 추락현상을 일으키게 된다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch14-11-318",
@@ -5736,7 +6054,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "석회질소는 카바이드(CaC2)와 질소를 높은 온도에서 반응시켜 제조한다. 석회석(CaCO 3)을 가열하여 얻은 생석회에 무연탄이나 코크스를 가하고 2,000℃ 이상의 전기로에서 용융시키면 카바이드가 생성된다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch14-12-319",
@@ -5754,7 +6073,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "토양에 시용된 석회질소는 아래 반응식과 같이 시안아미드를 거쳐 요소로 전환되어 결국 암모늄 형태로 식물에게 흡수된다. CaCN2 + 2H 2O → NH 2CN + Ca(OH)2 NH2CN + H 2O → CO(NH 2)2 CO(NH2)2 + 2H 2O → (NH 4)2CO 3 → NH 4 +",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch14-13-320",
@@ -5772,7 +6092,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "UF는 난분해성 질소비료 중 하나이다. 난분해성 완효성 질소비료는 요소를 이용하여 합성된 것이며, 대표적인 제품으로는 UF(urea formaldehydes), IBDU(isobutylidene diurea), CDU(crotonylidene diurea), 옥사미드(oxamide), 요소트리아존(urea–triazone), 구아닐요소(guanyl urea) 등이 있다. UF는 가장 널리 사용되는 완효성 유기질소화합물이다. UF는 요소와 포름알데히드(formaldehyde)를 가열하여 제조하는데, 요소(urea), 모노메틸롤요소(monomethylol urea), 디메틸롤요소(dimethylolurea), 메틸렌요소(methylene urea) 등이 혼합되어 있다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch14-14-321",
@@ -5790,7 +6111,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "과인산석회는 인광석 분말에 황산으로 처리하여 제조하며, 아래 반응식과 같이 불용성인 플루오르인산석회가 수용성인 인산칼슘[Ca(H2PO 4)2]으로 변화되는 것이다. 3Ca3(PO 4)2 ․CaF 2 + 7H 2SO 4 + 3H 2O → 3[Ca(H 2PO 4)2 ․2H 2O] + 7CaSO 4 + 2CaF 2 과인산석회의 인산은 대부분 수용성이므로 비효가 빠르게 나타나며, 이에 부성분으로 들어 있는 석고는 황의 급원이 되어 호황작물에 대하여 효과가 나타난다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch14-15-322",
@@ -5808,7 +6130,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "비교적 많은 Mg이 함유되어 용성고토인비라고도 한다. 그 외에 Si, Ca, 그리고 소량의 미량원소들이 용성인비에 함유되어 있으므로 이들의 비효도 기대할 수 있다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch14-16-323",
@@ -5826,7 +6149,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "용성인비의 반응은 염기성이므로 암모늄태 질소비료와 배합하면 암모니아가 휘산되므로 주의해야 한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch14-17-324",
@@ -5844,7 +6168,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "용과린은 용성인비와 과인산석회를 혼합하여 입자로 만든 것이다. 용과린에는 과석의 수용성 인산과 용성인비의 구용성 인산이 함께 들어 있으므로 속효성과 완효성의 효과가 동시에 나타날 수 있는 인산비료이다. 용과린의 인산 함량은 구용성 17% 이상이고 이중에서 수용성이 2% 이상 함유되도록 규정되어 있으며, 마그네슘은 구용성으로 2.5% 이상 함유되어야 한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch14-18-325",
@@ -5862,7 +6187,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "<표 14–6> 칼륨광물의 종류와 조성: 실바이트(Sylvite)–KCl, 실비나이트(Sylvinite)– KCl․NaCl",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch14-19-326",
@@ -5880,7 +6206,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "석회질비료를 사용하여 토양의 산성을 개량함으로써 Mn2+과 Al 3+ 독성 경감, 미생물의 활성 증대, 구조개선을 통한 토양 물리성 향상, 콩과작물이 질소고정 증대, 저렴하게 Ca 2+과 Mg 2+ 공급, 양분 유효도 개선 등의 다양한 이득을 얻을 수 있다. 그리고 석회질 비료는 간척지토양의 제염에도 효과적으로 작용한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch14-20-327",
@@ -5898,7 +6225,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "<표 14–7> 석회물질의 Ca 함량과 용해도 참조",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch14-21-328",
@@ -5916,7 +6244,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "<표 14–9> 석회질비료의 산 중화 효능 참조",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch14-22-329",
@@ -5934,7 +6263,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "제2종 복합비료에 유기물을 배합한 것이 제3종 복합비료이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch14-23-330",
@@ -5952,7 +6282,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "(2) 비료의 배합이 불리한 경우 ① 암모늄태질소가 들어 있는 비료에 염기성 비료를 배합하면 암모니아가 날아간다. (NH4)2SO 4 + Ca(OH)2 → CaSO 4 + 2H 2O + 2NH 3 ↑ ② 수용성 인산이 들어 있는 비료에 석회질 비료를 배합하면 인산이 불용화된다. Ca(H2PO 4)2 + 2CaCO 3 → Ca 3(PO 4)2 + 2CO 2 + 2H 2O ③ 요소를 콩깻묵 등 유박과 섞어서 오래 두면 요소의 가수분해로 인해 암모니아가 날아간다. ④ 질산태질소 비료에 산성 비료를 배합하면 질소는 N2O 5 가스로 날아간다. 2NO3 - + 2H + → N 2O 5 ↑ + H 2O ⑤ 흡습성이 비교적 큰 비료(요소, 질산암모늄 등)를 배합원료로 하거나, 칼슘이 들어 있는 비료와 질산 또는 염소를 가진 비료를 섞으면 흡습성이 더욱 커진다. Ca2+ + 2Cl - → CaCl 2 (흡습성이 큼) Ca2+ + 2NO 3 - → Ca(NO 3)2 (흡습성이 큼)",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch14-24-331",
@@ -5970,7 +6301,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "알칼리분 최고: 생석회(CaO)>소석회>탄산석회",
-   "source": "2015-Q63"
+   "source": "2015-Q63",
+   "blankable": true
   },
   {
    "id": "soil-ch14-25-332",
@@ -5988,7 +6320,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "요소기반 합성 완효성",
-   "source": "2017-Q68"
+   "source": "2017-Q68",
+   "blankable": false
   },
   {
    "id": "soil-ch14-26-333",
@@ -6006,7 +6339,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "백운석 분쇄, 토양개량제 90%",
-   "source": "2018-Q65"
+   "source": "2018-Q65",
+   "blankable": true
   },
   {
    "id": "soil-ch14-27-334",
@@ -6024,7 +6358,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "알칼리분 최고",
-   "source": "2019-Q67"
+   "source": "2019-Q67",
+   "blankable": true
   },
   {
    "id": "soil-ch15-1-335",
@@ -6042,7 +6377,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "우분은 유기질비료에 사용하지 못하고 부숙유기질비료에만 사용할 수 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch15-2-336",
@@ -6060,7 +6396,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "혼합유기질비료는 유기질비료에 속하며, 부숙유기질비료가 아니다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch15-3-337",
@@ -6078,7 +6415,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "골분은 동물의 뼈를 그대로 또는 증기로 찐 다음 가루로 만든 것인데, 주로 인산질비료로 쓰인다. 골분의 주성분은 인산3석회[Ca3(PO 4)2]이며, 인산 함량은 15~20%이고 질소 함량은 1~3%에 지나지 않는다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch15-4-338",
@@ -6096,7 +6434,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "화학비료는 작물의 요구량에 맞추어 N, P, K를 대개 2：1 ：1 비율로 시용한다. 그러나 가축분퇴비 등 부숙유기질비료의 N, P, K 함유량 비율은 통상적으로 1 ：2 ：0.5 정도 이므로, 가축분퇴비 등을 단독으로 시용하면 질소에 비해 인산을 과다하게 시용한 결과가 된다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch15-5-339",
@@ -6114,7 +6453,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "부숙유기질 원료 가능 (어박·유박은 유기질비료)",
-   "source": "2015-Q68"
+   "source": "2015-Q68",
+   "blankable": true
   },
   {
    "id": "soil-ch15-6-340",
@@ -6132,7 +6472,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "부숙유기질 **아닌** 것",
-   "source": "2016-Q69"
+   "source": "2016-Q69",
+   "blankable": true
   },
   {
    "id": "soil-ch15-7-341",
@@ -6150,7 +6491,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "유기물 든 복합비료(키 기준)",
-   "source": "2017-Q67"
+   "source": "2017-Q67",
+   "blankable": true
   },
   {
    "id": "soil-ch15-8-342",
@@ -6168,7 +6510,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "가축분퇴비 단독시용→인산(P) 과잉",
-   "source": "2017-Q69"
+   "source": "2017-Q69",
+   "blankable": false
   },
   {
    "id": "soil-ch15-9-343",
@@ -6186,7 +6529,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "유기질비료 못 되는 원료(부숙유기질로 감)",
-   "source": "2017-Q70"
+   "source": "2017-Q70",
+   "blankable": true
   },
   {
    "id": "soil-ch15-10-344",
@@ -6204,7 +6548,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "엽면시비·관주용 액상",
-   "source": "2018-Q64"
+   "source": "2018-Q64",
+   "blankable": true
   },
   {
    "id": "soil-ch15-11-345",
@@ -6222,7 +6567,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "유박류 설명 **틀린** 것",
-   "source": "2018-Q66"
+   "source": "2018-Q66",
+   "blankable": false
   },
   {
    "id": "soil-ch15-12-346",
@@ -6240,7 +6586,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "부숙유기질 **아닌** 것",
-   "source": "2018-Q67"
+   "source": "2018-Q67",
+   "blankable": true
   },
   {
    "id": "soil-ch15-13-347",
@@ -6258,7 +6605,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "부숙유기질 **아닌** 것",
-   "source": "2019-Q63"
+   "source": "2019-Q63",
+   "blankable": true
   },
   {
    "id": "soil-ch15-14-348",
@@ -6276,7 +6624,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "가축분퇴비 단독→인산 과잉",
-   "source": "2019-Q69"
+   "source": "2019-Q69",
+   "blankable": false
   },
   {
    "id": "soil-ch15-15-349",
@@ -6294,7 +6643,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "유기물 든 복합비료(키 기준)",
-   "source": "2019-Q70"
+   "source": "2019-Q70",
+   "blankable": true
   },
   {
    "id": "soil-ch16-1-350",
@@ -6317,7 +6667,8 @@
     3
    ],
    "explanation": "모두 비료 시용 시 고려해야 할 사항이다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch16-2-351",
@@ -6335,7 +6686,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "논에 질소비료를 줄 때는 물을 빼고 암모늄태질소를 작토에 잘 섞어 주어야 탈질작용에 의한 손실을 막을 수 있는데, 이를 전층시비법이라 한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch16-3-352",
@@ -6358,7 +6710,8 @@
     3
    ],
    "explanation": "모두 작물의 영양진단법으로 적합하다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch16-4-353",
@@ -6376,7 +6729,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "작물의 생육이나 수확량은 최소양분의 공급량에 의하여 결정된다고 생각하여 이를 최소양분율이라고 하는데, 무기영양설을 확립한 리비히(Liebig)에 의하여 제안되었다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch16-5-354",
@@ -6394,7 +6748,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "영양생장기에는 질소, 인, 황이 많이 흡수되고, 체내에 많이 집적되는 물질은 단백질이다. 생식생장기에는 질소도 계속 흡수되나 인과 마그네슘의 흡수가 많으며, 칼륨과 칼슘은 전체 생육기간을 통하여 활발히 흡수되는 것으로 알려져 있다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "soil-ch16-6-355",
@@ -6412,7 +6767,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "작물의 생육시기에 따라 양분을 특히 더 많이 요구하는 경우가 있는데, 이를 작물의 영양기라 한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch16-7-356",
@@ -6430,7 +6786,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "주성분이 같은 여러 종류의 비료를 가지고 그와 같은 성분을 주지 않았을 때에 비하여 수확량이 증가하는 비율을 증수율 또는 비효율이라고 한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch16-8-357",
@@ -6448,7 +6805,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "",
-   "source": "2015-Q69"
+   "source": "2015-Q69",
+   "blankable": true
   },
   {
    "id": "soil-ch16-9-358",
@@ -6466,7 +6824,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "최소양분이 수확량 결정",
-   "source": "2018-Q68"
+   "source": "2018-Q68",
+   "blankable": true
   },
   {
    "id": "soil-ch16-10-359",
@@ -6484,7 +6843,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "",
-   "source": "2018-Q69"
+   "source": "2018-Q69",
+   "blankable": true
   },
   {
    "id": "soil-ch17-1-360",
@@ -6502,7 +6862,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "비료시험방법은 포트시험, 틀시험, 포장시험 등이 있고 수경재배에 의한 수경시험과 모래를 사용하는 사경시험법 등이 있다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch17-2-361",
@@ -6520,7 +6881,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "토양에서 물은 지표면이나 지하에서 공급되며 그 균형에 따라 항상 이동하며, 식물의 흡수와 지표면에서 일어나는 증발과 증산이 물의 이동현상에 영향을 미친다. 이러한 물의 이동과 함께 양분도 이동하며, 토양 깊이별 양분의 함량과 양분의 형태 등이 다르게 분포한다. 토양 중에서 일어나는 물의 행동이나 각종 식물 양분이나 기타 물질의 동태를 조사할 수 있는 시험장치가 라이시미터이다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch17-3-362",
@@ -6538,7 +6900,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "토양의 영향을 받지 않는 상태에서 작물의 생육과 비료성분의 관계를 시험하기 위해서는 수경재배 또는 사경재배 방법을 사용한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch17-4-363",
@@ -6556,7 +6919,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "작물이 결핍현상 없이 충분히 생육하는 데 필요한 최소의 양분함량이 있으며, 이를 임계농도(critical concentration)라고 한다. 그리고 임계농도보다 더 많이 과잉으로 흡수되는 것을 낭비적인 흡수(luxury consumption)라고 한다.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "soil-ch17-5-364",
@@ -6574,7 +6938,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "토양 영향 배제 = 수경(물재배)",
-   "source": "2015-Q70"
+   "source": "2015-Q70",
+   "blankable": true
   },
   {
    "id": "soil-ch17-6-365",
@@ -6592,7 +6957,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "증발산량 측정",
-   "source": "2018-Q70"
+   "source": "2018-Q70",
+   "blankable": true
   }
  ],
  "notes": [
@@ -6741,5 +7107,11 @@
   }
  ],
  "exams": [],
- "terms": []
+ "terms": [
+  {
+   "slug": "soil-essential-terms",
+   "title": "필수 용어·공식 (문제 풀이용)",
+   "html": "<h1>토양학 필수 용어·공식</h1>\n<blockquote>\n<p>문제를 풀려면 먼저 알아야 하는 기본 개념·공식. 헷갈리면 여기 열기.</p>\n</blockquote>\n<h2>계산 공식 4종 (★매년)</h2>\n<table>\n<thead>\n<tr>\n<th>공식</th>\n<th>식</th>\n<th>예</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>공극률</strong></td>\n<td>1 − 용적밀도/입자밀도</td>\n<td>1−1.33/2.65 ≈ <strong>50%</strong></td>\n</tr>\n<tr>\n<td><strong>염기포화도</strong></td>\n<td>(K+Ca+Mg)/CEC × 100</td>\n<td>(1+5+2)/10 = <strong>80%</strong></td>\n</tr>\n<tr>\n<td><strong>수분함량(건조기준)</strong></td>\n<td>(습−건)/건 × 100</td>\n<td>(150−120)/120 = <strong>25%</strong></td>\n</tr>\n<tr>\n<td><strong>용적수분함량</strong></td>\n<td>중량수분 × 용적밀도</td>\n<td>20%×1.2 = <strong>24%</strong></td>\n</tr>\n<tr>\n<td>- <strong>유효수분</strong> = 포장용수량 − 위조점 / <strong>작토무게</strong> = 부피 × 용적밀도</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>- 입자밀도 보통 <strong>2.65 g/cm³</strong>(불변), 경작지양토 용적밀도 <strong>1.1~1.4</strong></td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<h2>토양 물리 (2·3장)</h2>\n<ul>\n<li><strong>3상</strong>: 고상(≈50%)·액상·기상. 액상↑ = 기상↓ = 통기성↓.</li>\n<li><strong>토성(soil texture)</strong>: 모래·미사·점토 <strong>함량비(입경조성)</strong> 로 정해지는 토양 종류.</li>\n<li><strong>입경</strong>: 모래 2.0~0.05 / 미사 0.05~0.002 / <strong>점토 &lt;0.002 mm</strong> / 자갈 &gt;2.0.</li>\n<li><strong>입자밀도</strong> = 고형입자무게/<strong>고형입자</strong>용적 / <strong>용적밀도</strong> = 고형입자무게/<strong>전체</strong>용적.</li>\n<li><strong>부착력</strong>=입자–물 / <strong>응집력</strong>=물–물.</li>\n<li><strong>포장용수량</strong>(−1/3 bar, 식물 최적) · <strong>위조점</strong>(−15 bar) · <strong>유효수분</strong>=둘 사이.</li>\n<li><strong>먼셀</strong>: 색상(H) 명도(V)/채도(C). 산화철=적색, 환원=회청색, 부식=흑색.</li>\n</ul>\n<h2>콜로이드·산성 (4·5장)</h2>\n<ul>\n<li><strong>콜로이드(교질)</strong>: 비표면적·전하 큰 미세입자. <strong>점토·유기물=○, 모래·미사=✕</strong>.</li>\n<li><strong>CEC(양이온교환용량)</strong>: 토양이 양이온을 흡착·교환하는 능력(cmolc/kg). 점토·유기물↑→CEC↑. <strong>식토 최대</strong>.</li>\n<li><strong>염기포화도</strong>: 교환성 염기(K·Ca·Mg·Na)/CEC. (H·Al은 염기 ✕)</li>\n<li><strong>토양반응(pH)</strong> = −log[H⁺]. 산성화 주범 = <strong>Al</strong>(물과 반응 H⁺ 방출).</li>\n<li>산성서 유효도↑ = <strong>미량원소(Fe·Mn·Zn·B)</strong> / P는 중성, Mo는 알칼리.</li>\n</ul>\n<h2>토양생물·유기물 (6장)</h2>\n<ul>\n<li><strong>균근(mycorrhizae)</strong>: \"사상균 뿌리\", 사상균–뿌리 공생, 인산·미량원소 흡수.</li>\n<li><strong>질산화</strong>: NH₄⁺ →(아질산균 Nitrosomonas)→ NO₂⁻ →(질산균 Nitrobacter)→ NO₃⁻.</li>\n<li><strong>탈질</strong>: NO₃⁻ → N₂(혐기·논). <strong>암모니아화</strong>: 유기태 N → NH₃.</li>\n<li><strong>탄질비(C/N)</strong>: 높으면(&gt;30, 옥수수대 70) <strong>질소기아</strong>. 부식 C/N ≈ 10.</li>\n<li><strong>부식(humus)</strong>: 암색 무정형 고분자. 구성=부식산·풀빈산·휴민.</li>\n</ul>\n<h2>분류 (8장)</h2>\n<ul>\n<li><strong>세계 토양 = 12목</strong>. 우리나라 80%↑ = <strong>인셉티졸·엔티졸</strong>.</li>\n<li>몰리졸=Ca비옥 / 히스토졸=습지유기물 / 안디졸=화산재(제주) / 아리디졸=사막(국내 ✕).</li>\n</ul>\n<h2>식물영양·흡수 (10·11장)</h2>\n<ul>\n<li><strong>필수 17원소</strong>: 다량 9(C·H·O·N·P·K·Ca·Mg·S) + 미량 8(Fe·Mn·B·Zn·Cu·Mo·Cl·Ni). <strong>Na ✕</strong>.</li>\n<li>기공 개폐=<strong>K</strong> / 안토시안(부족)=<strong>P</strong> / 엽록소=<strong>Mg·N</strong>.</li>\n<li><strong>황 함유 아미노산</strong>: 시스테인·시스틴·메티오닌.</li>\n<li><strong>수송</strong>: 능동(역행+ATP=호흡) vs 수동·확산(순행). <strong>카스파리대 = 아포플라스트(세포벽) 차단</strong>.</li>\n<li><strong>질소 흡수형태 = NH₄⁺·NO₃⁻</strong> / <strong>증산류 영향 최대 = Ca²⁺</strong> / 질산 동화 후 첫 물질 = <strong>아미노산</strong>.</li>\n</ul>\n<h2>비료 (12~17장)</h2>\n<ul>\n<li><strong>요소</strong>: 아미드태, N 46%, 우레아제 분해, <strong>생리적 중성</strong>.</li>\n<li><strong>용성인비</strong>: 구용성(물에 안 녹음), Ca·Mg·Si 함유.</li>\n<li><strong>생리적 반응</strong>: 산성=유안·황산칼륨·염화칼륨 / 중성=요소·질산암모늄 / 염기성=질산칼슘.</li>\n<li><strong>석회 알칼리분</strong>: 생석회&gt;소석회&gt;탄산석회. 석회고토=백운석(개량제 90%).</li>\n<li><strong>부숙유기질</strong> = 가축분퇴비·퇴비·분뇨잔사(우분 가능) / <strong>유기질</strong> = 어박·골분·유박·혼합유기질.</li>\n<li><strong>비료시험</strong>: 토양영향 배제=수경 / 증발산량=라이시미터. <strong>최소양분율</strong>(리비히).</li>\n</ul>"
+  }
+ ]
 }

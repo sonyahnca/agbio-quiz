@@ -127,3 +127,11 @@ a{color:var(--accent2)}
 .modal-x{position:absolute;top:10px;right:10px;background:var(--panel2);color:var(--text);
   border:1px solid var(--border);border-radius:10px;padding:6px}
 .seg #exrow button small,.seg button small{display:block}
+
+/* 빈칸(단답) 입력 모드 */
+.blankrow{display:flex;gap:10px;margin-bottom:10px}
+.blankin{flex:1;min-width:0;background:var(--panel2);color:var(--text);
+  border:1.5px solid var(--border);border-radius:12px;padding:16px;font-size:18px;outline:none}
+.blankin:focus{border-color:var(--accent)}
+.blankin:disabled{opacity:.8}
+.blankrow .btn{margin:0}

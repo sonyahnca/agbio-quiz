@@ -19,7 +19,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "질량 = 양성자+중성자. Ar=40, C=12 → 40:12 = 10:3.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch01-2-1",
@@ -37,7 +38,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "식물 주성분=탄수화물(C·O), 동물 주성분=단백질(C 많음+N).",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch01-3-2",
@@ -55,7 +57,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "양자화 = 가질 수 있는 에너지(=핵으로부터 거리)가 몇 가지로 한정.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch01-4-3",
@@ -73,7 +76,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "전자의 운동모양(오비탈 모양) = **각운동량양자수**.",
-   "source": "2019-Q37"
+   "source": "2019-Q37",
+   "blankable": true
   },
   {
    "id": "agbio-ch01-5-4",
@@ -91,7 +95,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "주양자수가 커도 에너지준위가 더 낮을 수 있어, **에너지준위** 순으로 채워짐.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch02-1-5",
@@ -109,7 +114,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "ⅠA족은 반지름 크고, 전자친화도·전기음성도 작아 전자를 잃고 **양이온**이 되기 쉬움.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch02-2-6",
@@ -127,7 +133,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "전기음성도 = 전자 당김의 상대적 척도(전자친화도·이온화에너지와 같은 경향). 큰 원자는 음이온.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch02-3-7",
@@ -145,7 +152,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "이온결합 = **전기음성도 차이가 큰** 원자 간(전자 주고받음).",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch02-4-8",
@@ -163,7 +171,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "**공유결합 > 이온결합 > 수소결합 > 반데르발스(런던 분산력)**.",
-   "source": "2018-Q38"
+   "source": "2018-Q38",
+   "blankable": true
   },
   {
    "id": "agbio-ch02-5-9",
@@ -181,7 +190,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "수소결합은 쌍극자-쌍극자 힘의 특수 형태. (무극성 분자도 런던 분산력으로 결합 가능, 공유>반데르발스)",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch03-1-10",
@@ -199,7 +209,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "평형 = 정반응속도와 역반응속도가 같아져 겉보기엔 정지로 보이는 동적 상태.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch03-2-11",
@@ -217,7 +228,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "몰농도(M)는 분자 개수에 비례 → 같은 부피면 0.5:0.4 = **5:4**.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch03-3-12",
@@ -235,7 +247,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "발열반응이어도 반응물이 **활성화착물(전이상태)**을 형성하려면 활성화 에너지가 필요.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch03-4-13",
@@ -253,7 +266,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "자유에너지는 엔트로피 개념에서 유도. ΔG<0 = 우주 엔트로피 증가 = 자발적.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch03-5-14",
@@ -271,7 +285,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "에너지 ~70%가 열인데, **다단계반응**으로 조금씩 방출되어 체온 급상승을 막음.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch04-1-15",
@@ -289,7 +304,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "결합 형성(방출) 에너지가 결합 분해(흡수) 에너지 합보다 크면 열 발생(발열).",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch04-2-16",
@@ -307,7 +323,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "산소 전기음성도 > 수소 → 전자쌍이 산소 쪽 → 산소(−)·수소(+). (+산소의 고립전자쌍)",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch04-3-17",
@@ -325,7 +342,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "물분자 간 수소결합으로 운동성이 낮아 온도 변화에 많은 에너지 필요(높은 비열) → 체온이 외부 영향을 덜 받음.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch04-4-18",
@@ -343,7 +361,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "완충용액 = **약산+그 염**(또는 약염기+그 염). 아세트산+아세트산나트륨.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch04-5-19",
@@ -361,7 +380,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "산화제는 자신이 환원, 환원제는 자신이 산화. 어느 기능인지는 **상대 물질**에 따라 결정.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch04-1-20",
@@ -374,7 +394,8 @@
    "answer": null,
    "answers": null,
    "explanation": "pOH = 7 → pH = 14−7 = **7** (중성)",
-   "source": "2019-Q44"
+   "source": "2019-Q44",
+   "blankable": false
   },
   {
    "id": "agbio-ch04-2-21",
@@ -387,7 +408,8 @@
    "answer": null,
    "answers": null,
    "explanation": "pOH = 8 → pH = 14−8 = **6** (약산성)",
-   "source": "2018-Q43"
+   "source": "2018-Q43",
+   "blankable": false
   },
   {
    "id": "agbio-ch04-3-22",
@@ -400,7 +422,8 @@
    "answer": null,
    "answers": null,
    "explanation": "HCl 완전 해리 → [H⁺]≈0.01M → pH = −log(0.01) = **2**",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch04-4-23",
@@ -413,7 +436,8 @@
    "answer": null,
    "answers": null,
    "explanation": "[OH⁻]≈0.01M → [H⁺]=10⁻¹⁴/0.01 = 10⁻¹² → pH = **12**",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch05-1-24",
@@ -431,7 +455,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "탄소 간 공유결합(안정성) + 1개당 4결합 가능(다양성).",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch05-2-25",
@@ -449,7 +474,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "유기화합물 기능의 결정적 원인은 **작용기**.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch05-3-26",
@@ -467,7 +493,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "히드록시기(-OH) 5개가 높은 수용성에 기여(알데히드기도 일부 기여).",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch05-4-27",
@@ -485,7 +512,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "산소 전기음성도가 커 공명 전자가 산소 쪽 → 산소 음극성, 탄소·수소 양극성.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch05-5-28",
@@ -503,7 +531,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "같은 화합물의 **D-/L-형**이 거울상 이성질체. (②는 기하, ④는 구조 이성질체)",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch06-1-29",
@@ -521,7 +550,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "섬유소는 **β(1→4) 글리코시드결합**. 단위동물은 이를 분해하는 셀룰라아제를 분비하지 못함.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch06-2-30",
@@ -539,7 +569,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "단백질의 구조·기능의 근원 = 유전정보가 발현된 **아미노산 구성·순서**.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch06-3-31",
@@ -557,7 +588,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "극성지질은 세포막 이중층(친수성 바깥/안, 소수성 중심) → 선택적 투과. (중성지방=극성 없음·에너지저장, 유연성 나쁜 건 스테로이드)",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch06-4-32",
@@ -575,7 +607,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "DNA 염기에 **상보적인 염기**를 가진 리보뉴클레오티드가 결합해 mRNA가 합성됨.",
-   "source": "2019-Q48"
+   "source": "2019-Q48",
+   "blankable": false
   },
   {
    "id": "agbio-ch06-5-33",
@@ -593,7 +626,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "지용성 비타민(A·D·E·K)은 **이소프렌**을 구성 성분으로 함(체내 축적). B·C는 수용성.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch06-1-34",
@@ -606,7 +640,8 @@
    "answer": null,
    "answers": null,
    "explanation": "단위동물은 α-아밀라아제는 분비하나 셀룰라아제가 없어 섬유소 이용 불가. 반추동물은 반추위 미생물이 셀룰라아제를 분비해 섬유소를 분해·이용.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch06-2-35",
@@ -619,7 +654,8 @@
    "answer": null,
    "answers": null,
    "explanation": "락타아제 부족으로 젖당이 미분해 → 대장으로 이행 → 대장 삼투압 증가 → 수분 증가로 설사.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch06-3-36",
@@ -632,7 +668,8 @@
    "answer": null,
    "answers": null,
    "explanation": "시스틴끼리 이황화결합(공유결합) 형성 → 3차구조 안정성에 가장 강하게 기여 → 매우 안정.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch06-4-37",
@@ -645,7 +682,8 @@
    "answer": null,
    "answers": null,
    "explanation": "탄수화물·단백질보다 덜 산화되어 더 많은 에너지 생산, 소수성이라 수분 접촉을 줄여 적은 부피로 저장 가능.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch06-5-38",
@@ -658,7 +696,8 @@
    "answer": null,
    "answers": null,
    "explanation": "2가닥이 역방향·상보적 염기로 결합 → 풀린 각 가닥에 상보 염기 결합 → 원본과 동일한 DNA 생성.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch07-1-39",
@@ -676,7 +715,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "물질 출입 속도는 표면적에 비례. 세포가 크면 부피 대비 표면적 비율이 작아져 출입이 느려짐.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch07-2-40",
@@ -694,7 +734,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "둘 다 생물이라 DNA·RNA 모두 보유. 단 세균은 염색체 1개, 미토콘드리아 없음, 리보솜 70S(동물 80S).",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch07-3-41",
@@ -712,7 +753,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "식물세포의 **액포**가 불필요 물질 분해(리소좀 기능). 퍼옥시좀은 H₂O₂ 분해(catalase).",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch07-4-42",
@@ -730,7 +772,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "자가 번식하려면 DNA·RNA 둘 다 + 충분한 효소 필요. 바이러스는 **둘 중 하나만** + 효소 부족 → 생명활동 불가.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch07-1-43",
@@ -743,7 +786,8 @@
    "answer": null,
    "answers": null,
    "explanation": "세균: 염색체 1개, 겹환상(고리), 단백질 미결합. 진핵: 종마다 일정 수의 여러 개, 겹선형, 히스톤·비히스톤 단백질 결합.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch07-2-44",
@@ -756,7 +800,8 @@
    "answer": null,
    "answers": null,
    "explanation": "식물세포에만 세포벽·엽록체·액포·글리옥시솜이 있고 리소좀이 없다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch07-3-45",
@@ -769,7 +814,8 @@
    "answer": null,
    "answers": null,
    "explanation": "DNA·RNA 중 하나만 가지고 효소도 극소수라, 에너지 생산·물질 합성을 스스로 할 수 없기 때문.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch07-4-46",
@@ -782,7 +828,8 @@
    "answer": null,
    "answers": null,
    "explanation": "캡시드 단백질이 숙주세포 표면 수용기와 고도로 특이적으로 결합하기 때문.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch07-5-47",
@@ -795,7 +842,8 @@
    "answer": null,
    "answers": null,
    "explanation": "진핵: 미토콘드리아(내막=전자전달계, 기질=크렙스회로). 세균: 미토콘드리아가 없어 세포막에서 크렙스회로·전자전달계 진행.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch08-1-48",
@@ -813,7 +861,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "복합효소의 비단백질성 물질 중 **유기물**이 조효소.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch08-2-49",
@@ -831,7 +880,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "기질 결합 시 **방출되는 결합에너지**가 활성화 에너지의 일부를 대체 → 낮은 온도에서도 반응 진행.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch08-3-50",
@@ -849,7 +899,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "Km은 최대속도 절반의 속도에 필요한 기질농도, 효소 고유값. 작을수록 친화도↑. (②는 kcat)",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch08-4-51",
@@ -867,7 +918,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "적정 pH = 활성자리가 반응에 적절하게 이온화·극성을 가지는 pH.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch08-5-52",
@@ -885,7 +937,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "작용 장소에서만 활성화 → 분비 후 이동 중 체단백질이 무분별 분해되는 것 방지.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch08-6-53",
@@ -903,7 +956,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "효소는 **단백질**(일부 RNA=리보자임 예외).",
-   "source": "2016-Q19"
+   "source": "2016-Q19",
+   "blankable": true
   },
   {
    "id": "agbio-ch08-7-54",
@@ -921,7 +975,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "**아이소자임(isozyme)**. 예: 헥소키나아제↔글루코키나아제.",
-   "source": "2016-Q21"
+   "source": "2016-Q21",
+   "blankable": true
   },
   {
    "id": "agbio-ch08-1-55",
@@ -934,7 +989,8 @@
    "answer": null,
    "answers": null,
    "explanation": "효소의 극히 일부이며, 기질이 결합해 반응이 진행될 공간과 아미노산 곁사슬 작용기가 존재.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch08-2-56",
@@ -947,7 +1003,8 @@
    "answer": null,
    "answers": null,
    "explanation": "기질이 활성자리에 결합할 때 방출되는 결합에너지가 반응에 필요한 에너지를 공급 → 활성화 에너지가 그만큼 낮아짐.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch08-3-57",
@@ -960,7 +1017,8 @@
    "answer": null,
    "answers": null,
    "explanation": "Km은 기질 친화도(반비례), kcat은 활성 능력(비례)을 나타냄. kcat/Km은 친화도와 활성을 동시에 반영.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch08-4-58",
@@ -973,7 +1031,8 @@
    "answer": null,
    "answers": null,
    "explanation": "저온은 기질 평균 에너지가 낮아 활성화 에너지 공급 부족, 고온은 효소 변성. 적정온도는 활성화 에너지 충분 + 변성 안 되는 온도.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch09-1-59",
@@ -991,7 +1050,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "인슐린·글루카곤·췌장액은 모두 췌장. **에피네프린은 부신(수질)** 분비.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch09-2-60",
@@ -1009,7 +1069,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "호르몬은 유기물이지만 **에너지를 공급하지 않는다**. (시험 단골 함정)",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch09-3-61",
@@ -1027,7 +1088,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "GH·ACTH·옥시토신은 뇌하수체(전엽/후엽). **인슐린은 췌장**.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch09-4-62",
@@ -1045,7 +1107,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "부신수질 = **에피네프린·노르에피네프린**(교감신경 협동, 신속 생리반응).",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch09-1-63",
@@ -1058,7 +1121,8 @@
    "answer": null,
    "answers": null,
    "explanation": "호르몬: 혈액 매체, 전달 느림, 작용 범위 넓음, 표적기관 작용. 신경계: 뉴런 매체, 매우 빠름, 범위 좁음, 일정 방향 자극 전달.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch09-2-64",
@@ -1071,7 +1135,8 @@
    "answer": null,
    "answers": null,
    "explanation": "펩티드(수용성): 막 통과 못 해 세포막 표면 수용체 결합 → 2차 전달자(cAMP). 스테로이드(지용성): 막 통과 → 세포 내부 수용체 결합 → 핵에서 mRNA 전사 자극.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch09-3-65",
@@ -1084,7 +1149,8 @@
    "answer": null,
    "answers": null,
    "explanation": "인슐린(혈당↓)과 글루카곤(혈당↑)이 길항해 혈당 유지. 당뇨는 조직 요구량 대비 인슐린이 불충분하게 분비되어 발생.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch09-4-66",
@@ -1097,7 +1163,8 @@
    "answer": null,
    "answers": null,
    "explanation": "둘 다 미량으로 생리 기능 조절. 호르몬은 개체 내에서만 작용, 페로몬은 체외로 방출되어 같은 종의 다른 개체를 자극.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch10-1-67",
@@ -1115,7 +1182,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "진핵생물: 해당작용=시토졸, 크렙스회로=미토콘드리아 기질, 전자전달계=미토콘드리아 내막.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch10-2-68",
@@ -1133,7 +1201,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "동물 30 혹은 32(셔틀 차이), 식물 30(시토졸 NADH 전자전달 체계가 달라 1.5 ATP). 작물은 빛이 있을 땐 광합성 ATP를 쓰므로 글루코오스를 에너지원으로 안 씀.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch10-3-69",
@@ -1151,7 +1220,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "3탄당은 엽록체에서 녹말로 일시 저장 → 분해 → 시토졸에서 수크로오스로 전환 → 다른 조직 운반.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch10-4-70",
@@ -1169,7 +1239,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "목적은 합성 대사의 환원제 **NADPH**와 핵산 원료 **5탄당**. (ATP·NADH 아님!)",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch10-5-71",
@@ -1187,7 +1258,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "크렙스회로는 아세틸기 2탄소를 CO₂ 2분자로 소실. 글리옥실산회로는 CO₂ 손실 없이 탄소를 옥살로아세트산으로 보존 → 글루코오스 합성 원료 확보.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch10-1-72",
@@ -1200,7 +1272,8 @@
    "answer": null,
    "answers": null,
    "explanation": "글리세르알데히드-3-인산 → 1,3-비스포스포글리세르산 전환 반응.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch10-2-73",
@@ -1213,7 +1286,8 @@
    "answer": null,
    "answers": null,
    "explanation": "혐기: NADH가 피루브산을 젖산/에탄올로 전환하며 NAD⁺ 재생. 호기: NADH 전자가 전자전달계로 전달되며 NAD⁺ 재생.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch10-3-74",
@@ -1226,7 +1300,8 @@
    "answer": null,
    "answers": null,
    "explanation": "프룩토오스-6-인산, 글리세르알데히드-3-인산 (→ 해당작용 진입 가능).",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch10-4-75",
@@ -1239,7 +1314,8 @@
    "answer": null,
    "answers": null,
    "explanation": "진핵은 미토콘드리아에서 만든 ATP를 시토졸로 내보내는 데 에너지가 들지만, 원핵은 시토졸에서 바로 생산·사용하므로 추가 에너지가 불필요.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch10-5-76",
@@ -1252,7 +1328,8 @@
    "answer": null,
    "answers": null,
    "explanation": "아세틸CoA 탄소가 CO₂로 산화·소실되는 단계가 없어, 합성 중간물질인 옥살로아세트산 합성에 탄소가 보존·이용됨.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch11-1-77",
@@ -1270,7 +1347,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "식물은 종자 발아 시만 지질을 에너지원으로 쓰고, 그 외 조직은 합성 원료로만. 동물은 자유롭게 에너지원.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch11-2-78",
@@ -1288,7 +1366,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "β-산화 1회당 **아세틸CoA·NADH·FADH₂** 각 1분자.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch11-3-79",
@@ -1306,7 +1385,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "아세틸CoA 과잉(옥살로아세트산 부족) → **케톤체 → 혈액 산성화**.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch11-4-80",
@@ -1324,7 +1404,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "진핵에서 C16~C18 포화지방산에서 불포화결합 형성. **팔미트산(C16)**.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch11-5-81",
@@ -1342,7 +1423,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "MEP 경로는 식물(엽록체) 특유.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch12-1-82",
@@ -1360,7 +1442,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "트립토판 제외 대부분 아미노기는 **글루탐산**이 공여, 트립토판은 **세린**이 공여.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch12-2-83",
@@ -1378,7 +1461,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "보통 **NO₃⁻**(질산태), 없으면 **NH₄⁺**(암모니아태)도 흡수.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch12-3-84",
@@ -1396,7 +1480,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "복잡한 탄소골격 합성에 필요한 효소 일부가 없어 합성 불가(=필수아미노산).",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch12-4-85",
@@ -1414,7 +1499,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "유독한 암모니아 → 글루탐산/글루타민/알라닌 → 간 → **요소회로 → 요소**.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch12-5-86",
@@ -1432,7 +1518,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "**아스파르트산 + 글루타민**(+카바모일인산)으로 피리미딘 합성.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch13-1-87",
@@ -1450,7 +1537,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "진핵 구조유전자 = 대응(발현)하는 **엑손** + 대응 안 하는 **인트론**. ③은 인트론 설명.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch13-2-88",
@@ -1468,7 +1556,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "코돈은 mRNA상 3리보뉴클레오티드(5′→3′). 개시코돈 = **AUG**. (UAG·UGA는 종결코돈)",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch13-3-89",
@@ -1486,7 +1575,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "진핵(RNA 중합효소 II): **−30 TATA 상자 + +1 Inr 서열**. 프립나우 상자는 **원핵**.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch13-4-90",
@@ -1504,7 +1594,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "개시 AUG와 중간 AUG의 구분은 AUG 5′쪽 8~13염기의 **샤인-달가르노 배열** 존재 여부로 결정. 개시 위치에 fMet 운반.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch13-5-91",
@@ -1522,7 +1613,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "완성 mRNA는 인트론이 스플라이싱으로 제거되어 **엑손만** 남음 → 역전사하면 필요한 유전자(cDNA)를 얻음.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch13-1-92",
@@ -1535,7 +1627,8 @@
    "answer": null,
    "answers": null,
    "explanation": "주형 DNA 구조에 근거해 복제하며, 복제 중 오류(틀린 상보염기·손상 염기)를 제거·교정하는 수복 체계가 있기 때문.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch13-2-93",
@@ -1548,7 +1641,8 @@
    "answer": null,
    "answers": null,
    "explanation": "원핵: RNA 중합효소가 −10/−35 촉진유전자 인식·결합 → 전사 개시. 진핵: RNA 중합효소 II가 −30(TATA)/+1(Inr) 촉진유전자 인식·결합 → 개시.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch13-3-94",
@@ -1561,7 +1655,8 @@
    "answer": null,
    "answers": null,
    "explanation": "촉진유전자 구조와 RNA 중합효소의 친화성으로 결정. 공통구조에 가까우면 잘 결합해 mRNA 다량 합성·많이 발현.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch13-4-95",
@@ -1574,7 +1669,8 @@
    "answer": null,
    "answers": null,
    "explanation": "두 가닥은 방향이 반대인데 합성은 항상 5′→3′만 가능. 3′→5′ 주형은 연속(선도), 5′→3′ 주형은 오카자키 단편으로 불연속(지연) 합성 후 연결효소로 잇는다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch13-5-96",
@@ -1587,7 +1683,8 @@
    "answer": null,
    "answers": null,
    "explanation": "AUG 5′쪽 8~13염기 부근에 샤인-달가르노 배열이 있으면 개시코돈으로 인식(fMet 운반), 없으면 중간 Met 코돈.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch14-1-97",
@@ -1605,7 +1702,8 @@
    "answer": 0,
    "answers": null,
    "explanation": "삼투압·응집력·흡착력 모두 기여하지만 **가장 큰 요인은 잎의 증산작용**.",
-   "source": "2019-Q64"
+   "source": "2019-Q64",
+   "blankable": true
   },
   {
    "id": "agbio-ch14-2-98",
@@ -1623,7 +1721,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "당은 체관요소로 운송, 옆의 **반세포와 원형질연락사**로 연결되어 좌우 이동.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch14-3-99",
@@ -1641,7 +1740,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "**탄소동화(광합성)**로 당 생산 → 지질·아미노산 골격. 질소·황 동화는 그 다음.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch14-4-100",
@@ -1659,7 +1759,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "광합성은 CO₂를 소모하므로 실내 CO₂ 농도 유지를 위해 환기. (산소 아님!)",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch14-5-101",
@@ -1677,7 +1778,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "종자는 발아에 필요한 영양소를 저장하는 기관.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch14-6-102",
@@ -1695,7 +1797,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "식물·남세균은 **광계 II+I 두 개**로 물 분해→O₂ 발생, 광합성세균은 **단일 광계**로 H₂S 등 사용→O₂ 미발생. 차이의 핵심은 **광반응계 구성**.",
-   "source": "2016-Q22"
+   "source": "2016-Q22",
+   "blankable": false
   },
   {
    "id": "agbio-ch14-7-103",
@@ -1713,7 +1816,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "반응중심 = **엽록소 a**. 나머지는 보조색소.",
-   "source": "2016-Q23"
+   "source": "2016-Q23",
+   "blankable": true
   },
   {
    "id": "agbio-ch14-8-104",
@@ -1731,7 +1835,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "크래슐산 대사 = **CAM 식물**(다육식물, 밤에 CO₂ 고정). 옥수수는 C4.",
-   "source": "2016-Q24"
+   "source": "2016-Q24",
+   "blankable": true
   },
   {
    "id": "agbio-ch14-9-105",
@@ -1749,7 +1854,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "명반응(광인산화)에서 **ATP**(+NADPH) 생산.",
-   "source": "2017-Q24"
+   "source": "2017-Q24",
+   "blankable": false
   },
   {
    "id": "agbio-ch14-10-106",
@@ -1767,7 +1873,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "안정한 **수크로오스(sucrose)** 형태로 운반(→ [[ch10-carbohydrate-metabolism]]).",
-   "source": "2016-Q28"
+   "source": "2016-Q28",
+   "blankable": false
   },
   {
    "id": "agbio-ch14-1-107",
@@ -1780,7 +1887,8 @@
    "answer": null,
    "answers": null,
    "explanation": "기본조직계의 유조직에서 일어나며, 유조직세포에 엽록체가 존재한다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch14-2-108",
@@ -1793,7 +1901,8 @@
    "answer": null,
    "answers": null,
    "explanation": "뿌리-토양 농도차 삼투압, 잎의 증산, 물분자 응집력과 세포벽 흡착력(모세관), 세포막 선택적 통과.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch14-3-109",
@@ -1806,7 +1915,8 @@
    "answer": null,
    "answers": null,
    "explanation": "뿌리는 유기물을 흡수하지 못함. 유기물 비료는 토양 미생물이 무기물로 분해한 후 흡수된다.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch14-4-110",
@@ -1819,7 +1929,8 @@
    "answer": null,
    "answers": null,
    "explanation": "광합성 중엔 명반응 ATP·광호흡 NADH의 전자전달계 ATP 사용. 빛 없을 땐 당·지방 분해물의 해당작용·크렙스·전자전달계로 ATP 생산.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch15-1-111",
@@ -1837,7 +1948,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "염색체 구성은 동일하나 위치·시기에 따라 **필요한 유전자만 발현**.",
-   "source": null
+   "source": null,
+   "blankable": false
   },
   {
    "id": "agbio-ch15-2-112",
@@ -1855,7 +1967,8 @@
    "answer": 2,
    "answers": null,
    "explanation": "소화 후 **소장**에서 주로 흡수(위 일부). 반추가축은 반추위에서 휘발성지방산 흡수.",
-   "source": null
+   "source": null,
+   "blankable": true
   },
   {
    "id": "agbio-ch15-3-113",
@@ -1873,7 +1986,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "**시냅스**에서 신경전달물질이 한 방향(축색말단→다음 세포 수상돌기)으로만 방출 → 역방향 불가.",
-   "source": "2019-Q67"
+   "source": "2019-Q67",
+   "blankable": true
   },
   {
    "id": "agbio-ch15-4-114",
@@ -1891,7 +2005,8 @@
    "answer": 1,
    "answers": null,
    "explanation": "세포막의 **Na⁺ 펌프**가 간질액 Na⁺ 농도를 조절해 부위별 용적 유지.",
-   "source": "2018-Q70"
+   "source": "2018-Q70",
+   "blankable": true
   },
   {
    "id": "agbio-ch15-5-115",
@@ -1909,7 +2024,8 @@
    "answer": 3,
    "answers": null,
    "explanation": "우유는 분만 후 분비되므로 **번식관리**가 우유 생산의 전제.",
-   "source": null
+   "source": null,
+   "blankable": true
   }
  ],
  "notes": [

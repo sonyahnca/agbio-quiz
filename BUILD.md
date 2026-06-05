@@ -27,11 +27,17 @@ _app/
   questions:[{ id, subject, chapter:int, topic, type:"mc"|"short",
                question, options:[4개 또는 []], answer:0~3|null,
                answers:[복수정답]|null, explanation, source:"2016-Q22"|null }],
+  questions:[{ ..., blankable:bool }],                             // blankable=빈칸(단답)모드 가능 문항
   notes:[{ slug, chapter, title, importance, exam_freq, html }],   // 정리노트(HTML)
-  cheatsheets:[{ slug, title, html }] }
+  cheatsheets:[{ slug, title, html }],
+  exams:[{ year, qrange, count, questions:[...] }],                // 기출 회차(연도별 그대로 플레이, wiki/exams/)
+  terms:[{ slug, title, html }] }                                  // 필수 용어집(헤더 ? 팝업)
 ```
 - 멀티 과목: 과목마다 `data/<과목>.js` 1개 + `index.html`에 `<script>` 1줄. 앱이 과목 탭 자동 생성.
 - **슬러그·id는 vault 전체 유일**해야 함. 새 과목은 접두 사용(토양학 `soil-`, 농유전 `gen-`).
+- **빈칸 모드**: 빌드가 보기 4개가 모두 짧은 '용어'형(문장·수식·숫자 아님)이고 정답이 한글 용어인 단일정답 MC에 `blankable:true` 부여. 앱 랜덤퀴즈의 "빈칸 모드" 토글 시 해당 문항만 보기 대신 입력칸으로 출제(공백·괄호·붙임표 무시, `황산암모늄(유안)`은 괄호 안/밖 둘 다 정답 인정). 나머지는 4지선다 유지.
+- **용어 팝업**: `<과목>/wiki/terms/*.md`(type:term) → 헤더 우측 `?` 버튼 모달. 첫 파일을 보여줌.
+- **기출 회차**: `<과목>/wiki/exams/*.md`(frontmatter `year`)는 drills와 같은 형식이며, 질문은행(questions)과 별개로 `exams[]`에 담겨 모의고사 화면에서 연도별 타이머 플레이용으로 쓰임(보기 순서 그대로).
 
 ## 3. 파서가 읽는 md 형식 (★중요 — 이 형식을 지켜야 자동 추출됨)
 ### drills (`<과목>/wiki/drills/ch*-drills.md`)
