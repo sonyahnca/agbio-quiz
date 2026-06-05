@@ -117,3 +117,13 @@ a{color:var(--accent2)}
   cursor:pointer;padding:0 3px;transition:background .12s, color .12s;user-select:none}
 .mdbody.mask strong::selection{background:transparent}
 .mdbody.mask strong.show{background:rgba(127,127,127,.14);color:var(--text)}
+
+/* 도움말(용어) 모달 */
+#helpBtn{font-size:20px;font-weight:700;padding:6px 10px;line-height:1}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:50;display:flex;
+  align-items:flex-start;justify-content:center;padding:20px;overflow:auto}
+.modal-box{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+  max-width:780px;width:100%;margin:auto;padding:20px;position:relative}
+.modal-x{position:absolute;top:10px;right:10px;background:var(--panel2);color:var(--text);
+  border:1px solid var(--border);border-radius:10px;padding:6px}
+.seg #exrow button small,.seg button small{display:block}

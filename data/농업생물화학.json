@@ -2040,5 +2040,2565 @@
    "title": "시험 직전 회독 치트시트",
    "html": "<h1>⚡ 시험 직전 회독 — 농업생물화학</h1>\n<blockquote>\n<p>기출 4개년 빈출 우선순위로 압축. 시험 직전 이것만 훑기. (자세한 건 각 장 정리노트)</p>\n</blockquote>\n<h2>★★★ 최우선 (매년 다출제)</h2>\n<h3>대사·호흡 (10장)</h3>\n<ul>\n<li>글루코오스 호기 완전산화 <strong>ATP: 동물 근육·뇌 30 / 간·심장·신장 32 / 식물 30 / 원핵 38</strong>. <strong>혐기(발효)=2</strong>.</li>\n<li>단계별(글루코오스 1개): 해당작용 <strong>2 ATP+2 NADH</strong>(시토졸) → 피루브산→아세틸CoA <strong>2 NADH</strong> → 크렙스 <strong>6 NADH+2 FADH₂+2 GTP</strong>(미토 기질).</li>\n<li>전자전달계(미토 내막): <strong>NADH=2.5 ATP, FADH₂=1.5 ATP</strong>(진핵) / 3, 2(원핵).</li>\n<li>발효 산물: 동물=<strong>젖산</strong>, 효모=<strong>에탄올</strong>. 펜토오스인산경로 산물=<strong>NADPH+5탄당</strong>(ATP 아님).</li>\n</ul>\n<h3>광합성 (14장·교재밖 빈출!)</h3>\n<ul>\n<li>명반응(틸라코이드): 물 분해→<strong>O₂ 발생</strong>, <strong>ATP+NADPH</strong>. 암반응=캘빈(스트로마): CO₂ 고정.</li>\n<li><strong>엽록체 반응중심 색소 = 엽록소 a</strong>.</li>\n<li><strong>산소발생(식물·남세균, 광계 II+I) vs 산소비발생(광합성세균, 단일 광계, O₂ 안 남)</strong> → 차이 = <strong>광반응계 구성</strong>.</li>\n<li><strong>C4=Hatch-Slack</strong>(옥수수), <strong>CAM</strong>(다육, 밤에 CO₂ 고정). 광합성 산물 운반형=<strong>수크로오스</strong>.</li>\n</ul>\n<h3>핵산 (13장)</h3>\n<ul>\n<li>합성 방향 <strong>항상 5′→3′</strong>. 개시코돈 <strong>AUG</strong>, 종결 <strong>UAA·UAG·UGA</strong>.</li>\n<li><strong>RNA에만 우라실(U)</strong>, DNA=티민(T). RNA 당=리보오스.</li>\n<li>복제: 선도가닥=연속 / 지연가닥=<strong>오카자키 단편</strong>+DNA 연결효소. 전사는 primer 불필요.</li>\n<li>진핵 mRNA 가공: <strong>인트론 제거(splicing)·5′cap·3′poly(A)</strong>. 엑손=발현O, 인트론=발현X.</li>\n<li>번역 개시 아미노산: <strong>원핵=N-포밀메티오닌(fMet)</strong>, 진핵=메티오닌.</li>\n</ul>\n<h3>세포 (7장)</h3>\n<ul>\n<li>리보솜: <strong>진핵 80S / 원핵 70S</strong>(미토·엽록체도 70S). 미토콘드리아=ATP, 엽록체=광합성.</li>\n<li>식물세포만: <strong>세포벽·엽록체·글리옥시솜·액포</strong>. 동물=리소좀. (식물 액포=동물 리소좀 역할)</li>\n<li>진핵=핵막O, 원핵=핵막X(핵양체). <strong>바이러스=DNA·RNA 중 하나만 → 생물 아님</strong>.</li>\n<li>동물·세균 공통점 = <strong>DNA·RNA 둘 다 가짐</strong>.</li>\n</ul>\n<h3>호르몬 (9장)</h3>\n<ul>\n<li>유기물이지만 <strong>에너지 공급 안 함</strong>(틀린 보기 단골).</li>\n<li>펩티드 호르몬=<strong>막 표면 수용체→cAMP</strong> / 스테로이드=<strong>세포 내부 수용체→유전자 전사</strong>.</li>\n<li>췌장=인슐린·글루카곤(혈당↓/↑ 길항). 부신수질=에피네프린. 후엽=옥시토신·ADH.</li>\n<li>페로몬=체외 방출(호르몬은 개체 내).</li>\n</ul>\n<h2>★★ 차순위</h2>\n<h3>효소 (8장)</h3>\n<ul>\n<li>효소=<strong>활성화 에너지↓</strong>(평형 불변, 재사용). 본질=<strong>단백질</strong>. 펩티드결합 촉매=23S rRNA(리보자임).</li>\n<li><strong>EC 6분류</strong>: ①산화환원 ②전달 ③가수분해 ④분해(lyase) ⑤이성질화 ⑥연결(ligase).</li>\n<li><strong>Km 작을수록 친화도↑</strong>(고유값). 조효소=비단백질성 유기물. 아이소자임=같은 반응·다른 구조.</li>\n</ul>\n<h3>수용액·pH (4장)</h3>\n<ul>\n<li><strong>Kw=[H⁺][OH⁻]=10⁻¹⁴</strong>, <strong>pH+pOH=14</strong>, 중성 pH 7.</li>\n<li>[OH⁻]=10⁻⁸ → pOH 8 → <strong>pH 6(산성)</strong>. 0.01M HCl→pH 2, 0.01M NaOH→pH 12.</li>\n<li>물 극성 원인=<strong>산소&gt;수소 전기음성도</strong>. 수소결합→높은 비열(체온유지).</li>\n<li>완충=<strong>약산+그 염</strong>. 유기산=약산.</li>\n</ul>\n<h3>원자·결합 (1·2장)</h3>\n<ul>\n<li>원자 질량=<strong>양성자+중성자</strong>. 전자 운동모양=<strong>각운동량양자수</strong>. 전자배치: 에너지준위→배타원리→훈트.</li>\n<li><strong>결합력: 공유&gt;이온&gt;수소&gt;반데르발스</strong>. 가장 강함=<strong>공유결합</strong>. 이온결합=전기음성도 차 큼.</li>\n</ul>\n<h3>물질수송·생리 (14·15장)</h3>\n<ul>\n<li>물·무기물=<strong>물관, 증산작용</strong>(주동력). 당=<strong>체관, 압류설</strong>.</li>\n<li>신경 단방향=<strong>시냅스</strong>. 체액 항상성=<strong>Na⁺ 펌프</strong>. 영양소 흡수=소장.</li>\n</ul>\n<h2>★ 기초·생체분자</h2>\n<h3>생체물질 (6장)</h3>\n<ul>\n<li>단백질 기능 근원=<strong>아미노산 순서</strong>. 섬유소=<strong>β(1→4)</strong>(단위동물 분해X), 녹말=α(1→4).</li>\n<li>중성지방=에너지저장 / 극성지질(인지질)=세포막. 지용성 비타민 <strong>A·D·E·K=이소프렌</strong>, 수용성 B·C=조효소.</li>\n</ul>\n<h3>지질·단백질 대사 (11·12장)</h3>\n<ul>\n<li>지방산 β-산화→<strong>아세틸CoA+NADH+FADH₂</strong>. 지방 과다→<strong>케톤체→혈액 산성화</strong>.</li>\n<li>아미노기 공여=<strong>글루탐산</strong>. 식물 질소 흡수=<strong>NO₃⁻/NH₄⁺</strong>(두과=질소고정균). 암모니아→<strong>요소</strong>(포유류).</li>\n</ul>\n<h3>화학반응·유기 (3·5장)</h3>\n<ul>\n<li>평형=정·역 반응속도 <strong>같음</strong>(정지 아님). <strong>ΔG&lt;0=자발적</strong>. 발열도 활성화에너지 필요.</li>\n<li>유기물 기능 결정=<strong>작용기</strong>. 거울상 이성질체=D/L형.</li>\n</ul>"
   }
+ ],
+ "exams": [
+  {
+   "year": "2016",
+   "qrange": "1-35",
+   "count": 35,
+   "questions": [
+    {
+     "id": "agbio-ex2016-1",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "원자의 구조에 대한 설명 중 틀린 것은?",
+     "options": [
+      "원자는 원자핵과 그 주위를 도는 전자로 구성된다.",
+      "원자핵은 양성자와 중성자로 결합되어 있다.",
+      "양성자는 + 전기를 띤다.",
+      "중성자는 - 전기를 띤다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-2",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "원자에서 전자의 운동모양을 나타내는 양자수는 무엇인가?",
+     "options": [
+      "주양자수",
+      "각운동량양자수",
+      "자기양자수",
+      "스핀양자수"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-3",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "주기율표상 I족 원소들의 공통적인 특성에 해당되는 것은?",
+     "options": [
+      "분자 반지름이 작다.",
+      "양이온으로 전환되기 어렵다.",
+      "전기음성도가 작다.",
+      "전자친화도가 크다."
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-4",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "원자 간 화학결합 중에서 가장 결합력이 강한 화학결합은?",
+     "options": [
+      "이온결합",
+      "공유결합",
+      "런던 분산력",
+      "수소결합"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-5",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "엔탈피 변화량이 음수인 반응의 경우에도 반응이 일어나기 위해서 에너지가 필요한 이유는 무엇인가?",
+     "options": [
+      "역반응을 방지하기 위해 항상 에너지가 필요하다.",
+      "엔트로피가 증가되는 환경을 만들기 위해 에너지를 공급해야 한다.",
+      "엔탈피 변화량이 음수이면 흡열반응이기 때문이다.",
+      "활성화착물을 형성하는데 에너지가 필요하다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-6",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "생물체에서 에너지 생산반응이 지속적으로 진행되고 있음에도 불구하고 체온을 일정하게 유지할 수 있는 근거는 무엇인가?",
+     "options": [
+      "다단계반응",
+      "연합반응",
+      "광반응",
+      "자유에너지 방출"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-7",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "극성용질은 극성용매에만 용해되고 비극성용질은 비극성용매에만 용해되는데, 물이 극성용매로서 작용하는 원인에 해당되는 것은?",
+     "options": [
+      "산소의 전기음성도가 수소보다 크다.",
+      "수소가 고립전자쌍을 가지고 있다.",
+      "물은 냉동 시 부피가 증가한다.",
+      "물은 수소가 산화된 상태이다."
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-8",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "생물체의 체액에서 용매가 물이기 때문에 체온유지에 유리한 원인은 무엇인가?",
+     "options": [
+      "체액의 단백질 용해 능력",
+      "체액의 무기염류의 이온화",
+      "체액 완충기능에 기인하는 pH의 유지",
+      "물분자 간 수소결합"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-9",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "유기화합물이 생물체에서 가지는 역할에서 탄소가 구조의 골격을 구성하고 있는 것에 기인하는 것은?",
+     "options": [
+      "휘발성, 항산화성",
+      "휘발성, 다양성",
+      "다양성, 안정성",
+      "다양성, 항산화성"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-10",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음 유기화합물 중 물리･화학적 특성을 가지고 있지 않은 것은 무엇인가?",
+     "options": [
+      "히드록시기",
+      "알데히드기",
+      "탄화수소",
+      "카르복시기"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-11",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "돼지, 닭과 같은 소화구조를 가지는 단위동물이 섬유소를 영양원으로 이용할 수 없는 원인에 해당되는 것은?",
+     "options": [
+      "섬유소의 분자량",
+      "섬유소를 구성하는 glucose간의 화학결합",
+      "섬유소를 구성하는 단당류 종류의 다양성",
+      "단위동물의 체온"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-12",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "DNA에 존재하는 유전정보를 설명하는 내용으로 가장 적합한 것은?",
+     "options": [
+      "DNA의 deoxyribonucleotide의 순서이다.",
+      "DNA의 ribonucleotide의 순서이다.",
+      "DNA에 결합되어 있는 히스톤 단백질의 종류이다.",
+      "DNA에 결합되어 있는 비히스톤 단백질의 종류이다."
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-13",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "지용성 비타민과 관련한 내용으로 옳은 것은 무엇인가?",
+     "options": [
+      "체내에 축적되지 않기 때문에 매일 섭취해야 한다.",
+      "isoprene단위로 구성되어 있다.",
+      "비타민 B복합체와 비타민 C는 지용성 비타민이다.",
+      "구조적 공통점은 없으나 생리적 기능은 공통점이 있다."
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-14",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "생물체에서 극성지질의 주요 기능에 해당되는 것은?",
+     "options": [
+      "피부에 존재하면서 몸체를 보호한다.",
+      "면역기능을 담당한다.",
+      "혈액에서 물질을 운송한다.",
+      "세포막에서 물질의 출입을 선택적으로 조절한다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-15",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "진핵생물과 원핵생물의 공통점은 무엇인가?",
+     "options": [
+      "염색체가 여러 개다.",
+      "ribosome의 크기가 유사하다.",
+      "DNA와 RNA를 함께 가지고 있다.",
+      "미토콘드리아에서 에너지를 생산한다."
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-16",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "진핵세포의 세포 내 소기관 중에서 에너지 생산과 연관이 있는 소기관은 무엇인가?",
+     "options": [
+      "미토콘드리아",
+      "소포체",
+      "복합골지체",
+      "리소좀"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-17",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음 중 동물세포와 식물세포의 차이에 해당되는 것은?",
+     "options": [
+      "유전정보 물질(DNA, RNA)의 존재여부",
+      "미토콘드리아의 존재 여부",
+      "glyoxysome의 존재 여부",
+      "골지체의 존재 여부"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-18",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "바이러스를 생물체로 분류하지 않는 이유에 해당되는 것은?",
+     "options": [
+      "모든 바이러스에는 DNA가 없다.",
+      "모든 바이러스에는 RNA가 없다.",
+      "바이러스에는 핵산은 없고 효소만 있다.",
+      "바이러스에는 DNA와 RNA가 함께 존재하지 않는다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-19",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "효소의 본질은 무엇인가?",
+     "options": [
+      "탄수화물",
+      "지방질",
+      "단백질",
+      "금속원소"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-20",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "효소반응에서 미하엘리스-멘텐(Km)의 의미에 해당되는 것은 무엇인가?",
+     "options": [
+      "적정온도를 판단하는 지표로서 기질에 따라 다를 수 있다.",
+      "내열성의 지표이며 pH에 따라 다르다.",
+      "값이 효소의 활성에 비례한다.",
+      "환경조건에 관계없이 효소마다 특정 기질에 대하여 일정하다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-21",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "효소 중 동일한 종(種)에 존재하면서 동일한 종류의 반응을 촉매하지만 그 구조가 서로 다른 효소는 무엇인가?",
+     "options": [
+      "아이소자임",
+      "전구체",
+      "압자임",
+      "리보자임"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-22",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "산소발생 광합성과 산소비발생 광영양 미생물의 광합성 차이에 해당되는 것은 무엇인가?",
+     "options": [
+      "빛에너지 이용 파장대역의 차이",
+      "광합성 발생 기관의 차이",
+      "산소비발생 광영양 미생물의 광흡수 색소는 엽록소 b이다.",
+      "식물과 광영양 미생물의 광반응계 구성 차이"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-23",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "식물체의 엽록체 반응중심은 어느 것인가?",
+     "options": [
+      "엽록소 b",
+      "피코빌린",
+      "엽록소 a",
+      "카로티노이드"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-24",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "크래슐래시안산 대사와 관계가 있는 것은?",
+     "options": [
+      "광반응",
+      "CAM 식물",
+      "옥수수",
+      "산소비발생"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-25",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "작물과 가축에서 해당작용, 크렙스회로, 전자전달계가 존재하는 세포 내 위치를 옳게 제시한 것은?",
+     "options": [
+      "시토졸, 시토졸, 미토콘드리아",
+      "미토콘드리아, 시토졸, 미토콘드리아",
+      "시토졸, 미토콘드리아, 미토콘드리아",
+      "미토콘드리아, 시토졸, 시토졸"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-26",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "Glucose 1분자가 해당작용에서 생산하는 에너지 관련 물질은?",
+     "options": [
+      "ATP 2분자, NADH 2분자",
+      "ATP 2분자, NADPH 2분자",
+      "GTP 2분자, NADH 2분자",
+      "GTP 2분자, NADPH 2분자"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-27",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "펜토오스 인산 경로에서 생산되는 것으로서 물질합성대사의 환원제로 이용되는 것은 무엇인가?",
+     "options": [
+      "ATP",
+      "GTP",
+      "NADPH",
+      "FADH₂"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-28",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "식물에서 광합성결과 잎에서 생산된 탄수화물이 뿌리와 열매로 운반되는 형태는 다음 중 어떤 것인가?",
+     "options": [
+      "glucose",
+      "sucrose",
+      "starch",
+      "fructose"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-29",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "식물과 동물의 지방질 이용양태의 차이에 해당되는 것은?",
+     "options": [
+      "동물은 에너지원으로만 사용한다.",
+      "동물은 물질합성 원료로만 사용한다.",
+      "식물은 에너지원으로만 사용한다.",
+      "식물은 종자를 제외하고는 에너지원으로 사용하지 않는다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-30",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "식물체에만 존재하는 대사 경로는 무엇인가?",
+     "options": [
+      "acetate mevalonate pathway",
+      "methyl erythriol phosphate pathway",
+      "β-산화",
+      "FAS 복합체계"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-31",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "토양중의 질소가 흡수된 후 아미노산 질소로 전환되는 순서로 옳은 것은?",
+     "options": [
+      "NO2- → NO3- → NH4+ → 아미노산",
+      "NO3- → NO2- → NH4+ → 아미노산",
+      "NO2- → NH4+ → NO3- → 아미노산",
+      "NO3- → NH4+ → NO2- → 아미노산"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-32",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "포유동물에서 필수아미노산을 합성하지 못하는 이유는?",
+     "options": [
+      "비필수아미노산의 과다한 합성",
+      "아미노기 공급량 부족",
+      "카르복시기 공급량 부족",
+      "탄소골격 합성 불능"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-33",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "DNA에 존재하는 유전자 중 엑손에 해당되는 것은?",
+     "options": [
+      "원핵세포의 유전자 발현을 조절한다.",
+      "원핵세포의 RNA에 해당하는 DNA 구조이다.",
+      "진핵세포의 아미노산 혹은 RNA의 구조에 관한 유전정보이다.",
+      "진핵세포의 단백질 구조로 발현되지 않는 DNA의 부위이다."
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-34",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "식물체에서 수분과 무기물이 뿌리로부터 잎으로 운송되는 것은 주로 어떤 현상에 기인하는 것인가?",
+     "options": [
+      "증산작용",
+      "삼투압",
+      "물분자 간 응집력",
+      "물분자의 세포벽 흡착력"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2016-35",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "가축의 소화대사에서 영양소가 주로 흡수되는 기관은 어느 곳인가?",
+     "options": [
+      "소장, 신장",
+      "대장, 위",
+      "소장, 위",
+      "대장, 신장"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    }
+   ]
+  },
+  {
+   "year": "2017",
+   "qrange": "1-35",
+   "count": 35,
+   "questions": [
+    {
+     "id": "agbio-ex2017-1",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "지구, 식물, 동물을 구성하는 주요 물질이 각기 다른 이유는 무엇인가?",
+     "options": [
+      "지구, 식물, 동물의 주요 구성분은 각기 무기물, 단백질, 탄수화물이기 때문이다.",
+      "지구의 주요 구성분은 유기물이고, 식물과 동물의 주요 구성분은 무기물이기 때문이다.",
+      "지구, 식물, 동물의 주요 구성분은 모두 유기물이지만 각기 유기물의 종류가 다르기 때문이다.",
+      "지구, 식물, 동물의 주요 구성분이 각기 무기물, 탄수화물, 단백질이기 때문이다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-2",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "러더퍼드의 원자 모형에서 양성자와 전자의 위치를 맞게 제시한 것은?",
+     "options": [
+      "양성자-원자 중심, 전자-원자 중심",
+      "양성자-원자 외각, 전자-원자 중심",
+      "양성자-원자 중심, 전자-원자 외각",
+      "양성자-원자 외각, 전자-원자 외각"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-3",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "원자 내에서 전자가 가지는 에너지를 규정하는 양자수는 무엇인가?",
+     "options": [
+      "주양자수",
+      "각운동량양자수",
+      "자기양자수",
+      "스핀양자수"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-4",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "주기율표에서 ⅦA족 원소(F, Cl, Br, I)들이 가지고 있는 공통점에 해당되는 것은 무엇인가?",
+     "options": [
+      "전자친화도가 크기 때문에 양이온으로 하전되기 쉽다.",
+      "전자친화도가 크기 때문에 음이온으로 하전되기 쉽다.",
+      "전자친화도가 작기 때문에 양이온으로 하전되기 쉽다.",
+      "전자친화도가 작기 때문에 음이온으로 하전되기 쉽다."
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-5",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "화학결합을 결합력의 세기 순서로 옳게 배열한 것은?",
+     "options": [
+      "이온결합 > 공유결합 > 반데르발스 힘",
+      "이온결합 > 반데르발스 힘 > 공유결합",
+      "공유결합 > 반데르발스 힘 > 이온결합",
+      "공유결합 > 이온결합 > 반데르발스 힘"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-6",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "생물체에서 에너지생산대사 반응이 지속적으로 진행되고 있음에도 불구하고 체온이 유지될 수 있는 이유는 무엇인가?",
+     "options": [
+      "자유에너지가 ATP에 저장",
+      "물질합성의 다단계 반응",
+      "에너지생산대사의 다단계 반응",
+      "이산화탄소의 신속한 방출"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-7",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "A + 3B → 2C + D 반응에서 반응속도 = 0.2[A]²[B]이다. A의 농도가 2배로 증가하면 반응속도는 어떻게 변화하는가?",
+     "options": [
+      "변화하지 않는다.",
+      "2배로 증가한다.",
+      "4배로 증가한다.",
+      "8배로 증가한다."
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-8",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "물이 극성용매인 이유는 무엇인가?",
+     "options": [
+      "산소-음극성, 수소-음극성",
+      "산소-음극성, 수소-양극성",
+      "산소-중성, 수소-양극성",
+      "산소-양극성, 수소-중성"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-9",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "체액의 용매가 물이기 때문에 체온유지에 유리한 원인은 무엇인가?",
+     "options": [
+      "물분자간 수소결합",
+      "체액의 단백질 용해 능력",
+      "체액의 무기염류의 이온화",
+      "체액 완충기능에 기인하는 pH의 유지"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-10",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "pH가 7인 물의 [H⁺]과 [OH⁻]의 농도를 맞게 표현한 것은?",
+     "options": [
+      "[H⁺]=10⁻⁶M, [OH⁻]=10⁻⁸M",
+      "[H⁺]=10⁻⁷M, [OH⁻]=10⁻⁷M",
+      "[H⁺]<10⁻⁷M, [OH⁻]>10⁻⁷M",
+      "[H⁺]>10⁻⁷M, [OH⁻]<10⁻⁷M"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-11",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "탄수화물, 지질, 단백질, 핵산 등이 생물체에서 각기 다른 고유한 기능을 가질 수 있는 가장 중요한 원인은 무엇인가?",
+     "options": [
+      "구성원자의 종류가 다르다.",
+      "분자량이 다르다.",
+      "작용기 구성이 다르다.",
+      "상호 기하학적 이성질체의 관계에 있다."
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-12",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "포도당이 물에서 용해도가 높은 원인에 해당되는 것은?",
+     "options": [
+      "히드록시기",
+      "케톤기",
+      "알데히드기",
+      "거울상 이성질체"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-13",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "유기화합물이 안정하고 그 종류가 대단히 많은 원인에 해당되는 것은 무엇인가?",
+     "options": [
+      "분자량이 매우 크다.",
+      "분자량이 매우 작다.",
+      "골격이 이온결합으로 구성된 탄소화합물이다.",
+      "골격이 공유결합으로 구성된 탄소화합물이다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-14",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "구상단백질의 생물학적 기능을 결정하는 가장 중요한 원인은 무엇인가?",
+     "options": [
+      "분자량",
+      "분자구조 내 2차구조의 종류",
+      "아미노산 구성 및 결합순서",
+      "4차구조 형성 여부"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-15",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "단위동물(돼지, 닭)이 섬유소를 영양소로 이용할 수 없는 이유의 구조적 근거는 무엇인가?",
+     "options": [
+      "섬유소는 β-D-글루코오스 간 β(1→4) 글리코시드결합이다.",
+      "섬유소는 β-D-글루코오스 간 β(1→6) 글리코시드결합이다.",
+      "섬유소는 α-D-글루코오스 간 α(1→4) 글리코시드결합이다.",
+      "섬유소는 α-D-글루코오스 간 α(1→6) 글리코시드결합이다."
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-16",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "mRNA가 DNA의 유전정보를 전사할 수 있는 근거는 무엇인가?",
+     "options": [
+      "유전자마다 특별한 mRNA 합성효소의 존재",
+      "deoxyribonucleotide와 ribonucleotide의 상보적 염기 결합",
+      "tRNA의 아미노산 운반 능력",
+      "rRNA의 분자구조"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-17",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "일반적으로 세포의 크기가 작을 수밖에 없는 이유는 무엇인가?",
+     "options": [
+      "세포 내용물의 종류가 많지 않다.",
+      "DNA가 핵에서 밀집된 상태로 존재하기 때문에 부피가 작다.",
+      "세포마다 기능이 분화되어 특별한 기능을 가지기 때문이다.",
+      "물질의 신속한 출입을 위해 표면적이 넓어야 한다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-18",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음 중 식물세포와 동물세포의 차이에 해당되는 것은?",
+     "options": [
+      "리보솜(ribosome)의 존재여부",
+      "액포의 존재여부",
+      "골지체의 존재여부",
+      "미토콘드리아의 존재여부"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-19",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "세포구조에 의하여 생물계를 분류하였을 때 생물군의 분류가 다른 것은 무엇인가?",
+     "options": [
+      "세균",
+      "바이러스",
+      "바이로이드",
+      "프라이온"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-20",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "효소의 구성물질 중에서 조효소에 해당하는 것은 무엇인가?",
+     "options": [
+      "단백질 부위",
+      "비단백질성 유기물 부위",
+      "무기물 부위",
+      "금속원소 부위"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-21",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "효소의 반응 특성에 해당되지 않는 것은 무엇인가?",
+     "options": [
+      "특이성",
+      "지속성",
+      "반응속도 감소",
+      "평형상수 불변"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-22",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "단백질 소화효소와 같이 효소가 활성이 없는 상태로 생산된 후 필요한 장소로 이동하여 활성을 가지는 효소는 무엇인가?",
+     "options": [
+      "압자임",
+      "아이소자임",
+      "동질효소",
+      "전구체"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-23",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "빛의 파장대역에서 가시광선이 광합성에 이용되는 이유는?",
+     "options": [
+      "에너지 함량이 적절하다.",
+      "대기권을 잘 통과한다.",
+      "지구의 온도를 유지한다.",
+      "투과력이 높다."
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-24",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "식물 광합성의 명반응에서 생산되는 것은 무엇인가?",
+     "options": [
+      "NADH",
+      "GTP",
+      "ATP",
+      "피루브산"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-25",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "Hatch-Slack 경로와 관계가 있는 것은?",
+     "options": [
+      "열대지방 작물",
+      "광반응",
+      "한대지방 작물",
+      "선인장"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-26",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "가축·작물에서 글루코오스 1분자가 호기 에너지생산 대사에서 생산되는 ATP량을 옳게 제시한 것은?",
+     "options": [
+      "가축-30 혹은 32분자, 작물-38분자",
+      "가축-30분자, 작물-32분자",
+      "가축-32분자, 작물-38분자",
+      "가축-30 혹은 32분자, 작물-30분자"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-27",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "글루코오스 1분자가 해당작용에서 생산되는 에너지 관련 물질이 아닌 것은 무엇인가?",
+     "options": [
+      "ATP",
+      "펩티도글리칸",
+      "NADH",
+      "피루브산"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-28",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "지방을 에너지원으로 과다하게 사용하면 안되는 이유는 무엇인가?",
+     "options": [
+      "아세틸 CoA의 과다한 생산에 의한 이산화탄소의 대량생산",
+      "아세틸 CoA의 과다한 생산에 의한 케톤체의 대량생산",
+      "포도당이 소비되지 않아 고혈당 유발",
+      "지방손실에 의한 기관보호기능 약화"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-29",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "불포화지방산 합성원료로 사용될 수 있는 지방산은 무엇인가?",
+     "options": [
+      "아세트산",
+      "말로닐 CoA",
+      "팔미트산",
+      "글리세롤"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-30",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "토양에 존재하는 질소 중에서 식물에 의해 흡수될 수 있는 형태는?",
+     "options": [
+      "NO₃⁻, NO₂⁻",
+      "NO₂⁻, NH₄⁺",
+      "NO₃⁻, NH₄⁺",
+      "NO₃⁻, NO₂⁻, NH₄⁺"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-31",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "아미노산 합성 시 탄소골격에 아미노기를 제공하는 아미노산으로 구성되어 있는 것은?",
+     "options": [
+      "글루타민, 세린",
+      "글루탐산, 세린",
+      "글루타민, 트립토판",
+      "글루탐산, 트립토판"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-32",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "원핵생물 단백질의 첫 번째 아미노산이 methionine이 아니고 N-formylmethionine인 원인에 해당되는 것은?",
+     "options": [
+      "개시코돈의 변이",
+      "특이성 인자",
+      "자율복제배열",
+      "샤인-달가르노 배열"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-33",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "작물 생산의 시발이 되는 대사과정은 무엇인가?",
+     "options": [
+      "질소동화",
+      "질소고정",
+      "탄소의 동화",
+      "황의 동화"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-34",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "온실작물 재배 시 환기관리의 주요 목적은 무엇인가?",
+     "options": [
+      "온실의 산소 농도 증가",
+      "온실의 습도 증가",
+      "온실의 질소 농도 증가",
+      "온실의 이산화탄소 농도 증가"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2017-35",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "가축 몸체의 모든 세포가 한 수정란에서 분열·분화로 형성되어 염색체 구성이 동일함에도 조직·기관마다 기능이 다른 이유는?",
+     "options": [
+      "영양소가 선별적으로 공급된다.",
+      "성장단계에서 일부 유전자가 사라진다.",
+      "필요한 유전자만이 발현된다.",
+      "분화단계에서 염색체에 존재하는 유전자가 변화한다."
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    }
+   ]
+  },
+  {
+   "year": "2018",
+   "qrange": "36-70",
+   "count": 35,
+   "questions": [
+    {
+     "id": "agbio-ex2018-36",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음 중 원자의 구조에 대한 설명으로 틀린 것은?",
+     "options": [
+      "양성자는 + 전기를 띤다.",
+      "중성자는 - 전기를 띤다.",
+      "원자는 원자핵과 그 주위를 도는 전자로 구성된다.",
+      "원자핵은 양성자와 중성자로 결합되어 있다."
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-37",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "전자 숫자가 많은 원자의 경우, 전자가 안쪽 궤도에 다 채워지지 않고 바깥쪽 궤도에 채워지는 경우가 있는 이유는 무엇인가?",
+     "options": [
+      "에너지 준위",
+      "배타원리",
+      "훈트의 규칙",
+      "양자설"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-38",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음의 화학결합 중에서 가장 결합력이 강한 화학결합은?",
+     "options": [
+      "런던 분산력",
+      "이온결합",
+      "공유결합",
+      "수소결합"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-39",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "주기율표상 IA족 원소들의 공통 특성에 해당하는 것은 무엇인가?",
+     "options": [
+      "전자친화도가 크다.",
+      "전기음성도가 작다.",
+      "양이온으로 전화되기 어렵다.",
+      "분자 반지름이 작다."
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-40",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음 중 화학반응의 평형에 대한 내용으로 옳은 것은 무엇인가?",
+     "options": [
+      "촉매에 의해 평형상태를 변화할 수 있다.",
+      "정반응이 완결되어 반응물이 완전히 생성물로 전환된 상태이다.",
+      "정반응과 역반응이 정지한 상태이다.",
+      "정반응속도와 역반응속도가 동일하게 유지되는 상태이다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-41",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "생물체에서 에너지 생산반응이 지속적으로 진행되고 있음에도 불구하고 체온을 일정하게 유지할 수 있는 근거는 무엇인가?",
+     "options": [
+      "다단계반응",
+      "연합반응",
+      "광반응",
+      "자유에너지 방출"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-42",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "생물체의 체액에서 용매가 물이기 때문에 체온유지에 유리한 원인은 무엇인가?",
+     "options": [
+      "체액의 단백질 용해 능력",
+      "체액의 무기염류의 이온화",
+      "체액 완충기능에 기인하는 pH의 유지",
+      "물분자 간 수소결합"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-43",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "수용액의〔OH-〕가 1×10-8M이라고 할 때 pH로 나타내면 그 값이 얼마인가?",
+     "options": [
+      "8",
+      "7.5",
+      "7",
+      "6"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-44",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "극성용질은 극성용매에만 용해되고 비극성용질은 비극성용매에만 용해되는데, 물이 극성용매로서 작용하는 원인에 해당되는 것은?",
+     "options": [
+      "수소가 고립전자쌍을 가지고 있다.",
+      "산소의 전기음성도가 수소보다 크다.",
+      "물은 냉동 시 부피가 증가한다.",
+      "물은 수소가 산화된 상태이다."
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-45",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음 유기화합물 중 물리․화학적 특성을 가지고 있지 않은 것은 무엇인가?",
+     "options": [
+      "히드록시기",
+      "알데히드기",
+      "탄화수소",
+      "카르복시기"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-46",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "탄수화물, 단백질, 지질 등의 다양한 생체물질들이 생물체에서 각기 다른 고유한 기능을 가질 수 있는 원인은 무엇인가?",
+     "options": [
+      "분자결합이 다르다.",
+      "작용기 구성이 다르다.",
+      "구성원자의 종류가 다르다.",
+      "이성질체를 가지고 있다."
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-47",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "돼지, 닭과 같은 소화구조를 가지는 단위동물이 섬유소를 영양원으로 이용할 수 없는 원인에 해당되는 것은?",
+     "options": [
+      "섬유소를 구성하는 glucose간의 화학결합",
+      "섬유소를 구성하는 단당류 종류의 다양성",
+      "섬유소의 분자량",
+      "단위동물의 체온"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-48",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "생물체에서 극성지질의 중요 기능에 해당되는 것은 무엇인가?",
+     "options": [
+      "피부에 존재하면서 몸체를 보호한다.",
+      "면역기능을 담당한다.",
+      "혈액에서 물질을 운송한다.",
+      "세포막에서 물질의 출입을 선택적으로 조절한다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-49",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "구상단백질의 생물학적 기능을 결정하는 가장 중요한 요인은 무엇인가?",
+     "options": [
+      "분자량",
+      "분자구조 내 2차구조의 종류",
+      "아미노산 구성 및 결합 순서",
+      "4차 구조 형성 여부"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-50",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "생물체의 특성인 구조적 보존과 대사과정의 유지와 같은 유전적 연속성은 무엇에 의해 이루어지는가?",
+     "options": [
+      "DNA",
+      "mRNA",
+      "rRNA",
+      "tRNA"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-51",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "원핵세포에 대한 설명 중 옳은 것은?",
+     "options": [
+      "엽록체가 있다.",
+      "핵막이 있다.",
+      "미토콘드리아가 있다.",
+      "세포막이 있다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-52",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음 중 동물세포와 식물세포의 차이에 해당되는 것은?",
+     "options": [
+      "유전정보 물질(DNA, RNA)의 존재여부",
+      "미토콘드리아의 존재 여부",
+      "세포벽의 존재 여부",
+      "골지체의 존재 여부"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-53",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "바이러스를 엄밀한 의미에서 생물체로 분류하지 않고 비세포성인자로 구분하는 이유는 무엇인가?",
+     "options": [
+      "모든 바이러스에는 DNA가 없다.",
+      "모든 바이러스에는 RNA가 없다.",
+      "바이러스에는 DNA와 RNA가 함께 존재하지 않는다.",
+      "바이러스에는 핵산은 없고 효소만 있다."
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-54",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음 중 효소의 특성과 작용에 대한 설명으로 옳은 것은?",
+     "options": [
+      "효소의 활성은 대부분 알칼리성에서 가장 크다.",
+      "한 개의 효소는 일반적으로 몇 가지 기질에 작용한다.",
+      "효소는 생체 내 반응속도를 감소시킨다.",
+      "효소반응은 일반적인 화학반응보다 활성화 에너지가 낮다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-55",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "효소반응에서 미하엘리스-멘텐(Km)의 의미에 해당되는 것은 무엇인가?",
+     "options": [
+      "적정온도를 판단하는 지표로서 기질에 따라 다를 수 있다.",
+      "환경조건에 관계없이 효소마다 특정 기질에 대하여 일정하다.",
+      "값이 효소의 활성에 비례한다.",
+      "내열성의 지표이며 pH에 따라 다르다."
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-56",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "일반적인 효소의 기능과는 달리 효소가 활성이 없는 상태로 생산된 후 필요한 장소로 이동하여 활성을 가지는 효소는 무엇인가?",
+     "options": [
+      "아이소자임",
+      "전구체",
+      "압자임",
+      "리보자임"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-57",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "산소발생 광합성과 산소비발생 광영양 미생물의 광합성 차이에 해당되는 것은 무엇인가?",
+     "options": [
+      "빛에너지 이용 파장대역의 차이",
+      "광합성 발생 기관의 차이",
+      "산소비발생 광영양 미생물의 광흡수 색소는 엽록소 b이다.",
+      "식물과 광영양 미생물의 광반응계 구성 차이"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-58",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "Hatch-Slack 경로와 관계가 없는 것은 무엇인가?",
+     "options": [
+      "옥수수",
+      "엽육세포",
+      "유관속초세포",
+      "CAM"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-59",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "빛의 파장 중에서 식물체의 광합성에 이용되는 것은 무엇인가?",
+     "options": [
+      "X선",
+      "감마선",
+      "가시광선",
+      "적외선"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-60",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "Glucose 1분자가 해당작용에서 생산하는 에너지 관련 물질은?",
+     "options": [
+      "ATP 2분자, NADH 2분자",
+      "ATP 2분자, NADPH 2분자",
+      "GTP 2분자, NADH 2분자",
+      "GTP 2분자, NADPH 2분자"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-61",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "식물체에서 광합성 결과로 생산된 3탄당의 변화 경로를 옳게 제시한 것은?",
+     "options": [
+      "3탄당 → sucrose → 녹말 → 종자로 운반 → 녹말",
+      "3탄당 → 녹말 → 종자로 운반 → 글루코오스",
+      "3탄당 → 녹말 → sucrose → 종자로 운반 → 녹말",
+      "3탄당 → 녹말 → 글루코오스 → 종자로 운반 → 녹말"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-62",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "펜토오스 인산 경로에서 생산되는 것으로서 물질합성대사의 환원제로 이용되는 것은 무엇인가?",
+     "options": [
+      "ATP",
+      "GTP",
+      "FADH2",
+      "NADPH"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-63",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "식물과 동물의 지방질 이용양태의 차이에 해당되는 것은?",
+     "options": [
+      "동물은 에너지원으로만 사용한다.",
+      "동물은 물질합성 원료로만 사용한다.",
+      "식물은 에너지원으로만 사용한다.",
+      "식물은 종자를 제외하고는 에너지원으로 사용하지 않는다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-64",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "혈액의 케톤체 농도 증가에 따른 케톤증(ketosis) 현상과 관련이 없는 것은 무엇인가?",
+     "options": [
+      "지방이 에너지원으로 과다 이용",
+      "아세틸 CoA 과다 생산",
+      "옥살로아세트산 과다",
+      "글루코오스 과다"
+     ],
+     "answer": null,
+     "answers": [
+      2,
+      3
+     ],
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-65",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "아미노산 합성 시 탄소골격에 아미노기를 제공하는 아미노산으로 구성되어 있는 것은 무엇인가?",
+     "options": [
+      "글루탐산, 세린",
+      "글루타민, 세린",
+      "트립토판, 글루타민",
+      "트립토판, 글루탐산"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-66",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "암모니아는 포유동물에서 어떤 물질로 전환되어 체외로 배출되는가?",
+     "options": [
+      "요산",
+      "요소",
+      "아미노산",
+      "암모니아"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-67",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음의 염기 중에서 RNA에는 있지만, DNA에는 없는 것은?",
+     "options": [
+      "티민(thymine)",
+      "구아닌(guanine)",
+      "우라실(uracil)",
+      "시토신(cytosine)"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-68",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음 중 유전자의 개념을 가장 정확하게 설명한 것은?",
+     "options": [
+      "세포분열과정에서 염색체가 결집하여 형성하는 숫자가 다른 정도이다.",
+      "세포분열과정에서 염색체가 결집하여 형성하는 모양의 다양성이다.",
+      "DNA의 유전정보가 발현되어 생산된 단백질과 RNA이다.",
+      "DNA상의 1개의 단백질 혹은 RNA 정보에 해당하는deoxyribonucleotide들의 결합 순서이다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-69",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "식물체에서 광합성 결과로 생산된 당이 식물체의 저장기관과 필요한 곳으로 운송될 수 있는 경로는 무엇인가?",
+     "options": [
+      "반세포 원형질 연락사",
+      "유조직",
+      "주피조직",
+      "세포벽"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2018-70",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "동물체의 체내 각 부위의 체액 양이 일정하게 유지되도록 조정하는 기구는 무엇인가?",
+     "options": [
+      "삼투압",
+      "Na+ 펌프",
+      "신장 여과기능",
+      "적혈구 산소결합능력"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    }
+   ]
+  },
+  {
+   "year": "2019",
+   "qrange": "36-70",
+   "count": 35,
+   "questions": [
+    {
+     "id": "agbio-ex2019-36",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "러더퍼드의 원자 모형에서 양성자와 전자의 위치를 맞게 제시한 것은?",
+     "options": [
+      "양성자 - 원자 중심, 전자 - 원자 중심",
+      "양성자 - 원자 외각, 전자 - 원자 중심",
+      "양성자 - 원자 중심, 전자 - 원자 외각",
+      "양성자 - 원자 외각, 전자 - 원자 외각"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-37",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "원자에서 전자의 운동모양을 나타내는 양자수는 무엇인가?",
+     "options": [
+      "주양자수",
+      "각운동량양자수",
+      "자기양자수",
+      "스핀양자수"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-38",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "주기율표상 I족 원소들의 공통적인 특성에 해당되는 것은?",
+     "options": [
+      "분자 반지름이 작다.",
+      "양이온으로 전환되기 어렵다.",
+      "전기음성도가 작다.",
+      "전자친화도가 크다."
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-39",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "화학결합을 결합력의 세기 순서로 옳게 배열한 것은?",
+     "options": [
+      "이온결합 > 공유결합 > 반데르발스 힘",
+      "이온결합 > 반데르발스 힘 > 공유결합",
+      "공유결합 > 반데르발스 힘 > 이온결합",
+      "공유결합 > 이온결합 > 반데르발스 힘"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-40",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "엔탈피 변화량이 음수인 반응의 경우에도 반응이 일어나기 위해서 에너지가 필요한 이유는 무엇인가?",
+     "options": [
+      "활성화착물을 형성하는 데 에너지가 필요하다.",
+      "엔트로피가 증가되는 환경을 만들기 위해 에너지를 공급해야 한다.",
+      "엔탈피 변화량이 음수이면 흡열반응이기 때문이다.",
+      "역반응을 방지하기 위해 항상 에너지가 필요하다."
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-41",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "A+3B→2C+D의 반응에서 반응속도는 0.2[A]2[B]이다. A의 농도가 2배로 증가하면 반응속도는 어떻게 변화하겠는가?",
+     "options": [
+      "변화하지 않는다.",
+      "2배로 증가한다.",
+      "4배로 증가한다.",
+      "8배로 증가한다."
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-42",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "물이 극성용매인 이유는 무엇인가?",
+     "options": [
+      "산소 - 음극성, 수소 - 음극성",
+      "산소 - 음극성, 수소 - 양극성",
+      "산소 - 중성, 수소 - 양극성",
+      "산소 - 양극성, 수소 - 중성"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-43",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "체액의 용매가 물이기 때문에 체온유지에 유리한 원인은 무엇인가?",
+     "options": [
+      "물분자간 수소결합",
+      "체액의 단백질 용해 능력",
+      "체액의 무기염류의 이온화",
+      "체액완충기능에 기인하는 pH의 유지"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-44",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "수용액의 [OH-]가 1×10-7M이라고 할 때 pH로 나타내면 그 값이 얼마인가?",
+     "options": [
+      "8",
+      "7.5",
+      "7",
+      "6"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-45",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "유기화합물이 안정하고 그 종류가 대단히 많은 원인에 해당되는 것은 무엇인가?",
+     "options": [
+      "분자량이 매우 크다.",
+      "분자량이 매우 작다.",
+      "골격이 이온결합으로 구성된 탄소화합물이다.",
+      "골격이 공유결합으로 구성된 탄소화합물이다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-46",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "포도당이 물에서 용해도가 높은 원인에 해당되는 것은?",
+     "options": [
+      "케톤기",
+      "히드록시기",
+      "알데히드기",
+      "거울상 이성질체"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-47",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "생물체에서 극성지질의 주요 기능에 해당되는 것은?",
+     "options": [
+      "피부에 존재하면서 몸체를 보호한다.",
+      "면역기능을 담당한다.",
+      "혈액에서 물질을 운송한다.",
+      "세포막에서 물질의 출입을 선택적으로 조절한다."
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-48",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "mRNA가 DNA의 유전정보를 전사할 수 있는 근거는 무엇인가?",
+     "options": [
+      "유전자마다 특별한 mRNA 합성효소의 존재",
+      "deoxyribonucleotide와 ribonucleotide의 상보적 염기 결합",
+      "tRNA의 아미노산 운반 능력",
+      "rRNA의 분자구조"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-49",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "식물세포와 세균의 공통점은 무엇인가?",
+     "options": [
+      "염색체가 여러 개다.",
+      "ribosome의 크기가 유사하다.",
+      "DNA와 RNA를 함께 가지고 있다.",
+      "미토콘드리아에서 에너지를 생산한다."
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-50",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "진핵세포의 세포내 소기관 중에서 에너지 생산과 연관이 있는 소기관은 무엇인가?",
+     "options": [
+      "미토콘드리아",
+      "소포체",
+      "복합골지체",
+      "리소좀"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-51",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "세포구조에 의하여 생물계를 분류하였을 때 생물군의 분류가 다른 것은 무엇인가?",
+     "options": [
+      "세균",
+      "바이러스",
+      "바이로드",
+      "프라이온"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-52",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "효소(enzyme)의 본질은 무엇인가?",
+     "options": [
+      "탄수화물",
+      "지방질",
+      "단백질",
+      "금속원소"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-53",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "효소 중 동일한 종(種)에 존재하면서 동일한 종류의 반응을 촉매 하지만 그 구조가 서로 다른 효소는 무엇인가?",
+     "options": [
+      "조효소",
+      "전구체",
+      "다른자른효소",
+      "아이소자임"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-54",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음의 내분비선 중에서 외분비 기능과 내분비 기능을 동시에 가지고 있는 것은 무엇인가?",
+     "options": [
+      "갑상선",
+      "뇌하수체",
+      "췌장",
+      "부신"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-55",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "내분비선에서 분비되는 호르몬 중에서 분비 장소가 다른 호르몬은 무엇인가?",
+     "options": [
+      "옥시토신",
+      "프로락틴",
+      "갑상선자극 호르몬",
+      "인슐린"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-56",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음 중 호르몬의 일반적인 특성으로 잘못 설명된 것은?",
+     "options": [
+      "내분비선에서 합성되어 혈액을 통해 이동한다.",
+      "미량으로도 특이한 생체반응을 나타낸다.",
+      "유기물로서 에너지 공급량이 크다.",
+      "표적세포에게만 특이성과 선택성을 가진다."
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-57",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "가축, 작물에서 글루코오스 1분자가 호기 에너지생산 대사에서 생산되는 ATP량을 옳게 제시한 것은?",
+     "options": [
+      "가축 - 30 혹은 32분자, 작물 - 38분자",
+      "가축 - 30분자, 작물 - 32분자",
+      "가축 - 32분자, 작물 - 38분자",
+      "가축 - 30 혹은 32분자, 작물 - 30분자"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-58",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "식물의 광합성결과 잎에서 생산된 탄수화물이 뿌리와 열매로 운반되는 형태는 다음 중 어떤 것인가?",
+     "options": [
+      "glucose",
+      "sucrose",
+      "starch",
+      "fructose"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-59",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "글루코오스 1분자가 해당작용에서 생산되는 에너지 관련 물질이 아닌 것은 무엇인가?",
+     "options": [
+      "ATP",
+      "펩티도글리칸",
+      "NADH",
+      "피루브산"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-60",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "지방을 에너지원으로 과다하게 사용하면 안되는 이유는 무엇인가?",
+     "options": [
+      "acetyl CoA의 과다한 생산에 의한 케톤체의 대량생산",
+      "acetyl CoA의 과다한 생산에 의한 이산화탄소의 대량생산",
+      "포도당이 소비되지 않아 고혈당 유발",
+      "지방손실에 의한 기관보호기능 약화"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-61",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "토양에 존재하는 질소 중에서 식물에 의해 흡수될 수 있는 형태는?",
+     "options": [
+      "NO3-, NO2-",
+      "NO2-, NH4+",
+      "NO3-, NH4+",
+      "NO3-, NO2-, NH4+"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-62",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "암모니아는 조류에서 어떤 물질로 전환되어 체외로 배출되는가?",
+     "options": [
+      "요산",
+      "요소",
+      "아미노산",
+      "암모니아"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-63",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "원핵생물 단백질의 첫 번째 아미노산이 methionine이 아니고 N-formylmethionine인 원인에 해당되는 것은?",
+     "options": [
+      "개시코돈의 변이",
+      "특이성 인자",
+      "자율복제배열",
+      "샤인-달가르노 배열"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-64",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "작물 생산의 시발이 되는 대사과정은 무엇인가?",
+     "options": [
+      "질소동화",
+      "질소고정",
+      "탄소의 동화",
+      "황의 동화"
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-65",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "식물체에서 수분과 무기물이 뿌리로부터 잎으로 운송되는 것은 주로 어떤 현상에 기인하는 것인가?",
+     "options": [
+      "증산작용",
+      "삼투압",
+      "물 분자 간 응집력",
+      "물 분자의 세포벽 흡착력"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-66",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "가축 몸체의 모든 세포들이 한 개의 수정란으로부터 세포분열 및 분화에 의해 형성되어 염색체의 구성이 모두 동일함에도 불구하고 각 조직 및 기관마다 기능이 다른 이유는 무엇인가?",
+     "options": [
+      "영양소가 선별적으로 공급된다.",
+      "성장단계에서 일부 유전자가 사라진다.",
+      "필요한 유전자만이 발현된다.",
+      "분화단계에서 염색체에 존재하는 유전자가 변화한다."
+     ],
+     "answer": 2,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-67",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "다음의 식물 호르몬 중 그 작용특성이 다른 것은 무엇인가?",
+     "options": [
+      "옥신",
+      "ABA",
+      "지베렐린",
+      "시토키닌"
+     ],
+     "answer": 1,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-68",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "동물의 신경세포에서 자극이 한쪽 방향으로만 전달되는 근거는 무엇인가?",
+     "options": [
+      "시냅스",
+      "탈분극",
+      "말초신경",
+      "중추신경"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-69",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "효소를 체계적으로 분류하기 위한 EC번호(Enzyme comission number)는 몇 단계로 분류되는가?",
+     "options": [
+      "4단계",
+      "5단계",
+      "6단계",
+      "8단계"
+     ],
+     "answer": 0,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    },
+    {
+     "id": "agbio-ex2019-70",
+     "subject": "농업생물화학",
+     "chapter": 0,
+     "topic": "기출",
+     "type": "mc",
+     "question": "아미노산은 단백질 합성 원료로 이용될 뿐만 아니라 생리적으로 중요한 함질소물질을 합성하는데 이용되는데, 다음 중에서 함질소물질이 아닌 것은 무엇인가?",
+     "options": [
+      "핵산",
+      "포르피린",
+      "크레아틴",
+      "프로스타글란딘"
+     ],
+     "answer": 3,
+     "answers": null,
+     "explanation": "",
+     "source": null
+    }
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "slug": "essential-terms",
+   "title": "필수 용어·단위 (문제 풀이용)",
+   "html": "<h1>필수 용어·단위</h1>\n<blockquote>\n<p>문제를 풀려면 먼저 알아야 하는 기본 개념. 헷갈리면 여기 열기.</p>\n</blockquote>\n<h2>물질량 (양 세기)</h2>\n<ul>\n<li><strong>몰(mol)</strong>: 입자(원자·분자·이온)의 개수를 세는 단위. <strong>1 mol = 6.02×10²³개</strong>(아보가드로수).</li>\n<li><strong>아보가드로수(Nₐ)</strong>: 6.02×10²³ /mol. \"1 mol에 든 입자 수\".</li>\n<li><strong>원자량/분자량/화학식량</strong>: 그 원자·분자 1 mol의 질량(g). 예) 물(H₂O) 분자량 18 → 물 1 mol = 18 g.</li>\n<li><strong>mol 계산</strong>: mol = 질량(g) ÷ 분자량. 예) 물 36 g = 36/18 = <strong>2 mol</strong>.</li>\n</ul>\n<h2>농도 (얼마나 진한가)</h2>\n<table>\n<thead>\n<tr>\n<th>농도</th>\n<th>정의</th>\n<th>식</th>\n<th>단위</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>몰농도(M, molarity)</strong></td>\n<td>용액 <strong>부피</strong> 1 L당 용질 mol</td>\n<td>mol / <strong>용액 L</strong></td>\n<td>mol/L = M</td>\n</tr>\n<tr>\n<td><strong>몰랄농도(m, molality)</strong></td>\n<td><strong>용매</strong> 1 kg당 용질 mol</td>\n<td>mol / <strong>용매 kg</strong></td>\n<td>mol/kg = m</td>\n</tr>\n<tr>\n<td><strong>몰분율(x)</strong></td>\n<td>전체 mol 중 그 성분의 비율</td>\n<td>성분 mol / 전체 mol</td>\n<td>(단위 없음, 합=1)</td>\n</tr>\n<tr>\n<td><strong>노르말농도(N, 규정농도)</strong></td>\n<td>용액 1 L당 용질 <strong>당량(eq)</strong></td>\n<td>eq / 용액 L</td>\n<td>N</td>\n</tr>\n<tr>\n<td><strong>ppm</strong></td>\n<td>100만분율(백만분의 일)</td>\n<td>(용질/전체)×10⁶</td>\n<td>mg/L≈ppm(묽은 수용액)</td>\n</tr>\n<tr>\n<td><strong>%농도</strong></td>\n<td>100분율</td>\n<td>(용질/용액)×100</td>\n<td>w/w%, w/v%</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><strong>몰농도 vs 몰랄농도</strong>: 분모가 다름 → <strong>M=용액 부피(L)</strong>, <strong>m=용매 질량(kg)</strong>. 온도 변하면 부피는 변하지만 질량은 불변이라, 정밀할 땐 몰랄농도.</li>\n<li><strong>당량(eq)</strong>: 산·염기는 내놓는 H⁺/OH⁻ 수, 산화·환원은 주고받는 전자 수 기준. 당량 = mol × n(가수).</li>\n</ul>\n<h2>산·염기 (4장)</h2>\n<ul>\n<li><strong>pH = −log[H⁺]</strong>, <strong>pOH = −log[OH⁻]</strong>, <strong>pH + pOH = 14</strong>(25℃).</li>\n<li><strong>Kw = [H⁺][OH⁻] = 10⁻¹⁴</strong>. 중성 [H⁺]=[OH⁻]=10⁻⁷ M → pH 7.</li>\n<li>[H⁺]가 10배 커지면 pH는 1 작아짐(로그 척도).</li>\n<li><strong>당량점(중화점)</strong>: 산의 당량수 = 염기의 당량수가 되는 지점. N₁V₁ = N₂V₂.</li>\n</ul>\n<h2>에너지·반응 (3·10장)</h2>\n<ul>\n<li><strong>ΔG(자유에너지 변화)</strong>: <strong>음수면 자발적</strong> 반응.</li>\n<li><strong>ΔH(엔탈피)</strong>: 음수=발열, 양수=흡열.</li>\n<li><strong>활성화 에너지(Eₐ)</strong>: 반응이 일어나려면 넘어야 하는 에너지 언덕(효소가 낮춤).</li>\n<li><strong>ATP</strong>: 세포의 에너지 화폐. ATP→ADP+Pi에서 약 30.5 kJ/mol 방출.</li>\n</ul>\n<h2>자주 쓰는 접두어(10의 거듭제곱)</h2>\n<p>M(메가 10⁶) · k(킬로 10³) · d(데시 10⁻¹) · c(센티 10⁻²) · m(밀리 10⁻³) · µ(마이크로 10⁻⁶) · n(나노 10⁻⁹)</p>"
+  }
  ]
 }

@@ -31,7 +31,9 @@ const ICONS={
  check:'<path d="M20 6L9 17l-5-5"/>',
  x:'<path d="M18 6L6 18"/><path d="M6 6l12 12"/>',
  list:'<path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/>',
- pen:'<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/>'
+ pen:'<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/>',
+ help:'<circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/>',
+ award:'<circle cx="12" cy="8" r="6"/><path d="M8.2 13.9 7 22l5-3 5 3-1.2-8.1"/>'
 };
 function ic(n,sz){return '<svg class="ic" width="'+(sz||20)+'" height="'+(sz||20)+'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'+(ICONS[n]||'')+'</svg>';}
 
@@ -62,11 +64,30 @@ function prep(q){
   const correctSet = sh.map((orig,disp)=>ansSet.includes(orig)?disp:-1).filter(x=>x>=0);
   return {opts, correctSet};
 }
+/* 보기 순서 유지(기출 그대로) */
+function prepPlain(q){
+  const a = q.answers && q.answers.length ? q.answers : (q.answer!=null?[q.answer]:[]);
+  return {opts:q.options.slice(), correctSet:a.slice()};
+}
+
+/* 도움말(필수 용어) 팝업 */
+function showHelp(){
+  const t=(subj.terms||[])[0];
+  const html=t?t.html:'<p class="muted">용어집이 없습니다.</p>';
+  const ov=document.createElement('div'); ov.className='modal';
+  ov.innerHTML=`<div class="modal-box"><button class="modal-x" id="mx">${ic('x',24)}</button><div class="mdbody">${html}</div></div>`;
+  ov.onclick=e=>{if(e.target===ov)ov.remove();};
+  document.body.appendChild(ov);
+  byId('mx').onclick=()=>ov.remove();
+  hookNoteLinks(ov);
+}
 
 /* ---------- 화면 전환 ---------- */
 let route = {name:'home'};
 function go(name, data){ stopTimer(); route={name,...data}; render(); window.scrollTo(0,0); }
 $home.onclick = ()=>{ if(route.name!=='home' && !confirm('홈으로 나갈까요? 진행 중 기록은 저장 안 됩니다.'))return; go('home'); };
+const $help=document.getElementById('helpBtn');
+if($help){ $help.innerHTML=ic('help',24); $help.onclick=showHelp; }
 
 function render(){
   $home.hidden = (route.name==='home');
@@ -355,9 +376,15 @@ function ExamSetup(){
   $title.textContent='모의고사 설정';
   const mc=mcOnly(subj.questions);
   let count=ExamSetup.count||35, mins=ExamSetup.mins||50;
+  const exs=subj.exams||[];
   function draw(){
+    const exHtml = exs.length ? `<h2>기출 회차 (실제 출제 그대로)</h2>
+      <p class="muted" style="margin:0 0 8px">아래 회차를 누르면 그 해 기출을 타이머와 함께 풉니다.</p>
+      <div class="seg" id="exrow">`+exs.map(e=>`<button data-y="${e.year}">${e.year}<br><small class="muted">${e.count}문항</small></button>`).join('')+`</div>` : '';
     $app.innerHTML=`
-      <div class="card muted">실제 시험은 객관식. 문제은행 객관식 <b>${mc.length}문항</b>에서 무작위 출제, 제출 후 일괄 채점합니다.</div>
+      ${exHtml}
+      <h2>또는 무작위 모의고사</h2>
+      <div class="card muted">문제은행 객관식 <b>${mc.length}문항</b>에서 무작위 출제, 제출 후 일괄 채점.</div>
       <h2>문항 수</h2><div class="seg" id="cnt"></div>
       <h2>제한 시간(분)</h2><div class="seg" id="min"></div>
       <button class="btn" id="start">모의고사 시작</button>`;
@@ -368,6 +395,11 @@ function ExamSetup(){
     const m=byId('min');[0,30,50,70].forEach(n=>{const b=document.createElement('button');
       b.textContent=n===0?'무제한':n;b.className=(mins===n?'on':'');
       b.onclick=()=>{mins=n;ExamSetup.mins=n;draw();};m.appendChild(b);});
+    if(exs.length) $app.querySelectorAll('#exrow button').forEach(b=>b.onclick=()=>{
+      const e=exs.find(x=>String(x.year)===b.dataset.y);
+      const pool=e.questions.map(q=>({q,prep:prepPlain(q),pick:null}));
+      go('exam',{pool,i:0,mins,started:Date.now(),examName:'기출 '+e.year});
+    });
     byId('start').onclick=()=>{
       let pool=shuffle(mc);const n=(count==='전체')?mc.length:Math.min(count,mc.length);
       pool=pool.slice(0,n).map(q=>({q,prep:prep(q),pick:null}));
