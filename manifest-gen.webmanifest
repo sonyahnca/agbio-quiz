@@ -1,0 +1,14 @@
+{
+  "name": "농업유전학 퀴즈",
+  "short_name": "농업유전학",
+  "id": "agbio-quiz-gen",
+  "start_url": "./gen.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d1117",
+  "theme_color": "#8957e5",
+  "icons": [
+    { "src": "icon-gen.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

@@ -3,24 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#3f7d3a">
-<title>토양학 퀴즈</title>
-<link rel="manifest" href="manifest-soil.webmanifest">
+<meta name="theme-color" content="#8957e5">
+<title>농업유전학 퀴즈</title>
+<link rel="manifest" href="manifest-gen.webmanifest">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header id="topbar">
   <button id="homeBtn" class="ghost" hidden>← 홈</button>
-  <div id="title">🌱 토양학</div>
+  <div id="title">🧬 농업유전학</div>
   <div id="timer" hidden>00:00</div>
   <button id="helpBtn" class="ghost" title="필수 용어">?</button>
 </header>
 
 <main id="app"></main>
-<footer class="subjnav"><a href="gen.html">🧬 농업유전학 앱으로 →</a></footer>
+<footer class="subjnav"><a href="index.html">🧪 농업생물화학 앱으로 →</a></footer>
 
-<!-- 이 페이지는 토양학 전용 PWA. 농생화는 index.html, 농업유전학은 gen.html -->
-<script src="data/토양학.js"></script>
+<!-- 이 페이지는 농업유전학 전용 PWA. 농생화는 index.html, 토양학은 soil.html -->
+<script src="data/농업유전학.js"></script>
 <script src="app.js"></script>
 <script>
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
