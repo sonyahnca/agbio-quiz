@@ -135,3 +135,9 @@ a{color:var(--accent2)}
 .blankin:focus{border-color:var(--accent)}
 .blankin:disabled{opacity:.8}
 .blankrow .btn{margin:0}
+
+/* 과목 간 이동 링크(과목별 PWA) */
+.subjnav{text-align:center;padding:16px 0 30px}
+.subjnav a{display:inline-block;color:var(--muted);font-size:13px;text-decoration:none;
+  border:1px solid var(--border);padding:8px 16px;border-radius:20px;background:var(--panel)}
+.subjnav a:active{background:var(--panel2)}

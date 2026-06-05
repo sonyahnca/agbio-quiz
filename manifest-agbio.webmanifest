@@ -1,0 +1,14 @@
+{
+  "name": "농업생물화학 퀴즈",
+  "short_name": "농생화",
+  "id": "agbio-quiz-agbio",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d1117",
+  "theme_color": "#1f6feb",
+  "icons": [
+    { "src": "icon-agbio.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

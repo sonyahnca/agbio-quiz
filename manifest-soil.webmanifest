@@ -1,0 +1,14 @@
+{
+  "name": "토양학 퀴즈",
+  "short_name": "토양학",
+  "id": "agbio-quiz-soil",
+  "start_url": "./soil.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d1117",
+  "theme_color": "#3f7d3a",
+  "icons": [
+    { "src": "icon-soil.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

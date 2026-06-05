@@ -11,15 +11,17 @@
 ## 1. 디렉토리
 ```
 _app/
-├── index.html              # 셸. <script src="data/<과목>.js"> 로 과목 등록
-├── app.js                  # 전체 로직(SPA, 라우팅 객체 render())
-├── style.css               # 다크/라이트, 태블릿 최적화, .mdbody(노트), .mask(가리기)
+├── index.html / soil.html  # 과목별 PWA 셸. 각자 자기 과목 data 1개만 로드(탭 없음)
+├── app.js                  # 전체 로직(SPA, 라우팅 객체 render()) — 단일/멀티 과목 모두 동작
+├── style.css               # 다크, 태블릿 최적화, .mdbody(노트)·.mask(가리기)·.blankin·.subjnav
 ├── data/<과목>.{json,js}    # 빌드 산출물 (js는 window.QUIZ_SUBJECTS.push(번들))
+├── manifest-<과목>.webmanifest · icon-<과목>.svg  # 과목별 PWA(이름·아이콘·테마 분리)
 ├── build_questions.py      # 빌드 스크립트 (★로컬 전용, .gitignore)
 ├── serve.js                # 로컬 node 정적 서버 (★로컬 전용, .gitignore)
-├── manifest.webmanifest · icon.svg · sw.js   # PWA(설치·오프라인, network-first)
+├── sw.js                   # 오프라인 캐시(network-first, ASSETS에 모든 과목 자산)
 └── .github/workflows/deploy.yml              # GitHub Pages 자동 배포
 ```
+- **과목별 PWA**: 과목마다 `<과목>.html`(자기 data만 로드) + `manifest-<과목>.webmanifest`(고유 `id`·`start_url`·`icon`·`theme_color`) → 각각 별도 설치(아이콘·주소 분리). 한 페이지=한 과목이라 과목 탭은 안 뜸. 하단 `.subjnav`로 과목 간 이동. `app.js`는 `SUBJECTS.length===1`이면 탭 없이 그 과목 홈.
 
 ## 2. 데이터 모델 (`window.QUIZ_SUBJECTS`의 한 원소 = 한 과목 번들)
 ```js
@@ -37,7 +39,7 @@ _app/
 - **슬러그·id는 vault 전체 유일**해야 함. 새 과목은 접두 사용(토양학 `soil-`, 농유전 `gen-`).
 - **빈칸 모드**: 빌드가 보기 4개가 모두 짧은 '용어'형(문장·수식·숫자 아님)이고 정답이 한글 용어인 단일정답 MC에 `blankable:true` 부여. 앱 랜덤퀴즈의 "빈칸 모드" 토글 시 해당 문항만 보기 대신 입력칸으로 출제(공백·괄호·붙임표 무시, `황산암모늄(유안)`은 괄호 안/밖 둘 다 정답 인정). 나머지는 4지선다 유지.
 - **용어 팝업**: `<과목>/wiki/terms/*.md`(type:term) → 헤더 우측 `?` 버튼 모달. 첫 파일을 보여줌.
-- **기출 회차**: `<과목>/wiki/exams/*.md`(frontmatter `year`)는 drills와 같은 형식이며, 질문은행(questions)과 별개로 `exams[]`에 담겨 모의고사 화면에서 연도별 타이머 플레이용으로 쓰임(보기 순서 그대로).
+- **기출 회차**: 모의고사 화면의 "기출 20YY 회차(타이머·순서 그대로)"용 `exams[]`. 두 방식 중 하나로 채움 — (a) `<과목>/wiki/exams/*.md`(frontmatter `year`, drills와 같은 형식; 농생화), 또는 (b) **파일이 없으면** drills의 `source:"20YY-Q##"` 태그를 연도별로 묶어 자동 파생(토양학). 보기 순서는 `prepPlain`으로 원본 유지. (질문은행 `questions`와는 별개 — 랜덤퀴즈는 교차연습용, 기출회차는 측정/시뮬레이션용)
 
 ## 3. 파서가 읽는 md 형식 (★중요 — 이 형식을 지켜야 자동 추출됨)
 ### drills (`<과목>/wiki/drills/ch*-drills.md`)

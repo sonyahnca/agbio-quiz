@@ -235,11 +235,11 @@ function WrongBook(){
   const order=Object.keys(dist).map(Number).sort((a,b)=>dist[b].n-dist[a].n);
   const maxN=Math.max(...order.map(c=>dist[c].n));
   let distHtml=order.map(c=>{
-    const o=dist[c];const note=CHAP_NOTE[c]||'';
+    const o=dist[c];const nt=(subj.notes||[]).find(x=>x.chapter===c);
     return `<div class="bar"><div class="lbl">${c}장 ${esc(o.name)}</div>
       <div class="track"><i style="width:${o.n/maxN*100}%;background:var(--bad)"></i></div>
       <div style="width:78px;text-align:right">오답 ${o.n}개</div></div>
-      <div class="muted" style="font-size:12px;margin:-2px 0 8px 0">📄 정리노트 복습: ${note}</div>`;
+      ${nt?`<div class="muted" style="font-size:12px;margin:-2px 0 8px 0">📄 정리노트 복습: <a href="#note:${nt.slug}">${esc(nt.title)}</a></div>`:''}`;
   }).join('');
 
   // 장별 문제 목록
@@ -271,6 +271,7 @@ function WrongBook(){
     startQuiz(shuffle(pool),{mode:'review',title:'오답 복습'});
   };
   $app.querySelectorAll('.mastered').forEach(b=>b.onclick=()=>{setMastered(b.dataset.id,true);go('wrongbook');});
+  hookNoteLinks($app);
 }
 
 /* ---------- 랜덤 퀴즈 설정 ---------- */
