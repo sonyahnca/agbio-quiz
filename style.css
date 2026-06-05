@@ -141,3 +141,8 @@ a{color:var(--accent2)}
 .subjnav a{display:inline-block;color:var(--muted);font-size:13px;text-decoration:none;
   border:1px solid var(--border);padding:8px 16px;border-radius:20px;background:var(--panel)}
 .subjnav a:active{background:var(--panel2)}
+
+/* 시각 암기(인라인 SVG 다이어그램) */
+.mdbody svg{display:block;width:100%;max-width:460px;height:auto;margin:12px auto;
+  background:var(--panel2);border:1px solid var(--border);border-radius:12px;padding:6px}
+.mdbody svg text{font-family:-apple-system,sans-serif}
