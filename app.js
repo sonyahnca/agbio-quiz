@@ -94,8 +94,35 @@ function showHelp(){
 
 /* ---------- 화면 전환 ---------- */
 let route = {name:'home'};
-function go(name, data){ stopTimer(); route={name,...data}; render(); window.scrollTo(0,0); }
-$home.onclick = ()=>{ if(route.name!=='home' && !confirm('홈으로 나갈까요? 진행 중 기록은 저장 안 됩니다.'))return; go('home'); };
+const navStack = [];               // 뒤로가기용 화면 스택(현재 화면 아래의 이전 화면들)
+function applyRoute(){ render(); window.scrollTo(0,0); }
+function go(name, data){
+  stopTimer();
+  if(name === route.name){         // 같은 화면 재렌더(퀴즈 진행·마스크 토글 등) → 히스토리 안 쌓음
+    route = {name, ...data}; applyRoute(); return;
+  }
+  navStack.push(route);            // 화면 전환 → 한 단계 쌓기
+  route = {name, ...data};
+  history.pushState({d: navStack.length}, '');
+  applyRoute();
+}
+function goHome(){ navStack.length = 0; route = {name:'home'}; history.pushState({d:0}, ''); applyRoute(); }
+function back(){ stopTimer(); route = navStack.length ? navStack.pop() : {name:'home'}; applyRoute(); }
+// 폰 하드웨어/제스처 뒤로 + 화면 좌상단 버튼 → 한 단계 뒤로
+window.addEventListener('popstate', ()=>{
+  if(route.name === 'exam'){       // 모의고사 진행 중 이탈은 확인(취소 시 제자리)
+    if(!confirm('모의고사를 나갈까요? 진행 중 답안은 사라집니다.')){
+      history.pushState({d: navStack.length + 1}, ''); return;
+    }
+  }
+  back();
+});
+history.replaceState({d:0}, '');   // 초기 베이스
+$home.textContent = '← 뒤로';
+$home.onclick = ()=>history.back();
+$title.style.cursor = 'pointer';   // 제목(과목명) 탭 → 홈
+$title.title = '홈으로';
+$title.onclick = ()=>{ if(route.name!=='home') goHome(); };
 const $help=document.getElementById('helpBtn');
 if($help){ $help.innerHTML=ic('help',24); $help.onclick=showHelp; }
 
@@ -520,7 +547,7 @@ function Result(){
     ${wrongHtml}`;
   if(r.wrong.length)byId('re').onclick=()=>startQuiz(shuffle(r.wrong.slice()),{mode:'review',title:'오답 복습'});
   byId('again').onclick=()=>go(r.kind==='exam'?'examSetup':'quizSetup');
-  byId('home2').onclick=()=>go('home');
+  byId('home2').onclick=()=>goHome();
 }
 
 /* ---------- 통계 ---------- */
