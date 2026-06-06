@@ -11,7 +11,8 @@
 ## 1. 디렉토리
 ```
 _app/
-├── index.html / soil.html  # 과목별 PWA 셸. 각자 자기 과목 data 1개만 로드(탭 없음)
+├── index.html              # 런처(과목 선택 홈). app.js 없이 독립. 각 과목 html로 링크
+├── agbio.html / soil.html / gen.html  # 과목별 PWA 셸. 각자 자기 과목 data 1개만 로드(탭 없음)
 ├── app.js                  # 전체 로직(SPA, 라우팅 객체 render()) — 단일/멀티 과목 모두 동작
 ├── style.css               # 다크, 태블릿 최적화, .mdbody(노트)·.mask(가리기)·.blankin·.subjnav
 ├── data/<과목>.{json,js}    # 빌드 산출물 (js는 window.QUIZ_SUBJECTS.push(번들))
@@ -21,7 +22,9 @@ _app/
 ├── sw.js                   # 오프라인 캐시(network-first, ASSETS에 모든 과목 자산)
 └── .github/workflows/deploy.yml              # GitHub Pages 자동 배포
 ```
-- **과목별 PWA**: 과목마다 `<과목>.html`(자기 data만 로드) + `manifest-<과목>.webmanifest`(고유 `id`·`start_url`·`icon`·`theme_color`) → 각각 별도 설치(아이콘·주소 분리). 한 페이지=한 과목이라 과목 탭은 안 뜸. 하단 `.subjnav`로 과목 간 이동. `app.js`는 `SUBJECTS.length===1`이면 탭 없이 그 과목 홈.
+- **런처(`index.html`)**: 과목 선택 홈. app.js를 안 싣고 style.css만 써서 독립 동작. 과목 카드 → 각 `<과목>.html`로 이동. **설치 안 됨**(런처 자체는 PWA 아님) — 설치는 각 과목 페이지에서.
+- **과목별 PWA**: 과목마다 `<과목>.html`(자기 data만 로드) + `manifest-<과목>.webmanifest`(고유 `id`·`start_url`·`icon`·`theme_color`) → 각각 별도 설치(아이콘·주소 분리). 한 페이지=한 과목이라 과목 탭은 안 뜸. 하단 `.subjnav`는 `index.html`(런처)로 복귀. `app.js`는 `SUBJECTS.length===1`이면 탭 없이 그 과목 홈.
+- **설치 버튼**: `app.js`가 `beforeinstallprompt`를 잡아 홈 화면의 "이 과목 앱 설치" 버튼(`#mInstall`)을 노출 → 그 페이지 자신을 설치. **브라우저 제약상 한 페이지는 자기 manifest만 설치 가능**하므로 런처에서 다른 과목을 직접 설치할 수는 없다(각 과목 페이지에서 설치).
 
 ## 2. 데이터 모델 (`window.QUIZ_SUBJECTS`의 한 원소 = 한 과목 번들)
 ```js
@@ -35,7 +38,7 @@ _app/
   exams:[{ year, qrange, count, questions:[...] }],                // 기출 회차(연도별 그대로 플레이, wiki/exams/)
   terms:[{ slug, title, html }] }                                  // 필수 용어집(헤더 ? 팝업)
 ```
-- 멀티 과목: 과목마다 `data/<과목>.js` 1개 + `index.html`에 `<script>` 1줄. 앱이 과목 탭 자동 생성.
+- 멀티 과목: 과목마다 `data/<과목>.js` 1개 + 자기 `<과목>.html` 셸(그 data만 로드) + `index.html` 런처에 과목 카드 1개.
 - **슬러그·id는 vault 전체 유일**해야 함. 새 과목은 접두 사용(토양학 `soil-`, 농유전 `gen-`).
 - **빈칸 모드**: 빌드가 보기 4개가 모두 짧은 '용어'형(문장·수식·숫자 아님)이고 정답이 한글 용어인 단일정답 MC에 `blankable:true` 부여. 앱 랜덤퀴즈의 "빈칸 모드" 토글 시 해당 문항만 보기 대신 입력칸으로 출제(공백·괄호·붙임표 무시, `황산암모늄(유안)`은 괄호 안/밖 둘 다 정답 인정). 나머지는 4지선다 유지.
 - **용어 팝업**: `<과목>/wiki/terms/*.md`(type:term) → 헤더 우측 `?` 버튼 모달. 첫 파일을 보여줌.
@@ -67,7 +70,7 @@ node _app/serve.js                   # http://localhost:8778 (절대경로 ROOT 
 # 배포(GitHub Pages): _app가 자체 git repo. push 하면 deploy.yml가 자동 배포
 cd _app && git add -A && git commit -m "..." && git push    # → https://<id>.github.io/<repo>/
 ```
-- 새 과목 추가: `build_questions.py`의 **`SUBJECTS` 리스트에 한 줄**(`subject/dir/prefix/drill_glob/topic_glob/chap`) 추가 → 빌드(전 과목 루프) → `index.html`에 `<script src="data/<과목>.js">` 1줄 + `sw.js` ASSETS에 추가(캐시 N 올림). `prefix`·파일 접두(`soil-`)는 vault 전체 유일.
+- 새 과목 추가: `build_questions.py`의 **`SUBJECTS` 리스트에 한 줄**(`subject/dir/prefix/drill_glob/topic_glob/chap`) 추가 → 빌드(전 과목 루프) → ① `<과목>.html` 셸 +  `manifest-<과목>.webmanifest`(고유 `id`·`start_url`·`theme_color`) + `icon-<과목>.svg` 생성 → ② `index.html` 런처에 과목 카드 1개 추가 → ③ `sw.js` ASSETS에 새 html·manifest·icon·data 추가(캐시 N 올림). `prefix`·파일 접두(`soil-`)는 vault 전체 유일.
 - SW는 **network-first(`quiz-vN`)** — 온라인이면 갱신 즉시 반영. 전략 바꾸면 캐시 버전(N) 올릴 것.
 
 ## 5. app.js 구조 요약 (수정 지점)

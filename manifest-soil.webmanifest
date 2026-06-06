@@ -3,7 +3,7 @@
   "short_name": "토양학",
   "id": "agbio-quiz-soil",
   "start_url": "./soil.html",
-  "scope": "./",
+  "scope": "./soil.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0d1117",

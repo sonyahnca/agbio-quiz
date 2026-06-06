@@ -16,6 +16,16 @@ let subj = SUBJECTS[0] || {subject:'(데이터 없음)', questions:[]};
 let timerInt = null;
 let maskMode = false; // 가리기(능동 회상) 모드
 
+/* PWA 설치 — 과목별로 이 페이지 자신을 설치. 홈에서 다른 과목은 못 깐다(브라우저 제약). */
+let deferredPrompt = null;
+window.addEventListener('beforeinstallprompt', e=>{
+  e.preventDefault(); deferredPrompt = e;
+  const b=document.getElementById('mInstall'); if(b) b.hidden=false;
+});
+window.addEventListener('appinstalled', ()=>{
+  deferredPrompt=null; const b=document.getElementById('mInstall'); if(b) b.hidden=true;
+});
+
 /* 인라인 SVG 아이콘 (루시드 스타일, 무의존·오프라인) */
 const ICONS={
  home:'<path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/>',
@@ -159,8 +169,9 @@ function Home(){
     <button class="btn sec" id="mWeak">${ic('repeat')} 약점 복습</button>
     <button class="btn sec" id="mWrong">${ic('marked')} 오답노트 <span class="muted" style="font-weight:500">${wrongList().length}</span></button>
     <button class="btn sec" id="mStats">${ic('chart')} 통계 / 진도</button>
+    <button class="btn sec" id="mInstall" hidden>${ic('home')} 이 과목 앱 설치</button>
     <p class="muted" style="text-align:center;font-size:13px;margin-top:20px">
-      태블릿에서 "홈 화면에 추가"하면 앱처럼 오프라인 사용 가능</p>`;
+      "이 과목 앱 설치"(또는 브라우저의 "홈 화면에 추가")로 오프라인 앱처럼 사용</p>`;
   $app.querySelectorAll('[data-si]').forEach(b=>b.onclick=()=>{subj=SUBJECTS[+b.dataset.si];render();});
   byId('mQuiz').onclick=()=>go('quizSetup');
   byId('mExam').onclick=()=>go('examSetup');
@@ -168,6 +179,14 @@ function Home(){
   byId('mNotes').onclick=()=>go('notes');
   byId('mCheat').onclick=()=>go('cheat');
   byId('mWrong').onclick=()=>go('wrongbook');
+  const $inst=byId('mInstall');
+  if($inst){
+    if(deferredPrompt) $inst.hidden=false;
+    $inst.onclick=async()=>{
+      if(!deferredPrompt){ alert('이미 설치됐거나, 이 브라우저에선 메뉴의 "홈 화면에 추가"를 사용하세요.'); return; }
+      deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt=null; $inst.hidden=true;
+    };
+  }
   byId('mWeak').onclick=()=>{
     const st=loadStats();
     const pool=subj.questions.filter(q=>{const r=st[q.id];return r&&r.w>0&&r.last===0&&!r.m;});

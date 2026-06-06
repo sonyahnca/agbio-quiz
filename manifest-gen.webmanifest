@@ -3,7 +3,7 @@
   "short_name": "농업유전학",
   "id": "agbio-quiz-gen",
   "start_url": "./gen.html",
-  "scope": "./",
+  "scope": "./gen.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0d1117",

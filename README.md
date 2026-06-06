@@ -11,7 +11,7 @@
 
 ## 실행 방법
 **1) 그냥 열기 (가장 간단)**
-- `index.html`을 브라우저로 더블클릭. (데이터를 .js로 임베드해 `file://`에서도 작동)
+- `index.html`(과목 선택 런처) 더블클릭 → 과목 선택 → 각 과목 앱. (데이터를 .js로 임베드해 `file://`에서도 작동)
 
 **2) 로컬 서버 (오프라인 PWA 설치까지)**
 ```
@@ -20,7 +20,8 @@ node _app/serve.js     # → http://localhost:8778
 
 **3) 태블릿에서 쓰기 (추천)**
 - GitHub Pages 등 https에 `_app/` 전체를 올림 → 태블릿 브라우저로 접속
-- Safari/Chrome "홈 화면에 추가" → 오프라인 설치 앱처럼 사용(서비스워커 캐시)
+- 런처에서 과목을 고른 뒤, 그 과목 홈의 **"이 과목 앱 설치"** 버튼(또는 브라우저 "홈 화면에 추가") → 오프라인 설치 앱(서비스워커 캐시). 과목마다 따로 설치돼 아이콘이 분리됨.
+- ⚠️ 진도(localStorage)는 **기기별로 저장**되며 크롬 로그인으로 자동 동기화되지 않음(기기 간 동기화는 추후 Drive/Firebase로 추가 가능).
 
 ## 문제 데이터 갱신
 drills(`농업생물화학/wiki/drills/*.md`)를 고치면 다시 생성:
@@ -32,5 +33,7 @@ python3 _app/build_questions.py     # → data/농업생물화학.json + .js 재
 
 ## 과목 추가
 1. 그 과목 drills를 같은 형식으로 만들고 파서로 `data/<과목>.js` 생성
-2. `index.html`에 `<script src="data/<과목>.js"></script>` 한 줄 추가
-3. 앱 홈 상단에 과목 선택 탭이 자동 생성됨
+2. `<과목>.html` 셸 + `manifest-<과목>.webmanifest` + `icon-<과목>.svg` 생성(기존 과목 복사·수정)
+3. `index.html` 런처에 과목 카드 1개 추가
+4. `sw.js` ASSETS에 새 html·manifest·icon·data 추가하고 캐시 버전 올림
+(자세한 재현 명세는 BUILD.md)

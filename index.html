@@ -3,29 +3,56 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#1f6feb">
-<title>농업생물화학 퀴즈</title>
-<link rel="manifest" href="manifest-agbio.webmanifest">
+<meta name="theme-color" content="#0d1117">
+<title>시험 대비 — 과목 선택</title>
 <link rel="stylesheet" href="style.css">
+<style>
+/* 런처 전용 (이 페이지는 app.js 없이 독립 동작) */
+.launch{max-width:560px;margin:0 auto;padding:22px 18px 120px}
+.launch h1{font-size:24px;font-weight:800;margin:8px 2px 4px}
+.launch .lead{color:var(--muted);font-size:14px;margin:0 2px 18px}
+.subjcard{display:block;text-decoration:none;color:var(--text);position:relative;
+  background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+  padding:18px 18px 18px 20px;margin:12px 0;overflow:hidden;transition:transform .08s}
+.subjcard:active{transform:scale(.99)}
+.subjcard::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--c)}
+.subjcard .name{font-size:20px;font-weight:800;display:flex;align-items:center;gap:9px}
+.subjcard .meta{color:var(--muted);font-size:13.5px;margin-top:8px}
+.subjcard .go{position:absolute;right:16px;top:50%;transform:translateY(-50%);
+  color:var(--muted);font-size:22px}
+.tipbox{background:var(--panel2);border:1px solid var(--border);border-radius:12px;
+  padding:14px 16px;margin-top:22px;color:var(--muted);font-size:13px;line-height:1.6}
+.tipbox b{color:var(--text)}
+</style>
 </head>
 <body>
-<header id="topbar">
-  <button id="homeBtn" class="ghost" hidden>← 홈</button>
-  <div id="title">🧪 농업생물화학</div>
-  <div id="timer" hidden>00:00</div>
-  <button id="helpBtn" class="ghost" title="필수 용어">?</button>
-</header>
+<div class="launch">
+  <h1>📚 시험 대비 퀴즈</h1>
+  <p class="lead">공부할 과목을 고르세요. 각 과목은 독립 앱입니다.</p>
 
-<main id="app"></main>
-<footer class="subjnav"><a href="soil.html">🌱 토양학 앱으로 →</a></footer>
+  <a class="subjcard" href="agbio.html" style="--c:#1f6feb">
+    <div class="name">🧪 농업생물화학</div>
+    <div class="meta">116문항 (객관식 80) · 정리노트 15장 · 기출 4개년</div>
+    <span class="go">›</span>
+  </a>
 
-<!-- 이 페이지는 농업생물화학 전용 PWA. 토양학은 soil.html -->
-<script src="data/농업생물화학.js"></script>
-<script src="app.js"></script>
-<script>
-if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
-  navigator.serviceWorker.register('sw.js').catch(()=>{});
-}
-</script>
+  <a class="subjcard" href="soil.html" style="--c:#3f7d3a">
+    <div class="name">🌱 토양학</div>
+    <div class="meta">366문항 (객관식 364) · 정리노트 17장 · 기출 5개년</div>
+    <span class="go">›</span>
+  </a>
+
+  <a class="subjcard" href="gen.html" style="--c:#8957e5">
+    <div class="name">🧬 농업유전학</div>
+    <div class="meta">175문항 · 정리노트 17장 · 기출 5개년</div>
+    <span class="go">›</span>
+  </a>
+
+  <div class="tipbox">
+    📲 <b>앱으로 설치</b> — 과목에 들어가 홈 화면의 <b>“이 과목 앱 설치”</b> 버튼을 누르면
+    홈 화면 아이콘으로 추가되고 오프라인에서도 열립니다. 과목마다 따로 설치돼 아이콘이 나뉩니다.
+    <br><span style="opacity:.8">진도는 현재 기기별로 저장됩니다(기기 간 동기화는 추후 추가 예정).</span>
+  </div>
+</div>
 </body>
 </html>
