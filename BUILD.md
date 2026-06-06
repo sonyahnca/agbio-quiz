@@ -23,7 +23,7 @@ _app/
 └── .github/workflows/deploy.yml              # GitHub Pages 자동 배포
 ```
 - **런처(`index.html`)**: 과목 선택 홈. app.js를 안 싣고 style.css만 써서 독립 동작. 과목 카드 → 각 `<과목>.html`로 이동. **설치 안 됨**(런처 자체는 PWA 아님) — 설치는 각 과목 페이지에서.
-- **과목별 PWA**: 과목마다 `<과목>.html`(자기 data만 로드) + `manifest-<과목>.webmanifest`(고유 `id`·`start_url`·`icon`·`theme_color`) → 각각 별도 설치(아이콘·주소 분리). 한 페이지=한 과목이라 과목 탭은 안 뜸. 하단 `.subjnav`는 `index.html`(런처)로 복귀. `app.js`는 `SUBJECTS.length===1`이면 탭 없이 그 과목 홈.
+- **과목별 PWA**: 과목마다 `<과목>.html`(자기 data만 로드) + `manifest-<과목>.webmanifest`(고유 `id`·`start_url`·`icon`·`theme_color`) → 각각 별도 설치(아이콘·주소 분리). 한 페이지=한 과목이라 과목 탭은 안 뜸. **과목 페이지엔 다른 과목/런처로의 링크를 두지 않는다**(독립 앱 경계 — scope 밖으로 나가면 standalone 창을 벗어남). `app.js`는 `SUBJECTS.length===1`이면 탭 없이 그 과목 홈.
 - **설치 버튼**: `app.js`가 `beforeinstallprompt`를 잡아 홈 화면의 "이 과목 앱 설치" 버튼(`#mInstall`)을 노출 → 그 페이지 자신을 설치. **브라우저 제약상 한 페이지는 자기 manifest만 설치 가능**하므로 런처에서 다른 과목을 직접 설치할 수는 없다(각 과목 페이지에서 설치).
 
 ## 2. 데이터 모델 (`window.QUIZ_SUBJECTS`의 한 원소 = 한 과목 번들)
