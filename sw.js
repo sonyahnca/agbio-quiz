@@ -1,6 +1,6 @@
 /* 오프라인 캐시 (https/localhost에서만 등록됨)
    network-first: 온라인이면 항상 최신, 오프라인이면 캐시 폴백 → 업데이트 누락 방지 */
-const CACHE='quiz-v9';
+const CACHE='quiz-v10';
 const ASSETS=['./','./index.html','./agbio.html','./soil.html','./gen.html','./style.css','./app.js',
   './manifest-agbio.webmanifest','./manifest-soil.webmanifest','./manifest-gen.webmanifest',
   './icon-agbio.svg','./icon-soil.svg','./icon-gen.svg',

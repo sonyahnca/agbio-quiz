@@ -18,9 +18,13 @@ let maskMode = false; // 가리기(능동 회상) 모드
 
 /* PWA 설치 — 과목별로 이 페이지 자신을 설치. 홈에서 다른 과목은 못 깐다(브라우저 제약). */
 let deferredPrompt = null;
+/* 이미 설치돼 standalone(앱 창)으로 열렸으면 설치 버튼을 숨긴다 */
+const isStandalone = ()=> window.matchMedia('(display-mode: standalone)').matches
+  || window.matchMedia('(display-mode: fullscreen)').matches
+  || window.navigator.standalone === true;
 window.addEventListener('beforeinstallprompt', e=>{
   e.preventDefault(); deferredPrompt = e;
-  const b=document.getElementById('mInstall'); if(b) b.hidden=false;
+  const b=document.getElementById('mInstall'); if(b && !isStandalone()) b.hidden=false;
 });
 window.addEventListener('appinstalled', ()=>{
   deferredPrompt=null; const b=document.getElementById('mInstall'); if(b) b.hidden=true;
@@ -180,7 +184,7 @@ function Home(){
   byId('mCheat').onclick=()=>go('cheat');
   byId('mWrong').onclick=()=>go('wrongbook');
   const $inst=byId('mInstall');
-  if($inst){
+  if($inst && !isStandalone()){
     if(deferredPrompt) $inst.hidden=false;
     $inst.onclick=async()=>{
       if(!deferredPrompt){ alert('이미 설치됐거나, 이 브라우저에선 메뉴의 "홈 화면에 추가"를 사용하세요.'); return; }
