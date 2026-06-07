@@ -242,8 +242,8 @@ function NoteView(){
     <button class="btn" id="cq">${ic('shuffle')} 이 장(${n.chapter}장) 문제 풀기</button>
     <div class="row">
       ${i>0?`<button class="btn sec" id="prevN" style="flex:1">← ${ns[i-1].chapter}장</button>`:''}
-      ${i<ns.length-1?`<button class="btn sec" id="nextN" style="flex:1">${ns[i+1].chapter}장 →</button>`:''}
       <button class="btn sec" id="listN" style="flex:1">목록</button>
+      ${i<ns.length-1?`<button class="btn sec" id="nextN" style="flex:1">${ns[i+1].chapter}장 →</button>`:''}
     </div>`;
   hookNoteLinks($app); applyMask($app);
   byId('maskT').onclick=()=>{maskMode=!maskMode;go('note',{slug:n.slug});};
