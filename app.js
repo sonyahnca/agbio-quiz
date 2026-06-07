@@ -249,7 +249,7 @@ function NoteView(){
   byId('maskT').onclick=()=>{maskMode=!maskMode;go('note',{slug:n.slug});};
   byId('cq').onclick=()=>{const pool=mcOnly(subj.questions.filter(q=>q.chapter===n.chapter));
     if(!pool.length){alert('이 장 객관식 문제가 없습니다.');return;}
-    startQuiz(shuffle(pool),{mode:'quiz',title:n.chapter+'장 퀴즈'});};
+    startQuiz(shuffle(pool),{mode:'quiz',title:n.chapter+'장 퀴즈',noteSlug:n.slug,chapter:n.chapter});};
   if(i>0)byId('prevN').onclick=()=>go('note',{slug:ns[i-1].slug});
   if(i<ns.length-1)byId('nextN').onclick=()=>go('note',{slug:ns[i+1].slug});
   byId('listN').onclick=()=>go('notes');
@@ -453,7 +453,8 @@ function Quiz(){
   function next(){ if(r.i+1<total){r.i++;r.prep=prep(r.pool[r.i]);go('quiz',r);} else finishQuiz(r); }
 }
 function finishQuiz(r){
-  go('result',{kind:'quiz',title:r.opt.title,total:r.pool.length,score:r.score,wrong:r.wrong,pool:r.pool});
+  go('result',{kind:'quiz',title:r.opt.title,total:r.pool.length,score:r.score,wrong:r.wrong,pool:r.pool,
+    noteSlug:r.opt.noteSlug,chapter:r.opt.chapter});
 }
 
 /* ---------- 모의고사 설정 ---------- */
@@ -560,14 +561,24 @@ function Result(){
       wrongHtml+=`<div class="card"><div style="font-weight:600">${esc(q.question)}</div>
         <div class="expl"><b>정답: ${esc(ans)}</b><br>${esc(q.explanation)}</div></div>`;});
   }
+  // 노트(이 장 문제 풀기)에서 온 경우: 노트로 돌아가기 / 다음 장 노트 버튼
+  const ns=subj.notes||[]; const ni=r.noteSlug?ns.findIndex(x=>x.slug===r.noteSlug):-1;
+  const nextN=(ni>=0&&ni<ns.length-1)?ns[ni+1]:null;
+  const noteNav = r.noteSlug ? `<div class="row">
+      <button class="btn sec" id="backNote" style="flex:1">${ic('book')} ${r.chapter}장 노트로</button>
+      ${nextN?`<button class="btn" id="nextNote" style="flex:1">${nextN.chapter}장 노트 →</button>`:''}
+    </div>` : '';
   $app.innerHTML=`
     <div class="card"><div class="score ${grade}">${pct}<small>%</small></div>
       <div style="text-align:center" class="muted">${r.score} / ${r.total} 정답${r.elapsed!=null?' · 소요 '+fmtTime(r.elapsed):''}</div></div>
     ${chHtml}
+    ${noteNav}
     ${r.wrong.length?`<button class="btn" id="re">🔁 틀린 문제만 다시 풀기</button>`:''}
     <button class="btn sec" id="again">다시 (같은 모드)</button>
     <button class="btn sec" id="home2">홈으로</button>
     ${wrongHtml}`;
+  if(r.noteSlug){ byId('backNote').onclick=()=>go('note',{slug:r.noteSlug});
+    if(nextN)byId('nextNote').onclick=()=>go('note',{slug:nextN.slug}); }
   if(r.wrong.length)byId('re').onclick=()=>startQuiz(shuffle(r.wrong.slice()),{mode:'review',title:'오답 복습'});
   byId('again').onclick=()=>go(r.kind==='exam'?'examSetup':'quizSetup');
   byId('home2').onclick=()=>goHome();
