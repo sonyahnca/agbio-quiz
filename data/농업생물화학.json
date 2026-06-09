@@ -1158,7 +1158,7 @@
    ],
    "answer": 1,
    "answers": null,
-   "explanation": "중성 pH 7 → [H⁺]=[OH⁻]=10⁻⁷M (Kw=10⁻¹⁴).",
+   "explanation": "중성 pH₇ → [H⁺]=[OH⁻]=10⁻⁷M (Kw=10⁻¹⁴).",
    "source": "2015-Q8",
    "blankable": false
   },
@@ -1301,7 +1301,7 @@
    "chapter": 4,
    "topic": "수용액·pH",
    "type": "mc",
-   "question": "수용액의〔OH-〕가 1×10-8M이라고 할 때 pH로 나타내면 그 값이 얼마인가?",
+   "question": "수용액의〔OH⁻〕가 1×10-8M이라고 할 때 pH로 나타내면 그 값이 얼마인가?",
    "options": [
     "8",
     "7.5",
@@ -1377,7 +1377,7 @@
    "chapter": 4,
    "topic": "수용액·pH",
    "type": "mc",
-   "question": "수용액의 [OH-]가 1×10-7M이라고 할 때 pH로 나타내면 그 값이 얼마인가?",
+   "question": "수용액의 [OH⁻]가 1×10-7M이라고 할 때 pH로 나타내면 그 값이 얼마인가?",
    "options": [
     "8",
     "7.5",
@@ -3198,7 +3198,7 @@
    "answers": null,
    "explanation": "금속이온(Mg²⁺·Zn²⁺·Fe²⁺ 등)이 무기 보조인자.",
    "source": null,
-   "blankable": true
+   "blankable": false
   },
   {
    "id": "agbio-ch09-1-173",
@@ -3575,7 +3575,7 @@
    ],
    "answer": 3,
    "answers": null,
-   "explanation": "동물(가축) 30/32(셔틀 차이), 식물(작물) 30. 원핵만 38.",
+   "explanation": "동물(가축)30/32(셔틀 차이), 식물(작물)30. 원핵만 38.",
    "source": "2015-Q22",
    "blankable": false
   },
@@ -3644,10 +3644,10 @@
    "type": "mc",
    "question": "Glucose 1분자가 해당작용에서 생산하는 에너지 관련 물질은?",
    "options": [
-    "ATP 2분자, NADH 2분자",
-    "ATP 2분자, NADPH 2분자",
-    "GTP 2분자, NADH 2분자",
-    "GTP 2분자, NADPH 2분자"
+    "ATP₂분자, NADH₂분자",
+    "ATP₂분자, NADPH₂분자",
+    "GTP₂분자, NADH₂분자",
+    "GTP₂분자, NADPH₂분자"
    ],
    "answer": 0,
    "answers": null,
@@ -3758,10 +3758,10 @@
    "type": "mc",
    "question": "Glucose 1분자가 해당작용에서 생산하는 에너지 관련 물질은?",
    "options": [
-    "ATP 2분자, NADH 2분자",
-    "ATP 2분자, NADPH 2분자",
-    "GTP 2분자, NADH 2분자",
-    "GTP 2분자, NADPH 2분자"
+    "ATP₂분자, NADH₂분자",
+    "ATP₂분자, NADPH₂분자",
+    "GTP₂분자, NADH₂분자",
+    "GTP₂분자, NADPH₂분자"
    ],
    "answer": 0,
    "answers": null,
@@ -3798,7 +3798,7 @@
    "options": [
     "ATP",
     "GTP",
-    "FADH2",
+    "FADH₂",
     "NADPH"
    ],
    "answer": 3,
@@ -4082,7 +4082,7 @@
    ],
    "answer": 3,
    "answers": null,
-   "explanation": "진핵에서 C16~C18 포화지방산에서 불포화결합 형성. **팔미트산(C16)**.",
+   "explanation": "진핵에서 C₁₆~C₁₈ 포화지방산에서 불포화결합 형성. **팔미트산(C₁₆)**.",
    "source": null,
    "blankable": true
   },
@@ -4477,10 +4477,10 @@
    "type": "mc",
    "question": "토양중의 질소가 흡수된 후 아미노산 질소로 전환되는 순서로 옳은 것은?",
    "options": [
-    "NO2- → NO3- → NH4+ → 아미노산",
-    "NO3- → NO2- → NH4+ → 아미노산",
-    "NO2- → NH4+ → NO3- → 아미노산",
-    "NO3- → NH4+ → NO2- → 아미노산"
+    "NO₂⁻ → NO₃⁻ → NH₄⁺ → 아미노산",
+    "NO₃⁻ → NO₂⁻ → NH₄⁺ → 아미노산",
+    "NO₂⁻ → NH₄⁺ → NO₃⁻ → 아미노산",
+    "NO₃⁻ → NH₄⁺ → NO₂⁻ → 아미노산"
    ],
    "answer": 1,
    "answers": null,
@@ -4629,16 +4629,16 @@
    "type": "mc",
    "question": "아미노기 전이반응(transamination)의 보조효소는?",
    "options": [
-    "PLP(비타민 B6)",
+    "PLP(비타민 B₆)",
     "NAD⁺",
     "비오틴",
     "티아민"
    ],
    "answer": 0,
    "answers": null,
-   "explanation": "PLP(피리독살인산, 비타민 B6).",
+   "explanation": "PLP(피리독살인산, 비타민 B₆).",
    "source": null,
-   "blankable": true
+   "blankable": false
   },
   {
    "id": "agbio-ch12-16-251",
@@ -5295,7 +5295,7 @@
    ],
    "answer": 0,
    "answers": null,
-   "explanation": "Hatch-Slack(C4) = 옥수수·사탕수수 등 열대지방 식물(광호흡 줄임).",
+   "explanation": "Hatch-Slack(C₄) = 옥수수·사탕수수 등 열대지방 식물(광호흡 줄임).",
    "source": "2015-Q21",
    "blankable": true
   },
@@ -5630,10 +5630,10 @@
    "type": "mc",
    "question": "토양에 존재하는 질소 중에서 식물에 의해 흡수될 수 있는 형태는?",
    "options": [
-    "NO3-, NO2-",
-    "NO2-, NH4+",
-    "NO3-, NH4+",
-    "NO3-, NO2-, NH4+"
+    "NO₃⁻, NO₂⁻",
+    "NO₂⁻, NH₄⁺",
+    "NO₃⁻, NH₄⁺",
+    "NO₃⁻, NO₂⁻, NH₄⁺"
    ],
    "answer": 2,
    "answers": null,
@@ -5760,18 +5760,18 @@
    "chapter": 14,
    "topic": "작물생산·광합성",
    "type": "mc",
-   "question": "C3 식물의 광호흡 손실을 줄이도록 CO₂ 농축에 적응한 식물은?",
+   "question": "C₃ 식물의 광호흡 손실을 줄이도록 CO₂ 농축에 적응한 식물은?",
    "options": [
-    "C4·CAM 식물",
+    "C₄·CAM 식물",
     "남세균",
     "광합성세균",
     "곰팡이"
    ],
    "answer": 0,
    "answers": null,
-   "explanation": "C4(Hatch-Slack)·CAM 식물이 광호흡 회피.",
+   "explanation": "C₄(Hatch-Slack)·CAM 식물이 광호흡 회피.",
    "source": null,
-   "blankable": true
+   "blankable": false
   },
   {
    "id": "agbio-ch14-35-313",
@@ -5885,7 +5885,7 @@
    "answers": null,
    "explanation": "세포막의 **Na⁺ 펌프**가 간질액 Na⁺ 농도를 조절해 부위별 용적 유지.",
    "source": "2018-Q70",
-   "blankable": true
+   "blankable": false
   },
   {
    "id": "agbio-ch15-5-319",
@@ -5972,7 +5972,7 @@
    "question": "동물체의 체내 각 부위의 체액 양이 일정하게 유지되도록 조정하는 기구는 무엇인가?",
    "options": [
     "삼투압",
-    "Na+ 펌프",
+    "Na⁺ 펌프",
     "신장 여과기능",
     "적혈구 산소결합능력"
    ],
@@ -5980,7 +5980,7 @@
    "answers": null,
    "explanation": "",
    "source": "2018-Q70",
-   "blankable": true
+   "blankable": false
   },
   {
    "id": "agbio-ch15-10-324",
@@ -6340,7 +6340,7 @@
      ],
      "answer": 1,
      "answers": null,
-     "explanation": "중성 pH 7 → [H⁺]=[OH⁻]=10⁻⁷M (Kw=10⁻¹⁴).",
+     "explanation": "중성 pH₇ → [H⁺]=[OH⁻]=10⁻⁷M (Kw=10⁻¹⁴).",
      "source": null
     },
     {
@@ -6574,7 +6574,7 @@
      ],
      "answer": 0,
      "answers": null,
-     "explanation": "Hatch-Slack(C4) = 옥수수·사탕수수 등 열대지방 식물(광호흡 줄임).",
+     "explanation": "Hatch-Slack(C₄) = 옥수수·사탕수수 등 열대지방 식물(광호흡 줄임).",
      "source": null
     },
     {
@@ -6592,7 +6592,7 @@
      ],
      "answer": 3,
      "answers": null,
-     "explanation": "동물(가축) 30/32(셔틀 차이), 식물(작물) 30. 원핵만 38.",
+     "explanation": "동물(가축)30/32(셔틀 차이), 식물(작물)30. 원핵만 38.",
      "source": null
     },
     {
@@ -7294,10 +7294,10 @@
      "type": "mc",
      "question": "Glucose 1분자가 해당작용에서 생산하는 에너지 관련 물질은?",
      "options": [
-      "ATP 2분자, NADH 2분자",
-      "ATP 2분자, NADPH 2분자",
-      "GTP 2분자, NADH 2분자",
-      "GTP 2분자, NADPH 2분자"
+      "ATP₂분자, NADH₂분자",
+      "ATP₂분자, NADPH₂분자",
+      "GTP₂분자, NADH₂분자",
+      "GTP₂분자, NADPH₂분자"
      ],
      "answer": 0,
      "answers": null,
@@ -7384,10 +7384,10 @@
      "type": "mc",
      "question": "토양중의 질소가 흡수된 후 아미노산 질소로 전환되는 순서로 옳은 것은?",
      "options": [
-      "NO2- → NO3- → NH4+ → 아미노산",
-      "NO3- → NO2- → NH4+ → 아미노산",
-      "NO2- → NH4+ → NO3- → 아미노산",
-      "NO3- → NH4+ → NO2- → 아미노산"
+      "NO₂⁻ → NO₃⁻ → NH₄⁺ → 아미노산",
+      "NO₃⁻ → NO₂⁻ → NH₄⁺ → 아미노산",
+      "NO₂⁻ → NH₄⁺ → NO₃⁻ → 아미노산",
+      "NO₃⁻ → NH₄⁺ → NO₂⁻ → 아미노산"
      ],
      "answer": 1,
      "answers": null,
@@ -8242,7 +8242,7 @@
      "chapter": 0,
      "topic": "기출",
      "type": "mc",
-     "question": "수용액의〔OH-〕가 1×10-8M이라고 할 때 pH로 나타내면 그 값이 얼마인가?",
+     "question": "수용액의〔OH⁻〕가 1×10-8M이라고 할 때 pH로 나타내면 그 값이 얼마인가?",
      "options": [
       "8",
       "7.5",
@@ -8550,10 +8550,10 @@
      "type": "mc",
      "question": "Glucose 1분자가 해당작용에서 생산하는 에너지 관련 물질은?",
      "options": [
-      "ATP 2분자, NADH 2분자",
-      "ATP 2분자, NADPH 2분자",
-      "GTP 2분자, NADH 2분자",
-      "GTP 2분자, NADPH 2분자"
+      "ATP₂분자, NADH₂분자",
+      "ATP₂분자, NADPH₂분자",
+      "GTP₂분자, NADH₂분자",
+      "GTP₂분자, NADPH₂분자"
      ],
      "answer": 0,
      "answers": null,
@@ -8588,7 +8588,7 @@
      "options": [
       "ATP",
       "GTP",
-      "FADH2",
+      "FADH₂",
       "NADPH"
      ],
      "answer": 3,
@@ -8734,7 +8734,7 @@
      "question": "동물체의 체내 각 부위의 체액 양이 일정하게 유지되도록 조정하는 기구는 무엇인가?",
      "options": [
       "삼투압",
-      "Na+ 펌프",
+      "Na⁺ 펌프",
       "신장 여과기능",
       "적혈구 산소결합능력"
      ],
@@ -8900,7 +8900,7 @@
      "chapter": 0,
      "topic": "기출",
      "type": "mc",
-     "question": "수용액의 [OH-]가 1×10-7M이라고 할 때 pH로 나타내면 그 값이 얼마인가?",
+     "question": "수용액의 [OH⁻]가 1×10-7M이라고 할 때 pH로 나타내면 그 값이 얼마인가?",
      "options": [
       "8",
       "7.5",
@@ -9208,10 +9208,10 @@
      "type": "mc",
      "question": "토양에 존재하는 질소 중에서 식물에 의해 흡수될 수 있는 형태는?",
      "options": [
-      "NO3-, NO2-",
-      "NO2-, NH4+",
-      "NO3-, NH4+",
-      "NO3-, NO2-, NH4+"
+      "NO₃⁻, NO₂⁻",
+      "NO₂⁻, NH₄⁺",
+      "NO₃⁻, NH₄⁺",
+      "NO₃⁻, NO₂⁻, NH₄⁺"
      ],
      "answer": 2,
      "answers": null,
