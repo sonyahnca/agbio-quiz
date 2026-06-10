@@ -1,7 +1,7 @@
 {
  "subject": "농업유전학",
- "count": 175,
- "mc_count": 175,
+ "count": 218,
+ "mc_count": 218,
  "questions": [
   {
    "id": "gen-ch01-1-0",
@@ -327,7 +327,64 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-1-17",
+   "id": "gen-ch02-14-17",
+   "subject": "농업유전학",
+   "chapter": 2,
+   "topic": "생식·염색체 행동",
+   "type": "mc",
+   "question": "식물의 암배우자에 해당하는 것은?",
+   "options": [
+    "난자",
+    "배낭",
+    "난세포",
+    "정자"
+   ],
+   "answer": 2,
+   "answers": null,
+   "explanation": "식물 암배우자=난세포(배낭은 암배우체). 수배우자=정세포(화분=수배우체).",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch02-15-18",
+   "subject": "농업유전학",
+   "chapter": 2,
+   "topic": "생식·염색체 행동",
+   "type": "mc",
+   "question": "게놈을 구성하는 염색체가 1개인 생물은?",
+   "options": [
+    "사람",
+    "초파리",
+    "대장균",
+    "효모"
+   ],
+   "answer": 2,
+   "answers": null,
+   "explanation": "박테리아(대장균)의 기본 염색체는 1개 → 게놈 염색체 1개.",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch02-16-19",
+   "subject": "농업유전학",
+   "chapter": 2,
+   "topic": "생식·염색체 행동",
+   "type": "mc",
+   "question": "한 개의 생식모세포로부터 형성되는 배우자에 대한 설명으로 바른 것은?",
+   "options": [
+    "식물 화분 4개, 동물 정자 1개",
+    "식물 화분 4개, 동물 난자 1개",
+    "식물 배낭, 동물 정자 각 1개씩",
+    "식물 배낭, 동물 난자 각 4개씩"
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "한 생식모세포 → 식물 화분 4개, 동물은 정자 4개·난자 1개(암배우자는 1개만 기능).",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch03-1-20",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -346,7 +403,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-2-18",
+   "id": "gen-ch03-2-21",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -365,7 +422,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-3-19",
+   "id": "gen-ch03-3-22",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -384,7 +441,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-4-20",
+   "id": "gen-ch03-4-23",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -403,7 +460,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-5-21",
+   "id": "gen-ch03-5-24",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -422,7 +479,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-6-22",
+   "id": "gen-ch03-6-25",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -441,7 +498,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-7-23",
+   "id": "gen-ch03-7-26",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -460,7 +517,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-8-24",
+   "id": "gen-ch03-8-27",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -479,7 +536,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-9-25",
+   "id": "gen-ch03-9-28",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -498,7 +555,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-10-26",
+   "id": "gen-ch03-10-29",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -517,7 +574,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-11-27",
+   "id": "gen-ch03-11-30",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -536,7 +593,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-12-28",
+   "id": "gen-ch03-12-31",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -555,7 +612,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-13-29",
+   "id": "gen-ch03-13-32",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -574,7 +631,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-14-30",
+   "id": "gen-ch03-14-33",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -593,7 +650,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-15-31",
+   "id": "gen-ch03-15-34",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -612,7 +669,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-16-32",
+   "id": "gen-ch03-16-35",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -631,7 +688,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-17-33",
+   "id": "gen-ch03-17-36",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -650,7 +707,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-18-34",
+   "id": "gen-ch03-18-37",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -669,7 +726,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-19-35",
+   "id": "gen-ch03-19-38",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -688,7 +745,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-20-36",
+   "id": "gen-ch03-20-39",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -707,7 +764,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-21-37",
+   "id": "gen-ch03-21-40",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -726,7 +783,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-22-38",
+   "id": "gen-ch03-22-41",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -745,7 +802,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-23-39",
+   "id": "gen-ch03-23-42",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -764,7 +821,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-24-40",
+   "id": "gen-ch03-24-43",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -783,7 +840,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch03-25-41",
+   "id": "gen-ch03-25-44",
    "subject": "농업유전학",
    "chapter": 3,
    "topic": "멘델의 법칙",
@@ -802,7 +859,64 @@
    "blankable": false
   },
   {
-   "id": "gen-ch04-1-42",
+   "id": "gen-ch03-26-45",
+   "subject": "농업유전학",
+   "chapter": 3,
+   "topic": "멘델의 법칙",
+   "type": "mc",
+   "question": "완전우성인 단성잡종(Aa)에서 형성되는 배우자와 F₂ 유전자형 및 F₂ 표현형의 종류는?",
+   "options": [
+    "배우자 2가지, 유전자형 3가지, 표현형 2가지",
+    "배우자 2가지, 유전자형 2가지, 표현형 3가지",
+    "배우자 3가지, 유전자형 3가지, 표현형 3가지",
+    "배우자 2가지, 유전자형 2가지, 표현형 2가지"
+   ],
+   "answer": 0,
+   "answers": null,
+   "explanation": "단성잡종: 배우자 2(A,a)·유전자형 3(AA:Aa:aa)·표현형 2(완전우성).",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch03-27-46",
+   "subject": "농업유전학",
+   "chapter": 3,
+   "topic": "멘델의 법칙",
+   "type": "mc",
+   "question": "멘델의 ㄱ.___ 법칙은 비대립유전자들이 독립적으로 분리하여 자유조합을 이룬다는 것으로, ㄴ.___에는 적용되지 않는다.",
+   "options": [
+    "ㄱ.제1 ㄴ.독립유전자",
+    "ㄱ.제2 ㄴ.독립유전자",
+    "ㄱ.제1 ㄴ.연관유전자",
+    "ㄱ.제2 ㄴ.연관유전자"
+   ],
+   "answer": 3,
+   "answers": null,
+   "explanation": "독립(제2)의 법칙은 연관유전자엔 적용되지 않는다(연관유전자는 함께 행동).",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch03-28-47",
+   "subject": "농업유전학",
+   "chapter": 3,
+   "topic": "멘델의 법칙",
+   "type": "mc",
+   "question": "대립유전자 A, a에 대한 체세포(2n)의 유전자형으로 가능한 것은?",
+   "options": [
+    "A, a",
+    "A, a, B, b",
+    "AA, Aa, aa",
+    "AB, Ab, aB, ab"
+   ],
+   "answer": 2,
+   "answers": null,
+   "explanation": "체세포엔 상동염색체가 있어 대립유전자가 2개씩 → AA·Aa·aa.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch04-1-48",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -821,7 +935,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch04-2-43",
+   "id": "gen-ch04-2-49",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -840,7 +954,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-3-44",
+   "id": "gen-ch04-3-50",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -859,7 +973,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-4-45",
+   "id": "gen-ch04-4-51",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -878,7 +992,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-5-46",
+   "id": "gen-ch04-5-52",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -897,7 +1011,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch04-6-47",
+   "id": "gen-ch04-6-53",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -916,7 +1030,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-7-48",
+   "id": "gen-ch04-7-54",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -935,7 +1049,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-8-49",
+   "id": "gen-ch04-8-55",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -954,7 +1068,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch04-9-50",
+   "id": "gen-ch04-9-56",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -973,7 +1087,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-10-51",
+   "id": "gen-ch04-10-57",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -992,7 +1106,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch04-11-52",
+   "id": "gen-ch04-11-58",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1011,7 +1125,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-12-53",
+   "id": "gen-ch04-12-59",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1030,7 +1144,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch04-13-54",
+   "id": "gen-ch04-13-60",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1049,7 +1163,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-14-55",
+   "id": "gen-ch04-14-61",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1068,7 +1182,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch04-15-56",
+   "id": "gen-ch04-15-62",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1087,7 +1201,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-16-57",
+   "id": "gen-ch04-16-63",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1106,7 +1220,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch04-17-58",
+   "id": "gen-ch04-17-64",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1125,7 +1239,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch04-18-59",
+   "id": "gen-ch04-18-65",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1144,7 +1258,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-19-60",
+   "id": "gen-ch04-19-66",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1163,7 +1277,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-20-61",
+   "id": "gen-ch04-20-67",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1182,7 +1296,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch04-21-62",
+   "id": "gen-ch04-21-68",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1201,7 +1315,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch04-22-63",
+   "id": "gen-ch04-22-69",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1220,7 +1334,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-23-64",
+   "id": "gen-ch04-23-70",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1239,7 +1353,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-24-65",
+   "id": "gen-ch04-24-71",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1258,7 +1372,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-25-66",
+   "id": "gen-ch04-25-72",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1277,7 +1391,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch04-26-67",
+   "id": "gen-ch04-26-73",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1296,7 +1410,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch04-27-68",
+   "id": "gen-ch04-27-74",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1315,7 +1429,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch04-28-69",
+   "id": "gen-ch04-28-75",
    "subject": "농업유전학",
    "chapter": 4,
    "topic": "유전자 상호작용",
@@ -1334,7 +1448,64 @@
    "blankable": false
   },
   {
-   "id": "gen-ch05-1-70",
+   "id": "gen-ch04-29-76",
+   "subject": "농업유전학",
+   "chapter": 4,
+   "topic": "유전자 상호작용",
+   "type": "mc",
+   "question": "공우성이 나타나는 이유는?",
+   "options": [
+    "이형접합체(Aa)에서 우성대립유전자 효소 생산량이 열성대립유전자보다 많기 때문",
+    "이형접합체에서 우성대립유전자 효소량이 열성보다 적기 때문",
+    "이형접합체에서 두 대립유전자 산물(효소)의 기능이 똑같기 때문",
+    "이형접합체 효소량이 우성동형접합체와 똑같기 때문"
+   ],
+   "answer": 2,
+   "answers": null,
+   "explanation": "공우성은 두 대립유전자 산물의 기능이 같아 둘 다 발현(AB형 혈액).",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch04-30-77",
+   "subject": "농업유전학",
+   "chapter": 4,
+   "topic": "유전자 상호작용",
+   "type": "mc",
+   "question": "불완전우성과 공우성은 어떻게 다른가?",
+   "options": [
+    "F₂ 분리비가 1:2:1이면 공우성, 3:1이면 불완전우성이다.",
+    "F₂ 분리비가 3:1이면 공우성, 1:2:1이면 불완전우성이다.",
+    "F₁에 양친의 특성이 함께 나타나면 공우성, 중간특성을 나타내면 불완전우성이다.",
+    "F₁이 중간특성이면 공우성, 양친 특성이 함께 나타나면 불완전우성이다."
+   ],
+   "answer": 2,
+   "answers": null,
+   "explanation": "공우성=양친 특성 함께, 불완전우성=중간형질. (둘 다 F₂는 1:2:1.)",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch04-31-78",
+   "subject": "농업유전학",
+   "chapter": 4,
+   "topic": "유전자 상호작용",
+   "type": "mc",
+   "question": "수소와 암소는 똑같이 우유생산 유전자를 가지나 암소만 우유를 생산한다. 이 유전현상은?",
+   "options": [
+    "반성유전",
+    "한성유전",
+    "종성유전",
+    "성연관유전"
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "한성유전: 호르몬 영향으로 형질이 한쪽 성에만 발현.",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch05-1-79",
    "subject": "농업유전학",
    "chapter": 5,
    "topic": "연관·재조합·유전자지도",
@@ -1353,7 +1524,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch05-2-71",
+   "id": "gen-ch05-2-80",
    "subject": "농업유전학",
    "chapter": 5,
    "topic": "연관·재조합·유전자지도",
@@ -1372,7 +1543,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch05-3-72",
+   "id": "gen-ch05-3-81",
    "subject": "농업유전학",
    "chapter": 5,
    "topic": "연관·재조합·유전자지도",
@@ -1391,7 +1562,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch05-4-73",
+   "id": "gen-ch05-4-82",
    "subject": "농업유전학",
    "chapter": 5,
    "topic": "연관·재조합·유전자지도",
@@ -1410,7 +1581,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch05-5-74",
+   "id": "gen-ch05-5-83",
    "subject": "농업유전학",
    "chapter": 5,
    "topic": "연관·재조합·유전자지도",
@@ -1429,7 +1600,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch05-6-75",
+   "id": "gen-ch05-6-84",
    "subject": "농업유전학",
    "chapter": 5,
    "topic": "연관·재조합·유전자지도",
@@ -1448,7 +1619,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch05-7-76",
+   "id": "gen-ch05-7-85",
    "subject": "농업유전학",
    "chapter": 5,
    "topic": "연관·재조합·유전자지도",
@@ -1467,7 +1638,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch05-8-77",
+   "id": "gen-ch05-8-86",
    "subject": "농업유전학",
    "chapter": 5,
    "topic": "연관·재조합·유전자지도",
@@ -1486,7 +1657,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch05-9-78",
+   "id": "gen-ch05-9-87",
    "subject": "농업유전학",
    "chapter": 5,
    "topic": "연관·재조합·유전자지도",
@@ -1505,7 +1676,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch05-10-79",
+   "id": "gen-ch05-10-88",
    "subject": "농업유전학",
    "chapter": 5,
    "topic": "연관·재조합·유전자지도",
@@ -1524,7 +1695,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch05-11-80",
+   "id": "gen-ch05-11-89",
    "subject": "농업유전학",
    "chapter": 5,
    "topic": "연관·재조합·유전자지도",
@@ -1543,7 +1714,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch05-12-81",
+   "id": "gen-ch05-12-90",
    "subject": "농업유전학",
    "chapter": 5,
    "topic": "연관·재조합·유전자지도",
@@ -1562,7 +1733,64 @@
    "blankable": true
   },
   {
-   "id": "gen-ch06-1-82",
+   "id": "gen-ch05-13-91",
+   "subject": "농업유전학",
+   "chapter": 5,
+   "topic": "연관·재조합·유전자지도",
+   "type": "mc",
+   "question": "형성된 배우자 중에 양친형이 80% 나왔다면 재조합빈도(RF)는?",
+   "options": [
+    "RF=10%",
+    "RF=20%",
+    "RF=40%",
+    "RF=80%"
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "양친형 80% → 재조합형 20% = RF₂₀%.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch05-14-92",
+   "subject": "농업유전학",
+   "chapter": 5,
+   "topic": "연관·재조합·유전자지도",
+   "type": "mc",
+   "question": "연관된 두 유전자 사이에 재조합이 일어날 수 있는 최대 한계는 몇 %인가?",
+   "options": [
+    "0",
+    "25",
+    "50",
+    "100"
+   ],
+   "answer": 2,
+   "answers": null,
+   "explanation": "재조합빈도는 최대 50%(독립유전이면 항상 50%).",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch05-15-93",
+   "subject": "농업유전학",
+   "chapter": 5,
+   "topic": "연관·재조합·유전자지도",
+   "type": "mc",
+   "question": "유전자의 연관상태가 시스(상인) 배열인 경우 양친형과 재조합형의 유전자형은?",
+   "options": [
+    "양친형 AB·ab, 재조합형 Ab·aB",
+    "양친형 AB·aB, 재조합형 Ab·ab",
+    "양친형 AB·Ab, 재조합형 ab·aB",
+    "양친형 AB·aB, 재조합형 ab·Ab"
+   ],
+   "answer": 0,
+   "answers": null,
+   "explanation": "시스(상인)=우성끼리(AB)·열성끼리(ab) 연관 → 양친형 AB·ab, 재조합형 Ab·aB.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch06-1-94",
    "subject": "농업유전학",
    "chapter": 6,
    "topic": "세포질 유전",
@@ -1581,7 +1809,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch06-2-83",
+   "id": "gen-ch06-2-95",
    "subject": "농업유전학",
    "chapter": 6,
    "topic": "세포질 유전",
@@ -1600,7 +1828,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch06-3-84",
+   "id": "gen-ch06-3-96",
    "subject": "농업유전학",
    "chapter": 6,
    "topic": "세포질 유전",
@@ -1619,7 +1847,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch06-4-85",
+   "id": "gen-ch06-4-97",
    "subject": "농업유전학",
    "chapter": 6,
    "topic": "세포질 유전",
@@ -1638,7 +1866,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch06-5-86",
+   "id": "gen-ch06-5-98",
    "subject": "농업유전학",
    "chapter": 6,
    "topic": "세포질 유전",
@@ -1657,7 +1885,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch06-6-87",
+   "id": "gen-ch06-6-99",
    "subject": "농업유전학",
    "chapter": 6,
    "topic": "세포질 유전",
@@ -1676,7 +1904,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch06-7-88",
+   "id": "gen-ch06-7-100",
    "subject": "농업유전학",
    "chapter": 6,
    "topic": "세포질 유전",
@@ -1695,7 +1923,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch06-8-89",
+   "id": "gen-ch06-8-101",
    "subject": "농업유전학",
    "chapter": 6,
    "topic": "세포질 유전",
@@ -1714,7 +1942,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch06-9-90",
+   "id": "gen-ch06-9-102",
    "subject": "농업유전학",
    "chapter": 6,
    "topic": "세포질 유전",
@@ -1733,7 +1961,64 @@
    "blankable": false
   },
   {
-   "id": "gen-ch07-1-91",
+   "id": "gen-ch06-10-103",
+   "subject": "농업유전학",
+   "chapter": 6,
+   "topic": "세포질 유전",
+   "type": "mc",
+   "question": "세포질유전자(핵외유전자)를 가리키는 용어는?",
+   "options": [
+    "플라스몬",
+    "플라스토진",
+    "콘드리오진",
+    "모두 맞다"
+   ],
+   "answer": 3,
+   "answers": null,
+   "explanation": "전체=플라스몬, 색소체=플라스토진, 미토콘드리아=콘드리오진(각각=플라스마진).",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch06-11-104",
+   "subject": "농업유전학",
+   "chapter": 6,
+   "topic": "세포질 유전",
+   "type": "mc",
+   "question": "다음 중 감염성 유전을 하는 것은?",
+   "options": [
+    "짚신벌레의 카파입자",
+    "초파리의 시그마인자",
+    "초파리의 SR인자",
+    "모두 맞다"
+   ],
+   "answer": 3,
+   "answers": null,
+   "explanation": "카파입자(박테리아)·시그마인자(바이러스)·SR인자(스피로플라스마) 모두 감염성 유전(세포질유전 아님).",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch06-12-105",
+   "subject": "농업유전학",
+   "chapter": 6,
+   "topic": "세포질 유전",
+   "type": "mc",
+   "question": "색소체 DNA와 미토콘드리아 DNA의 특징은?",
+   "options": [
+    "색소체 DNA는 한 가닥의 막대기 모양이다.",
+    "미토콘드리아 DNA는 두 가닥의 고리 모양이다.",
+    "색소체 DNA에는 rRNA 유전자가 없다.",
+    "미토콘드리아 DNA에는 tRNA 유전자가 없다."
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "cpDNA·mtDNA 모두 두 가닥 고리모양이며 자체 rRNA·tRNA 유전자를 가진다.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch07-1-106",
    "subject": "농업유전학",
    "chapter": 7,
    "topic": "염색체 변화",
@@ -1752,7 +2037,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch07-2-92",
+   "id": "gen-ch07-2-107",
    "subject": "농업유전학",
    "chapter": 7,
    "topic": "염색체 변화",
@@ -1771,7 +2056,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch07-3-93",
+   "id": "gen-ch07-3-108",
    "subject": "농업유전학",
    "chapter": 7,
    "topic": "염색체 변화",
@@ -1790,7 +2075,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch07-4-94",
+   "id": "gen-ch07-4-109",
    "subject": "농업유전학",
    "chapter": 7,
    "topic": "염색체 변화",
@@ -1809,7 +2094,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch07-5-95",
+   "id": "gen-ch07-5-110",
    "subject": "농업유전학",
    "chapter": 7,
    "topic": "염색체 변화",
@@ -1828,7 +2113,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch07-6-96",
+   "id": "gen-ch07-6-111",
    "subject": "농업유전학",
    "chapter": 7,
    "topic": "염색체 변화",
@@ -1847,7 +2132,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch07-7-97",
+   "id": "gen-ch07-7-112",
    "subject": "농업유전학",
    "chapter": 7,
    "topic": "염색체 변화",
@@ -1866,7 +2151,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch07-8-98",
+   "id": "gen-ch07-8-113",
    "subject": "농업유전학",
    "chapter": 7,
    "topic": "염색체 변화",
@@ -1885,7 +2170,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch07-9-99",
+   "id": "gen-ch07-9-114",
    "subject": "농업유전학",
    "chapter": 7,
    "topic": "염색체 변화",
@@ -1904,7 +2189,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch07-10-100",
+   "id": "gen-ch07-10-115",
    "subject": "농업유전학",
    "chapter": 7,
    "topic": "염색체 변화",
@@ -1923,7 +2208,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch07-11-101",
+   "id": "gen-ch07-11-116",
    "subject": "농업유전학",
    "chapter": 7,
    "topic": "염색체 변화",
@@ -1942,7 +2227,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch07-12-102",
+   "id": "gen-ch07-12-117",
    "subject": "농업유전학",
    "chapter": 7,
    "topic": "염색체 변화",
@@ -1961,7 +2246,216 @@
    "blankable": false
   },
   {
-   "id": "gen-ch09-1-103",
+   "id": "gen-ch07-13-118",
+   "subject": "농업유전학",
+   "chapter": 7,
+   "topic": "염색체 변화",
+   "type": "mc",
+   "question": "동질배수체와 이질배수체에 대한 설명이 바르게 된 것은?",
+   "options": [
+    "동질배수체는 정배수성이고 이질배수체는 이수성이다.",
+    "동질배수체는 불임률이 높고 이질배수체는 임성이 높다.",
+    "동질배수체는 기관이 축소되고 이질배수체는 거대화한다.",
+    "동질배수체는 감수분열시 2가염색체를, 이질배수체는 다가염색체를 형성한다."
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "동질=다가염색체로 불임률↑, 이질=2가염색체로 임성↑.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch07-14-119",
+   "subject": "농업유전학",
+   "chapter": 7,
+   "topic": "염색체 변화",
+   "type": "mc",
+   "question": "보통 빵밀의 게놈구성은 AABBDD이다. 게놈 수는 모두 몇 개인가?",
+   "options": [
+    "1개",
+    "3개",
+    "6개",
+    "12개"
+   ],
+   "answer": 2,
+   "answers": null,
+   "explanation": "A·B·D 게놈이 2세트씩 = 6개(이질6배체·복2배체).",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch07-15-120",
+   "subject": "농업유전학",
+   "chapter": 7,
+   "topic": "염색체 변화",
+   "type": "mc",
+   "question": "옥수수의 알갱이가 생기지 못하여 반불임이 되는 것은 염색체에 무엇이 일어났기 때문인가?",
+   "options": [
+    "결실",
+    "중복",
+    "역위",
+    "상호전좌"
+   ],
+   "answer": 3,
+   "answers": null,
+   "explanation": "상호전좌 이형접합체는 4가염색체 인접분리로 결실·중복 배우자가 생겨 반불임.",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch08-1-121",
+   "subject": "농업유전학",
+   "chapter": 8,
+   "topic": "농업형질의 유전",
+   "type": "mc",
+   "question": "표지유전자의 조건으로 적합하지 않은 것은?",
+   "options": [
+    "단순유전한다.",
+    "연속변이한다.",
+    "식별이 용이하다.",
+    "형태적 형질이다."
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "표지유전자는 단순유전·식별 용이·형태적 형질이어야 한다. 연속변이는 양적형질의 특징.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch08-2-122",
+   "subject": "농업유전학",
+   "chapter": 8,
+   "topic": "농업형질의 유전",
+   "type": "mc",
+   "question": "통일벼의 다수성 초형유전자는?",
+   "options": [
+    "sd-1 유전자",
+    "lg 유전자",
+    "uz 유전자",
+    "In 유전자"
+   ],
+   "answer": 0,
+   "answers": null,
+   "explanation": "통일벼 초형 = 반왜성(semi-dwarf) sd-1, 단순유전·다수성(녹색혁명).",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch08-3-123",
+   "subject": "농업유전학",
+   "chapter": 8,
+   "topic": "농업형질의 유전",
+   "type": "mc",
+   "question": "식물의 조만성은 기본영양생장성·감광성·감온성에 의해 지배된다. 그 중 환경의 영향을 받지 않는 것은?",
+   "options": [
+    "감광성",
+    "기본영양생장성",
+    "감온성",
+    "모두 영향받지 않는다."
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "기본영양생장성은 유전적 특성으로 정해져 온도·일장 등 환경 영향을 거의 안 받는다.",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch08-4-124",
+   "subject": "농업유전학",
+   "chapter": 8,
+   "topic": "농업형질의 유전",
+   "type": "mc",
+   "question": "가축의 가계도를 표시하는 데 잘못된 것은?",
+   "options": [
+    "수컷은 동그라미, 암컷은 네모로 표시한다.",
+    "세대구분은 로마자 Ⅰ, Ⅱ 등으로 표시한다.",
+    "같은 세대의 개체들은 1, 2, 3 등 아라비아 숫자로 표시한다.",
+    "조사대상 형질은 색칠하여 정상인 것과 구별한다."
+   ],
+   "answer": 0,
+   "answers": null,
+   "explanation": "가축 가계도는 수컷 □(네모), 암컷 ○(동그라미)로 표시한다.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch08-5-125",
+   "subject": "농업유전학",
+   "chapter": 8,
+   "topic": "농업형질의 유전",
+   "type": "mc",
+   "question": "가축의 선천성 기형형질은?",
+   "options": [
+    "소의 복고(돈고)",
+    "돼지의 하수형 귀",
+    "백색닭",
+    "포복닭"
+   ],
+   "answer": 3,
+   "answers": null,
+   "explanation": "포복닭(닭의 포복성)·소의 선천성 무모 등 선천성 기형은 대개 치사유전자가 관여.",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch08-6-126",
+   "subject": "농업유전학",
+   "chapter": 8,
+   "topic": "농업형질의 유전",
+   "type": "mc",
+   "question": "교배실험에서 정역교배를 하였을 때 알 수 있는 유전현상은?",
+   "options": [
+    "상위성과 하위성",
+    "우성과 열성의 분리비",
+    "동형접합과 이형접합",
+    "세포질 유전"
+   ],
+   "answer": 3,
+   "answers": null,
+   "explanation": "정역교배(암수 바꿔 교배)로 세포질 유전·반성유전 여부를 알 수 있다.",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch08-7-127",
+   "subject": "농업유전학",
+   "chapter": 8,
+   "topic": "농업형질의 유전",
+   "type": "mc",
+   "question": "자손의 특성으로 친(親)의 유전자형을 평가하는 유전분석 방법은?",
+   "options": [
+    "가계도분석",
+    "후대검정",
+    "정역교배",
+    "검정교배"
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "후대검정. 완전우성 시 AA·Aa는 표현형이 같으나 후대검정하면 Aa 자손만 분리.",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch08-8-128",
+   "subject": "농업유전학",
+   "chapter": 8,
+   "topic": "농업형질의 유전",
+   "type": "mc",
+   "question": "A가 a에 완전우성일 때 유전자형 AA와 Aa는 표현형이 같다. 이들을 구별하는 방법은?",
+   "options": [
+    "후대검정을 한다.",
+    "우성친으로 검정교배를 한다.",
+    "정역교배를 한다.",
+    "우성친으로 여교배를 한다."
+   ],
+   "answer": 0,
+   "answers": null,
+   "explanation": "후대검정(자손 분리 여부)으로 AA(불분리)와 Aa(분리)를 구별한다.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch09-1-129",
    "subject": "농업유전학",
    "chapter": 9,
    "topic": "박테리아·바이러스",
@@ -1980,7 +2474,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch09-2-104",
+   "id": "gen-ch09-2-130",
    "subject": "농업유전학",
    "chapter": 9,
    "topic": "박테리아·바이러스",
@@ -1999,7 +2493,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch10-1-105",
+   "id": "gen-ch10-1-131",
    "subject": "농업유전학",
    "chapter": 10,
    "topic": "유전물질 구조(DNA)",
@@ -2018,7 +2512,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch10-2-106",
+   "id": "gen-ch10-2-132",
    "subject": "농업유전학",
    "chapter": 10,
    "topic": "유전물질 구조(DNA)",
@@ -2037,7 +2531,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch10-3-107",
+   "id": "gen-ch10-3-133",
    "subject": "농업유전학",
    "chapter": 10,
    "topic": "유전물질 구조(DNA)",
@@ -2056,7 +2550,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch10-4-108",
+   "id": "gen-ch10-4-134",
    "subject": "농업유전학",
    "chapter": 10,
    "topic": "유전물질 구조(DNA)",
@@ -2075,7 +2569,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch10-5-109",
+   "id": "gen-ch10-5-135",
    "subject": "농업유전학",
    "chapter": 10,
    "topic": "유전물질 구조(DNA)",
@@ -2094,7 +2588,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch10-6-110",
+   "id": "gen-ch10-6-136",
    "subject": "농업유전학",
    "chapter": 10,
    "topic": "유전물질 구조(DNA)",
@@ -2113,7 +2607,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch10-7-111",
+   "id": "gen-ch10-7-137",
    "subject": "농업유전학",
    "chapter": 10,
    "topic": "유전물질 구조(DNA)",
@@ -2132,7 +2626,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch10-8-112",
+   "id": "gen-ch10-8-138",
    "subject": "농업유전학",
    "chapter": 10,
    "topic": "유전물질 구조(DNA)",
@@ -2151,7 +2645,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch10-9-113",
+   "id": "gen-ch10-9-139",
    "subject": "농업유전학",
    "chapter": 10,
    "topic": "유전물질 구조(DNA)",
@@ -2170,7 +2664,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch10-10-114",
+   "id": "gen-ch10-10-140",
    "subject": "농업유전학",
    "chapter": 10,
    "topic": "유전물질 구조(DNA)",
@@ -2189,7 +2683,64 @@
    "blankable": false
   },
   {
-   "id": "gen-ch11-1-115",
+   "id": "gen-ch10-11-141",
+   "subject": "농업유전학",
+   "chapter": 10,
+   "topic": "유전물질 구조(DNA)",
+   "type": "mc",
+   "question": "진핵세포의 염색체 구조에서 기본단위는?",
+   "options": [
+    "뉴클레오솜(nucleosome)",
+    "솔레노이드(solenoid)",
+    "크로마틴(chromatin)",
+    "이질염색질(heterochromatin)"
+   ],
+   "answer": 0,
+   "answers": null,
+   "explanation": "기본단위=뉴클레오솜(DNA+히스톤). 뉴클레오솜→솔레노이드→염색체로 응축.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch10-12-142",
+   "subject": "농업유전학",
+   "chapter": 10,
+   "topic": "유전물질 구조(DNA)",
+   "type": "mc",
+   "question": "DNA가 나선을 이룰 수 있는 이유는?",
+   "options": [
+    "염기들이 평면구조이고 나선축에 대해 직각으로 쌓여 있기 때문이다.",
+    "염기들이 입체구조이고 나선축에 대해 직각으로 쌓여 있기 때문이다.",
+    "염기들이 평면구조이고 나선축에 대해 수평으로 쌓여 있기 때문이다.",
+    "염기들이 입체구조이고 나선축에 대해 수평으로 쌓여 있기 때문이다."
+   ],
+   "answer": 0,
+   "answers": null,
+   "explanation": "염기가 평면구조로 나선축에 직각으로 쌓여 안정한 이중나선이 된다.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch10-13-143",
+   "subject": "농업유전학",
+   "chapter": 10,
+   "topic": "유전물질 구조(DNA)",
+   "type": "mc",
+   "question": "유전자의 안정성을 위한 구조적·기능적 특성과 관계 없는 것은?",
+   "options": [
+    "DNA 두 가닥 내부에 염기가 배치되어 있다.",
+    "DNA가 히스톤 단백질에 감겨 뉴클레오솜을 형성한다.",
+    "염기결합이 상보적이다.",
+    "돌연변이가 일어난다."
+   ],
+   "answer": 3,
+   "answers": null,
+   "explanation": "돌연변이는 안정성과 반대(변이). 나머지는 정보 보호·안정화 장치.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch11-1-144",
    "subject": "농업유전학",
    "chapter": 11,
    "topic": "유전자 기능·발현",
@@ -2208,7 +2759,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch11-2-116",
+   "id": "gen-ch11-2-145",
    "subject": "농업유전학",
    "chapter": 11,
    "topic": "유전자 기능·발현",
@@ -2227,7 +2778,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch11-3-117",
+   "id": "gen-ch11-3-146",
    "subject": "농업유전학",
    "chapter": 11,
    "topic": "유전자 기능·발현",
@@ -2246,7 +2797,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch11-4-118",
+   "id": "gen-ch11-4-147",
    "subject": "농업유전학",
    "chapter": 11,
    "topic": "유전자 기능·발현",
@@ -2265,7 +2816,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch11-5-119",
+   "id": "gen-ch11-5-148",
    "subject": "농업유전학",
    "chapter": 11,
    "topic": "유전자 기능·발현",
@@ -2284,7 +2835,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch11-6-120",
+   "id": "gen-ch11-6-149",
    "subject": "농업유전학",
    "chapter": 11,
    "topic": "유전자 기능·발현",
@@ -2303,7 +2854,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch11-7-121",
+   "id": "gen-ch11-7-150",
    "subject": "농업유전학",
    "chapter": 11,
    "topic": "유전자 기능·발현",
@@ -2322,7 +2873,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch11-8-122",
+   "id": "gen-ch11-8-151",
    "subject": "농업유전학",
    "chapter": 11,
    "topic": "유전자 기능·발현",
@@ -2341,7 +2892,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch11-9-123",
+   "id": "gen-ch11-9-152",
    "subject": "농업유전학",
    "chapter": 11,
    "topic": "유전자 기능·발현",
@@ -2360,7 +2911,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch11-10-124",
+   "id": "gen-ch11-10-153",
    "subject": "농업유전학",
    "chapter": 11,
    "topic": "유전자 기능·발현",
@@ -2379,7 +2930,64 @@
    "blankable": false
   },
   {
-   "id": "gen-ch12-1-125",
+   "id": "gen-ch11-11-154",
+   "subject": "농업유전학",
+   "chapter": 11,
+   "topic": "유전자 기능·발현",
+   "type": "mc",
+   "question": "역전사란 어떤 것을 말하는가?",
+   "options": [
+    "DNA 중합효소를 이용하여 mRNA로부터 cDNA를 합성하는 것",
+    "역전사효소를 이용하여 mRNA로부터 cDNA를 합성하는 것",
+    "RNA 중합효소를 이용하여 mRNA로부터 cDNA를 합성하는 것",
+    "DNA 리가아제를 이용하여 mRNA로부터 cDNA를 합성하는 것"
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "역전사 = 역전사효소로 mRNA → cDNA.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch11-12-155",
+   "subject": "농업유전학",
+   "chapter": 11,
+   "topic": "유전자 기능·발현",
+   "type": "mc",
+   "question": "진핵세포에서 단백질합성이 이루어지는 장소는?",
+   "options": [
+    "리보솜의 큰 단위체",
+    "소포체 내부",
+    "리보솜의 작은 단위체",
+    "미토콘드리아 내부"
+   ],
+   "answer": 0,
+   "answers": null,
+   "explanation": "단백질합성은 리보솜 큰 단위체(P·A 자리)에서 진행. mRNA는 작은 단위체에 결합.",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch11-13-156",
+   "subject": "농업유전학",
+   "chapter": 11,
+   "topic": "유전자 기능·발현",
+   "type": "mc",
+   "question": "진핵세포 mRNA에 있는 캡(cap)의 기능은?",
+   "options": [
+    "5' 끝 분해를 촉진하고 번역 시작 신호로 작용",
+    "3' 끝 분해를 촉진하고 번역 시작 신호로 작용",
+    "5' 끝 분해를 방지하고 번역 시작 신호로 작용",
+    "3' 끝 분해를 방지하고 번역 시작 신호로 작용"
+   ],
+   "answer": 2,
+   "answers": null,
+   "explanation": "캡은 5'끝 분해를 방지하고 리보솜 결합(번역 개시)을 돕는다. (3'끝 분해 방지는 폴리A.)",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch12-1-157",
    "subject": "농업유전학",
    "chapter": 12,
    "topic": "발현 조절",
@@ -2398,7 +3006,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch12-2-126",
+   "id": "gen-ch12-2-158",
    "subject": "농업유전학",
    "chapter": 12,
    "topic": "발현 조절",
@@ -2417,7 +3025,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch12-3-127",
+   "id": "gen-ch12-3-159",
    "subject": "농업유전학",
    "chapter": 12,
    "topic": "발현 조절",
@@ -2436,7 +3044,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch12-4-128",
+   "id": "gen-ch12-4-160",
    "subject": "농업유전학",
    "chapter": 12,
    "topic": "발현 조절",
@@ -2455,7 +3063,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch12-5-129",
+   "id": "gen-ch12-5-161",
    "subject": "농업유전학",
    "chapter": 12,
    "topic": "발현 조절",
@@ -2474,7 +3082,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch13-1-130",
+   "id": "gen-ch13-1-162",
    "subject": "농업유전학",
    "chapter": 13,
    "topic": "돌연변이",
@@ -2493,7 +3101,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch13-2-131",
+   "id": "gen-ch13-2-163",
    "subject": "농업유전학",
    "chapter": 13,
    "topic": "돌연변이",
@@ -2512,7 +3120,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch13-3-132",
+   "id": "gen-ch13-3-164",
    "subject": "농업유전학",
    "chapter": 13,
    "topic": "돌연변이",
@@ -2531,7 +3139,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch13-4-133",
+   "id": "gen-ch13-4-165",
    "subject": "농업유전학",
    "chapter": 13,
    "topic": "돌연변이",
@@ -2550,7 +3158,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch13-5-134",
+   "id": "gen-ch13-5-166",
    "subject": "농업유전학",
    "chapter": 13,
    "topic": "돌연변이",
@@ -2569,7 +3177,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch13-6-135",
+   "id": "gen-ch13-6-167",
    "subject": "농업유전학",
    "chapter": 13,
    "topic": "돌연변이",
@@ -2588,7 +3196,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch14-1-136",
+   "id": "gen-ch14-1-168",
    "subject": "농업유전학",
    "chapter": 14,
    "topic": "트랜스포존",
@@ -2607,7 +3215,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch14-2-137",
+   "id": "gen-ch14-2-169",
    "subject": "농업유전학",
    "chapter": 14,
    "topic": "트랜스포존",
@@ -2626,7 +3234,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch14-3-138",
+   "id": "gen-ch14-3-170",
    "subject": "농업유전학",
    "chapter": 14,
    "topic": "트랜스포존",
@@ -2645,7 +3253,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch14-4-139",
+   "id": "gen-ch14-4-171",
    "subject": "농업유전학",
    "chapter": 14,
    "topic": "트랜스포존",
@@ -2664,7 +3272,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch14-5-140",
+   "id": "gen-ch14-5-172",
    "subject": "농업유전학",
    "chapter": 14,
    "topic": "트랜스포존",
@@ -2683,7 +3291,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch14-6-141",
+   "id": "gen-ch14-6-173",
    "subject": "농업유전학",
    "chapter": 14,
    "topic": "트랜스포존",
@@ -2702,7 +3310,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch14-7-142",
+   "id": "gen-ch14-7-174",
    "subject": "농업유전학",
    "chapter": 14,
    "topic": "트랜스포존",
@@ -2721,7 +3329,64 @@
    "blankable": false
   },
   {
-   "id": "gen-ch15-1-143",
+   "id": "gen-ch14-8-175",
+   "subject": "농업유전학",
+   "chapter": 14,
+   "topic": "트랜스포존",
+   "type": "mc",
+   "question": "움직이는 유전자가 삽입하는 DNA 염기서열을 가리키는 용어는?",
+   "options": [
+    "내부서열",
+    "표적서열",
+    "역반복서열",
+    "IS서열"
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "표적서열(=직접 반복서열). 모든 트랜스포존은 직접 반복서열 사이에 삽입.",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch14-9-176",
+   "subject": "농업유전학",
+   "chapter": 14,
+   "topic": "트랜스포존",
+   "type": "mc",
+   "question": "혼성 트랜스포존은?",
+   "options": [
+    "Ac 인자",
+    "IS 인자",
+    "Tn 인자",
+    "copia 인자"
+   ],
+   "answer": 2,
+   "answers": null,
+   "explanation": "혼성 트랜스포존=Tn 인자(IS인자+저항성 유전자; Tn5=IS₅₀ 2개+카나마이신).",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch14-10-177",
+   "subject": "농업유전학",
+   "chapter": 14,
+   "topic": "트랜스포존",
+   "type": "mc",
+   "question": "트랜스포존의 분자구조에서 역반복서열의 기능은?",
+   "options": [
+    "트랜스포존의 작용을 조절한다.",
+    "트랜스포존을 구분짓는다.",
+    "트랜스포존의 염기서열을 복제한다.",
+    "트랜스포존이 끼어들어가는 위치를 알려준다."
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "역반복서열은 트랜스포존을 구분짓는 역할(내부서열은 전이효소 지정).",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch15-1-178",
    "subject": "농업유전학",
    "chapter": 15,
    "topic": "유전자 테크놀로지",
@@ -2740,7 +3405,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch15-2-144",
+   "id": "gen-ch15-2-179",
    "subject": "농업유전학",
    "chapter": 15,
    "topic": "유전자 테크놀로지",
@@ -2759,7 +3424,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch15-3-145",
+   "id": "gen-ch15-3-180",
    "subject": "농업유전학",
    "chapter": 15,
    "topic": "유전자 테크놀로지",
@@ -2778,7 +3443,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch15-4-146",
+   "id": "gen-ch15-4-181",
    "subject": "농업유전학",
    "chapter": 15,
    "topic": "유전자 테크놀로지",
@@ -2797,7 +3462,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch15-5-147",
+   "id": "gen-ch15-5-182",
    "subject": "농업유전학",
    "chapter": 15,
    "topic": "유전자 테크놀로지",
@@ -2816,7 +3481,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch15-6-148",
+   "id": "gen-ch15-6-183",
    "subject": "농업유전학",
    "chapter": 15,
    "topic": "유전자 테크놀로지",
@@ -2835,7 +3500,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch15-7-149",
+   "id": "gen-ch15-7-184",
    "subject": "농업유전학",
    "chapter": 15,
    "topic": "유전자 테크놀로지",
@@ -2854,7 +3519,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch15-8-150",
+   "id": "gen-ch15-8-185",
    "subject": "농업유전학",
    "chapter": 15,
    "topic": "유전자 테크놀로지",
@@ -2873,7 +3538,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch15-9-151",
+   "id": "gen-ch15-9-186",
    "subject": "농업유전학",
    "chapter": 15,
    "topic": "유전자 테크놀로지",
@@ -2892,7 +3557,45 @@
    "blankable": false
   },
   {
-   "id": "gen-ch16-1-152",
+   "id": "gen-ch15-10-187",
+   "subject": "농업유전학",
+   "chapter": 15,
+   "topic": "유전자 테크놀로지",
+   "type": "mc",
+   "question": "cDNA 라이브러리의 특징으로 바른 것은?",
+   "options": [
+    "생명체의 게놈을 모두 나타낸다.",
+    "특정 조건에서 발현된 mRNA를 역전사해 만든다.",
+    "인트론과 프로모터를 포함한다.",
+    "게놈을 제한효소로 잘라 만든다."
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "cDNA 라이브러리=발현 mRNA를 역전사한 것(게놈 일부, 인트론·조절부위 없음).",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch15-11-188",
+   "subject": "농업유전학",
+   "chapter": 15,
+   "topic": "유전자 테크놀로지",
+   "type": "mc",
+   "question": "파지에 대한 설명으로 틀린 것은?",
+   "options": [
+    "파지는 박테리아에 기생하는 바이러스이다.",
+    "파지는 박테리아에 기생하는 곰팡이이다.",
+    "파지는 DNA와 단백질만으로 되어 있다.",
+    "파지는 재조합 DNA의 대량증식 수단으로 이용된다."
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "파지는 바이러스(곰팡이 아님). 박테리오파지=세균 기생 바이러스.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch16-1-189",
    "subject": "농업유전학",
    "chapter": 16,
    "topic": "양적 유전",
@@ -2911,7 +3614,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch16-2-153",
+   "id": "gen-ch16-2-190",
    "subject": "농업유전학",
    "chapter": 16,
    "topic": "양적 유전",
@@ -2930,7 +3633,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch16-3-154",
+   "id": "gen-ch16-3-191",
    "subject": "농업유전학",
    "chapter": 16,
    "topic": "양적 유전",
@@ -2949,7 +3652,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch16-4-155",
+   "id": "gen-ch16-4-192",
    "subject": "농업유전학",
    "chapter": 16,
    "topic": "양적 유전",
@@ -2968,7 +3671,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch16-5-156",
+   "id": "gen-ch16-5-193",
    "subject": "농업유전학",
    "chapter": 16,
    "topic": "양적 유전",
@@ -2987,7 +3690,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch16-6-157",
+   "id": "gen-ch16-6-194",
    "subject": "농업유전학",
    "chapter": 16,
    "topic": "양적 유전",
@@ -3006,7 +3709,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch16-7-158",
+   "id": "gen-ch16-7-195",
    "subject": "농업유전학",
    "chapter": 16,
    "topic": "양적 유전",
@@ -3025,7 +3728,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch16-8-159",
+   "id": "gen-ch16-8-196",
    "subject": "농업유전학",
    "chapter": 16,
    "topic": "양적 유전",
@@ -3044,7 +3747,64 @@
    "blankable": false
   },
   {
-   "id": "gen-ch17-1-160",
+   "id": "gen-ch16-9-197",
+   "subject": "농업유전학",
+   "chapter": 16,
+   "topic": "양적 유전",
+   "type": "mc",
+   "question": "평균이 x̄이고 표준편차가 s인 집단에서 관찰값들의 68%를 포함하는 범위는?",
+   "options": [
+    "x̄ ± 1s",
+    "x̄ ± 2s",
+    "x̄ ± 3s",
+    "x̄ ± 4s"
+   ],
+   "answer": 0,
+   "answers": null,
+   "explanation": "정규분포에서 평균 ±1표준편차 범위가 약 68%를 포함.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch16-10-198",
+   "subject": "농업유전학",
+   "chapter": 16,
+   "topic": "양적 유전",
+   "type": "mc",
+   "question": "유전력(h²)은 전체 표현형 분산에 대한 유전분산의 비율인데, 환경분산이 유전분산의 3배일 때 유전력은?",
+   "options": [
+    "h²=1",
+    "h²=0.5",
+    "h²=0.25",
+    "정답 없음"
+   ],
+   "answer": 2,
+   "answers": null,
+   "explanation": "Vp=VG+VE=VG+3VG=4VG → h²=VG/Vp=1/4=0.25.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch16-11-199",
+   "subject": "농업유전학",
+   "chapter": 16,
+   "topic": "양적 유전",
+   "type": "mc",
+   "question": "유전분산 VG를 바르게 나타낸 것은?",
+   "options": [
+    "VE−(VA+VD+VI)",
+    "Vp−(VA+VD+VI)",
+    "VA+VD+VI",
+    "VA×(VD+VI)"
+   ],
+   "answer": 2,
+   "answers": null,
+   "explanation": "VG = 상가적(VA) + 우성적(VD) + 상위성(VI).",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch17-1-200",
    "subject": "농업유전학",
    "chapter": 17,
    "topic": "집단유전",
@@ -3063,7 +3823,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch17-2-161",
+   "id": "gen-ch17-2-201",
    "subject": "농업유전학",
    "chapter": 17,
    "topic": "집단유전",
@@ -3082,7 +3842,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch17-3-162",
+   "id": "gen-ch17-3-202",
    "subject": "농업유전학",
    "chapter": 17,
    "topic": "집단유전",
@@ -3101,7 +3861,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch17-4-163",
+   "id": "gen-ch17-4-203",
    "subject": "농업유전학",
    "chapter": 17,
    "topic": "집단유전",
@@ -3120,7 +3880,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch17-5-164",
+   "id": "gen-ch17-5-204",
    "subject": "농업유전학",
    "chapter": 17,
    "topic": "집단유전",
@@ -3139,7 +3899,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch17-6-165",
+   "id": "gen-ch17-6-205",
    "subject": "농업유전학",
    "chapter": 17,
    "topic": "집단유전",
@@ -3158,7 +3918,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch17-7-166",
+   "id": "gen-ch17-7-206",
    "subject": "농업유전학",
    "chapter": 17,
    "topic": "집단유전",
@@ -3177,7 +3937,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch17-8-167",
+   "id": "gen-ch17-8-207",
    "subject": "농업유전학",
    "chapter": 17,
    "topic": "집단유전",
@@ -3196,7 +3956,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch17-9-168",
+   "id": "gen-ch17-9-208",
    "subject": "농업유전학",
    "chapter": 17,
    "topic": "집단유전",
@@ -3215,7 +3975,64 @@
    "blankable": false
   },
   {
-   "id": "gen-ch18-1-169",
+   "id": "gen-ch17-10-209",
+   "subject": "농업유전학",
+   "chapter": 17,
+   "topic": "집단유전",
+   "type": "mc",
+   "question": "유전적 평형집단에서 대립유전자 A=0.8, a=0.2일 때 집단 내 Aa 유전자형 빈도는?",
+   "options": [
+    "2×0.8×0.2=0.32",
+    "0.8×0.2=0.16",
+    "0.5+0.2=0.7",
+    "(0.8)²+(0.2)²=0.68"
+   ],
+   "answer": 0,
+   "answers": null,
+   "explanation": "Aa 빈도 = 2pq = 2×0.8×0.2 = 0.32.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch17-11-210",
+   "subject": "농업유전학",
+   "chapter": 17,
+   "topic": "집단유전",
+   "type": "mc",
+   "question": "평형집단에서 우성형질(AA, Aa)84%, 열성형질(aa)16%일 때 대립유전자 빈도는?",
+   "options": [
+    "a=0.6, A=0.4",
+    "a=0.4, A=0.6",
+    "a=0.16, A=0.84",
+    "a=0.84, A=0.16"
+   ],
+   "answer": 1,
+   "answers": null,
+   "explanation": "aa=q²=0.16 → q(a)=0.4, p(A)=0.6.",
+   "source": null,
+   "blankable": false
+  },
+  {
+   "id": "gen-ch17-12-211",
+   "subject": "농업유전학",
+   "chapter": 17,
+   "topic": "집단유전",
+   "type": "mc",
+   "question": "어떤 개체가 가지는 두 개의 상동유전자가 공통의 조상으로부터 유래하는 확률은?",
+   "options": [
+    "근교계수",
+    "적응도",
+    "선택계수",
+    "돌연변이율"
+   ],
+   "answer": 0,
+   "answers": null,
+   "explanation": "근교계수(F). 높을수록 집단의 동형접합체 비율↑.",
+   "source": null,
+   "blankable": true
+  },
+  {
+   "id": "gen-ch18-1-212",
    "subject": "농업유전학",
    "chapter": 18,
    "topic": "유전과 종분화",
@@ -3234,7 +4051,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch18-2-170",
+   "id": "gen-ch18-2-213",
    "subject": "농업유전학",
    "chapter": 18,
    "topic": "유전과 종분화",
@@ -3253,7 +4070,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch18-3-171",
+   "id": "gen-ch18-3-214",
    "subject": "농업유전학",
    "chapter": 18,
    "topic": "유전과 종분화",
@@ -3272,7 +4089,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch18-4-172",
+   "id": "gen-ch18-4-215",
    "subject": "농업유전학",
    "chapter": 18,
    "topic": "유전과 종분화",
@@ -3291,7 +4108,7 @@
    "blankable": false
   },
   {
-   "id": "gen-ch18-5-173",
+   "id": "gen-ch18-5-216",
    "subject": "농업유전학",
    "chapter": 18,
    "topic": "유전과 종분화",
@@ -3310,7 +4127,7 @@
    "blankable": true
   },
   {
-   "id": "gen-ch18-6-174",
+   "id": "gen-ch18-6-217",
    "subject": "농업유전학",
    "chapter": 18,
    "topic": "유전과 종분화",
@@ -3344,7 +4161,7 @@
    "title": "생식과 염색체 행동",
    "importance": "high",
    "exam_freq": "13",
-   "html": "<h1>생식과 염색체 행동</h1>\n<blockquote>\n<p>출제 3위(~13문항). 멘델 법칙의 <strong>세포학적 근거</strong>. 감수분열 시기·세포주기·상동염색체·성결정이 단골.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>유사분열(체세포분열)</strong>: 복제된 염색체 분리 → <strong>유전물질 균등분배</strong>, 똑같은 딸세포 2개.</li>\n<li><strong>감수분열</strong>: 배우자 형성. <strong>연속 두 번</strong> 분열 → 염색체 수 <strong>반감(n)</strong>, 유전자 <strong>재조합</strong> 일어남.</li>\n<li><strong>제1감수분열 전기 순서(꼭 암기)</strong>: 세사기 → 대합기(상동염색체 짝=<strong>2가염색체</strong>) → <strong>태사기(교차)</strong> → 이중기(<strong>키아스마 출현</strong>) → 이동기(최대 응축). <strong>염색체 분리는 후기</strong>.</li>\n<li><strong>세포주기</strong>: G1 → <strong>S(DNA 합성)</strong> → G2 → <strong>M(분열, 염색체 분리)</strong>.</li>\n</ul>\n<h2>개념 설명</h2>\n<h3>세포 구성분(유전정보 측면)</h3>\n<table>\n<thead>\n<tr>\n<th>구조</th>\n<th>역할</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>염색체</td>\n<td>DNA(유전물질)+단백질, 유전물질 운반체</td>\n</tr>\n<tr>\n<td>인(nucleolus)</td>\n<td>rRNA 유전자 보유</td>\n</tr>\n<tr>\n<td>리보솜</td>\n<td>단백질+rRNA, <strong>단백질 합성장치</strong></td>\n</tr>\n<tr>\n<td>미토콘드리아</td>\n<td>자체 DNA, ATP 생산</td>\n</tr>\n<tr>\n<td>중심립</td>\n<td>방추사 형성(동물)</td>\n</tr>\n<tr>\n<td><strong>동원체</strong></td>\n<td>방추사 부착 <strong>협착부위</strong>(키아스마 아님!)</td>\n</tr>\n</tbody>\n</table>\n<h3>상동염색체</h3>\n<ul>\n<li>2n 체세포에서 짝을 이루는 두 염색체. <strong>하나는 모친·하나는 부친</strong>에서 유래.</li>\n<li><strong>크기·모양·동원체 위치가 같고, 유전자 자리(좌)가 일치</strong> → 같은 유전적 능력.</li>\n<li>감수분열 시 대합 → 교차 → <strong>유전자 재조합</strong>(유전적 다양성·진화 소재).</li>\n</ul>\n<h3>배우자 형성</h3>\n<ul>\n<li>식물·동물 모두 감수분열로 <strong>반수체</strong> 배우자. <strong>수배우자 4개, 암배우자 1개</strong>.</li>\n<li>식물: 암배우자=<strong>난세포</strong>(배낭/대포자), 수배우자=<strong>정세포</strong>(화분/소포자). 화분 내 생식세포가 유사분열로 정세포 생성.</li>\n</ul>\n<h3>성 결정</h3>\n<ul>\n<li>성염색체 외 나머지 = <strong>상염색체(A염색체)</strong>.</li>\n<li><strong>수컷이형</strong>(XY, X0): 정자(X 또는 Y)가 성 결정. <strong>암컷이형</strong>(ZW, Z0): 난자(Z 또는 W)가 성 결정.</li>\n<li><strong>성비 1:1 이유 = 한쪽 성이 이형배우자성</strong>(XY → X·Y 배우자 1:1). 사람·초파리·뽕나무 = 수컷이형(XY).</li>\n<li>게놈 = 생존 최소 염색체 세트. 박테리아 기본 염색체 = <strong>1개</strong>.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>교차 = <strong>태사기</strong> / 키아스마 <strong>출현(처음 보임)</strong> = <strong>이중기</strong> / 최대 응축 = 이동기 / 염색체 분리 = <strong>후기(M기)</strong>.</li>\n<li>2가염색체 형성 = 대합기. 2가염색체 형성은 <strong>감수분열에만</strong> 있음(유사분열엔 없음).</li>\n<li>DNA 합성 = <strong>S기</strong>.</li>\n<li>유사분열 = 균등분배(2개), 감수분열 = 재조합·반감(연속 2회 분열).</li>\n<li>성비 1:1 = 한쪽 <strong>이형배우자성</strong>.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>\"제1감수분열 전기에 동원체(염색체) 분리\" ✗ → 분리는 <strong>후기</strong>. (전기 현상 아닌 것 = 동원체/염색체 분리)</li>\n<li>협착부위를 \"키아스마\"라 함 ✗ → <strong>동원체</strong>(키아스마=교차로 생긴 X자 접착점).</li>\n<li>\"2가염색체 형성을 제2감수분열에서\" ✗ → 제1감수분열(대합기).</li>\n<li>키아스마 출현 시기를 태사기로 착각 ✗ → <strong>이중기</strong>(교차 자체는 태사기).</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>제1감수분열 전기 현상/시기</strong>: <a href=\"#note:gen-2017\">2017-Q38</a>③ · <a href=\"#note:gen-2018\">2018-Q36</a>③ · <a href=\"#note:gen-2015\">2015-Q42</a>③(키아스마=이중기) · <a href=\"#note:gen-2019\">2019-Q38</a>①(재조합=전기 태사기)</li>\n<li><strong>상동염색체</strong>: 2016-Q39③ · 2017-Q39③ · 2018-Q39②(협착부위 오답) · 2019-Q39①</li>\n<li><strong>세포주기(S/M기)</strong>: 2015-Q41③ · 2019-Q40④</li>\n<li><strong>감수분열 vs 유사분열</strong>: 2015-Q39① · 2016-Q40④ · 2018-Q37③</li>\n<li><strong>성결정·성비</strong>: → <a href=\"#note:gen-ch04-gene-interaction\">④</a>에 정리(2016-Q41 등)</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch03-mendel\">③ 멘델의 법칙</a> (분리·독립의 세포학적 증명)</li>\n<li><a href=\"#note:gen-ch05-linkage\">⑤ 연관·재조합</a> (교차·키아스마·재조합)</li>\n<li><a href=\"#note:gen-ch07-chromosome-mutation\">⑦ 염색체 변화</a> (배수성·반수체 불임)</li>\n</ul>"
+   "html": "<h1>생식과 염색체 행동</h1>\n<blockquote>\n<p>출제 3위(~13문항). 멘델 법칙의 <strong>세포학적 근거</strong>. 감수분열 시기·세포주기·상동염색체·성결정이 단골.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>유사분열(체세포분열)</strong>: 복제된 염색체 분리 → <strong>유전물질 균등분배</strong>, 똑같은 딸세포 2개.</li>\n<li><strong>감수분열</strong>: 배우자 형성. <strong>연속 두 번</strong> 분열 → 염색체 수 <strong>반감(n)</strong>, 유전자 <strong>재조합</strong> 일어남.</li>\n<li><strong>제1감수분열 전기 순서(꼭 암기)</strong>: 세사기 → 대합기(상동염색체 짝=<strong>2가염색체</strong>) → <strong>태사기(교차)</strong> → 이중기(<strong>키아스마 출현</strong>) → 이동기(최대 응축). <strong>염색체 분리는 후기</strong>.</li>\n<li><strong>세포주기</strong>: G1 → <strong>S(DNA 합성)</strong> → G2 → <strong>M(분열, 염색체 분리)</strong>.</li>\n</ul>\n<h2>개념 설명</h2>\n<h3>세포 구성분(유전정보 측면)</h3>\n<table>\n<thead>\n<tr>\n<th>구조</th>\n<th>역할</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>염색체</td>\n<td>DNA(유전물질)+단백질, 유전물질 운반체</td>\n</tr>\n<tr>\n<td>인(nucleolus)</td>\n<td>rRNA 유전자 보유</td>\n</tr>\n<tr>\n<td>리보솜</td>\n<td>단백질+rRNA, <strong>단백질 합성장치</strong></td>\n</tr>\n<tr>\n<td>미토콘드리아</td>\n<td>자체 DNA, ATP 생산</td>\n</tr>\n<tr>\n<td>중심립</td>\n<td>방추사 형성(동물)</td>\n</tr>\n<tr>\n<td><strong>동원체</strong></td>\n<td>방추사 부착 <strong>협착부위</strong>(키아스마 아님!)</td>\n</tr>\n</tbody>\n</table>\n<h3>상동염색체</h3>\n<ul>\n<li>2n 체세포에서 짝을 이루는 두 염색체. <strong>하나는 모친·하나는 부친</strong>에서 유래.</li>\n<li><strong>크기·모양·동원체 위치가 같고, 유전자 자리(좌)가 일치</strong> → 같은 유전적 능력.</li>\n<li>감수분열 시 대합 → 교차 → <strong>유전자 재조합</strong>(유전적 다양성·진화 소재).</li>\n</ul>\n<h3>배우자 형성</h3>\n<ul>\n<li>식물·동물 모두 감수분열로 <strong>반수체</strong> 배우자. <strong>수배우자 4개, 암배우자 1개</strong>.</li>\n<li>식물: 암배우자=<strong>난세포</strong>(배낭/대포자), 수배우자=<strong>정세포</strong>(화분/소포자). 화분 내 생식세포가 유사분열로 정세포 생성.</li>\n</ul>\n<h3>성 결정</h3>\n<ul>\n<li>성염색체 외 나머지 = <strong>상염색체(A염색체)</strong>.</li>\n<li><strong>수컷이형</strong>(XY, X0): 정자(X 또는 Y)가 성 결정. <strong>암컷이형</strong>(ZW, Z0): 난자(Z 또는 W)가 성 결정.</li>\n<li><strong>성비 1:1 이유 = 한쪽 성이 이형배우자성</strong>(XY → X·Y 배우자 1:1). 사람·초파리·뽕나무 = 수컷이형(XY).</li>\n<li>게놈 = 생존 최소 염색체 세트. 박테리아 기본 염색체 = <strong>1개</strong>.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>교차 = <strong>태사기</strong> / 키아스마 <strong>출현(처음 보임)</strong> = <strong>이중기</strong> / 최대 응축 = 이동기 / 염색체 분리 = <strong>후기(M기)</strong>.</li>\n<li>2가염색체 형성 = 대합기. 2가염색체 형성은 <strong>감수분열에만</strong> 있음(유사분열엔 없음).</li>\n<li>DNA 합성 = <strong>S기</strong>.</li>\n<li>유사분열 = 균등분배(2개), 감수분열 = 재조합·반감(연속 2회 분열).</li>\n<li>성비 1:1 = 한쪽 <strong>이형배우자성</strong>.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>\"제1감수분열 전기에 동원체(염색체) 분리\" ✗ → 분리는 <strong>후기</strong>. (전기 현상 아닌 것 = 동원체/염색체 분리)</li>\n<li>협착부위를 \"키아스마\"라 함 ✗ → <strong>동원체</strong>(키아스마=교차로 생긴 X자 접착점).</li>\n<li>\"2가염색체 형성을 제2감수분열에서\" ✗ → 제1감수분열(대합기).</li>\n<li>키아스마 출현 시기를 태사기로 착각 ✗ → <strong>이중기</strong>(교차 자체는 태사기).</li>\n</ul>\n<h2>⊕ 기출 밖 보충 (지엽 대비)</h2>\n<blockquote>\n<p>워크북엔 있으나 5개년 기출엔 안 나온 지엽. 변형 출제 대비.</p>\n</blockquote>\n<ul>\n<li><strong>제1감수분열 전기 5단계 순서</strong>: 세사기 → 대합기(2가염색체) → 태사기(교차) → 이중기(키아스마) → 이동기.</li>\n<li>한 생식모세포 → <strong>식물 화분 4개 / 동물 정자 4개·난자 1개</strong>(암배우자는 1개만 기능).</li>\n<li><strong>제2감수분열 = 동형분열</strong>(자매염색분체 분리 → 균등분배, 유사분열과 동일).</li>\n<li><strong>게놈 염색체 1개인 생물 = 대장균(박테리아)</strong>. 동원체 = 자매염색분체 부착 부위.</li>\n<li>자매염색분체 = 복제로 생긴 <strong>정확히 똑같은</strong> 두 염색체(같은 동원체에 부착).</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>제1감수분열 전기 현상/시기</strong>: <a href=\"#note:gen-2017\">2017-Q38</a>③ · <a href=\"#note:gen-2018\">2018-Q36</a>③ · <a href=\"#note:gen-2015\">2015-Q42</a>③(키아스마=이중기) · <a href=\"#note:gen-2019\">2019-Q38</a>①(재조합=전기 태사기)</li>\n<li><strong>상동염색체</strong>: 2016-Q39③ · 2017-Q39③ · 2018-Q39②(협착부위 오답) · 2019-Q39①</li>\n<li><strong>세포주기(S/M기)</strong>: 2015-Q41③ · 2019-Q40④</li>\n<li><strong>감수분열 vs 유사분열</strong>: 2015-Q39① · 2016-Q40④ · 2018-Q37③</li>\n<li><strong>성결정·성비</strong>: → <a href=\"#note:gen-ch04-gene-interaction\">④</a>에 정리(2016-Q41 등)</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch03-mendel\">③ 멘델의 법칙</a> (분리·독립의 세포학적 증명)</li>\n<li><a href=\"#note:gen-ch05-linkage\">⑤ 연관·재조합</a> (교차·키아스마·재조합)</li>\n<li><a href=\"#note:gen-ch07-chromosome-mutation\">⑦ 염색체 변화</a> (배수성·반수체 불임)</li>\n</ul>"
   },
   {
    "slug": "gen-ch03-mendel",
@@ -3352,7 +4169,7 @@
    "title": "멘델의 법칙",
    "importance": "high",
    "exam_freq": "25",
-   "html": "<h1>멘델의 법칙</h1>\n<blockquote>\n<p>출제 2위 영역(~25문항). <a href=\"#note:gen-ch04-gene-interaction\">④ 유전자 상호작용</a>과 함께 시험의 ~30%.\n<strong>유전자기호·검정교배·순계·분리비</strong>가 매년 반복.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>제1법칙(분리의 법칙)</strong>: 이형접합체(Aa)에서 배우자 형성 시 대립유전자 A와 a가 <strong>분리</strong>된다. → 검정교배 시 우성:열성 = <strong>1:1</strong>.</li>\n<li><strong>제2법칙(독립의 법칙)</strong>: 서로 다른 형질을 지배하는 대립유전자(A/a, B/b)들은 <strong>독립적으로 분리</strong>하여 자유조합 → 양성잡종 F2 표현형 = <strong>9:3:3:1</strong>.</li>\n<li>유전되는 것은 <strong>형질 자체가 아니라 유전자</strong>이며, 유전자 산물(단백질)에 의해 형질이 나타난다. 우성/열성은 유전자 기능이 아니라 <strong>발현(우열) 현상</strong>을 뜻한다.</li>\n</ul>\n<h2>개념 설명</h2>\n<h3>용어</h3>\n<ul>\n<li><strong>대립유전자</strong>: 상동염색체의 <strong>같은 유전자자리</strong>에 있는 유전자(A, a). <strong>비대립유전자</strong>: 다른 자리 또는 다른 염색체의 유전자.</li>\n<li><strong>동형접합체</strong>(AA, aa) / <strong>이형접합체</strong>(Aa). 모든 자리가 동형이면 <strong>순계(純系)</strong>.</li>\n<li><strong>유전자기호</strong>: <strong>열성형질(돌연변이형)의 영어명칭</strong>에서 짧게 따 이탤릭체로 표기. <strong>우성유전자=대문자, 열성유전자=소문자</strong>. (교재 §54)</li>\n<li><strong>표현형</strong>(겉으로 드러나는 특성) ↔ <strong>유전자형</strong>.</li>\n</ul>\n<h3>교배 용어</h3>\n<ul>\n<li><strong>검정교배(test cross)</strong>: 이형접합체를 <strong>열성친(aabb 등)과 교배</strong> → 우성형질:열성형질 = 1:1 (유전자형 판별용).</li>\n<li><strong>정역교배</strong>: 같은 조합에서 자방친·화분친을 바꿔 교배. 결과가 같으면 핵유전(멘델 유전), 다르면 <a href=\"#note:gen-ch06-cytoplasmic\">세포질 유전</a> 의심.</li>\n<li><strong>후대검정</strong>: 자손 특성으로 친의 유전자형 평가(Aa 자식 → 3:1).</li>\n</ul>\n<h3>분리비 (단성/양성잡종)</h3>\n<table>\n<thead>\n<tr>\n<th>잡종</th>\n<th>배우자</th>\n<th>F2 유전자형</th>\n<th>F2 표현형</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>단성잡종 Aa</td>\n<td>2가지(A,a)</td>\n<td>3가지(AA:Aa:aa=1:2:1)</td>\n<td>완전우성 시 2가지(3:1)</td>\n</tr>\n<tr>\n<td>양성잡종 AaBb</td>\n<td>4가지(AB,Ab,aB,ab)</td>\n<td>9가지</td>\n<td>4가지 <strong>9:3:3:1</strong></td>\n</tr>\n</tbody>\n</table>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>제1법칙=<strong>분리</strong>, 제2법칙=<strong>독립</strong>. (제1=우성법칙 아님!)</li>\n<li>양성잡종 F2: 배우자 <strong>4</strong>·유전자형 <strong>9</strong>·표현형 <strong>4(9:3:3:1)</strong>. 단성잡종: 배우자 2·유전자형 3·표현형 2.</li>\n<li>검정교배 = <strong>× 동형열성(aabb)</strong>, 결과 1:1.</li>\n<li>순계 = 전 자리 <strong>동형접합</strong>.</li>\n<li>흑색(우성 W)×백색(w) → F2에서 <strong>흑색유전자 W 비율 = 50%</strong>(1/4 WW + 1/2 of 2/4 Ww).</li>\n<li>유전자기호: <strong>열성형질 명칭</strong>에서 따옴 / 우성=대문자·열성=소문자.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>\"제1법칙은 우성의 법칙\" ✗ → 분리의 법칙. (기출 단골 오답)</li>\n<li>\"분리법칙 = 대립유전자가 분리하지 않고 함께 행동\" ✗ → <strong>분리</strong>한다.</li>\n<li>\"독립법칙은 <strong>연관유전자</strong>에 적용\" ✗ → 연관유전자엔 적용 안 됨(독립유전자에만).</li>\n<li>검정교배(× aa)와 후대검정(자가수정 3:1) 혼동 주의.</li>\n<li>F2 흑색유전자 비율 문제에서 \"흑색 개체 비율 75%\"와 \"흑색 <strong>유전자</strong> 비율 50%\"를 구분.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>유전자기호</strong>: <a href=\"#note:gen-2015\">2015-Q44</a>① · <a href=\"#note:gen-2016\">2016-Q42</a>② · <a href=\"#note:gen-2017\">2017-Q40</a>① · <a href=\"#note:gen-2018\">2018-Q38</a>② (모두 '명칭 유래' 보기가 정답; \"우성 야생형 대문자\" 보기도 사실이나 조건부 ⚠)</li>\n<li><strong>검정교배</strong>: 2016-Q43③ · 2017-Q45③ · 2018-Q42④ · 2019-Q43③</li>\n<li><strong>F2 분리비 9:3:3:1</strong>: 2018-Q43④ · 2019-Q41④</li>\n<li><strong>양성잡종(두 쌍 이형/조합수)</strong>: 2017-Q42③ · 2018-Q41④ · 2019-Q46④</li>\n<li><strong>순계</strong>: 2016-Q49③ · 2019-Q44③</li>\n<li><strong>F2 유전자 비율(50%)</strong>: 2016-Q44② · 2017-Q49②</li>\n<li><strong>멘델 법칙 정의</strong>: 2016-Q47④ · 2017-Q43③ · 2018-Q40① · 2019-Q42④</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch02-cell-division\">② 감수분열</a> (분리·독립의 세포학적 근거: 상동염색체 분리·무작위 배열)</li>\n<li><a href=\"#note:gen-ch04-gene-interaction\">④ 유전자 상호작용</a> (9:3:3:1의 변형 분리비)</li>\n<li><a href=\"#note:gen-ch05-linkage\">⑤ 연관</a> (독립법칙의 예외)</li>\n</ul>"
+   "html": "<h1>멘델의 법칙</h1>\n<blockquote>\n<p>출제 2위 영역(~25문항). <a href=\"#note:gen-ch04-gene-interaction\">④ 유전자 상호작용</a>과 함께 시험의 ~30%.\n<strong>유전자기호·검정교배·순계·분리비</strong>가 매년 반복.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>제1법칙(분리의 법칙)</strong>: 이형접합체(Aa)에서 배우자 형성 시 대립유전자 A와 a가 <strong>분리</strong>된다. → 검정교배 시 우성:열성 = <strong>1:1</strong>.</li>\n<li><strong>제2법칙(독립의 법칙)</strong>: 서로 다른 형질을 지배하는 대립유전자(A/a, B/b)들은 <strong>독립적으로 분리</strong>하여 자유조합 → 양성잡종 F2 표현형 = <strong>9:3:3:1</strong>.</li>\n<li>유전되는 것은 <strong>형질 자체가 아니라 유전자</strong>이며, 유전자 산물(단백질)에 의해 형질이 나타난다. 우성/열성은 유전자 기능이 아니라 <strong>발현(우열) 현상</strong>을 뜻한다.</li>\n</ul>\n<h2>개념 설명</h2>\n<h3>용어</h3>\n<ul>\n<li><strong>대립유전자</strong>: 상동염색체의 <strong>같은 유전자자리</strong>에 있는 유전자(A, a). <strong>비대립유전자</strong>: 다른 자리 또는 다른 염색체의 유전자.</li>\n<li><strong>동형접합체</strong>(AA, aa) / <strong>이형접합체</strong>(Aa). 모든 자리가 동형이면 <strong>순계(純系)</strong>.</li>\n<li><strong>유전자기호</strong>: <strong>열성형질(돌연변이형)의 영어명칭</strong>에서 짧게 따 이탤릭체로 표기. <strong>우성유전자=대문자, 열성유전자=소문자</strong>. (교재 §54)</li>\n<li><strong>표현형</strong>(겉으로 드러나는 특성) ↔ <strong>유전자형</strong>.</li>\n</ul>\n<h3>교배 용어</h3>\n<ul>\n<li><strong>검정교배(test cross)</strong>: 이형접합체를 <strong>열성친(aabb 등)과 교배</strong> → 우성형질:열성형질 = 1:1 (유전자형 판별용).</li>\n<li><strong>정역교배</strong>: 같은 조합에서 자방친·화분친을 바꿔 교배. 결과가 같으면 핵유전(멘델 유전), 다르면 <a href=\"#note:gen-ch06-cytoplasmic\">세포질 유전</a> 의심.</li>\n<li><strong>후대검정</strong>: 자손 특성으로 친의 유전자형 평가(Aa 자식 → 3:1).</li>\n</ul>\n<h3>분리비 (단성/양성잡종)</h3>\n<table>\n<thead>\n<tr>\n<th>잡종</th>\n<th>배우자</th>\n<th>F2 유전자형</th>\n<th>F2 표현형</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>단성잡종 Aa</td>\n<td>2가지(A,a)</td>\n<td>3가지(AA:Aa:aa=1:2:1)</td>\n<td>완전우성 시 2가지(3:1)</td>\n</tr>\n<tr>\n<td>양성잡종 AaBb</td>\n<td>4가지(AB,Ab,aB,ab)</td>\n<td>9가지</td>\n<td>4가지 <strong>9:3:3:1</strong></td>\n</tr>\n</tbody>\n</table>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>제1법칙=<strong>분리</strong>, 제2법칙=<strong>독립</strong>. (제1=우성법칙 아님!)</li>\n<li>양성잡종 F2: 배우자 <strong>4</strong>·유전자형 <strong>9</strong>·표현형 <strong>4(9:3:3:1)</strong>. 단성잡종: 배우자 2·유전자형 3·표현형 2.</li>\n<li>검정교배 = <strong>× 동형열성(aabb)</strong>, 결과 1:1.</li>\n<li>순계 = 전 자리 <strong>동형접합</strong>.</li>\n<li>흑색(우성 W)×백색(w) → F2에서 <strong>흑색유전자 W 비율 = 50%</strong>(1/4 WW + 1/2 of 2/4 Ww).</li>\n<li>유전자기호: <strong>열성형질 명칭</strong>에서 따옴 / 우성=대문자·열성=소문자.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>\"제1법칙은 우성의 법칙\" ✗ → 분리의 법칙. (기출 단골 오답)</li>\n<li>\"분리법칙 = 대립유전자가 분리하지 않고 함께 행동\" ✗ → <strong>분리</strong>한다.</li>\n<li>\"독립법칙은 <strong>연관유전자</strong>에 적용\" ✗ → 연관유전자엔 적용 안 됨(독립유전자에만).</li>\n<li>검정교배(× aa)와 후대검정(자가수정 3:1) 혼동 주의.</li>\n<li>F2 흑색유전자 비율 문제에서 \"흑색 개체 비율 75%\"와 \"흑색 <strong>유전자</strong> 비율 50%\"를 구분.</li>\n</ul>\n<h2>⊕ 기출 밖 보충 (지엽 대비)</h2>\n<blockquote>\n<p>워크북엔 있으나 5개년 기출엔 안 나온 지엽. 변형 출제 대비.</p>\n</blockquote>\n<ul>\n<li><strong>단성잡종 F2</strong>: 배우자 <strong>2</strong>·유전자형 <strong>3</strong>(AA:Aa:aa=1:2:1)·표현형 <strong>2</strong>(완전우성). (양성잡종 4·9·4와 구분)</li>\n<li>대립유전자 A/a → 체세포(2n) 유전자형은 <strong>AA·Aa·aa 3가지</strong>.</li>\n<li><strong>독립의 법칙은 독립유전자에만 적용</strong>(연관유전자엔 적용 안 됨).</li>\n<li>비대립유전자 = 같은 염색체의 다른 자리, 또는 다른 염색체의 유전자.</li>\n<li>완전우성 다인자에서 표현형이 달라지려면 한 자리라도 <strong>열성동형접합</strong>(예: AaBb<strong>cc</strong>).</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>유전자기호</strong>: <a href=\"#note:gen-2015\">2015-Q44</a>① · <a href=\"#note:gen-2016\">2016-Q42</a>② · <a href=\"#note:gen-2017\">2017-Q40</a>① · <a href=\"#note:gen-2018\">2018-Q38</a>② (모두 '명칭 유래' 보기가 정답; \"우성 야생형 대문자\" 보기도 사실이나 조건부 ⚠)</li>\n<li><strong>검정교배</strong>: 2016-Q43③ · 2017-Q45③ · 2018-Q42④ · 2019-Q43③</li>\n<li><strong>F2 분리비 9:3:3:1</strong>: 2018-Q43④ · 2019-Q41④</li>\n<li><strong>양성잡종(두 쌍 이형/조합수)</strong>: 2017-Q42③ · 2018-Q41④ · 2019-Q46④</li>\n<li><strong>순계</strong>: 2016-Q49③ · 2019-Q44③</li>\n<li><strong>F2 유전자 비율(50%)</strong>: 2016-Q44② · 2017-Q49②</li>\n<li><strong>멘델 법칙 정의</strong>: 2016-Q47④ · 2017-Q43③ · 2018-Q40① · 2019-Q42④</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch02-cell-division\">② 감수분열</a> (분리·독립의 세포학적 근거: 상동염색체 분리·무작위 배열)</li>\n<li><a href=\"#note:gen-ch04-gene-interaction\">④ 유전자 상호작용</a> (9:3:3:1의 변형 분리비)</li>\n<li><a href=\"#note:gen-ch05-linkage\">⑤ 연관</a> (독립법칙의 예외)</li>\n</ul>"
   },
   {
    "slug": "gen-ch04-gene-interaction",
@@ -3360,7 +4177,7 @@
    "title": "유전자 상호작용",
    "importance": "high",
    "exam_freq": "28",
-   "html": "<h1>유전자 상호작용</h1>\n<blockquote>\n<p><strong>출제 1위 영역(~28문항)</strong>. 상위성 분리비, 반응규격/표현도/침투율 구분, 반성유전이 단골.\n유전자는 산물(단백질)을 통해 <strong>간접적</strong>으로 형질을 지배 → 한 형질에 여러 유전자가 관여하면서 상호작용 발생.</p>\n</blockquote>\n<h2>핵심 요약 — 두 표만 외우면 절반</h2>\n<h3>① 우열 관계 (단성잡종 F2)</h3>\n<table>\n<thead>\n<tr>\n<th>관계</th>\n<th>F2 분리비</th>\n<th>F1(이형접합체) 특징</th>\n<th>기전</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>완전우성</td>\n<td>3:1</td>\n<td>우성형질만</td>\n<td>이형접합 효소량 절반이어도 활성 충분</td>\n</tr>\n<tr>\n<td><strong>불완전우성</strong></td>\n<td><strong>1:2:1</strong></td>\n<td><strong>양친의 중간형질</strong>(예 분홍꽃)</td>\n<td>이형접합 효소량 부족</td>\n</tr>\n<tr>\n<td><strong>공우성</strong></td>\n<td><strong>1:2:1</strong></td>\n<td><strong>양친 특성이 함께</strong>(예 MN혈액형)</td>\n<td>각 대립유전자 산물 기능이 동일</td>\n</tr>\n</tbody>\n</table>\n<h3>② 상위성(epistasis) — 모두 9:3:3:1의 변형</h3>\n<table>\n<thead>\n<tr>\n<th>F2 분리비</th>\n<th>명칭</th>\n<th>관련 유전자</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>9:3:4</strong></td>\n<td><strong>열성상위</strong></td>\n<td><strong>조건유전자</strong></td>\n</tr>\n<tr>\n<td>12:3:1</td>\n<td>우성상위</td>\n<td>(피복유전자)</td>\n</tr>\n<tr>\n<td><strong>9:7</strong></td>\n<td><strong>이중 열성상위</strong></td>\n<td><strong>보족유전자</strong></td>\n</tr>\n<tr>\n<td>9:6:1</td>\n<td>복수유전자(누적)</td>\n<td></td>\n</tr>\n<tr>\n<td>15:1</td>\n<td>중복유전자</td>\n<td></td>\n</tr>\n<tr>\n<td>13:3</td>\n<td>억제유전자 작용</td>\n<td>억제유전자</td>\n</tr>\n</tbody>\n</table>\n<h2>개념 설명</h2>\n<ul>\n<li><strong>복대립유전자</strong>: 집단에서 같은 유전자자리에 <strong>3개 이상</strong>의 대립유전자. <strong>같은 자리의 반복 돌연변이</strong>로 생김. 단, <strong>한 개체는 2개만</strong> 보유 → 두 대립형질 교배 F2는 여전히 3:1 또는 1:2:1(불변). (예: 자가불화합성 S자리)</li>\n<li><strong>치사유전자</strong>: 생존 필수 산물을 못 만들어 생존에 영향(예 선천성 무모증 소).</li>\n<li><strong>반응규격(반응규준)</strong>: <strong>같은 유전자형</strong>이 환경에 따라 보이는 <strong>표현형 변이의 범위</strong>.</li>\n<li><strong>표현도(expressivity)</strong>: 형질이 나타나는 <strong>정도(강도)의 차이</strong>(개체·부위마다 다름).</li>\n<li><strong>침투율(penetrance)</strong>: 해당 유전자형 중 형질이 <strong>나타나는 개체의 비율</strong>.</li>\n<li><strong>다면발현(pleiotropy)</strong>: 한 유전자가 여러 형질에 영향.</li>\n<li><strong>주동유전자 / 변경유전자</strong>: 주동유전자가 형질을 주도. <strong>변경유전자는 주동유전자의 발현을 질적·양적으로 조절하며, 주동유전자가 있을 때만 작용</strong>한다.</li>\n</ul>\n<h3>성과 유전</h3>\n<ul>\n<li><strong>성결정·성비 1:1</strong>: 한쪽 성이 <strong>이형배우자성(XY 등)</strong>이기 때문(뽕나무·초파리 수컷=XY).</li>\n<li><strong>반성유전</strong>(성연관, X연관): <strong>십자형 유전</strong> — 양친 <strong>암컷 특성→자식 수컷</strong>, 양친 <strong>수컷 특성→자식 암컷</strong>.</li>\n<li><strong>한성유전</strong>: 형질이 <strong>한쪽 성에만</strong> 발현(호르몬 영향). 예: 수소도 우유 유전자 보유하나 암소만 우유 생산.</li>\n<li><strong>종성유전</strong>: 양쪽 성에 다 있으나 성에 따라 우열이 달라짐.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>보족유전자 = <strong>이중 열성상위 = 9:7</strong> / 조건유전자 = <strong>열성상위 = 9:3:4</strong>.</li>\n<li>불완전우성·공우성은 <strong>둘 다 F2 1:2:1</strong> → 구분은 <strong>F1 표현형</strong>(중간 vs 양친 함께).</li>\n<li>반응규격(변이 <strong>범위</strong>) vs 표현도(발현 <strong>정도</strong>) vs 침투율(발현 <strong>개체 비율</strong>) — 가장 헷갈리는 3종.</li>\n<li>변경유전자는 <strong>주동유전자가 있을 때만</strong> 작용.</li>\n<li>반성유전 = 십자형 유전. 한성유전 = 한쪽 성에만 발현.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>\"복대립유전자는 한 개체가 <strong>모든</strong> 대립유전자를 가진다\" ✗ → 집단엔 3개+, <strong>개체는 2개만</strong>.</li>\n<li>\"복대립유전자 교배 F2 분리비가 변한다\" ✗ → 3:1 또는 1:2:1 <strong>불변</strong>.</li>\n<li>반응규격↔표현도↔침투율 정의 바꿔치기 오답 빈출.</li>\n<li>9:3:4를 우성상위(12:3:1)와 혼동. <strong>9:3:4=열성상위(조건유전자)</strong>.</li>\n<li>한성유전(한쪽 성에만 발현)과 반성유전(성염색체 연관, 십자형) 혼동.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>보족유전자(9:7)/이중열성상위</strong>: <a href=\"#note:gen-2016\">2016-Q46</a>④ · <a href=\"#note:gen-2017\">2017-Q46</a>② · <a href=\"#note:gen-2018\">2018-Q45</a>② · <a href=\"#note:gen-2019\">2019-Q47</a>③</li>\n<li><strong>조건유전자(9:3:4)/열성상위</strong>: 2015-Q48② · 2016-Q52① · 2018-Q47②</li>\n<li><strong>반응규격/표현도/침투율</strong>: 2015-Q47②·Q49① · 2016-Q50③ · 2018-Q46① · 2017-Q47①(표현형모사)</li>\n<li><strong>불완전우성/공우성</strong>: 2015-Q46③ · 2016-Q54② · 2017-Q41④ · 2018-Q50② · 2019-Q45①</li>\n<li><strong>복대립유전자</strong>: 2016-Q48③ · 2018-Q44① · 2019-Q49②</li>\n<li><strong>변경유전자</strong>: 2015-Q50④ · 2016-Q51③</li>\n<li><strong>반성유전/성비</strong>: 2015-Q52① · 2016-Q41①·Q53④ · 2017-Q44③·Q50④</li>\n<li><strong>우성/열성 대립유전자</strong>: 2019-Q48②</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch03-mendel\">③ 멘델의 법칙</a> (9:3:3:1 기본형 → 본 장은 그 변형)</li>\n<li><a href=\"#note:gen-ch16-quantitative\">⑯ 양적 유전</a> (폴리진·누적효과)</li>\n<li><a href=\"#note:gen-ch06-cytoplasmic\">⑥ 세포질 유전</a> (정역교배로 반성유전과 구별)</li>\n</ul>"
+   "html": "<h1>유전자 상호작용</h1>\n<blockquote>\n<p><strong>출제 1위 영역(~28문항)</strong>. 상위성 분리비, 반응규격/표현도/침투율 구분, 반성유전이 단골.\n유전자는 산물(단백질)을 통해 <strong>간접적</strong>으로 형질을 지배 → 한 형질에 여러 유전자가 관여하면서 상호작용 발생.</p>\n</blockquote>\n<h2>핵심 요약 — 두 표만 외우면 절반</h2>\n<h3>① 우열 관계 (단성잡종 F2)</h3>\n<table>\n<thead>\n<tr>\n<th>관계</th>\n<th>F2 분리비</th>\n<th>F1(이형접합체) 특징</th>\n<th>기전</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>완전우성</td>\n<td>3:1</td>\n<td>우성형질만</td>\n<td>이형접합 효소량 절반이어도 활성 충분</td>\n</tr>\n<tr>\n<td><strong>불완전우성</strong></td>\n<td><strong>1:2:1</strong></td>\n<td><strong>양친의 중간형질</strong>(예 분홍꽃)</td>\n<td>이형접합 효소량 부족</td>\n</tr>\n<tr>\n<td><strong>공우성</strong></td>\n<td><strong>1:2:1</strong></td>\n<td><strong>양친 특성이 함께</strong>(예 MN혈액형)</td>\n<td>각 대립유전자 산물 기능이 동일</td>\n</tr>\n</tbody>\n</table>\n<h3>② 상위성(epistasis) — 모두 9:3:3:1의 변형</h3>\n<table>\n<thead>\n<tr>\n<th>F2 분리비</th>\n<th>명칭</th>\n<th>관련 유전자</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>9:3:4</strong></td>\n<td><strong>열성상위</strong></td>\n<td><strong>조건유전자</strong></td>\n</tr>\n<tr>\n<td>12:3:1</td>\n<td>우성상위</td>\n<td>(피복유전자)</td>\n</tr>\n<tr>\n<td><strong>9:7</strong></td>\n<td><strong>이중 열성상위</strong></td>\n<td><strong>보족유전자</strong></td>\n</tr>\n<tr>\n<td>9:6:1</td>\n<td>복수유전자(누적)</td>\n<td></td>\n</tr>\n<tr>\n<td>15:1</td>\n<td>중복유전자</td>\n<td></td>\n</tr>\n<tr>\n<td>13:3</td>\n<td>억제유전자 작용</td>\n<td>억제유전자</td>\n</tr>\n</tbody>\n</table>\n<h2>개념 설명</h2>\n<ul>\n<li><strong>복대립유전자</strong>: 집단에서 같은 유전자자리에 <strong>3개 이상</strong>의 대립유전자. <strong>같은 자리의 반복 돌연변이</strong>로 생김. 단, <strong>한 개체는 2개만</strong> 보유 → 두 대립형질 교배 F2는 여전히 3:1 또는 1:2:1(불변). (예: 자가불화합성 S자리)</li>\n<li><strong>치사유전자</strong>: 생존 필수 산물을 못 만들어 생존에 영향(예 선천성 무모증 소).</li>\n<li><strong>반응규격(반응규준)</strong>: <strong>같은 유전자형</strong>이 환경에 따라 보이는 <strong>표현형 변이의 범위</strong>.</li>\n<li><strong>표현도(expressivity)</strong>: 형질이 나타나는 <strong>정도(강도)의 차이</strong>(개체·부위마다 다름).</li>\n<li><strong>침투율(penetrance)</strong>: 해당 유전자형 중 형질이 <strong>나타나는 개체의 비율</strong>.</li>\n<li><strong>다면발현(pleiotropy)</strong>: 한 유전자가 여러 형질에 영향.</li>\n<li><strong>주동유전자 / 변경유전자</strong>: 주동유전자가 형질을 주도. <strong>변경유전자는 주동유전자의 발현을 질적·양적으로 조절하며, 주동유전자가 있을 때만 작용</strong>한다.</li>\n</ul>\n<h3>성과 유전</h3>\n<ul>\n<li><strong>성결정·성비 1:1</strong>: 한쪽 성이 <strong>이형배우자성(XY 등)</strong>이기 때문(뽕나무·초파리 수컷=XY).</li>\n<li><strong>반성유전</strong>(성연관, X연관): <strong>십자형 유전</strong> — 양친 <strong>암컷 특성→자식 수컷</strong>, 양친 <strong>수컷 특성→자식 암컷</strong>.</li>\n<li><strong>한성유전</strong>: 형질이 <strong>한쪽 성에만</strong> 발현(호르몬 영향). 예: 수소도 우유 유전자 보유하나 암소만 우유 생산.</li>\n<li><strong>종성유전</strong>: 양쪽 성에 다 있으나 성에 따라 우열이 달라짐.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>보족유전자 = <strong>이중 열성상위 = 9:7</strong> / 조건유전자 = <strong>열성상위 = 9:3:4</strong>.</li>\n<li>불완전우성·공우성은 <strong>둘 다 F2 1:2:1</strong> → 구분은 <strong>F1 표현형</strong>(중간 vs 양친 함께).</li>\n<li>반응규격(변이 <strong>범위</strong>) vs 표현도(발현 <strong>정도</strong>) vs 침투율(발현 <strong>개체 비율</strong>) — 가장 헷갈리는 3종.</li>\n<li>변경유전자는 <strong>주동유전자가 있을 때만</strong> 작용.</li>\n<li>반성유전 = 십자형 유전. 한성유전 = 한쪽 성에만 발현.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>\"복대립유전자는 한 개체가 <strong>모든</strong> 대립유전자를 가진다\" ✗ → 집단엔 3개+, <strong>개체는 2개만</strong>.</li>\n<li>\"복대립유전자 교배 F2 분리비가 변한다\" ✗ → 3:1 또는 1:2:1 <strong>불변</strong>.</li>\n<li>반응규격↔표현도↔침투율 정의 바꿔치기 오답 빈출.</li>\n<li>9:3:4를 우성상위(12:3:1)와 혼동. <strong>9:3:4=열성상위(조건유전자)</strong>.</li>\n<li>한성유전(한쪽 성에만 발현)과 반성유전(성염색체 연관, 십자형) 혼동.</li>\n</ul>\n<h2>⊕ 기출 밖 보충 (지엽 대비)</h2>\n<blockquote>\n<p>워크북엔 있으나 5개년 기출엔 안 나온 지엽. 변형 출제 대비.</p>\n</blockquote>\n<ul>\n<li><strong>공우성</strong>: 이형접합체에서 두 대립유전자 산물의 <strong>기능이 똑같을 때</strong> 나타남(AB형 혈액). ↔ 불완전우성=중간형질.</li>\n<li>추가 상위 분리비: <strong>12:3:1 우성상위(피복)·9:6:1 복수유전자·15:1 중복유전자·13:3 억제유전자</strong>.</li>\n<li><strong>한성유전</strong>: 호르몬 영향으로 형질이 <strong>한쪽 성에만</strong>(예: 우유생산=암컷만). ↔ 반성유전(성염색체·십자형)·종성유전(성에 따라 우열 다름).</li>\n<li>대립형질이 나타나는 이유 = 상동염색체가 있어 <strong>대립유전자가 2개씩</strong> 존재하기 때문.</li>\n<li><strong>치사유전자</strong>(선천성 무모 등) → 분리비 변형.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>보족유전자(9:7)/이중열성상위</strong>: <a href=\"#note:gen-2016\">2016-Q46</a>④ · <a href=\"#note:gen-2017\">2017-Q46</a>② · <a href=\"#note:gen-2018\">2018-Q45</a>② · <a href=\"#note:gen-2019\">2019-Q47</a>③</li>\n<li><strong>조건유전자(9:3:4)/열성상위</strong>: 2015-Q48② · 2016-Q52① · 2018-Q47②</li>\n<li><strong>반응규격/표현도/침투율</strong>: 2015-Q47②·Q49① · 2016-Q50③ · 2018-Q46① · 2017-Q47①(표현형모사)</li>\n<li><strong>불완전우성/공우성</strong>: 2015-Q46③ · 2016-Q54② · 2017-Q41④ · 2018-Q50② · 2019-Q45①</li>\n<li><strong>복대립유전자</strong>: 2016-Q48③ · 2018-Q44① · 2019-Q49②</li>\n<li><strong>변경유전자</strong>: 2015-Q50④ · 2016-Q51③</li>\n<li><strong>반성유전/성비</strong>: 2015-Q52① · 2016-Q41①·Q53④ · 2017-Q44③·Q50④</li>\n<li><strong>우성/열성 대립유전자</strong>: 2019-Q48②</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch03-mendel\">③ 멘델의 법칙</a> (9:3:3:1 기본형 → 본 장은 그 변형)</li>\n<li><a href=\"#note:gen-ch16-quantitative\">⑯ 양적 유전</a> (폴리진·누적효과)</li>\n<li><a href=\"#note:gen-ch06-cytoplasmic\">⑥ 세포질 유전</a> (정역교배로 반성유전과 구별)</li>\n</ul>"
   },
   {
    "slug": "gen-ch05-linkage",
@@ -3368,7 +4185,7 @@
    "title": "연관과 재조합 및 유전자 지도",
    "importance": "high",
    "exam_freq": "12",
-   "html": "<h1>연관과 재조합 및 유전자 지도</h1>\n<blockquote>\n<p>출제 공동 4위(~12문항). <strong>유전자지도 1단위 정의</strong>와 <strong>연관군 수</strong>가 거의 매년 출제(점수 확보처).</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>연관</strong>: 같은 염색체에 함께 있는 유전자들. 연관 그룹 = <strong>연관군</strong>. <strong>연관군 수 = 배우자 염색체 수 = n</strong>.</li>\n<li><strong>교차·재조합</strong>: 제1감수분열 전기 <strong>태사기</strong>에 2가염색체의 비상동 염색분체 간 교차 → <strong>재조합형(교차형)</strong> 배우자 생성. <strong>양친형 = 비교차형</strong>.</li>\n<li><strong>재조합빈도(RF)</strong> = 재조합형 / (재조합형+양친형) × 100. 범위 <strong>0~50%</strong>. 거리 멀수록 RF↑.</li>\n<li><strong>유전자지도 1단위 = RF 1% = 배우자 100개 중 재조합형 1개가 나오는 거리.</strong> ★매년★</li>\n</ul>\n<h2>개념 설명</h2>\n<ul>\n<li>연관 유전자는 감수분열 시 함께 행동하나, 태사기 교차로 재조합됨. 키아스마 1개 형성 시 배우자의 <strong>1/2은 양친형, 1/2은 재조합형</strong>.</li>\n<li>(응용: \"생식세포 40%가 키아스마 형성\" → 재조합형 = 40%×1/2 = <strong>20%</strong>, 양친형 80%.)</li>\n<li><strong>독립유전자</strong>(다른 염색체)의 재조합빈도 = <strong>항상 50%</strong>. RF=0 → 완전연관, RF=50 → 독립(연관 약함).</li>\n<li><strong>간섭(interference)</strong>: 한 곳 교차가 인접 부위 교차를 억제. <strong>일치계수</strong>(2중교차 기대빈도 대비 관찰빈도), <strong>간섭계수 = 1 − 일치계수</strong>. 일치계수 <strong>0=완전간섭</strong>, <strong>1=간섭 없음</strong>. 보통 거리 10단위 이하면 2중교차 안 일어남.</li>\n<li><strong>상인(cis/coupling)</strong>: 우성끼리(또는 열성끼리) 연관. <strong>상반(trans/repulsion)</strong>: 우성·열성이 연관.</li>\n<li><strong>단교차/2중교차/다중교차</strong>: 키아스마 1/2/3개 이상.</li>\n<li><strong>3점 검정교배</strong>: 세 유전자 이형접합체 × 3중열성. 한 번에 세 유전자 RF + 2중교차 정보 + 배열순서 파악.</li>\n<li>지도거리는 <strong>상가적</strong>(花-sn = 花-m + m-sn). 단, 멀면 2중교차로 RF가 <strong>과소추정</strong> → 실제 거리와 차이.</li>\n<li>발견: <strong>연관=완두</strong>, 교차=초파리, 교차의 정확한 시기(태사기)=붉은빵곰팡이. 지도 작성엔 표지유전자/분자표지(RFLP) 이용.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li><strong>1단위 = 재조합빈도 1% = 배우자 100개 중 재조합형 1개</strong> (보기에서 '재조합형'·'100개' 동시에 맞아야 정답).</li>\n<li><strong>연관군 수 = n</strong>(예: 보리 2n=14 → <strong>7개</strong>).</li>\n<li>재조합빈도 최대 = <strong>50%</strong>(독립유전자는 항상 50%).</li>\n<li>키아스마 1개 → 재조합형 1/2.</li>\n<li>재조합형 = 교차형, 양친형 = 비교차형.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>1단위 정의에서 \"<strong>양친형</strong>\" 또는 \"<strong>1000개</strong>\"로 바꾼 오답 → 정답은 <strong>재조합형·100개</strong>.</li>\n<li>연관군 수를 2n(염색체 수)으로 착각 ✗ → <strong>n</strong>.</li>\n<li>\"거리 멀수록 재조합형 적다\" ✗ → <strong>많다</strong>.</li>\n<li>독립유전자 RF를 0%로 착각 ✗ → <strong>50%</strong>.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>유전자지도 1단위</strong>: <a href=\"#note:gen-2015\">2015-Q54</a>② · <a href=\"#note:gen-2017\">2017-Q48</a>① · <a href=\"#note:gen-2018\">2018-Q49</a>② · <a href=\"#note:gen-2019\">2019-Q51</a>②</li>\n<li><strong>연관군 수(=n)</strong>: 2017-Q51① · 2019-Q52①</li>\n<li><strong>재조합빈도/교차 영향요인(거리)</strong>: 2015-Q53① · 2016-Q55③ · 2018-Q48③</li>\n<li><strong>재조합형 비율 계산(키아스마 40%→20%)</strong>: 2017-Q52①</li>\n<li><strong>재조합 일어나는 시기(태사기·제1감수분열 전기)</strong>: 2019-Q38①</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch02-cell-division\">② 감수분열</a> (교차·키아스마·태사기)</li>\n<li><a href=\"#note:gen-ch03-mendel\">③ 멘델의 법칙</a> (독립법칙의 예외가 연관)</li>\n<li><a href=\"#note:gen-ch07-chromosome-mutation\">⑦ 염색체 변화</a> (역위 → 교차 억제)</li>\n</ul>"
+   "html": "<h1>연관과 재조합 및 유전자 지도</h1>\n<blockquote>\n<p>출제 공동 4위(~12문항). <strong>유전자지도 1단위 정의</strong>와 <strong>연관군 수</strong>가 거의 매년 출제(점수 확보처).</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>연관</strong>: 같은 염색체에 함께 있는 유전자들. 연관 그룹 = <strong>연관군</strong>. <strong>연관군 수 = 배우자 염색체 수 = n</strong>.</li>\n<li><strong>교차·재조합</strong>: 제1감수분열 전기 <strong>태사기</strong>에 2가염색체의 비상동 염색분체 간 교차 → <strong>재조합형(교차형)</strong> 배우자 생성. <strong>양친형 = 비교차형</strong>.</li>\n<li><strong>재조합빈도(RF)</strong> = 재조합형 / (재조합형+양친형) × 100. 범위 <strong>0~50%</strong>. 거리 멀수록 RF↑.</li>\n<li><strong>유전자지도 1단위 = RF 1% = 배우자 100개 중 재조합형 1개가 나오는 거리.</strong> ★매년★</li>\n</ul>\n<h2>개념 설명</h2>\n<ul>\n<li>연관 유전자는 감수분열 시 함께 행동하나, 태사기 교차로 재조합됨. 키아스마 1개 형성 시 배우자의 <strong>1/2은 양친형, 1/2은 재조합형</strong>.</li>\n<li>(응용: \"생식세포 40%가 키아스마 형성\" → 재조합형 = 40%×1/2 = <strong>20%</strong>, 양친형 80%.)</li>\n<li><strong>독립유전자</strong>(다른 염색체)의 재조합빈도 = <strong>항상 50%</strong>. RF=0 → 완전연관, RF=50 → 독립(연관 약함).</li>\n<li><strong>간섭(interference)</strong>: 한 곳 교차가 인접 부위 교차를 억제. <strong>일치계수</strong>(2중교차 기대빈도 대비 관찰빈도), <strong>간섭계수 = 1 − 일치계수</strong>. 일치계수 <strong>0=완전간섭</strong>, <strong>1=간섭 없음</strong>. 보통 거리 10단위 이하면 2중교차 안 일어남.</li>\n<li><strong>상인(cis/coupling)</strong>: 우성끼리(또는 열성끼리) 연관. <strong>상반(trans/repulsion)</strong>: 우성·열성이 연관.</li>\n<li><strong>단교차/2중교차/다중교차</strong>: 키아스마 1/2/3개 이상.</li>\n<li><strong>3점 검정교배</strong>: 세 유전자 이형접합체 × 3중열성. 한 번에 세 유전자 RF + 2중교차 정보 + 배열순서 파악.</li>\n<li>지도거리는 <strong>상가적</strong>(花-sn = 花-m + m-sn). 단, 멀면 2중교차로 RF가 <strong>과소추정</strong> → 실제 거리와 차이.</li>\n<li>발견: <strong>연관=완두</strong>, 교차=초파리, 교차의 정확한 시기(태사기)=붉은빵곰팡이. 지도 작성엔 표지유전자/분자표지(RFLP) 이용.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li><strong>1단위 = 재조합빈도 1% = 배우자 100개 중 재조합형 1개</strong> (보기에서 '재조합형'·'100개' 동시에 맞아야 정답).</li>\n<li><strong>연관군 수 = n</strong>(예: 보리 2n=14 → <strong>7개</strong>).</li>\n<li>재조합빈도 최대 = <strong>50%</strong>(독립유전자는 항상 50%).</li>\n<li>키아스마 1개 → 재조합형 1/2.</li>\n<li>재조합형 = 교차형, 양친형 = 비교차형.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>1단위 정의에서 \"<strong>양친형</strong>\" 또는 \"<strong>1000개</strong>\"로 바꾼 오답 → 정답은 <strong>재조합형·100개</strong>.</li>\n<li>연관군 수를 2n(염색체 수)으로 착각 ✗ → <strong>n</strong>.</li>\n<li>\"거리 멀수록 재조합형 적다\" ✗ → <strong>많다</strong>.</li>\n<li>독립유전자 RF를 0%로 착각 ✗ → <strong>50%</strong>.</li>\n</ul>\n<h2>⊕ 기출 밖 보충 (지엽 대비)</h2>\n<blockquote>\n<p>워크북엔 있으나 5개년 기출엔 안 나온 지엽. 변형 출제 대비.</p>\n</blockquote>\n<ul>\n<li><strong>시스(cis)=상인연관</strong>(우성끼리·열성끼리 연관) / <strong>트랜스(trans)=상반연관</strong>(우성-열성 연관).</li>\n<li><strong>재조합빈도 최대 = 50%</strong>(독립유전 시 항상 50%). 양친형 80% → RF <strong>20%</strong>, 12단위 → 재조합형 <strong>12%</strong>.</li>\n<li><strong>3점 검정교배</strong>: 표현형 8가지 중 최다=<strong>양친형</strong>, 최소=<strong>2중교차형</strong>, 나머지=단교차형.</li>\n<li><strong>간섭</strong>: 한 곳 교차가 인접부위 교차를 억제. 간섭계수 = 1 − 일치계수.</li>\n<li>교차 시기 = 제1감수분열 전기 <strong>태사기</strong>.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>유전자지도 1단위</strong>: <a href=\"#note:gen-2015\">2015-Q54</a>② · <a href=\"#note:gen-2017\">2017-Q48</a>① · <a href=\"#note:gen-2018\">2018-Q49</a>② · <a href=\"#note:gen-2019\">2019-Q51</a>②</li>\n<li><strong>연관군 수(=n)</strong>: 2017-Q51① · 2019-Q52①</li>\n<li><strong>재조합빈도/교차 영향요인(거리)</strong>: 2015-Q53① · 2016-Q55③ · 2018-Q48③</li>\n<li><strong>재조합형 비율 계산(키아스마 40%→20%)</strong>: 2017-Q52①</li>\n<li><strong>재조합 일어나는 시기(태사기·제1감수분열 전기)</strong>: 2019-Q38①</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch02-cell-division\">② 감수분열</a> (교차·키아스마·태사기)</li>\n<li><a href=\"#note:gen-ch03-mendel\">③ 멘델의 법칙</a> (독립법칙의 예외가 연관)</li>\n<li><a href=\"#note:gen-ch07-chromosome-mutation\">⑦ 염색체 변화</a> (역위 → 교차 억제)</li>\n</ul>"
   },
   {
    "slug": "gen-ch06-cytoplasmic",
@@ -3376,7 +4193,7 @@
    "title": "세포질 유전",
    "importance": "med",
    "exam_freq": "9",
-   "html": "<h1>세포질 유전</h1>\n<blockquote>\n<p>출제 ~9문항. <strong>모친유전 vs 모계영향 구분</strong>, 정역교배, mtDNA 웅성불임이 단골. (모계영향=세포질유전 아님이 핵심 함정)</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>세포질 유전 = 핵외 유전자(cpDNA 색소체 / mtDNA 미토콘드리아)에 의한 유전 = 비멘델식 유전.</strong></li>\n<li>수정란 세포질은 <strong>모친(난세포) 것</strong> → 자손에 모친 특성만 → <strong>정역교배 결과 불일치</strong>.</li>\n<li><strong>모계영향</strong>: 형질이 <strong>핵유전자</strong>에 의해 지배되지만 <strong>모친의 유전자형</strong>이 자손 표현형을 결정. <strong>세포질 유전이 아님!</strong></li>\n</ul>\n<h2>개념 설명</h2>\n<h3>세포질 유전의 4대 특징 (시험 직결)</h3>\n<ol>\n<li><strong>정역교배 결과가 일치하지 않는다</strong>(모친 세포질만 전달).</li>\n<li>멘델 분리비(3:1, 9:3:3:1)가 <strong>나오지 않는다</strong>.</li>\n<li>핵외 유전자는 <strong>핵 게놈 유전자 지도에 표시 불가</strong>(핵 유전표지와 연관 없음).</li>\n<li><strong>핵치환을 해도 세포질 유전은 계속된다</strong>(예: 세포질 웅성불임 유지). ↔ 핵유전자 형질은 핵치환하면 사라짐.</li>\n</ol>\n<h3>모친유전 vs 모계영향 (최빈출 비교)</h3>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>모친유전(=세포질유전 일종)</th>\n<th>모계영향</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>지배 유전자</td>\n<td><strong>핵외 유전자</strong>(cpDNA 등)</td>\n<td><strong>핵유전자</strong></td>\n</tr>\n<tr>\n<td>예</td>\n<td>분꽃 잎색(cpDNA, 자방친 특성만)</td>\n<td>달팽이 껍질 나선방향</td>\n</tr>\n<tr>\n<td>멘델 법칙</td>\n<td>따르지 않음</td>\n<td>나선유전자는 <strong>3:1 분리</strong>(오른쪽 R 우성), 단 표현형은 모친 유전자형 따름</td>\n</tr>\n<tr>\n<td>세포질 유전?</td>\n<td><strong>예</strong></td>\n<td><strong>아니오</strong></td>\n</tr>\n</tbody>\n</table>\n<h3>그 밖에</h3>\n<ul>\n<li><strong>세포질 유전자 명칭</strong>: 플라스몬(전체) &gt; 플라스마진(각각) / 플라스토진(색소체) · 콘드리오진(미토콘드리아).</li>\n<li><strong>cpDNA·mtDNA</strong>: 두 가닥 <strong>고리 모양</strong>, 자체 rRNA·tRNA 유전자, 독자 복제. (색소체·미토콘드리아는 공생 박테리아 기원설.)</li>\n<li><strong>세포질 웅성불임 = mtDNA</strong>. 핵의 <strong>임성회복 유전자</strong>로 임성 회복 — 이형접합체가 <strong>반불임=배우체적</strong>, 완전임성=포자체적. CGMS는 <strong>1대잡종 종자 생산</strong>에 이용.</li>\n<li><strong>감염성 유전</strong>: 세포질 공생 미생물(짚신벌레 <strong>카파입자</strong>=박테리아, 초파리 <strong>시그마인자</strong>=바이러스, <strong>SR인자</strong>=스피로플라스마). 세포질 유전과 <strong>유사하나 아님</strong>.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>세포질 유전 = 비멘델식, <strong>정역교배 결과 불일치</strong>, <strong>핵치환해도 계속</strong>.</li>\n<li>모친유전 = 핵외(cpDNA), 모계영향 = <strong>핵유전자</strong>(달팽이 나선). <strong>모계영향은 세포질 유전이 아님</strong>.</li>\n<li>세포질 웅성불임 = <strong>mtDNA</strong>. cpDNA = 광합성·광계·전자전달계 유전자.</li>\n<li>분꽃 잎색 = 모친유전(cpDNA, 자방친 특성).</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>\"세포질 유전은 멘델 법칙을 따른다\" ✗ → 비멘델식.</li>\n<li>\"핵치환하면 세포질 유전이 사라진다\" ✗ → <strong>계속</strong>된다.</li>\n<li>\"달팽이 나선/모계영향 = 세포질 유전\" ✗ → <strong>핵유전자</strong> 지배.</li>\n<li>웅성불임 유전자를 cpDNA로 착각 ✗ → <strong>mtDNA</strong>.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>세포질 유전 특징/모계영향</strong>: <a href=\"#note:gen-2015\">2015-Q55</a>①·<a href=\"#note:gen-2015\">2015-Q56</a>④ · <a href=\"#note:gen-2016\">2016-Q56</a>②·<a href=\"#note:gen-2016\">2016-Q58</a>④ · <a href=\"#note:gen-2018\">2018-Q52</a>①·<a href=\"#note:gen-2018\">2018-Q53</a>② · <a href=\"#note:gen-2019\">2019-Q67</a>④</li>\n<li><strong>세포질 웅성불임(mtDNA)</strong>: 2018-Q51④</li>\n<li><strong>정역교배로만 확인되는 유전(반성유전·세포질)</strong>: 2019-Q50③ → <a href=\"#note:gen-ch04-gene-interaction\">④</a></li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch04-gene-interaction\">④ 반성유전</a> (정역교배로 세포질유전과 구별)</li>\n<li><a href=\"#note:gen-ch10-dna-structure\">⑩ 유전물질</a> (cpDNA·mtDNA 구조)</li>\n</ul>"
+   "html": "<h1>세포질 유전</h1>\n<blockquote>\n<p>출제 ~9문항. <strong>모친유전 vs 모계영향 구분</strong>, 정역교배, mtDNA 웅성불임이 단골. (모계영향=세포질유전 아님이 핵심 함정)</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>세포질 유전 = 핵외 유전자(cpDNA 색소체 / mtDNA 미토콘드리아)에 의한 유전 = 비멘델식 유전.</strong></li>\n<li>수정란 세포질은 <strong>모친(난세포) 것</strong> → 자손에 모친 특성만 → <strong>정역교배 결과 불일치</strong>.</li>\n<li><strong>모계영향</strong>: 형질이 <strong>핵유전자</strong>에 의해 지배되지만 <strong>모친의 유전자형</strong>이 자손 표현형을 결정. <strong>세포질 유전이 아님!</strong></li>\n</ul>\n<h2>개념 설명</h2>\n<h3>세포질 유전의 4대 특징 (시험 직결)</h3>\n<ol>\n<li><strong>정역교배 결과가 일치하지 않는다</strong>(모친 세포질만 전달).</li>\n<li>멘델 분리비(3:1, 9:3:3:1)가 <strong>나오지 않는다</strong>.</li>\n<li>핵외 유전자는 <strong>핵 게놈 유전자 지도에 표시 불가</strong>(핵 유전표지와 연관 없음).</li>\n<li><strong>핵치환을 해도 세포질 유전은 계속된다</strong>(예: 세포질 웅성불임 유지). ↔ 핵유전자 형질은 핵치환하면 사라짐.</li>\n</ol>\n<h3>모친유전 vs 모계영향 (최빈출 비교)</h3>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>모친유전(=세포질유전 일종)</th>\n<th>모계영향</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>지배 유전자</td>\n<td><strong>핵외 유전자</strong>(cpDNA 등)</td>\n<td><strong>핵유전자</strong></td>\n</tr>\n<tr>\n<td>예</td>\n<td>분꽃 잎색(cpDNA, 자방친 특성만)</td>\n<td>달팽이 껍질 나선방향</td>\n</tr>\n<tr>\n<td>멘델 법칙</td>\n<td>따르지 않음</td>\n<td>나선유전자는 <strong>3:1 분리</strong>(오른쪽 R 우성), 단 표현형은 모친 유전자형 따름</td>\n</tr>\n<tr>\n<td>세포질 유전?</td>\n<td><strong>예</strong></td>\n<td><strong>아니오</strong></td>\n</tr>\n</tbody>\n</table>\n<h3>그 밖에</h3>\n<ul>\n<li><strong>세포질 유전자 명칭</strong>: 플라스몬(전체) &gt; 플라스마진(각각) / 플라스토진(색소체) · 콘드리오진(미토콘드리아).</li>\n<li><strong>cpDNA·mtDNA</strong>: 두 가닥 <strong>고리 모양</strong>, 자체 rRNA·tRNA 유전자, 독자 복제. (색소체·미토콘드리아는 공생 박테리아 기원설.)</li>\n<li><strong>세포질 웅성불임 = mtDNA</strong>. 핵의 <strong>임성회복 유전자</strong>로 임성 회복 — 이형접합체가 <strong>반불임=배우체적</strong>, 완전임성=포자체적. CGMS는 <strong>1대잡종 종자 생산</strong>에 이용.</li>\n<li><strong>감염성 유전</strong>: 세포질 공생 미생물(짚신벌레 <strong>카파입자</strong>=박테리아, 초파리 <strong>시그마인자</strong>=바이러스, <strong>SR인자</strong>=스피로플라스마). 세포질 유전과 <strong>유사하나 아님</strong>.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>세포질 유전 = 비멘델식, <strong>정역교배 결과 불일치</strong>, <strong>핵치환해도 계속</strong>.</li>\n<li>모친유전 = 핵외(cpDNA), 모계영향 = <strong>핵유전자</strong>(달팽이 나선). <strong>모계영향은 세포질 유전이 아님</strong>.</li>\n<li>세포질 웅성불임 = <strong>mtDNA</strong>. cpDNA = 광합성·광계·전자전달계 유전자.</li>\n<li>분꽃 잎색 = 모친유전(cpDNA, 자방친 특성).</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>\"세포질 유전은 멘델 법칙을 따른다\" ✗ → 비멘델식.</li>\n<li>\"핵치환하면 세포질 유전이 사라진다\" ✗ → <strong>계속</strong>된다.</li>\n<li>\"달팽이 나선/모계영향 = 세포질 유전\" ✗ → <strong>핵유전자</strong> 지배.</li>\n<li>웅성불임 유전자를 cpDNA로 착각 ✗ → <strong>mtDNA</strong>.</li>\n</ul>\n<h2>⊕ 기출 밖 보충 (지엽 대비)</h2>\n<blockquote>\n<p>워크북엔 있으나 5개년 기출엔 안 나온 지엽. 변형 출제 대비.</p>\n</blockquote>\n<ul>\n<li>세포질유전자 명칭: <strong>플라스몬(전체) &gt; 플라스마진(각각) / 플라스토진(색소체)·콘드리오진(미토콘드리아)</strong>.</li>\n<li>cpDNA·mtDNA = <strong>두 가닥 고리모양</strong>, 자체 rRNA·tRNA 유전자 보유, 독자 복제.</li>\n<li><strong>감염성 유전</strong>: 짚신벌레 카파입자(박테리아)·초파리 시그마인자(바이러스)·SR인자(스피로플라스마). 세포질유전과 유사하나 아님.</li>\n<li>색소체 돌연변이 <strong>albina = 잎 전면 백색</strong>(xanta=황색, viridis=황록, striata=줄무늬).</li>\n<li>CGMS 임성회복: 이형접합 <strong>반불임=배우체적</strong>, 완전임성=포자체적.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>세포질 유전 특징/모계영향</strong>: <a href=\"#note:gen-2015\">2015-Q55</a>①·<a href=\"#note:gen-2015\">2015-Q56</a>④ · <a href=\"#note:gen-2016\">2016-Q56</a>②·<a href=\"#note:gen-2016\">2016-Q58</a>④ · <a href=\"#note:gen-2018\">2018-Q52</a>①·<a href=\"#note:gen-2018\">2018-Q53</a>② · <a href=\"#note:gen-2019\">2019-Q67</a>④</li>\n<li><strong>세포질 웅성불임(mtDNA)</strong>: 2018-Q51④</li>\n<li><strong>정역교배로만 확인되는 유전(반성유전·세포질)</strong>: 2019-Q50③ → <a href=\"#note:gen-ch04-gene-interaction\">④</a></li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch04-gene-interaction\">④ 반성유전</a> (정역교배로 세포질유전과 구별)</li>\n<li><a href=\"#note:gen-ch10-dna-structure\">⑩ 유전물질</a> (cpDNA·mtDNA 구조)</li>\n</ul>"
   },
   {
    "slug": "gen-ch07-chromosome-mutation",
@@ -3384,7 +4201,15 @@
    "title": "염색체 변화와 유전",
    "importance": "med",
    "exam_freq": "12",
-   "html": "<h1>염색체 변화와 유전</h1>\n<blockquote>\n<p>출제 공동 4위(~12문항). <strong>결실→위우성, 역위→교차억제, 1염색체생물 종류=n, 배수체 종류</strong>가 단골.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>구조적 변화(염색체 돌연변이)</strong>: 결실·중복·역위·전좌.</li>\n<li><strong>수적 변화(게놈 돌연변이)</strong>: 배수체(정배수성)·이수체(이수성).</li>\n<li>구조 이상 염색체는 감수분열 때 정상과 대합하려고 <strong>고리</strong>를 형성하며, 유전적으로 치사·<strong>위우성</strong>·위치효과·<strong>교차 억제</strong>가 나타남.</li>\n</ul>\n<h2>개념 설명</h2>\n<h3>① 구조적 변화</h3>\n<table>\n<thead>\n<tr>\n<th>변화</th>\n<th>내용</th>\n<th>유전 현상</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>결실</strong></td>\n<td>단편 소실</td>\n<td><strong>위우성</strong>(결실이형접합체에서 정상염색체의 <strong>열성유전자 발현</strong>), 치사</td>\n</tr>\n<tr>\n<td>중복</td>\n<td>단편 첨가</td>\n<td>위치효과</td>\n</tr>\n<tr>\n<td><strong>역위</strong></td>\n<td>단편 180° 회전 재결합</td>\n<td><strong>교차 억제</strong>(역위고리 내 교차→결실·중복 배우자 생존X)</td>\n</tr>\n<tr>\n<td><strong>전좌</strong></td>\n<td>단편이 다른 염색체로</td>\n<td>상호전좌 이형접합체 → <strong>반불임</strong>(4가염색체 인접분리)</td>\n</tr>\n</tbody>\n</table>\n<h3>② 수적 변화 — 정배수성(euploidy)</h3>\n<ul>\n<li><strong>동질배수체</strong>: 같은 게놈 배가. 기관 거대화·생리적 강건, 감수분열 <strong>다가염색체 → 임성 낮음</strong> → 영양번식.</li>\n<li><strong>바나나 = 동질3배체</strong>(3n=27, 종자 X), <strong>감자 = 동질4배체</strong>.</li>\n<li><strong>이질배수체</strong>: 서로 다른 게놈 첨가(<strong>복2배체</strong>). 감수분열 <strong>2가염색체 → 임성 높음</strong>.</li>\n<li><strong>밀 = 자연 이질6배체</strong>(빵밀 AABBDD, <strong>게놈 6개</strong>). <strong>트리티케일 = 밀×호밀 인공교배 이질배수체(복2배체)</strong>.</li>\n<li>씨없는 수박 = 4배체×2배체 → 3배체. <strong>콜히친</strong> 처리 → 방추사 억제 → 배수체 유도.</li>\n<li>자연계 식물은 대부분 <strong>이질배수체</strong>(동질배수체는 10% 미만).</li>\n</ul>\n<h3>③ 수적 변화 — 이수성(aneuploidy)</h3>\n<ul>\n<li><strong>1염색체 생물(2n−1)</strong>, <strong>3염색체 생물(2n+1)</strong>. 상동염색체 불분리(n+1, n−1 배우자)로 발생.</li>\n<li><strong>종류 수 = 배우자 염색체 수 = n</strong> (예: 벼 2n=24 → n=12 → <strong>12종류</strong>; 보리 2n=14 → 7종류).</li>\n<li><strong>반수체(n)</strong>: 상동염색체가 없어 <strong>감수분열에서 2가염색체 형성 불가 → 완전불임</strong>. 염색체 배가로 동형접합 2배체 → 육종 이용.</li>\n<li><strong>연관군 수 = n</strong>.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li><strong>결실 → 위우성</strong>(열성형질 발현). <strong>역위 → 교차 억제</strong>. <strong>전좌 → 반불임</strong>.</li>\n<li>1·3염색체생물 <strong>종류 수 = n</strong>. 3염색체생물 = <strong>2n+1</strong>, 1염색체생물 = 2n−1.</li>\n<li>바나나 = <strong>동질3배체</strong>, 감자 = 동질4배체, 트리티케일 = <strong>이질배수체(복2배체, 밀×호밀)</strong>, 빵밀 = 이질6배체(게놈 6).</li>\n<li>반수체 불임 = <strong>감수분열 2가염색체 형성 불가</strong>.</li>\n<li>동질배수체 = 다가염색체(불임↑), 이질배수체 = 2가염색체(임성↑).</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>위우성을 일으키는 변화 = <strong>결실</strong>(역위/전좌 아님).</li>\n<li>1염색체생물 종류를 2n으로 착각 ✗ → <strong>n</strong>.</li>\n<li>트리티케일을 동질배수체로 착각 ✗ → <strong>이질배수체(복2배체)</strong>.</li>\n<li>반수체 불임 이유를 \"유사분열\"로 ✗ → <strong>감수분열</strong> 2가염색체 형성 불가.</li>\n<li>3배체(바나나)는 종자 못 맺음(불균등 분리).</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>결실→위우성</strong>: <a href=\"#note:gen-2016\">2016-Q59</a>③ · <a href=\"#note:gen-2018\">2018-Q54</a>③</li>\n<li><strong>역위→교차억제</strong>: <a href=\"#note:gen-2015\">2015-Q57</a>②</li>\n<li><strong>1염색체생물 종류(=n)</strong>: 2015-Q58②(2n=12→6) · 2016-Q60③(벼 2n=24→12) · 2018-Q56②(보리→7)</li>\n<li><strong>3염색체생물=2n+1</strong>: 2018-Q55③ · 2019-Q53③</li>\n<li><strong>반수체 불임</strong>: 2019-Q55③</li>\n<li><strong>동질3배체(바나나)</strong>: 2015-Q60④</li>\n<li><strong>트리티케일/이질배수체</strong>: 2019-Q54②(보리는 무관)</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch02-cell-division\">② 감수분열</a> (2가염색체·대합·불분리)</li>\n<li><a href=\"#note:gen-ch05-linkage\">⑤ 연관</a> (역위→교차 억제, 연관군=n)</li>\n<li><a href=\"#note:gen-ch18-speciation\">⑱ 종분화</a> (역위·배수성에 의한 종분화)</li>\n</ul>"
+   "html": "<h1>염색체 변화와 유전</h1>\n<blockquote>\n<p>출제 공동 4위(~12문항). <strong>결실→위우성, 역위→교차억제, 1염색체생물 종류=n, 배수체 종류</strong>가 단골.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>구조적 변화(염색체 돌연변이)</strong>: 결실·중복·역위·전좌.</li>\n<li><strong>수적 변화(게놈 돌연변이)</strong>: 배수체(정배수성)·이수체(이수성).</li>\n<li>구조 이상 염색체는 감수분열 때 정상과 대합하려고 <strong>고리</strong>를 형성하며, 유전적으로 치사·<strong>위우성</strong>·위치효과·<strong>교차 억제</strong>가 나타남.</li>\n</ul>\n<h2>개념 설명</h2>\n<h3>① 구조적 변화</h3>\n<table>\n<thead>\n<tr>\n<th>변화</th>\n<th>내용</th>\n<th>유전 현상</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>결실</strong></td>\n<td>단편 소실</td>\n<td><strong>위우성</strong>(결실이형접합체에서 정상염색체의 <strong>열성유전자 발현</strong>), 치사</td>\n</tr>\n<tr>\n<td>중복</td>\n<td>단편 첨가</td>\n<td>위치효과</td>\n</tr>\n<tr>\n<td><strong>역위</strong></td>\n<td>단편 180° 회전 재결합</td>\n<td><strong>교차 억제</strong>(역위고리 내 교차→결실·중복 배우자 생존X)</td>\n</tr>\n<tr>\n<td><strong>전좌</strong></td>\n<td>단편이 다른 염색체로</td>\n<td>상호전좌 이형접합체 → <strong>반불임</strong>(4가염색체 인접분리)</td>\n</tr>\n</tbody>\n</table>\n<h3>② 수적 변화 — 정배수성(euploidy)</h3>\n<ul>\n<li><strong>동질배수체</strong>: 같은 게놈 배가. 기관 거대화·생리적 강건, 감수분열 <strong>다가염색체 → 임성 낮음</strong> → 영양번식.</li>\n<li><strong>바나나 = 동질3배체</strong>(3n=27, 종자 X), <strong>감자 = 동질4배체</strong>.</li>\n<li><strong>이질배수체</strong>: 서로 다른 게놈 첨가(<strong>복2배체</strong>). 감수분열 <strong>2가염색체 → 임성 높음</strong>.</li>\n<li><strong>밀 = 자연 이질6배체</strong>(빵밀 AABBDD, <strong>게놈 6개</strong>). <strong>트리티케일 = 밀×호밀 인공교배 이질배수체(복2배체)</strong>.</li>\n<li>씨없는 수박 = 4배체×2배체 → 3배체. <strong>콜히친</strong> 처리 → 방추사 억제 → 배수체 유도.</li>\n<li>자연계 식물은 대부분 <strong>이질배수체</strong>(동질배수체는 10% 미만).</li>\n</ul>\n<h3>③ 수적 변화 — 이수성(aneuploidy)</h3>\n<ul>\n<li><strong>1염색체 생물(2n−1)</strong>, <strong>3염색체 생물(2n+1)</strong>. 상동염색체 불분리(n+1, n−1 배우자)로 발생.</li>\n<li><strong>종류 수 = 배우자 염색체 수 = n</strong> (예: 벼 2n=24 → n=12 → <strong>12종류</strong>; 보리 2n=14 → 7종류).</li>\n<li><strong>반수체(n)</strong>: 상동염색체가 없어 <strong>감수분열에서 2가염색체 형성 불가 → 완전불임</strong>. 염색체 배가로 동형접합 2배체 → 육종 이용.</li>\n<li><strong>연관군 수 = n</strong>.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li><strong>결실 → 위우성</strong>(열성형질 발현). <strong>역위 → 교차 억제</strong>. <strong>전좌 → 반불임</strong>.</li>\n<li>1·3염색체생물 <strong>종류 수 = n</strong>. 3염색체생물 = <strong>2n+1</strong>, 1염색체생물 = 2n−1.</li>\n<li>바나나 = <strong>동질3배체</strong>, 감자 = 동질4배체, 트리티케일 = <strong>이질배수체(복2배체, 밀×호밀)</strong>, 빵밀 = 이질6배체(게놈 6).</li>\n<li>반수체 불임 = <strong>감수분열 2가염색체 형성 불가</strong>.</li>\n<li>동질배수체 = 다가염색체(불임↑), 이질배수체 = 2가염색체(임성↑).</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>위우성을 일으키는 변화 = <strong>결실</strong>(역위/전좌 아님).</li>\n<li>1염색체생물 종류를 2n으로 착각 ✗ → <strong>n</strong>.</li>\n<li>트리티케일을 동질배수체로 착각 ✗ → <strong>이질배수체(복2배체)</strong>.</li>\n<li>반수체 불임 이유를 \"유사분열\"로 ✗ → <strong>감수분열</strong> 2가염색체 형성 불가.</li>\n<li>3배체(바나나)는 종자 못 맺음(불균등 분리).</li>\n</ul>\n<h2>⊕ 기출 밖 보충 (지엽 대비)</h2>\n<blockquote>\n<p>워크북엔 있으나 5개년 기출엔 안 나온 지엽. 변형 출제 대비.</p>\n</blockquote>\n<ul>\n<li><strong>빵밀(AABBDD) = 이질6배체 = 복2배체</strong>(게놈 수 <strong>6개</strong>).</li>\n<li>동질배수체 = 다가염색체 → <strong>불임률↑</strong> / 이질배수체 = 2가염색체 → <strong>임성↑</strong>.</li>\n<li><strong>연관군 수 = n</strong> → 체세포 = 2n (벼 연관군 12 → 2n=24).</li>\n<li><strong>상호전좌 이형접합체 = 반불임</strong>(4가염색체 인접분리; 옥수수 알갱이 반불임).</li>\n<li><strong>콜히친</strong> 처리 → 방추사 억제 → 배수체. 자연계 식물 대부분 이질배수체(동질 10% 미만).</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>결실→위우성</strong>: <a href=\"#note:gen-2016\">2016-Q59</a>③ · <a href=\"#note:gen-2018\">2018-Q54</a>③</li>\n<li><strong>역위→교차억제</strong>: <a href=\"#note:gen-2015\">2015-Q57</a>②</li>\n<li><strong>1염색체생물 종류(=n)</strong>: 2015-Q58②(2n=12→6) · 2016-Q60③(벼 2n=24→12) · 2018-Q56②(보리→7)</li>\n<li><strong>3염색체생물=2n+1</strong>: 2018-Q55③ · 2019-Q53③</li>\n<li><strong>반수체 불임</strong>: 2019-Q55③</li>\n<li><strong>동질3배체(바나나)</strong>: 2015-Q60④</li>\n<li><strong>트리티케일/이질배수체</strong>: 2019-Q54②(보리는 무관)</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch02-cell-division\">② 감수분열</a> (2가염색체·대합·불분리)</li>\n<li><a href=\"#note:gen-ch05-linkage\">⑤ 연관</a> (역위→교차 억제, 연관군=n)</li>\n<li><a href=\"#note:gen-ch18-speciation\">⑱ 종분화</a> (역위·배수성에 의한 종분화)</li>\n</ul>"
+  },
+  {
+   "slug": "gen-ch08-agronomic-traits",
+   "chapter": 8,
+   "title": "농업형질의 유전",
+   "importance": "low",
+   "exam_freq": "0",
+   "html": "<h1>농업형질의 유전</h1>\n<blockquote>\n<p>5개년 기출에 직접 출제는 없으나(검정·정역교배는 <a href=\"#note:gen-ch03-mendel\">③</a>·<a href=\"#note:gen-ch06-cytoplasmic\">⑥</a>에 분산 출제), <strong>워크북 한 장이 통째로 '기출 밖 지엽' 저수지</strong>다. 유전분석 4법·표지유전자·가계도·통일벼는 지엽 문제로 나오기 좋다.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li>농업형질(작물·가축)을 <strong>유전분석</strong>(정역교배·검정교배·후대검정·가계도)으로 규명하고, <strong>표지유전자</strong>로 추적한다.</li>\n<li>수량·품질 등 양적형질은 <strong>폴리진</strong> 지배(→ <a href=\"#note:gen-ch16-quantitative\">⑯ 양적유전</a>).</li>\n</ul>\n<h2>개념 설명</h2>\n<h3>유전분석 4가지 방법 (★구분 단골)</h3>\n<table>\n<thead>\n<tr>\n<th>방법</th>\n<th>무엇을 아는가</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>정역교배</strong>(암수 바꿔 동시 교배)</td>\n<td><strong>세포질유전·반성유전 여부</strong></td>\n</tr>\n<tr>\n<td><strong>검정교배</strong>(× 열성동형접합 aa)</td>\n<td>이형접합체의 <strong>유전자형</strong> (배우자 분리비 = 잡종 표현형 분리비)</td>\n</tr>\n<tr>\n<td><strong>후대검정</strong>(자손 특성으로 친 평가)</td>\n<td>완전우성 시 같아 보이는 <strong>AA vs Aa 구별</strong>(AA 후대는 안 분리, Aa 후대만 분리)</td>\n</tr>\n<tr>\n<td><strong>가계도 분석</strong></td>\n<td>형질의 유전양식·유전자형 추적</td>\n</tr>\n<tr>\n<td>- <strong>여교배(backcross)</strong> = F1을 양친 중 한쪽과 교배. 그중 <strong>열성친과 교배 = 검정교배</strong>.</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<h3>표지유전자 (maker gene)</h3>\n<ul>\n<li>조건: <strong>단순유전 + 식별 용이 + 형태적 형질</strong>(연속변이 ✗). 유전분석·유전자지도 작성에 이용.</li>\n</ul>\n<h3>가계도 표기 (가축)</h3>\n<ul>\n<li><strong>수컷 = □(네모), 암컷 = ○(동그라미)</strong>. 세대 = 로마숫자(Ⅰ,Ⅱ…), 개체 = 아라비아숫자, 조사 형질 = 색칠.</li>\n</ul>\n<h3>농업 예시</h3>\n<ul>\n<li><strong>통일벼</strong>: 초형이 <strong>반왜성(sd-1)</strong> = 단순유전, <strong>다수성 초형유전자</strong>(녹색혁명).</li>\n<li><strong>조만성</strong> = 기본영양생장성 + 감광성 + 감온성. 이 중 <strong>기본영양생장성은 환경(온도·일장) 영향을 거의 안 받음</strong>.</li>\n<li><strong>가축 선천성 기형</strong>(소의 선천성 무모, 닭의 포복성 등) = 대개 <strong>치사유전자</strong>.</li>\n<li>가축 모색 우열: 우성백색·횡반 &gt; 흑색 &gt; 은색·황색 &gt; 열성백색(횡반은 흑색에 우성, 황색은 열성백색에 우성).</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li><strong>정역교배=세포질·반성유전 판별 / 검정교배=유전자형 / 후대검정=AA·Aa 구별 / 가계도=유전양식 추적</strong>.</li>\n<li>표지유전자 = 단순유전·식별 용이·<strong>형태적</strong>(연속변이 아님).</li>\n<li>가축 가계도: <strong>수컷 □, 암컷 ○</strong>.</li>\n<li>통일벼 다수성 초형 = <strong>sd-1(반왜성)</strong>. 환경 영향 안 받는 조만성 요소 = <strong>기본영양생장성</strong>.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>검정교배 ↔ 후대검정 혼동: 검정교배=×aa로 유전자형 판별 / 후대검정=자손 분리로 AA·Aa 구별.</li>\n<li>표지유전자가 \"연속변이한다\" ✗ → 단순유전.</li>\n<li>가계도 \"수컷 ○, 암컷 □\" ✗ → <strong>수컷 □, 암컷 ○</strong>.</li>\n<li>선천성 기형을 우성유전으로 ✗ → 대개 치사유전자.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li>직접 출제 없음. 관련 개념은 검정교배(<a href=\"#note:gen-ch03-mendel\">③</a> 다수), 정역교배(<a href=\"#note:gen-ch06-cytoplasmic\">⑥</a> 2019-Q50), 양적형질(<a href=\"#note:gen-ch16-quantitative\">⑯</a>).</li>\n<li>→ 본 장은 <strong><a href=\"#note:gen-ch08-drills\">예상문제(워크북 평가문제)</a></strong> 로 지엽 대비.</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch03-mendel\">③ 멘델</a> (검정교배·후대검정) · <a href=\"#note:gen-ch06-cytoplasmic\">⑥ 세포질 유전</a> (정역교배) · <a href=\"#note:gen-ch16-quantitative\">⑯ 양적 유전</a> (폴리진)</li>\n</ul>"
   },
   {
    "slug": "gen-ch09-bacteria-virus",
@@ -3400,7 +4225,7 @@
    "title": "유전물질의 구조와 성질",
    "importance": "med",
    "exam_freq": "9",
-   "html": "<h1>유전물질의 구조와 성질</h1>\n<blockquote>\n<p>출제 ~9문항. <strong>DNA 구조(우선성·상보결합), 뉴클레오솜, DNA 발견·규명자</strong>가 단골.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li>DNA = 두 가닥 폴리뉴클레오티드 <strong>2중나선</strong>. <strong>우선성(B형)</strong>, <strong>역평행</strong>, 염기 <strong>상보결합</strong>(A=T 수소결합 2개, <strong>G≡C 3개</strong>).</li>\n<li>뉴클레오티드 = 인산 + <strong>디옥시리보오스</strong> + 염기(A·G·T·C). RNA = 리보오스 + A·G·C·<strong>U</strong>, 한 가닥.</li>\n<li>진핵 DNA는 <strong>히스톤과 결합 → 뉴클레오솜</strong> → 염색사 → 솔레노이드 → 염색체.</li>\n</ul>\n<h2>개념 설명</h2>\n<ul>\n<li><strong>염기</strong>: 푸린(A·G, 고리 2개) / 피리미딘(C·T·U, 고리 1개). 푸린-피리미딘이 상보결합.</li>\n<li><strong>B형 DNA</strong>: 1회전에 염기쌍 10개, 1회전 길이 34Å, 지름 20Å.</li>\n<li><strong>DNA 2중나선 규명 = 왓슨·크릭(1953)</strong>. 단서: 샤가프(염기 함량 A=T, G=C) + 윌킨스·프랭클린(X선 회절). <strong>DNA 최초 발견(분리) = 미셔</strong>.</li>\n<li><strong>반보존적 복제</strong>: 두 가닥 풀려 각각 주형 → 상보 가닥 합성. 양방향 진행.</li>\n<li>DNA 중합효소는 <strong>3'-OH에 5'인산 첨가</strong>(5'→3' 방향만) → 한 가닥은 <strong>선도가닥(연속)</strong>, 다른 가닥은 <strong>지연가닥(불연속, 오카자키 단편)</strong>, 연결효소로 이음. 프라이머(프리마아제)가 시작.</li>\n<li><strong>뉴클레오솜</strong>: 히스톤 단백질 <strong>8량체에 DNA 2바퀴</strong> 감김 = <strong>DNA + 단백질 복합체</strong>. DNA(음전하)+히스톤(양전하)로 결합.</li>\n<li>원핵: 환상 DNA <strong>핵양체</strong>(히스톤 없음). 진핵: 각 염색체 = DNA 1분자, 비분열기엔 <strong>염색질</strong>.</li>\n<li>DNA 유전정보 = <strong>트리플렛</strong>(3염기 → 1아미노산).</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li><strong>G≡C(3 수소결합), A=T(2)</strong>. 나선 = <strong>우선성</strong>, 두 가닥 역평행·상보.</li>\n<li>뉴클레오솜 = <strong>DNA + 히스톤</strong> 복합체.</li>\n<li>DNA 발견 = <strong>미셔</strong>, 2중나선 규명 = <strong>왓슨·크릭</strong>(샤가프·윌킨스·프랭클린 단서).</li>\n<li>복제 = 반보존적, 5'→3'만, 지연가닥=오카자키 단편.</li>\n<li>RNA = 리보오스·우라실(U)·한 가닥.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>DNA 염기에 U 포함 ✗ → DNA=T, RNA=U.</li>\n<li>상보결합 \"A=G/T=C\" ✗ → <strong>A=T, G≡C</strong>.</li>\n<li>나선 방향 좌선성 ✗ → <strong>우선성</strong>(B형).</li>\n<li>뉴클레오솜을 \"DNA+RNA\" / \"DNA+산성단백질\" ✗ → <strong>히스톤(염기성)</strong>.</li>\n<li>\"DNA 2중나선이 유전자발현을 촉진\" — 2중나선 구조 자체의 성질이 아님(복제·보호·수선이 구조적 성질).</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>상보결합/구조(우선성)</strong>: <a href=\"#note:gen-2015\">2015-Q62</a>④(C≡G) · <a href=\"#note:gen-2019\">2019-Q57</a>①(우선성)</li>\n<li><strong>뉴클레오솜</strong>: <a href=\"#note:gen-2019\">2019-Q56</a>④</li>\n<li><strong>DNA 발견(미셔)/규명(왓슨·크릭)</strong>: <a href=\"#note:gen-2015\">2015-Q36</a>④ · <a href=\"#note:gen-2016\">2016-Q38</a>② · <a href=\"#note:gen-2019\">2019-Q36</a>③</li>\n<li><strong>DNA 유전암호=트리플렛</strong>: 2016-Q61④ · 2015-Q64③</li>\n<li><strong>2중나선 구조 성질(아닌 것)</strong>: 2019-Q58②</li>\n<li><strong>DNA 복제효소(중합효소)</strong>: 2015-Q63④</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch11-gene-expression\">⑪ 유전자 기능·발현</a> (전사·번역, 코돈)</li>\n<li><a href=\"#note:gen-ch02-cell-division\">② 세포</a> (염색체=DNA+단백질)</li>\n<li><a href=\"#note:gen-ch06-cytoplasmic\">⑥ 세포질 유전</a> (cpDNA·mtDNA 고리형)</li>\n</ul>"
+   "html": "<h1>유전물질의 구조와 성질</h1>\n<blockquote>\n<p>출제 ~9문항. <strong>DNA 구조(우선성·상보결합), 뉴클레오솜, DNA 발견·규명자</strong>가 단골.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li>DNA = 두 가닥 폴리뉴클레오티드 <strong>2중나선</strong>. <strong>우선성(B형)</strong>, <strong>역평행</strong>, 염기 <strong>상보결합</strong>(A=T 수소결합 2개, <strong>G≡C 3개</strong>).</li>\n<li>뉴클레오티드 = 인산 + <strong>디옥시리보오스</strong> + 염기(A·G·T·C). RNA = 리보오스 + A·G·C·<strong>U</strong>, 한 가닥.</li>\n<li>진핵 DNA는 <strong>히스톤과 결합 → 뉴클레오솜</strong> → 염색사 → 솔레노이드 → 염색체.</li>\n</ul>\n<h2>개념 설명</h2>\n<ul>\n<li><strong>염기</strong>: 푸린(A·G, 고리 2개) / 피리미딘(C·T·U, 고리 1개). 푸린-피리미딘이 상보결합.</li>\n<li><strong>B형 DNA</strong>: 1회전에 염기쌍 10개, 1회전 길이 34Å, 지름 20Å.</li>\n<li><strong>DNA 2중나선 규명 = 왓슨·크릭(1953)</strong>. 단서: 샤가프(염기 함량 A=T, G=C) + 윌킨스·프랭클린(X선 회절). <strong>DNA 최초 발견(분리) = 미셔</strong>.</li>\n<li><strong>반보존적 복제</strong>: 두 가닥 풀려 각각 주형 → 상보 가닥 합성. 양방향 진행.</li>\n<li>DNA 중합효소는 <strong>3'-OH에 5'인산 첨가</strong>(5'→3' 방향만) → 한 가닥은 <strong>선도가닥(연속)</strong>, 다른 가닥은 <strong>지연가닥(불연속, 오카자키 단편)</strong>, 연결효소로 이음. 프라이머(프리마아제)가 시작.</li>\n<li><strong>뉴클레오솜</strong>: 히스톤 단백질 <strong>8량체에 DNA 2바퀴</strong> 감김 = <strong>DNA + 단백질 복합체</strong>. DNA(음전하)+히스톤(양전하)로 결합.</li>\n<li>원핵: 환상 DNA <strong>핵양체</strong>(히스톤 없음). 진핵: 각 염색체 = DNA 1분자, 비분열기엔 <strong>염색질</strong>.</li>\n<li>DNA 유전정보 = <strong>트리플렛</strong>(3염기 → 1아미노산).</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li><strong>G≡C(3 수소결합), A=T(2)</strong>. 나선 = <strong>우선성</strong>, 두 가닥 역평행·상보.</li>\n<li>뉴클레오솜 = <strong>DNA + 히스톤</strong> 복합체.</li>\n<li>DNA 발견 = <strong>미셔</strong>, 2중나선 규명 = <strong>왓슨·크릭</strong>(샤가프·윌킨스·프랭클린 단서).</li>\n<li>복제 = 반보존적, 5'→3'만, 지연가닥=오카자키 단편.</li>\n<li>RNA = 리보오스·우라실(U)·한 가닥.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>DNA 염기에 U 포함 ✗ → DNA=T, RNA=U.</li>\n<li>상보결합 \"A=G/T=C\" ✗ → <strong>A=T, G≡C</strong>.</li>\n<li>나선 방향 좌선성 ✗ → <strong>우선성</strong>(B형).</li>\n<li>뉴클레오솜을 \"DNA+RNA\" / \"DNA+산성단백질\" ✗ → <strong>히스톤(염기성)</strong>.</li>\n<li>\"DNA 2중나선이 유전자발현을 촉진\" — 2중나선 구조 자체의 성질이 아님(복제·보호·수선이 구조적 성질).</li>\n</ul>\n<h2>⊕ 기출 밖 보충 (지엽 대비)</h2>\n<blockquote>\n<p>워크북엔 있으나 5개년 기출엔 안 나온 지엽. 변형 출제 대비.</p>\n</blockquote>\n<ul>\n<li><strong>B형 DNA</strong>: 1회전 <strong>10염기쌍</strong>, 1회전 길이 <strong>34Å</strong>, 지름 <strong>20Å</strong>, 염기간 3.4Å.</li>\n<li><strong>푸린</strong>(A·G, 고리 2개) / <strong>피리미딘</strong>(C·T·U, 고리 1개). 푸린-피리미딘 상보결합.</li>\n<li>DNA가 나선을 이루는 이유 = 염기가 <strong>평면구조</strong>이고 나선축에 <strong>직각</strong>으로 쌓이기 때문.</li>\n<li>복제: 프라이머(프리마아제)로 시작 → 지연가닥 = <strong>오카자키 단편</strong>(연결효소로 이음), 중합효소는 5'→3'만.</li>\n<li>왓슨·크릭 단서 = 샤가프(염기 함량 A=T·G=C) + 윌킨스·프랭클린(X선 회절).</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>상보결합/구조(우선성)</strong>: <a href=\"#note:gen-2015\">2015-Q62</a>④(C≡G) · <a href=\"#note:gen-2019\">2019-Q57</a>①(우선성)</li>\n<li><strong>뉴클레오솜</strong>: <a href=\"#note:gen-2019\">2019-Q56</a>④</li>\n<li><strong>DNA 발견(미셔)/규명(왓슨·크릭)</strong>: <a href=\"#note:gen-2015\">2015-Q36</a>④ · <a href=\"#note:gen-2016\">2016-Q38</a>② · <a href=\"#note:gen-2019\">2019-Q36</a>③</li>\n<li><strong>DNA 유전암호=트리플렛</strong>: 2016-Q61④ · 2015-Q64③</li>\n<li><strong>2중나선 구조 성질(아닌 것)</strong>: 2019-Q58②</li>\n<li><strong>DNA 복제효소(중합효소)</strong>: 2015-Q63④</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch11-gene-expression\">⑪ 유전자 기능·발현</a> (전사·번역, 코돈)</li>\n<li><a href=\"#note:gen-ch02-cell-division\">② 세포</a> (염색체=DNA+단백질)</li>\n<li><a href=\"#note:gen-ch06-cytoplasmic\">⑥ 세포질 유전</a> (cpDNA·mtDNA 고리형)</li>\n</ul>"
   },
   {
    "slug": "gen-ch11-gene-expression",
@@ -3408,7 +4233,7 @@
    "title": "유전자의 기능과 발현",
    "importance": "med",
    "exam_freq": "11",
-   "html": "<h1>유전자의 기능과 발현</h1>\n<blockquote>\n<p>출제 ~11문항. <strong>코돈↔안티코돈, 스플라이싱(엑손), 트리플렛, 폴리솜, 개시/종결코돈</strong>이 단골.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>유전자 발현 = 전사(DNA→RNA) + 번역(mRNA→단백질)</strong>. 최종 산물 = <strong>단백질</strong>.</li>\n<li><strong>트리플렛 코드</strong>: 3염기 = 1아미노산. 4³=<strong>64가지</strong> 암호(아미노산 20종 → 중복=퇴화).</li>\n<li><strong>코돈</strong>(mRNA의 3염기) ↔ <strong>안티코돈</strong>(tRNA의 3염기), 상보결합(A-U, G-C).</li>\n</ul>\n<h2>개념 설명</h2>\n<h3>코돈·안티코돈·트리플렛 (계산 단골)</h3>\n<ul>\n<li>코돈과 안티코돈은 <strong>상보·역평행</strong>. 예: 안티코돈 AAA ↔ 코돈 UUU / 코돈 GGG ↔ 안티코돈 CCC.</li>\n<li>(시험은 '트리플렛코드(코돈)'와 안티코돈을 상보쌍으로 묻는다. A↔U, G↔C로 변환.)</li>\n</ul>\n<h3>번역 3요소</h3>\n<ul>\n<li><strong>mRNA</strong>: 아미노산 서열 지정(코돈). <strong>tRNA</strong>: 안티코돈 보유, <strong>아미노산 운반</strong>. <strong>리보솜</strong>: 합성 틀(큰 단위체에서 합성, P·A 자리).</li>\n<li>단백질합성 = 개시·신장·종결. 개시인자/종결인자, <strong>ATP</strong> 필요. A자리에 <strong>종결코돈</strong> 오면 종료.</li>\n<li><strong>유전암호 성질</strong>: <strong>개시코돈(AUG)은 아미노산 지정</strong>, <strong>종결코돈은 아미노산 지정 안 함</strong>.</li>\n</ul>\n<h3>mRNA 가공 (진핵)</h3>\n<ul>\n<li><strong>캡핑</strong>(5' 끝 cap): 분해 방지 + 리보솜 결합 도움.</li>\n<li><strong>테일링</strong>(3' 폴리A): 분해 방지 + 반복 번역.</li>\n<li><strong>스플라이싱</strong>: <strong>인트론(비암호화) 제거, 엑손(암호화)만 연결</strong>.</li>\n<li>진핵 = 모노시스트론(1 mRNA=1 유전자), 원핵 = 폴리시스트론.</li>\n</ul>\n<h3>그 밖에</h3>\n<ul>\n<li><strong>폴리솜(polysome)</strong> = 한 가닥 <strong>mRNA에 여러 개의 리보솜</strong>이 부착.</li>\n<li><strong>역전사</strong> = 역전사효소로 mRNA → cDNA(→ <a href=\"#note:gen-ch15-gene-tech\">⑮</a>).</li>\n<li>번역에 <strong>DNA는 직접 참여하지 않음</strong>(mRNA·tRNA·리보솜만).</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>코돈(mRNA) ↔ 안티코돈(tRNA), <strong>A-U/G-C 상보</strong>.</li>\n<li>스플라이싱 = <strong>인트론 제거·엑손 연결</strong>.</li>\n<li>트리플렛 = 3염기/아미노산, <strong>64가지</strong>.</li>\n<li>폴리솜 = mRNA + <strong>여러 리보솜</strong>.</li>\n<li>개시코돈=아미노산 지정 / 종결코돈=미지정.</li>\n<li>tRNA=아미노산 운반(안티코돈), mRNA의 유전암호=코돈.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>스플라이싱을 \"엑손 제거·인트론 연결\" ✗ → 반대(<strong>인트론 제거</strong>).</li>\n<li>mRNA의 유전암호를 안티코돈으로 ✗ → <strong>코돈</strong>(안티코돈=tRNA).</li>\n<li>폴리솜을 \"여러 RNA중합효소\" ✗ → <strong>여러 리보솜</strong>.</li>\n<li>종결코돈이 아미노산 지정 ✗ → <strong>미지정</strong>.</li>\n<li>번역에 DNA 참여 ✗.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>코돈↔안티코돈/트리플렛</strong>: <a href=\"#note:gen-2016\">2016-Q62</a>① · <a href=\"#note:gen-2017\">2017-Q53</a>③ · <a href=\"#note:gen-2018\">2018-Q58</a>② · <a href=\"#note:gen-2015\">2015-Q64</a>③·<a href=\"#note:gen-2015\">2015-Q66</a>③</li>\n<li><strong>스플라이싱(엑손)</strong>: 2015-Q65④ · 2019-Q59②</li>\n<li><strong>폴리솜</strong>: 2019-Q61④</li>\n<li><strong>유전암호(개시/종결코돈)</strong>: 2019-Q60③</li>\n<li><strong>유전자 산물=단백질</strong>: 2017-Q36④ · 2019-Q37②</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch10-dna-structure\">⑩ 유전물질</a> (전사 주형 DNA)</li>\n<li><a href=\"#note:gen-ch12-gene-regulation\">⑫ 발현 조절</a> (전사 단계 조절: 프로모터·엔핸서)</li>\n<li><a href=\"#note:gen-ch15-gene-tech\">⑮ 유전자 테크놀로지</a> (역전사·cDNA)</li>\n</ul>"
+   "html": "<h1>유전자의 기능과 발현</h1>\n<blockquote>\n<p>출제 ~11문항. <strong>코돈↔안티코돈, 스플라이싱(엑손), 트리플렛, 폴리솜, 개시/종결코돈</strong>이 단골.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>유전자 발현 = 전사(DNA→RNA) + 번역(mRNA→단백질)</strong>. 최종 산물 = <strong>단백질</strong>.</li>\n<li><strong>트리플렛 코드</strong>: 3염기 = 1아미노산. 4³=<strong>64가지</strong> 암호(아미노산 20종 → 중복=퇴화).</li>\n<li><strong>코돈</strong>(mRNA의 3염기) ↔ <strong>안티코돈</strong>(tRNA의 3염기), 상보결합(A-U, G-C).</li>\n</ul>\n<h2>개념 설명</h2>\n<h3>코돈·안티코돈·트리플렛 (계산 단골)</h3>\n<ul>\n<li>코돈과 안티코돈은 <strong>상보·역평행</strong>. 예: 안티코돈 AAA ↔ 코돈 UUU / 코돈 GGG ↔ 안티코돈 CCC.</li>\n<li>(시험은 '트리플렛코드(코돈)'와 안티코돈을 상보쌍으로 묻는다. A↔U, G↔C로 변환.)</li>\n</ul>\n<h3>번역 3요소</h3>\n<ul>\n<li><strong>mRNA</strong>: 아미노산 서열 지정(코돈). <strong>tRNA</strong>: 안티코돈 보유, <strong>아미노산 운반</strong>. <strong>리보솜</strong>: 합성 틀(큰 단위체에서 합성, P·A 자리).</li>\n<li>단백질합성 = 개시·신장·종결. 개시인자/종결인자, <strong>ATP</strong> 필요. A자리에 <strong>종결코돈</strong> 오면 종료.</li>\n<li><strong>유전암호 성질</strong>: <strong>개시코돈(AUG)은 아미노산 지정</strong>, <strong>종결코돈은 아미노산 지정 안 함</strong>.</li>\n</ul>\n<h3>mRNA 가공 (진핵)</h3>\n<ul>\n<li><strong>캡핑</strong>(5' 끝 cap): 분해 방지 + 리보솜 결합 도움.</li>\n<li><strong>테일링</strong>(3' 폴리A): 분해 방지 + 반복 번역.</li>\n<li><strong>스플라이싱</strong>: <strong>인트론(비암호화) 제거, 엑손(암호화)만 연결</strong>.</li>\n<li>진핵 = 모노시스트론(1 mRNA=1 유전자), 원핵 = 폴리시스트론.</li>\n</ul>\n<h3>그 밖에</h3>\n<ul>\n<li><strong>폴리솜(polysome)</strong> = 한 가닥 <strong>mRNA에 여러 개의 리보솜</strong>이 부착.</li>\n<li><strong>역전사</strong> = 역전사효소로 mRNA → cDNA(→ <a href=\"#note:gen-ch15-gene-tech\">⑮</a>).</li>\n<li>번역에 <strong>DNA는 직접 참여하지 않음</strong>(mRNA·tRNA·리보솜만).</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>코돈(mRNA) ↔ 안티코돈(tRNA), <strong>A-U/G-C 상보</strong>.</li>\n<li>스플라이싱 = <strong>인트론 제거·엑손 연결</strong>.</li>\n<li>트리플렛 = 3염기/아미노산, <strong>64가지</strong>.</li>\n<li>폴리솜 = mRNA + <strong>여러 리보솜</strong>.</li>\n<li>개시코돈=아미노산 지정 / 종결코돈=미지정.</li>\n<li>tRNA=아미노산 운반(안티코돈), mRNA의 유전암호=코돈.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>스플라이싱을 \"엑손 제거·인트론 연결\" ✗ → 반대(<strong>인트론 제거</strong>).</li>\n<li>mRNA의 유전암호를 안티코돈으로 ✗ → <strong>코돈</strong>(안티코돈=tRNA).</li>\n<li>폴리솜을 \"여러 RNA중합효소\" ✗ → <strong>여러 리보솜</strong>.</li>\n<li>종결코돈이 아미노산 지정 ✗ → <strong>미지정</strong>.</li>\n<li>번역에 DNA 참여 ✗.</li>\n</ul>\n<h2>⊕ 기출 밖 보충 (지엽 대비)</h2>\n<blockquote>\n<p>워크북엔 있으나 5개년 기출엔 안 나온 지엽. 변형 출제 대비.</p>\n</blockquote>\n<ul>\n<li><strong>트리플렛 64가지</strong>(4³), 중복(퇴화) 있음. 개시코돈 = AUG.</li>\n<li>진핵 mRNA 가공: <strong>캡핑</strong>(5'끝 분해방지·번역개시 신호)·<strong>테일링</strong>(3' 폴리A)·스플라이싱.</li>\n<li><strong>모노시스트론</strong>(진핵, 1 mRNA=1 유전자) / <strong>폴리시스트론</strong>(원핵, 1 mRNA에 여러 유전자).</li>\n<li>단백질합성은 리보솜 <strong>큰 단위체</strong>(P·A 자리)에서. 아미노산 충전 = aa-tRNA 형성.</li>\n<li><strong>샤페론</strong>: 합성된 폴리펩티드의 입체구조(2·3·4차) 형성을 도움. <strong>역전사</strong>=역전사효소로 mRNA→cDNA.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>코돈↔안티코돈/트리플렛</strong>: <a href=\"#note:gen-2016\">2016-Q62</a>① · <a href=\"#note:gen-2017\">2017-Q53</a>③ · <a href=\"#note:gen-2018\">2018-Q58</a>② · <a href=\"#note:gen-2015\">2015-Q64</a>③·<a href=\"#note:gen-2015\">2015-Q66</a>③</li>\n<li><strong>스플라이싱(엑손)</strong>: 2015-Q65④ · 2019-Q59②</li>\n<li><strong>폴리솜</strong>: 2019-Q61④</li>\n<li><strong>유전암호(개시/종결코돈)</strong>: 2019-Q60③</li>\n<li><strong>유전자 산물=단백질</strong>: 2017-Q36④ · 2019-Q37②</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch10-dna-structure\">⑩ 유전물질</a> (전사 주형 DNA)</li>\n<li><a href=\"#note:gen-ch12-gene-regulation\">⑫ 발현 조절</a> (전사 단계 조절: 프로모터·엔핸서)</li>\n<li><a href=\"#note:gen-ch15-gene-tech\">⑮ 유전자 테크놀로지</a> (역전사·cDNA)</li>\n</ul>"
   },
   {
    "slug": "gen-ch12-gene-regulation",
@@ -3432,7 +4257,7 @@
    "title": "움직이는 유전자: 트랜스포존",
    "importance": "med",
    "exam_freq": "7",
-   "html": "<h1>움직이는 유전자: 트랜스포존</h1>\n<blockquote>\n<p>출제 ~7문항(매년 1~2). <strong>맥클린톡·옥수수</strong>와 <strong>레트로포존=역전사 전이인자</strong>가 거의 고정 출제 → 점수 확보처.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>트랜스포존</strong> = 게놈의 한 곳에서 다른 곳으로 <strong>전위(이동)하는 DNA 단편</strong>(=유전적 전이인자, 도약유전자). <strong>게놈 내 다른 염색체로 이동 가능</strong>.</li>\n<li><strong>최초 발견 = 맥클린톡(McClintock, 옥수수)</strong> 알갱이 색 불안정 연구에서. ★매년★</li>\n<li><strong>레트로포존(retroposon) = 역전사 전이인자</strong>: 구조가 역전사 바이러스와 유사, 전위에 <strong>RNA 중간물질·역전사효소</strong> 필요(예: 초파리 copia, 효모 Ty).</li>\n</ul>\n<h2>개념 설명</h2>\n<ul>\n<li><strong>Ac-Ds 패밀리</strong>(옥수수): <strong>Ac(자가활성적)</strong> = 전이효소 생산 → 독자 이동. <strong>Ds(비자가활성적)</strong> = 전이효소 유전자 일부 결실 → <strong>Ac 있을 때만 이동</strong>.</li>\n<li><strong>표적서열(=직접 반복서열, DR)</strong>: 트랜스포존이 끼어드는 부위 양쪽 염기서열(같은 방향, 10bp 이하).</li>\n<li><strong>역반복서열(ITR)</strong>: 트랜스포존 양끝, 같은 염기조성·반대 방향 → <strong>트랜스포존을 구분짓는 역할</strong>.</li>\n<li><strong>혼성 트랜스포존(Tn 인자)</strong>: 저항성 유전자 + IS 인자(예: Tn5=카나마이신 저항성).</li>\n<li>의의: 다른 유전자에 삽입 → 전사 억제·<strong>격자이동 돌연변이</strong> 유발(돌연변이 원인), 유전자 표지(marker)·<strong>벡터</strong>·트랜스포존 태깅에 이용.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>트랜스포존 발견 = <strong>맥클린톡, 옥수수</strong>.</li>\n<li>레트로포존 = <strong>역전사 전이인자</strong>(copia, Ty).</li>\n<li>Ac = 자가활성(독자 이동) / Ds = 비자가활성(Ac 필요).</li>\n<li>트랜스포존은 <strong>게놈 내 다른 염색체로 이동</strong>, 표적서열(직접 반복서열)에 삽입.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>트랜스포존 발견자를 멘델·모건으로 ✗ → <strong>맥클린톡</strong>.</li>\n<li>\"트랜스포존은 세포질에만 존재 / 돌연변이를 억제 / DNA 수선 촉진\" ✗ → 이동성·돌연변이 <strong>유발</strong>.</li>\n<li>플라스미드를 '움직이는 유전자'로 ✗ → 트랜스포존·레트로포존·(맥클린톡의)조절인자가 해당.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>발견(맥클린톡)</strong>: <a href=\"#note:gen-2016\">2016-Q63</a>③ · <a href=\"#note:gen-2017\">2017-Q58</a>③ · <a href=\"#note:gen-2018\">2018-Q63</a>④ · <a href=\"#note:gen-2019\">2019-Q64</a>③</li>\n<li><strong>트랜스포존 특징(이동)</strong>: 2017-Q59① · 2019-Q63②</li>\n<li><strong>레트로포존=역전사 전이인자</strong>: 2018-Q62②</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch13-mutation\">⑬ 돌연변이</a> (삽입에 의한 격자이동)</li>\n<li><a href=\"#note:gen-ch15-gene-tech\">⑮ 유전자 테크놀로지</a> (벡터·역전사)</li>\n</ul>"
+   "html": "<h1>움직이는 유전자: 트랜스포존</h1>\n<blockquote>\n<p>출제 ~7문항(매년 1~2). <strong>맥클린톡·옥수수</strong>와 <strong>레트로포존=역전사 전이인자</strong>가 거의 고정 출제 → 점수 확보처.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>트랜스포존</strong> = 게놈의 한 곳에서 다른 곳으로 <strong>전위(이동)하는 DNA 단편</strong>(=유전적 전이인자, 도약유전자). <strong>게놈 내 다른 염색체로 이동 가능</strong>.</li>\n<li><strong>최초 발견 = 맥클린톡(McClintock, 옥수수)</strong> 알갱이 색 불안정 연구에서. ★매년★</li>\n<li><strong>레트로포존(retroposon) = 역전사 전이인자</strong>: 구조가 역전사 바이러스와 유사, 전위에 <strong>RNA 중간물질·역전사효소</strong> 필요(예: 초파리 copia, 효모 Ty).</li>\n</ul>\n<h2>개념 설명</h2>\n<ul>\n<li><strong>Ac-Ds 패밀리</strong>(옥수수): <strong>Ac(자가활성적)</strong> = 전이효소 생산 → 독자 이동. <strong>Ds(비자가활성적)</strong> = 전이효소 유전자 일부 결실 → <strong>Ac 있을 때만 이동</strong>.</li>\n<li><strong>표적서열(=직접 반복서열, DR)</strong>: 트랜스포존이 끼어드는 부위 양쪽 염기서열(같은 방향, 10bp 이하).</li>\n<li><strong>역반복서열(ITR)</strong>: 트랜스포존 양끝, 같은 염기조성·반대 방향 → <strong>트랜스포존을 구분짓는 역할</strong>.</li>\n<li><strong>혼성 트랜스포존(Tn 인자)</strong>: 저항성 유전자 + IS 인자(예: Tn5=카나마이신 저항성).</li>\n<li>의의: 다른 유전자에 삽입 → 전사 억제·<strong>격자이동 돌연변이</strong> 유발(돌연변이 원인), 유전자 표지(marker)·<strong>벡터</strong>·트랜스포존 태깅에 이용.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>트랜스포존 발견 = <strong>맥클린톡, 옥수수</strong>.</li>\n<li>레트로포존 = <strong>역전사 전이인자</strong>(copia, Ty).</li>\n<li>Ac = 자가활성(독자 이동) / Ds = 비자가활성(Ac 필요).</li>\n<li>트랜스포존은 <strong>게놈 내 다른 염색체로 이동</strong>, 표적서열(직접 반복서열)에 삽입.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>트랜스포존 발견자를 멘델·모건으로 ✗ → <strong>맥클린톡</strong>.</li>\n<li>\"트랜스포존은 세포질에만 존재 / 돌연변이를 억제 / DNA 수선 촉진\" ✗ → 이동성·돌연변이 <strong>유발</strong>.</li>\n<li>플라스미드를 '움직이는 유전자'로 ✗ → 트랜스포존·레트로포존·(맥클린톡의)조절인자가 해당.</li>\n</ul>\n<h2>⊕ 기출 밖 보충 (지엽 대비)</h2>\n<blockquote>\n<p>워크북엔 있으나 5개년 기출엔 안 나온 지엽. 변형 출제 대비.</p>\n</blockquote>\n<ul>\n<li><strong>표적서열 = 직접 반복서열(DR)</strong>: 삽입 부위 양쪽, 같은 방향, 10bp 이하.</li>\n<li><strong>역반복서열(ITR)</strong> = 양끝에 반대 방향으로 존재, <strong>트랜스포존을 구분짓는</strong> 역할.</li>\n<li><strong>혼성 트랜스포존 = Tn 인자</strong>(IS인자 + 저항성 유전자; Tn5 = IS50 2개 + 카나마이신 저항성).</li>\n<li>Ac = 자가활성(스스로 염색체 절단) / Ds = 비자가활성(Ac 있을 때만).</li>\n<li>copia·Ty = 레트로포존(역전사 바이러스 유사 구조).</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>발견(맥클린톡)</strong>: <a href=\"#note:gen-2016\">2016-Q63</a>③ · <a href=\"#note:gen-2017\">2017-Q58</a>③ · <a href=\"#note:gen-2018\">2018-Q63</a>④ · <a href=\"#note:gen-2019\">2019-Q64</a>③</li>\n<li><strong>트랜스포존 특징(이동)</strong>: 2017-Q59① · 2019-Q63②</li>\n<li><strong>레트로포존=역전사 전이인자</strong>: 2018-Q62②</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch13-mutation\">⑬ 돌연변이</a> (삽입에 의한 격자이동)</li>\n<li><a href=\"#note:gen-ch15-gene-tech\">⑮ 유전자 테크놀로지</a> (벡터·역전사)</li>\n</ul>"
   },
   {
    "slug": "gen-ch15-gene-tech",
@@ -3440,7 +4265,7 @@
    "title": "유전자 테크놀로지",
    "importance": "med",
    "exam_freq": "9",
-   "html": "<h1>유전자 테크놀로지</h1>\n<blockquote>\n<p>출제 ~9문항. <strong>제한효소·플라스미드·클론(클로닝)·프로브·PCR·전기영동·cDNA</strong> 용어 정의가 단골.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>유전자 클로닝</strong> = 원하는 DNA 단편을 <strong>벡터</strong>에 삽입해 재조합 DNA를 만들고 숙주세포에서 <strong>증식</strong>시키는 기술. (필요: <strong>제한효소 + 연결효소 + 벡터</strong>)</li>\n<li><strong>클론</strong> = 동일한 재조합 DNA를 가진 세포가 증식된 집단.</li>\n</ul>\n<h2>개념 설명 — 도구별 정리(시험은 용어 정의 위주)</h2>\n<table>\n<thead>\n<tr>\n<th>용어</th>\n<th>정의/기능</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>제한효소</strong></td>\n<td>DNA 특정 염기서열(제한부위) 인지·<strong>절단</strong>. 엇갈려 잘라 <strong>점착성 말단</strong> 생성 → 같은 효소 절단 단편끼리 결합 가능. (원핵세포가 외래 DNA 방어용)</td>\n</tr>\n<tr>\n<td>연결효소(리가아제)</td>\n<td>DNA 단편 연결</td>\n</tr>\n<tr>\n<td><strong>벡터</strong></td>\n<td>유전자 운반체. 외래 DNA 삽입 쉽고, <strong>자기증식</strong> 가능, <strong>표지유전자</strong> 보유. 예: <strong>플라스미드</strong>(대장균의 환상 DNA), 박테리오파지</td>\n</tr>\n<tr>\n<td><strong>클론/클로닝</strong></td>\n<td>동일 재조합 DNA 세포 집단 / 재조합 DNA를 <strong>증식</strong>시키는 것</td>\n</tr>\n<tr>\n<td><strong>프로브(probe, 탐침)</strong></td>\n<td>찾는 DNA에 <strong>상보적인 한 가닥 DNA</strong>, 표지하여 <strong>특정 유전자(DNA단편) 탐색</strong></td>\n</tr>\n<tr>\n<td><strong>PCR(중합효소 연쇄반응)</strong></td>\n<td><strong>소량 DNA를 대량 증폭</strong></td>\n</tr>\n<tr>\n<td><strong>전기영동</strong></td>\n<td>전기장에서 핵산·단백질을 겔 통해 <strong>크기(분자량)별 분리</strong></td>\n</tr>\n<tr>\n<td><strong>역전사 / cDNA</strong></td>\n<td><strong>역전사효소</strong>로 <strong>mRNA → 상보적 DNA(cDNA)</strong> 합성. cDNA는 인트론·조절부위 없음</td>\n</tr>\n<tr>\n<td>RFLP</td>\n<td>제한단편길이다형 — 분자표지로 유전자 지도 작성</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li>유전자 은행(라이브러리): <strong>게놈 라이브러리</strong>(게놈 전체) vs <strong>cDNA 라이브러리</strong>(발현 mRNA 역전사, 게놈 일부).</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>클로닝 = 재조합 DNA <strong>증식</strong>, 클론 = 그 세포 집단.</li>\n<li>분자량(크기)별 분리 = <strong>전기영동</strong>. 특정 DNA 탐색 = <strong>프로브</strong>. 소량→대량 = <strong>PCR</strong>.</li>\n<li>플라스미드 = 대장균의 <strong>환상 DNA</strong>, 벡터로 사용.</li>\n<li>cDNA = <strong>mRNA + 역전사효소</strong>.</li>\n<li>제한효소 = 특정 염기서열 절단, 점착성 말단(같은 효소 단편끼리 결합).</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>제한효소를 \"DNA 연결효소\" / \"바이러스에서 분리\" ✗ → <strong>절단효소, 세균 유래</strong>.</li>\n<li>전기영동을 유전자은행·클로닝과 혼동 ✗ → <strong>분리</strong> 기법.</li>\n<li>cDNA를 \"DNA에 역전사효소\" ✗ → <strong>mRNA에 역전사효소</strong>.</li>\n<li>프로브와 벡터·PCR 혼동(프로브=탐색, 벡터=운반, PCR=증폭).</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>전기영동</strong>: <a href=\"#note:gen-2017\">2017-Q60</a>②</li>\n<li><strong>프로브</strong>: <a href=\"#note:gen-2017\">2017-Q61</a>③</li>\n<li><strong>PCR</strong>: <a href=\"#note:gen-2017\">2017-Q62</a>③</li>\n<li><strong>클론</strong>: <a href=\"#note:gen-2016\">2016-Q64</a>③ · <a href=\"#note:gen-2018\">2018-Q60</a>③</li>\n<li><strong>플라스미드</strong>: <a href=\"#note:gen-2018\">2018-Q59</a>②</li>\n<li><strong>제한효소</strong>: <a href=\"#note:gen-2018\">2018-Q61</a>④</li>\n<li><strong>cDNA / 유전자클로닝</strong>: <a href=\"#note:gen-2019\">2019-Q65</a>①·<a href=\"#note:gen-2019\">2019-Q66</a>②</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch11-gene-expression\">⑪ 발현</a> (역전사·전사)</li>\n<li><a href=\"#note:gen-ch14-transposon\">⑭ 트랜스포존</a> (벡터로 이용)</li>\n<li><a href=\"#note:gen-ch05-linkage\">⑤ 유전자지도</a> (RFLP 분자표지)</li>\n</ul>"
+   "html": "<h1>유전자 테크놀로지</h1>\n<blockquote>\n<p>출제 ~9문항. <strong>제한효소·플라스미드·클론(클로닝)·프로브·PCR·전기영동·cDNA</strong> 용어 정의가 단골.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>유전자 클로닝</strong> = 원하는 DNA 단편을 <strong>벡터</strong>에 삽입해 재조합 DNA를 만들고 숙주세포에서 <strong>증식</strong>시키는 기술. (필요: <strong>제한효소 + 연결효소 + 벡터</strong>)</li>\n<li><strong>클론</strong> = 동일한 재조합 DNA를 가진 세포가 증식된 집단.</li>\n</ul>\n<h2>개념 설명 — 도구별 정리(시험은 용어 정의 위주)</h2>\n<table>\n<thead>\n<tr>\n<th>용어</th>\n<th>정의/기능</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>제한효소</strong></td>\n<td>DNA 특정 염기서열(제한부위) 인지·<strong>절단</strong>. 엇갈려 잘라 <strong>점착성 말단</strong> 생성 → 같은 효소 절단 단편끼리 결합 가능. (원핵세포가 외래 DNA 방어용)</td>\n</tr>\n<tr>\n<td>연결효소(리가아제)</td>\n<td>DNA 단편 연결</td>\n</tr>\n<tr>\n<td><strong>벡터</strong></td>\n<td>유전자 운반체. 외래 DNA 삽입 쉽고, <strong>자기증식</strong> 가능, <strong>표지유전자</strong> 보유. 예: <strong>플라스미드</strong>(대장균의 환상 DNA), 박테리오파지</td>\n</tr>\n<tr>\n<td><strong>클론/클로닝</strong></td>\n<td>동일 재조합 DNA 세포 집단 / 재조합 DNA를 <strong>증식</strong>시키는 것</td>\n</tr>\n<tr>\n<td><strong>프로브(probe, 탐침)</strong></td>\n<td>찾는 DNA에 <strong>상보적인 한 가닥 DNA</strong>, 표지하여 <strong>특정 유전자(DNA단편) 탐색</strong></td>\n</tr>\n<tr>\n<td><strong>PCR(중합효소 연쇄반응)</strong></td>\n<td><strong>소량 DNA를 대량 증폭</strong></td>\n</tr>\n<tr>\n<td><strong>전기영동</strong></td>\n<td>전기장에서 핵산·단백질을 겔 통해 <strong>크기(분자량)별 분리</strong></td>\n</tr>\n<tr>\n<td><strong>역전사 / cDNA</strong></td>\n<td><strong>역전사효소</strong>로 <strong>mRNA → 상보적 DNA(cDNA)</strong> 합성. cDNA는 인트론·조절부위 없음</td>\n</tr>\n<tr>\n<td>RFLP</td>\n<td>제한단편길이다형 — 분자표지로 유전자 지도 작성</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li>유전자 은행(라이브러리): <strong>게놈 라이브러리</strong>(게놈 전체) vs <strong>cDNA 라이브러리</strong>(발현 mRNA 역전사, 게놈 일부).</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>클로닝 = 재조합 DNA <strong>증식</strong>, 클론 = 그 세포 집단.</li>\n<li>분자량(크기)별 분리 = <strong>전기영동</strong>. 특정 DNA 탐색 = <strong>프로브</strong>. 소량→대량 = <strong>PCR</strong>.</li>\n<li>플라스미드 = 대장균의 <strong>환상 DNA</strong>, 벡터로 사용.</li>\n<li>cDNA = <strong>mRNA + 역전사효소</strong>.</li>\n<li>제한효소 = 특정 염기서열 절단, 점착성 말단(같은 효소 단편끼리 결합).</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>제한효소를 \"DNA 연결효소\" / \"바이러스에서 분리\" ✗ → <strong>절단효소, 세균 유래</strong>.</li>\n<li>전기영동을 유전자은행·클로닝과 혼동 ✗ → <strong>분리</strong> 기법.</li>\n<li>cDNA를 \"DNA에 역전사효소\" ✗ → <strong>mRNA에 역전사효소</strong>.</li>\n<li>프로브와 벡터·PCR 혼동(프로브=탐색, 벡터=운반, PCR=증폭).</li>\n</ul>\n<h2>⊕ 기출 밖 보충 (지엽 대비)</h2>\n<blockquote>\n<p>워크북엔 있으나 5개년 기출엔 안 나온 지엽. 변형 출제 대비.</p>\n</blockquote>\n<ul>\n<li><strong>게놈 라이브러리</strong>(게놈 전체) vs <strong>cDNA 라이브러리</strong>(발현 mRNA 역전사; 인트론·프로모터 없어 조작 편리).</li>\n<li>제한효소가 엇갈려 잘라 <strong>점착성 말단</strong> 생성 → 같은 효소 단편끼리 결합.</li>\n<li>유전자은행 선별 = <strong>콜로니 혼성화</strong>(프로브 + 니트로셀룰로오스 여과지).</li>\n<li>DNA 염기서열 결정 = <strong>다이디옥시뉴클레오티드</strong> + 전기영동(자동방사사진).</li>\n<li><strong>유전공학</strong> = 재조합 DNA·클로닝 응용(안티센스 RNA·병해충 저항성 식물·기능성 물질 생산).</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>전기영동</strong>: <a href=\"#note:gen-2017\">2017-Q60</a>②</li>\n<li><strong>프로브</strong>: <a href=\"#note:gen-2017\">2017-Q61</a>③</li>\n<li><strong>PCR</strong>: <a href=\"#note:gen-2017\">2017-Q62</a>③</li>\n<li><strong>클론</strong>: <a href=\"#note:gen-2016\">2016-Q64</a>③ · <a href=\"#note:gen-2018\">2018-Q60</a>③</li>\n<li><strong>플라스미드</strong>: <a href=\"#note:gen-2018\">2018-Q59</a>②</li>\n<li><strong>제한효소</strong>: <a href=\"#note:gen-2018\">2018-Q61</a>④</li>\n<li><strong>cDNA / 유전자클로닝</strong>: <a href=\"#note:gen-2019\">2019-Q65</a>①·<a href=\"#note:gen-2019\">2019-Q66</a>②</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch11-gene-expression\">⑪ 발현</a> (역전사·전사)</li>\n<li><a href=\"#note:gen-ch14-transposon\">⑭ 트랜스포존</a> (벡터로 이용)</li>\n<li><a href=\"#note:gen-ch05-linkage\">⑤ 유전자지도</a> (RFLP 분자표지)</li>\n</ul>"
   },
   {
    "slug": "gen-ch16-quantitative",
@@ -3448,7 +4273,7 @@
    "title": "양적 유전",
    "importance": "med",
    "exam_freq": "8",
-   "html": "<h1>양적 유전</h1>\n<blockquote>\n<p>출제 ~8문항. <strong>양적/질적형질, 폴리진, 실현유전력, 상가적 유전분산(육종가)</strong>이 단골. (워크북 8장 농업형질의 유전도 포함)</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>질적형질</strong>: 유전자형 간 변이 커 표현형이 뚜렷이 구분, <strong>불연속변이</strong>. <strong>소수의 주동유전자</strong> 지배(예: 꽃색).</li>\n<li><strong>양적형질</strong>: 계량·계측 가능, <strong>연속변이</strong>. <strong>폴리진</strong> 지배(예: 수량·품질·비유량).</li>\n<li><strong>폴리진</strong>: 상가적·누적효과, 같은 방향 작용, <strong>각 유전자 작용가가 환경변이보다 작음</strong>, 환경영향 큼. 멘델식 유전. → 연속변이의 원인.</li>\n</ul>\n<h2>개념 설명</h2>\n<h3>분산</h3>\n<ul>\n<li>표현형 분산 <strong>Vp = VG(유전분산) + VE(환경분산)</strong>.</li>\n<li>유전분산 <strong>VG = VA(상가적) + VD(우성적) + VI(상위성)</strong>.</li>\n<li>세대진전과 함께 VD·VI는 <strong>소멸</strong> → <strong>VA만 남아 유전적으로 고정 = 육종가(breeding value)</strong>.</li>\n</ul>\n<h3>유전력</h3>\n<table>\n<thead>\n<tr>\n<th>유전력</th>\n<th>정의</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>넓은 의미 h²B</td>\n<td><strong>VG/Vp</strong></td>\n</tr>\n<tr>\n<td>좁은 의미 h²N</td>\n<td><strong>VA/Vp</strong></td>\n</tr>\n<tr>\n<td><strong>실현유전력 h²N</strong></td>\n<td><strong>선발차에 대한 유전적 진전(ΔG)의 비율</strong> = <strong>좁은 의미의 유전력</strong></td>\n</tr>\n<tr>\n<td>- 유전력 0~1. 높을수록 선발 효율↑.</td>\n<td></td>\n</tr>\n<tr>\n<td>- <strong>유전력 높음 → 개체선발·조기선발 가능 / 낮음 → 집단선발·후기선발 유리.</strong></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>질적=불연속(주동유전자) / 양적=연속(<strong>폴리진</strong>).</li>\n<li>폴리진: 작용가 &lt; <strong>환경변이</strong>, 누적효과, 멘델식, 연속변이.</li>\n<li><strong>실현유전력 = 선발차 대비 유전적 진전 = 좁은 의미 유전력</strong>.</li>\n<li><strong>상가적 유전분산(VA) = 육종가</strong>, 유전적으로 고정.</li>\n<li>양적형질 예 = 수량·품질·비유량(산유량).</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>\"질적형질=폴리진, 양적형질=주동유전자\" ✗ → <strong>반대</strong>(양적=폴리진).</li>\n<li>실현유전력을 \"표현형분산 대비 상가적/우성적 유전분산\"으로 ✗ → <strong>선발차 대비 유전적 진전</strong>.</li>\n<li>육종가를 우성적/상위성 유전분산으로 ✗ → <strong>상가적</strong>.</li>\n<li>폴리진 작용가가 환경변이보다 크다 ✗ → <strong>작다</strong>.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>양적/질적형질</strong>: <a href=\"#note:gen-2016\">2016-Q65</a>② · <a href=\"#note:gen-2017\">2017-Q63</a>④ · <a href=\"#note:gen-2019\">2019-Q68</a>②</li>\n<li><strong>폴리진</strong>: <a href=\"#note:gen-2019\">2019-Q69</a>③</li>\n<li><strong>실현유전력</strong>: <a href=\"#note:gen-2016\">2016-Q66</a>② · <a href=\"#note:gen-2017\">2017-Q65</a>③</li>\n<li><strong>상가적 유전분산(육종가)</strong>: <a href=\"#note:gen-2017\">2017-Q64</a>④ · <a href=\"#note:gen-2018\">2018-Q70</a>③</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch04-gene-interaction\">④ 유전자 상호작용</a> (복수유전자·누적효과)</li>\n<li><a href=\"#note:gen-ch17-population\">⑰ 집단유전</a> (분산·선택)</li>\n</ul>"
+   "html": "<h1>양적 유전</h1>\n<blockquote>\n<p>출제 ~8문항. <strong>양적/질적형질, 폴리진, 실현유전력, 상가적 유전분산(육종가)</strong>이 단골. (워크북 8장 농업형질의 유전도 포함)</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>질적형질</strong>: 유전자형 간 변이 커 표현형이 뚜렷이 구분, <strong>불연속변이</strong>. <strong>소수의 주동유전자</strong> 지배(예: 꽃색).</li>\n<li><strong>양적형질</strong>: 계량·계측 가능, <strong>연속변이</strong>. <strong>폴리진</strong> 지배(예: 수량·품질·비유량).</li>\n<li><strong>폴리진</strong>: 상가적·누적효과, 같은 방향 작용, <strong>각 유전자 작용가가 환경변이보다 작음</strong>, 환경영향 큼. 멘델식 유전. → 연속변이의 원인.</li>\n</ul>\n<h2>개념 설명</h2>\n<h3>분산</h3>\n<ul>\n<li>표현형 분산 <strong>Vp = VG(유전분산) + VE(환경분산)</strong>.</li>\n<li>유전분산 <strong>VG = VA(상가적) + VD(우성적) + VI(상위성)</strong>.</li>\n<li>세대진전과 함께 VD·VI는 <strong>소멸</strong> → <strong>VA만 남아 유전적으로 고정 = 육종가(breeding value)</strong>.</li>\n</ul>\n<h3>유전력</h3>\n<table>\n<thead>\n<tr>\n<th>유전력</th>\n<th>정의</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>넓은 의미 h²B</td>\n<td><strong>VG/Vp</strong></td>\n</tr>\n<tr>\n<td>좁은 의미 h²N</td>\n<td><strong>VA/Vp</strong></td>\n</tr>\n<tr>\n<td><strong>실현유전력 h²N</strong></td>\n<td><strong>선발차에 대한 유전적 진전(ΔG)의 비율</strong> = <strong>좁은 의미의 유전력</strong></td>\n</tr>\n<tr>\n<td>- 유전력 0~1. 높을수록 선발 효율↑.</td>\n<td></td>\n</tr>\n<tr>\n<td>- <strong>유전력 높음 → 개체선발·조기선발 가능 / 낮음 → 집단선발·후기선발 유리.</strong></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>질적=불연속(주동유전자) / 양적=연속(<strong>폴리진</strong>).</li>\n<li>폴리진: 작용가 &lt; <strong>환경변이</strong>, 누적효과, 멘델식, 연속변이.</li>\n<li><strong>실현유전력 = 선발차 대비 유전적 진전 = 좁은 의미 유전력</strong>.</li>\n<li><strong>상가적 유전분산(VA) = 육종가</strong>, 유전적으로 고정.</li>\n<li>양적형질 예 = 수량·품질·비유량(산유량).</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>\"질적형질=폴리진, 양적형질=주동유전자\" ✗ → <strong>반대</strong>(양적=폴리진).</li>\n<li>실현유전력을 \"표현형분산 대비 상가적/우성적 유전분산\"으로 ✗ → <strong>선발차 대비 유전적 진전</strong>.</li>\n<li>육종가를 우성적/상위성 유전분산으로 ✗ → <strong>상가적</strong>.</li>\n<li>폴리진 작용가가 환경변이보다 크다 ✗ → <strong>작다</strong>.</li>\n</ul>\n<h2>⊕ 기출 밖 보충 (지엽 대비)</h2>\n<blockquote>\n<p>워크북엔 있으나 5개년 기출엔 안 나온 지엽. 변형 출제 대비. (농업형질 유전분석은 <a href=\"#note:gen-ch08-agronomic-traits\">⑧</a> 참고)</p>\n</blockquote>\n<ul>\n<li><strong>표준편차</strong>: 평균 ±1s 범위 = 집단의 <strong>약 68%</strong> 포함.</li>\n<li>유전력 계산: 환경분산=0이면 <strong>h²B=1</strong>, 환경분산이 유전분산의 <strong>3배면 h²=0.25</strong>.</li>\n<li>분산 성분: <strong>Vp = VG + VE</strong>, <strong>VG = VA + VD + VI</strong>(상가적+우성적+상위성). VD·VI는 세대진전과 소멸.</li>\n<li>유전력 높음 → 개체·<strong>조기</strong>선발 / 낮음 → 집단·<strong>후기</strong>선발.</li>\n<li>양적형질 = 연속변이(폴리진), 측정값이 정규분포.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>양적/질적형질</strong>: <a href=\"#note:gen-2016\">2016-Q65</a>② · <a href=\"#note:gen-2017\">2017-Q63</a>④ · <a href=\"#note:gen-2019\">2019-Q68</a>②</li>\n<li><strong>폴리진</strong>: <a href=\"#note:gen-2019\">2019-Q69</a>③</li>\n<li><strong>실현유전력</strong>: <a href=\"#note:gen-2016\">2016-Q66</a>② · <a href=\"#note:gen-2017\">2017-Q65</a>③</li>\n<li><strong>상가적 유전분산(육종가)</strong>: <a href=\"#note:gen-2017\">2017-Q64</a>④ · <a href=\"#note:gen-2018\">2018-Q70</a>③</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch04-gene-interaction\">④ 유전자 상호작용</a> (복수유전자·누적효과)</li>\n<li><a href=\"#note:gen-ch17-population\">⑰ 집단유전</a> (분산·선택)</li>\n</ul>"
   },
   {
    "slug": "gen-ch17-population",
@@ -3456,7 +4281,7 @@
    "title": "집단유전",
    "importance": "med",
    "exam_freq": "9",
-   "html": "<h1>집단유전</h1>\n<blockquote>\n<p>출제 ~9문항. <strong>하디-바인베르크 전제조건</strong>과 <strong>유전적 부동(=집단크기)</strong>이 단골.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>멘델 집단</strong>: 공통 유전자풀, 개체 간 <strong>무작위교배</strong>, 유전자 교환이 일어나는 유성생식 집단(멘델 법칙 적용).</li>\n<li><strong>하디-바인베르크 법칙</strong>: 전제조건이 충족되면 세대가 지나도 대립유전자·유전자형 빈도가 그대로 유지(<strong>유전적 평형</strong>). p+q=1, <strong>AA:Aa:aa = p²:2pq:q²</strong>.</li>\n</ul>\n<h2>개념 설명</h2>\n<h3>하디-바인베르크 5대 전제조건 (= 평형을 깨는 5요인의 부재)</h3>\n<ol>\n<li><strong>무작위교배</strong>(선택교배·근친교배 ✗)</li>\n<li><strong>돌연변이 없음</strong></li>\n<li><strong>자연선택 없음</strong></li>\n<li><strong>개체 이주 없음</strong></li>\n<li><strong>대집단</strong>(표본오차 무시 = <strong>유전적 부동 없음</strong>)\n→ 이 중 하나라도 깨지면 빈도 변화 = 진화.</li>\n</ol>\n<h3>평형을 깨는 요인</h3>\n<ul>\n<li><strong>유전적 부동(라이트 효과)</strong>: <strong>집단크기</strong>가 작을수록 추출오차 커져 빈도 변동. <strong>방향성 없음</strong>(다른 요인은 증감 예측 가능).</li>\n<li><strong>근친교배</strong>: <strong>동형접합체 비율 증가, 이형접합체 감소</strong>(열성동형접합체 증가). 근교계수 F = 두 상동유전자가 <strong>공통 조상</strong>에서 유래할 확률.</li>\n<li><strong>이주</strong>: 유전구성 다른 집단 간 개체 이동.</li>\n<li><strong>자연선택</strong>: 적응도(fitness) 차이 → 특정 유전자형 감소(선택계수). <strong>안정화</strong>(평균 유리)·<strong>방향성</strong>(한쪽 극단 유리)·<strong>분단성</strong>(양극단 유리, 둘로 갈라짐).</li>\n<li><strong>돌연변이</strong>: 새 대립유전자 → 변이 소재. <strong>자연선택과 함께 평형을 깨는 가장 중요한 요인</strong>.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>HW 전제 5: 무작위교배·돌연변이X·자연선택X·이주X·<strong>대집단(부동X)</strong>.</li>\n<li><strong>유전적 부동 = 집단크기</strong>(작을수록 큼), 방향성 없음.</li>\n<li>근친교배 → <strong>동형접합 증가</strong>(열성동형접합체↑).</li>\n<li>자연선택 3유형: 안정화/방향성/분단성.</li>\n<li>p+q=1, Aa 빈도 = 2pq.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>\"전제조건에 유전적 부동이 <strong>있어야</strong> 한다\" ✗ → <strong>없어야</strong> 한다.</li>\n<li>\"선택교배/근친교배가 전제조건\" ✗ → <strong>무작위교배</strong>여야 함(선택교배는 위반).</li>\n<li>유전적 부동 원인을 돌연변이·자연선택으로 ✗ → <strong>집단크기</strong>.</li>\n<li>열성동형접합체 증가 원인을 자연선택으로 ✗ → <strong>근친교배</strong>.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>HW 전제조건(아닌 것)</strong>: <a href=\"#note:gen-2015\">2015-Q69</a>③ · <a href=\"#note:gen-2016\">2016-Q68</a>③ · <a href=\"#note:gen-2017\">2017-Q66</a>② · <a href=\"#note:gen-2018\">2018-Q67</a>④ · <a href=\"#note:gen-2019\">2019-Q70</a>③</li>\n<li><strong>유전적 부동(=집단크기)</strong>: <a href=\"#note:gen-2017\">2017-Q67</a>③ · <a href=\"#note:gen-2018\">2018-Q68</a>①</li>\n<li><strong>근친교배(열성동형접합 증가)</strong>: <a href=\"#note:gen-2016\">2016-Q67</a>④</li>\n<li><strong>방향성 선택</strong>: <a href=\"#note:gen-2017\">2017-Q68</a>②</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch16-quantitative\">⑯ 양적 유전</a> (적응도·분산)</li>\n<li><a href=\"#note:gen-ch18-speciation\">⑱ 종분화</a> (평형 붕괴 → 진화)</li>\n</ul>"
+   "html": "<h1>집단유전</h1>\n<blockquote>\n<p>출제 ~9문항. <strong>하디-바인베르크 전제조건</strong>과 <strong>유전적 부동(=집단크기)</strong>이 단골.</p>\n</blockquote>\n<h2>핵심 요약</h2>\n<ul>\n<li><strong>멘델 집단</strong>: 공통 유전자풀, 개체 간 <strong>무작위교배</strong>, 유전자 교환이 일어나는 유성생식 집단(멘델 법칙 적용).</li>\n<li><strong>하디-바인베르크 법칙</strong>: 전제조건이 충족되면 세대가 지나도 대립유전자·유전자형 빈도가 그대로 유지(<strong>유전적 평형</strong>). p+q=1, <strong>AA:Aa:aa = p²:2pq:q²</strong>.</li>\n</ul>\n<h2>개념 설명</h2>\n<h3>하디-바인베르크 5대 전제조건 (= 평형을 깨는 5요인의 부재)</h3>\n<ol>\n<li><strong>무작위교배</strong>(선택교배·근친교배 ✗)</li>\n<li><strong>돌연변이 없음</strong></li>\n<li><strong>자연선택 없음</strong></li>\n<li><strong>개체 이주 없음</strong></li>\n<li><strong>대집단</strong>(표본오차 무시 = <strong>유전적 부동 없음</strong>)\n→ 이 중 하나라도 깨지면 빈도 변화 = 진화.</li>\n</ol>\n<h3>평형을 깨는 요인</h3>\n<ul>\n<li><strong>유전적 부동(라이트 효과)</strong>: <strong>집단크기</strong>가 작을수록 추출오차 커져 빈도 변동. <strong>방향성 없음</strong>(다른 요인은 증감 예측 가능).</li>\n<li><strong>근친교배</strong>: <strong>동형접합체 비율 증가, 이형접합체 감소</strong>(열성동형접합체 증가). 근교계수 F = 두 상동유전자가 <strong>공통 조상</strong>에서 유래할 확률.</li>\n<li><strong>이주</strong>: 유전구성 다른 집단 간 개체 이동.</li>\n<li><strong>자연선택</strong>: 적응도(fitness) 차이 → 특정 유전자형 감소(선택계수). <strong>안정화</strong>(평균 유리)·<strong>방향성</strong>(한쪽 극단 유리)·<strong>분단성</strong>(양극단 유리, 둘로 갈라짐).</li>\n<li><strong>돌연변이</strong>: 새 대립유전자 → 변이 소재. <strong>자연선택과 함께 평형을 깨는 가장 중요한 요인</strong>.</li>\n</ul>\n<h2>꼭 외울 것</h2>\n<ul>\n<li>HW 전제 5: 무작위교배·돌연변이X·자연선택X·이주X·<strong>대집단(부동X)</strong>.</li>\n<li><strong>유전적 부동 = 집단크기</strong>(작을수록 큼), 방향성 없음.</li>\n<li>근친교배 → <strong>동형접합 증가</strong>(열성동형접합체↑).</li>\n<li>자연선택 3유형: 안정화/방향성/분단성.</li>\n<li>p+q=1, Aa 빈도 = 2pq.</li>\n</ul>\n<h2>흔한 함정</h2>\n<ul>\n<li>\"전제조건에 유전적 부동이 <strong>있어야</strong> 한다\" ✗ → <strong>없어야</strong> 한다.</li>\n<li>\"선택교배/근친교배가 전제조건\" ✗ → <strong>무작위교배</strong>여야 함(선택교배는 위반).</li>\n<li>유전적 부동 원인을 돌연변이·자연선택으로 ✗ → <strong>집단크기</strong>.</li>\n<li>열성동형접합체 증가 원인을 자연선택으로 ✗ → <strong>근친교배</strong>.</li>\n</ul>\n<h2>⊕ 기출 밖 보충 (지엽 대비)</h2>\n<blockquote>\n<p>워크북엔 있으나 5개년 기출엔 안 나온 지엽. 변형 출제 대비.</p>\n</blockquote>\n<ul>\n<li><strong>p + q = 1</strong>, Aa 빈도 = <strong>2pq</strong>, aa 빈도 = q². 열성형질 빈도 q² → q = √(열성형질). 예: 열성 16% → q=0.4.</li>\n<li><strong>근교계수(F)</strong> = 한 개체의 두 상동유전자가 <strong>공통 조상</strong>에서 유래할 확률(높을수록 동형접합↑).</li>\n<li><strong>적응도(fitness)</strong> = 다음 세대에 유전자 전달 능력(배우자 80 생존 → 0.8). <strong>선택계수</strong> = 자연선택으로 감소하는 비율.</li>\n<li>멘델집단 = 무작위교배·유전자교류가 일어나는 유성생식 집단.</li>\n<li><strong>돌연변이·자연선택</strong> = 집단의 유전적 평형을 깨는 가장 중요한 두 요인.</li>\n</ul>\n<h2>기출 연결</h2>\n<ul>\n<li><strong>HW 전제조건(아닌 것)</strong>: <a href=\"#note:gen-2015\">2015-Q69</a>③ · <a href=\"#note:gen-2016\">2016-Q68</a>③ · <a href=\"#note:gen-2017\">2017-Q66</a>② · <a href=\"#note:gen-2018\">2018-Q67</a>④ · <a href=\"#note:gen-2019\">2019-Q70</a>③</li>\n<li><strong>유전적 부동(=집단크기)</strong>: <a href=\"#note:gen-2017\">2017-Q67</a>③ · <a href=\"#note:gen-2018\">2018-Q68</a>①</li>\n<li><strong>근친교배(열성동형접합 증가)</strong>: <a href=\"#note:gen-2016\">2016-Q67</a>④</li>\n<li><strong>방향성 선택</strong>: <a href=\"#note:gen-2017\">2017-Q68</a>②</li>\n</ul>\n<h2>관련 주제</h2>\n<ul>\n<li><a href=\"#note:gen-ch16-quantitative\">⑯ 양적 유전</a> (적응도·분산)</li>\n<li><a href=\"#note:gen-ch18-speciation\">⑱ 종분화</a> (평형 붕괴 → 진화)</li>\n</ul>"
   },
   {
    "slug": "gen-ch18-speciation",
@@ -3486,7 +4311,7 @@
    "count": 35,
    "questions": [
     {
-     "id": "gen-ch10-1-105-ex",
+     "id": "gen-ch10-1-131-ex",
      "subject": "농업유전학",
      "chapter": 10,
      "topic": "유전물질 구조(DNA)",
@@ -3612,7 +4437,7 @@
      "source": "2015-Q42"
     },
     {
-     "id": "gen-ch03-1-17-ex",
+     "id": "gen-ch03-1-20-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -3630,7 +4455,7 @@
      "source": "2015-Q43"
     },
     {
-     "id": "gen-ch03-2-18-ex",
+     "id": "gen-ch03-2-21-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -3648,7 +4473,7 @@
      "source": "2015-Q44"
     },
     {
-     "id": "gen-ch03-3-19-ex",
+     "id": "gen-ch03-3-22-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -3666,7 +4491,7 @@
      "source": "2015-Q45"
     },
     {
-     "id": "gen-ch04-1-42-ex",
+     "id": "gen-ch04-1-48-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -3684,7 +4509,7 @@
      "source": "2015-Q46"
     },
     {
-     "id": "gen-ch04-2-43-ex",
+     "id": "gen-ch04-2-49-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -3702,7 +4527,7 @@
      "source": "2015-Q47"
     },
     {
-     "id": "gen-ch04-3-44-ex",
+     "id": "gen-ch04-3-50-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -3720,7 +4545,7 @@
      "source": "2015-Q48"
     },
     {
-     "id": "gen-ch04-4-45-ex",
+     "id": "gen-ch04-4-51-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -3738,7 +4563,7 @@
      "source": "2015-Q49"
     },
     {
-     "id": "gen-ch04-5-46-ex",
+     "id": "gen-ch04-5-52-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -3756,7 +4581,7 @@
      "source": "2015-Q50"
     },
     {
-     "id": "gen-ch04-6-47-ex",
+     "id": "gen-ch04-6-53-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -3774,7 +4599,7 @@
      "source": "2015-Q51"
     },
     {
-     "id": "gen-ch04-7-48-ex",
+     "id": "gen-ch04-7-54-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -3792,7 +4617,7 @@
      "source": "2015-Q52"
     },
     {
-     "id": "gen-ch05-1-70-ex",
+     "id": "gen-ch05-1-79-ex",
      "subject": "농업유전학",
      "chapter": 5,
      "topic": "연관·재조합·유전자지도",
@@ -3810,7 +4635,7 @@
      "source": "2015-Q53"
     },
     {
-     "id": "gen-ch05-2-71-ex",
+     "id": "gen-ch05-2-80-ex",
      "subject": "농업유전학",
      "chapter": 5,
      "topic": "연관·재조합·유전자지도",
@@ -3828,7 +4653,7 @@
      "source": "2015-Q54"
     },
     {
-     "id": "gen-ch06-1-82-ex",
+     "id": "gen-ch06-1-94-ex",
      "subject": "농업유전학",
      "chapter": 6,
      "topic": "세포질 유전",
@@ -3846,7 +4671,7 @@
      "source": "2015-Q55"
     },
     {
-     "id": "gen-ch06-2-83-ex",
+     "id": "gen-ch06-2-95-ex",
      "subject": "농업유전학",
      "chapter": 6,
      "topic": "세포질 유전",
@@ -3864,7 +4689,7 @@
      "source": "2015-Q56"
     },
     {
-     "id": "gen-ch07-1-91-ex",
+     "id": "gen-ch07-1-106-ex",
      "subject": "농업유전학",
      "chapter": 7,
      "topic": "염색체 변화",
@@ -3882,7 +4707,7 @@
      "source": "2015-Q57"
     },
     {
-     "id": "gen-ch07-2-92-ex",
+     "id": "gen-ch07-2-107-ex",
      "subject": "농업유전학",
      "chapter": 7,
      "topic": "염색체 변화",
@@ -3900,7 +4725,7 @@
      "source": "2015-Q58"
     },
     {
-     "id": "gen-ch07-3-93-ex",
+     "id": "gen-ch07-3-108-ex",
      "subject": "농업유전학",
      "chapter": 7,
      "topic": "염색체 변화",
@@ -3918,7 +4743,7 @@
      "source": "2015-Q59"
     },
     {
-     "id": "gen-ch07-4-94-ex",
+     "id": "gen-ch07-4-109-ex",
      "subject": "농업유전학",
      "chapter": 7,
      "topic": "염색체 변화",
@@ -3936,7 +4761,7 @@
      "source": "2015-Q60"
     },
     {
-     "id": "gen-ch09-1-103-ex",
+     "id": "gen-ch09-1-129-ex",
      "subject": "농업유전학",
      "chapter": 9,
      "topic": "박테리아·바이러스",
@@ -3954,7 +4779,7 @@
      "source": "2015-Q61"
     },
     {
-     "id": "gen-ch10-2-106-ex",
+     "id": "gen-ch10-2-132-ex",
      "subject": "농업유전학",
      "chapter": 10,
      "topic": "유전물질 구조(DNA)",
@@ -3972,7 +4797,7 @@
      "source": "2015-Q62"
     },
     {
-     "id": "gen-ch10-3-107-ex",
+     "id": "gen-ch10-3-133-ex",
      "subject": "농업유전학",
      "chapter": 10,
      "topic": "유전물질 구조(DNA)",
@@ -3990,7 +4815,7 @@
      "source": "2015-Q63"
     },
     {
-     "id": "gen-ch10-4-108-ex",
+     "id": "gen-ch10-4-134-ex",
      "subject": "농업유전학",
      "chapter": 10,
      "topic": "유전물질 구조(DNA)",
@@ -4008,7 +4833,7 @@
      "source": "2015-Q64"
     },
     {
-     "id": "gen-ch11-1-115-ex",
+     "id": "gen-ch11-1-144-ex",
      "subject": "농업유전학",
      "chapter": 11,
      "topic": "유전자 기능·발현",
@@ -4026,7 +4851,7 @@
      "source": "2015-Q65"
     },
     {
-     "id": "gen-ch11-2-116-ex",
+     "id": "gen-ch11-2-145-ex",
      "subject": "농업유전학",
      "chapter": 11,
      "topic": "유전자 기능·발현",
@@ -4044,7 +4869,7 @@
      "source": "2015-Q66"
     },
     {
-     "id": "gen-ch12-1-125-ex",
+     "id": "gen-ch12-1-157-ex",
      "subject": "농업유전학",
      "chapter": 12,
      "topic": "발현 조절",
@@ -4062,7 +4887,7 @@
      "source": "2015-Q67"
     },
     {
-     "id": "gen-ch12-2-126-ex",
+     "id": "gen-ch12-2-158-ex",
      "subject": "농업유전학",
      "chapter": 12,
      "topic": "발현 조절",
@@ -4080,7 +4905,7 @@
      "source": "2015-Q68"
     },
     {
-     "id": "gen-ch17-1-160-ex",
+     "id": "gen-ch17-1-200-ex",
      "subject": "농업유전학",
      "chapter": 17,
      "topic": "집단유전",
@@ -4098,7 +4923,7 @@
      "source": "2015-Q69"
     },
     {
-     "id": "gen-ch18-1-169-ex",
+     "id": "gen-ch18-1-212-ex",
      "subject": "농업유전학",
      "chapter": 18,
      "topic": "유전과 종분화",
@@ -4159,7 +4984,7 @@
      "source": "2016-Q37"
     },
     {
-     "id": "gen-ch10-5-109-ex",
+     "id": "gen-ch10-5-135-ex",
      "subject": "농업유전학",
      "chapter": 10,
      "topic": "유전물질 구조(DNA)",
@@ -4213,7 +5038,7 @@
      "source": "2016-Q40"
     },
     {
-     "id": "gen-ch04-8-49-ex",
+     "id": "gen-ch04-8-55-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -4231,7 +5056,7 @@
      "source": "2016-Q41"
     },
     {
-     "id": "gen-ch03-4-20-ex",
+     "id": "gen-ch03-4-23-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -4249,7 +5074,7 @@
      "source": "2016-Q42"
     },
     {
-     "id": "gen-ch03-5-21-ex",
+     "id": "gen-ch03-5-24-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -4267,7 +5092,7 @@
      "source": "2016-Q43"
     },
     {
-     "id": "gen-ch03-6-22-ex",
+     "id": "gen-ch03-6-25-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -4285,7 +5110,7 @@
      "source": "2016-Q44"
     },
     {
-     "id": "gen-ch03-7-23-ex",
+     "id": "gen-ch03-7-26-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -4303,7 +5128,7 @@
      "source": "2016-Q45"
     },
     {
-     "id": "gen-ch04-9-50-ex",
+     "id": "gen-ch04-9-56-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -4321,7 +5146,7 @@
      "source": "2016-Q46"
     },
     {
-     "id": "gen-ch03-8-24-ex",
+     "id": "gen-ch03-8-27-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -4339,7 +5164,7 @@
      "source": "2016-Q47"
     },
     {
-     "id": "gen-ch04-10-51-ex",
+     "id": "gen-ch04-10-57-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -4357,7 +5182,7 @@
      "source": "2016-Q48"
     },
     {
-     "id": "gen-ch03-9-25-ex",
+     "id": "gen-ch03-9-28-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -4375,7 +5200,7 @@
      "source": "2016-Q49"
     },
     {
-     "id": "gen-ch04-11-52-ex",
+     "id": "gen-ch04-11-58-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -4393,7 +5218,7 @@
      "source": "2016-Q50"
     },
     {
-     "id": "gen-ch04-12-53-ex",
+     "id": "gen-ch04-12-59-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -4411,7 +5236,7 @@
      "source": "2016-Q51"
     },
     {
-     "id": "gen-ch04-13-54-ex",
+     "id": "gen-ch04-13-60-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -4429,7 +5254,7 @@
      "source": "2016-Q52"
     },
     {
-     "id": "gen-ch04-14-55-ex",
+     "id": "gen-ch04-14-61-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -4447,7 +5272,7 @@
      "source": "2016-Q53"
     },
     {
-     "id": "gen-ch04-15-56-ex",
+     "id": "gen-ch04-15-62-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -4465,7 +5290,7 @@
      "source": "2016-Q54"
     },
     {
-     "id": "gen-ch05-3-72-ex",
+     "id": "gen-ch05-3-81-ex",
      "subject": "농업유전학",
      "chapter": 5,
      "topic": "연관·재조합·유전자지도",
@@ -4483,7 +5308,7 @@
      "source": "2016-Q55"
     },
     {
-     "id": "gen-ch06-3-84-ex",
+     "id": "gen-ch06-3-96-ex",
      "subject": "농업유전학",
      "chapter": 6,
      "topic": "세포질 유전",
@@ -4501,7 +5326,7 @@
      "source": "2016-Q56"
     },
     {
-     "id": "gen-ch05-4-73-ex",
+     "id": "gen-ch05-4-82-ex",
      "subject": "농업유전학",
      "chapter": 5,
      "topic": "연관·재조합·유전자지도",
@@ -4519,7 +5344,7 @@
      "source": "2016-Q57"
     },
     {
-     "id": "gen-ch06-4-85-ex",
+     "id": "gen-ch06-4-97-ex",
      "subject": "농업유전학",
      "chapter": 6,
      "topic": "세포질 유전",
@@ -4537,7 +5362,7 @@
      "source": "2016-Q58"
     },
     {
-     "id": "gen-ch07-5-95-ex",
+     "id": "gen-ch07-5-110-ex",
      "subject": "농업유전학",
      "chapter": 7,
      "topic": "염색체 변화",
@@ -4555,7 +5380,7 @@
      "source": "2016-Q59"
     },
     {
-     "id": "gen-ch07-6-96-ex",
+     "id": "gen-ch07-6-111-ex",
      "subject": "농업유전학",
      "chapter": 7,
      "topic": "염색체 변화",
@@ -4573,7 +5398,7 @@
      "source": "2016-Q60"
     },
     {
-     "id": "gen-ch10-6-110-ex",
+     "id": "gen-ch10-6-136-ex",
      "subject": "농업유전학",
      "chapter": 10,
      "topic": "유전물질 구조(DNA)",
@@ -4591,7 +5416,7 @@
      "source": "2016-Q61"
     },
     {
-     "id": "gen-ch11-3-117-ex",
+     "id": "gen-ch11-3-146-ex",
      "subject": "농업유전학",
      "chapter": 11,
      "topic": "유전자 기능·발현",
@@ -4609,7 +5434,7 @@
      "source": "2016-Q62"
     },
     {
-     "id": "gen-ch14-1-136-ex",
+     "id": "gen-ch14-1-168-ex",
      "subject": "농업유전학",
      "chapter": 14,
      "topic": "트랜스포존",
@@ -4627,7 +5452,7 @@
      "source": "2016-Q63"
     },
     {
-     "id": "gen-ch15-1-143-ex",
+     "id": "gen-ch15-1-178-ex",
      "subject": "농업유전학",
      "chapter": 15,
      "topic": "유전자 테크놀로지",
@@ -4645,7 +5470,7 @@
      "source": "2016-Q64"
     },
     {
-     "id": "gen-ch16-1-152-ex",
+     "id": "gen-ch16-1-189-ex",
      "subject": "농업유전학",
      "chapter": 16,
      "topic": "양적 유전",
@@ -4663,7 +5488,7 @@
      "source": "2016-Q65"
     },
     {
-     "id": "gen-ch16-2-153-ex",
+     "id": "gen-ch16-2-190-ex",
      "subject": "농업유전학",
      "chapter": 16,
      "topic": "양적 유전",
@@ -4681,7 +5506,7 @@
      "source": "2016-Q66"
     },
     {
-     "id": "gen-ch17-2-161-ex",
+     "id": "gen-ch17-2-201-ex",
      "subject": "농업유전학",
      "chapter": 17,
      "topic": "집단유전",
@@ -4699,7 +5524,7 @@
      "source": "2016-Q67"
     },
     {
-     "id": "gen-ch17-3-162-ex",
+     "id": "gen-ch17-3-202-ex",
      "subject": "농업유전학",
      "chapter": 17,
      "topic": "집단유전",
@@ -4717,7 +5542,7 @@
      "source": "2016-Q68"
     },
     {
-     "id": "gen-ch18-2-170-ex",
+     "id": "gen-ch18-2-213-ex",
      "subject": "농업유전학",
      "chapter": 18,
      "topic": "유전과 종분화",
@@ -4735,7 +5560,7 @@
      "source": "2016-Q69"
     },
     {
-     "id": "gen-ch18-3-171-ex",
+     "id": "gen-ch18-3-214-ex",
      "subject": "농업유전학",
      "chapter": 18,
      "topic": "유전과 종분화",
@@ -4760,7 +5585,7 @@
    "count": 35,
    "questions": [
     {
-     "id": "gen-ch11-4-118-ex",
+     "id": "gen-ch11-4-147-ex",
      "subject": "농업유전학",
      "chapter": 11,
      "topic": "유전자 기능·발현",
@@ -4778,7 +5603,7 @@
      "source": "2017-Q36"
     },
     {
-     "id": "gen-ch09-2-104-ex",
+     "id": "gen-ch09-2-130-ex",
      "subject": "농업유전학",
      "chapter": 9,
      "topic": "박테리아·바이러스",
@@ -4832,7 +5657,7 @@
      "source": "2017-Q39"
     },
     {
-     "id": "gen-ch03-10-26-ex",
+     "id": "gen-ch03-10-29-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -4850,7 +5675,7 @@
      "source": "2017-Q40"
     },
     {
-     "id": "gen-ch04-16-57-ex",
+     "id": "gen-ch04-16-63-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -4868,7 +5693,7 @@
      "source": "2017-Q41"
     },
     {
-     "id": "gen-ch03-11-27-ex",
+     "id": "gen-ch03-11-30-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -4886,7 +5711,7 @@
      "source": "2017-Q42"
     },
     {
-     "id": "gen-ch03-12-28-ex",
+     "id": "gen-ch03-12-31-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -4904,7 +5729,7 @@
      "source": "2017-Q43"
     },
     {
-     "id": "gen-ch04-17-58-ex",
+     "id": "gen-ch04-17-64-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -4922,7 +5747,7 @@
      "source": "2017-Q44"
     },
     {
-     "id": "gen-ch03-13-29-ex",
+     "id": "gen-ch03-13-32-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -4940,7 +5765,7 @@
      "source": "2017-Q45"
     },
     {
-     "id": "gen-ch04-18-59-ex",
+     "id": "gen-ch04-18-65-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -4958,7 +5783,7 @@
      "source": "2017-Q46"
     },
     {
-     "id": "gen-ch04-19-60-ex",
+     "id": "gen-ch04-19-66-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -4976,7 +5801,7 @@
      "source": "2017-Q47"
     },
     {
-     "id": "gen-ch05-5-74-ex",
+     "id": "gen-ch05-5-83-ex",
      "subject": "농업유전학",
      "chapter": 5,
      "topic": "연관·재조합·유전자지도",
@@ -4994,7 +5819,7 @@
      "source": "2017-Q48"
     },
     {
-     "id": "gen-ch03-14-30-ex",
+     "id": "gen-ch03-14-33-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -5012,7 +5837,7 @@
      "source": "2017-Q49"
     },
     {
-     "id": "gen-ch04-20-61-ex",
+     "id": "gen-ch04-20-67-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -5030,7 +5855,7 @@
      "source": "2017-Q50"
     },
     {
-     "id": "gen-ch05-6-75-ex",
+     "id": "gen-ch05-6-84-ex",
      "subject": "농업유전학",
      "chapter": 5,
      "topic": "연관·재조합·유전자지도",
@@ -5048,7 +5873,7 @@
      "source": "2017-Q51"
     },
     {
-     "id": "gen-ch05-7-76-ex",
+     "id": "gen-ch05-7-85-ex",
      "subject": "농업유전학",
      "chapter": 5,
      "topic": "연관·재조합·유전자지도",
@@ -5066,7 +5891,7 @@
      "source": "2017-Q52"
     },
     {
-     "id": "gen-ch11-5-119-ex",
+     "id": "gen-ch11-5-148-ex",
      "subject": "농업유전학",
      "chapter": 11,
      "topic": "유전자 기능·발현",
@@ -5084,7 +5909,7 @@
      "source": "2017-Q53"
     },
     {
-     "id": "gen-ch12-3-127-ex",
+     "id": "gen-ch12-3-159-ex",
      "subject": "농업유전학",
      "chapter": 12,
      "topic": "발현 조절",
@@ -5102,7 +5927,7 @@
      "source": "2017-Q54"
     },
     {
-     "id": "gen-ch13-1-130-ex",
+     "id": "gen-ch13-1-162-ex",
      "subject": "농업유전학",
      "chapter": 13,
      "topic": "돌연변이",
@@ -5120,7 +5945,7 @@
      "source": "2017-Q55"
     },
     {
-     "id": "gen-ch13-2-131-ex",
+     "id": "gen-ch13-2-163-ex",
      "subject": "농업유전학",
      "chapter": 13,
      "topic": "돌연변이",
@@ -5138,7 +5963,7 @@
      "source": "2017-Q56"
     },
     {
-     "id": "gen-ch13-3-132-ex",
+     "id": "gen-ch13-3-164-ex",
      "subject": "농업유전학",
      "chapter": 13,
      "topic": "돌연변이",
@@ -5156,7 +5981,7 @@
      "source": "2017-Q57"
     },
     {
-     "id": "gen-ch14-2-137-ex",
+     "id": "gen-ch14-2-169-ex",
      "subject": "농업유전학",
      "chapter": 14,
      "topic": "트랜스포존",
@@ -5174,7 +5999,7 @@
      "source": "2017-Q58"
     },
     {
-     "id": "gen-ch14-3-138-ex",
+     "id": "gen-ch14-3-170-ex",
      "subject": "농업유전학",
      "chapter": 14,
      "topic": "트랜스포존",
@@ -5192,7 +6017,7 @@
      "source": "2017-Q59"
     },
     {
-     "id": "gen-ch15-2-144-ex",
+     "id": "gen-ch15-2-179-ex",
      "subject": "농업유전학",
      "chapter": 15,
      "topic": "유전자 테크놀로지",
@@ -5210,7 +6035,7 @@
      "source": "2017-Q60"
     },
     {
-     "id": "gen-ch15-3-145-ex",
+     "id": "gen-ch15-3-180-ex",
      "subject": "농업유전학",
      "chapter": 15,
      "topic": "유전자 테크놀로지",
@@ -5228,7 +6053,7 @@
      "source": "2017-Q61"
     },
     {
-     "id": "gen-ch15-4-146-ex",
+     "id": "gen-ch15-4-181-ex",
      "subject": "농업유전학",
      "chapter": 15,
      "topic": "유전자 테크놀로지",
@@ -5246,7 +6071,7 @@
      "source": "2017-Q62"
     },
     {
-     "id": "gen-ch16-3-154-ex",
+     "id": "gen-ch16-3-191-ex",
      "subject": "농업유전학",
      "chapter": 16,
      "topic": "양적 유전",
@@ -5264,7 +6089,7 @@
      "source": "2017-Q63"
     },
     {
-     "id": "gen-ch16-4-155-ex",
+     "id": "gen-ch16-4-192-ex",
      "subject": "농업유전학",
      "chapter": 16,
      "topic": "양적 유전",
@@ -5282,7 +6107,7 @@
      "source": "2017-Q64"
     },
     {
-     "id": "gen-ch16-5-156-ex",
+     "id": "gen-ch16-5-193-ex",
      "subject": "농업유전학",
      "chapter": 16,
      "topic": "양적 유전",
@@ -5300,7 +6125,7 @@
      "source": "2017-Q65"
     },
     {
-     "id": "gen-ch17-4-163-ex",
+     "id": "gen-ch17-4-203-ex",
      "subject": "농업유전학",
      "chapter": 17,
      "topic": "집단유전",
@@ -5318,7 +6143,7 @@
      "source": "2017-Q66"
     },
     {
-     "id": "gen-ch17-5-164-ex",
+     "id": "gen-ch17-5-204-ex",
      "subject": "농업유전학",
      "chapter": 17,
      "topic": "집단유전",
@@ -5336,7 +6161,7 @@
      "source": "2017-Q67"
     },
     {
-     "id": "gen-ch17-6-165-ex",
+     "id": "gen-ch17-6-205-ex",
      "subject": "농업유전학",
      "chapter": 17,
      "topic": "집단유전",
@@ -5354,7 +6179,7 @@
      "source": "2017-Q68"
     },
     {
-     "id": "gen-ch18-4-172-ex",
+     "id": "gen-ch18-4-215-ex",
      "subject": "농업유전학",
      "chapter": 18,
      "topic": "유전과 종분화",
@@ -5372,7 +6197,7 @@
      "source": "2017-Q69"
     },
     {
-     "id": "gen-ch18-5-173-ex",
+     "id": "gen-ch18-5-216-ex",
      "subject": "농업유전학",
      "chapter": 18,
      "topic": "유전과 종분화",
@@ -5433,7 +6258,7 @@
      "source": "2018-Q37"
     },
     {
-     "id": "gen-ch03-15-31-ex",
+     "id": "gen-ch03-15-34-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -5469,7 +6294,7 @@
      "source": "2018-Q39"
     },
     {
-     "id": "gen-ch03-16-32-ex",
+     "id": "gen-ch03-16-35-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -5487,7 +6312,7 @@
      "source": "2018-Q40"
     },
     {
-     "id": "gen-ch03-17-33-ex",
+     "id": "gen-ch03-17-36-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -5505,7 +6330,7 @@
      "source": "2018-Q41"
     },
     {
-     "id": "gen-ch03-18-34-ex",
+     "id": "gen-ch03-18-37-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -5523,7 +6348,7 @@
      "source": "2018-Q42"
     },
     {
-     "id": "gen-ch03-19-35-ex",
+     "id": "gen-ch03-19-38-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -5541,7 +6366,7 @@
      "source": "2018-Q43"
     },
     {
-     "id": "gen-ch04-21-62-ex",
+     "id": "gen-ch04-21-68-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -5559,7 +6384,7 @@
      "source": "2018-Q44"
     },
     {
-     "id": "gen-ch04-22-63-ex",
+     "id": "gen-ch04-22-69-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -5577,7 +6402,7 @@
      "source": "2018-Q45"
     },
     {
-     "id": "gen-ch04-23-64-ex",
+     "id": "gen-ch04-23-70-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -5595,7 +6420,7 @@
      "source": "2018-Q46"
     },
     {
-     "id": "gen-ch04-24-65-ex",
+     "id": "gen-ch04-24-71-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -5613,7 +6438,7 @@
      "source": "2018-Q47"
     },
     {
-     "id": "gen-ch05-8-77-ex",
+     "id": "gen-ch05-8-86-ex",
      "subject": "농업유전학",
      "chapter": 5,
      "topic": "연관·재조합·유전자지도",
@@ -5631,7 +6456,7 @@
      "source": "2018-Q48"
     },
     {
-     "id": "gen-ch05-9-78-ex",
+     "id": "gen-ch05-9-87-ex",
      "subject": "농업유전학",
      "chapter": 5,
      "topic": "연관·재조합·유전자지도",
@@ -5649,7 +6474,7 @@
      "source": "2018-Q49"
     },
     {
-     "id": "gen-ch04-25-66-ex",
+     "id": "gen-ch04-25-72-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -5667,7 +6492,7 @@
      "source": "2018-Q50"
     },
     {
-     "id": "gen-ch06-5-86-ex",
+     "id": "gen-ch06-5-98-ex",
      "subject": "농업유전학",
      "chapter": 6,
      "topic": "세포질 유전",
@@ -5685,7 +6510,7 @@
      "source": "2018-Q51"
     },
     {
-     "id": "gen-ch06-6-87-ex",
+     "id": "gen-ch06-6-99-ex",
      "subject": "농업유전학",
      "chapter": 6,
      "topic": "세포질 유전",
@@ -5703,7 +6528,7 @@
      "source": "2018-Q52"
     },
     {
-     "id": "gen-ch06-7-88-ex",
+     "id": "gen-ch06-7-100-ex",
      "subject": "농업유전학",
      "chapter": 6,
      "topic": "세포질 유전",
@@ -5721,7 +6546,7 @@
      "source": "2018-Q53"
     },
     {
-     "id": "gen-ch07-7-97-ex",
+     "id": "gen-ch07-7-112-ex",
      "subject": "농업유전학",
      "chapter": 7,
      "topic": "염색체 변화",
@@ -5739,7 +6564,7 @@
      "source": "2018-Q54"
     },
     {
-     "id": "gen-ch07-8-98-ex",
+     "id": "gen-ch07-8-113-ex",
      "subject": "농업유전학",
      "chapter": 7,
      "topic": "염색체 변화",
@@ -5757,7 +6582,7 @@
      "source": "2018-Q55"
     },
     {
-     "id": "gen-ch07-9-99-ex",
+     "id": "gen-ch07-9-114-ex",
      "subject": "농업유전학",
      "chapter": 7,
      "topic": "염색체 변화",
@@ -5775,7 +6600,7 @@
      "source": "2018-Q56"
     },
     {
-     "id": "gen-ch12-4-128-ex",
+     "id": "gen-ch12-4-160-ex",
      "subject": "농업유전학",
      "chapter": 12,
      "topic": "발현 조절",
@@ -5793,7 +6618,7 @@
      "source": "2018-Q57"
     },
     {
-     "id": "gen-ch11-6-120-ex",
+     "id": "gen-ch11-6-149-ex",
      "subject": "농업유전학",
      "chapter": 11,
      "topic": "유전자 기능·발현",
@@ -5811,7 +6636,7 @@
      "source": "2018-Q58"
     },
     {
-     "id": "gen-ch15-5-147-ex",
+     "id": "gen-ch15-5-182-ex",
      "subject": "농업유전학",
      "chapter": 15,
      "topic": "유전자 테크놀로지",
@@ -5829,7 +6654,7 @@
      "source": "2018-Q59"
     },
     {
-     "id": "gen-ch15-6-148-ex",
+     "id": "gen-ch15-6-183-ex",
      "subject": "농업유전학",
      "chapter": 15,
      "topic": "유전자 테크놀로지",
@@ -5847,7 +6672,7 @@
      "source": "2018-Q60"
     },
     {
-     "id": "gen-ch15-7-149-ex",
+     "id": "gen-ch15-7-184-ex",
      "subject": "농업유전학",
      "chapter": 15,
      "topic": "유전자 테크놀로지",
@@ -5865,7 +6690,7 @@
      "source": "2018-Q61"
     },
     {
-     "id": "gen-ch14-4-139-ex",
+     "id": "gen-ch14-4-171-ex",
      "subject": "농업유전학",
      "chapter": 14,
      "topic": "트랜스포존",
@@ -5883,7 +6708,7 @@
      "source": "2018-Q62"
     },
     {
-     "id": "gen-ch14-5-140-ex",
+     "id": "gen-ch14-5-172-ex",
      "subject": "농업유전학",
      "chapter": 14,
      "topic": "트랜스포존",
@@ -5901,7 +6726,7 @@
      "source": "2018-Q63"
     },
     {
-     "id": "gen-ch13-4-133-ex",
+     "id": "gen-ch13-4-165-ex",
      "subject": "농업유전학",
      "chapter": 13,
      "topic": "돌연변이",
@@ -5919,7 +6744,7 @@
      "source": "2018-Q64"
     },
     {
-     "id": "gen-ch13-5-134-ex",
+     "id": "gen-ch13-5-166-ex",
      "subject": "농업유전학",
      "chapter": 13,
      "topic": "돌연변이",
@@ -5937,7 +6762,7 @@
      "source": "2018-Q65"
     },
     {
-     "id": "gen-ch12-5-129-ex",
+     "id": "gen-ch12-5-161-ex",
      "subject": "농업유전학",
      "chapter": 12,
      "topic": "발현 조절",
@@ -5955,7 +6780,7 @@
      "source": "2018-Q66"
     },
     {
-     "id": "gen-ch17-7-166-ex",
+     "id": "gen-ch17-7-206-ex",
      "subject": "농업유전학",
      "chapter": 17,
      "topic": "집단유전",
@@ -5973,7 +6798,7 @@
      "source": "2018-Q67"
     },
     {
-     "id": "gen-ch17-8-167-ex",
+     "id": "gen-ch17-8-207-ex",
      "subject": "농업유전학",
      "chapter": 17,
      "topic": "집단유전",
@@ -5991,7 +6816,7 @@
      "source": "2018-Q68"
     },
     {
-     "id": "gen-ch18-6-174-ex",
+     "id": "gen-ch18-6-217-ex",
      "subject": "농업유전학",
      "chapter": 18,
      "topic": "유전과 종분화",
@@ -6009,7 +6834,7 @@
      "source": "2018-Q69"
     },
     {
-     "id": "gen-ch16-6-157-ex",
+     "id": "gen-ch16-6-194-ex",
      "subject": "농업유전학",
      "chapter": 16,
      "topic": "양적 유전",
@@ -6034,7 +6859,7 @@
    "count": 35,
    "questions": [
     {
-     "id": "gen-ch10-7-111-ex",
+     "id": "gen-ch10-7-137-ex",
      "subject": "농업유전학",
      "chapter": 10,
      "topic": "유전물질 구조(DNA)",
@@ -6052,7 +6877,7 @@
      "source": "2019-Q36"
     },
     {
-     "id": "gen-ch11-7-121-ex",
+     "id": "gen-ch11-7-150-ex",
      "subject": "농업유전학",
      "chapter": 11,
      "topic": "유전자 기능·발현",
@@ -6070,7 +6895,7 @@
      "source": "2019-Q37"
     },
     {
-     "id": "gen-ch05-10-79-ex",
+     "id": "gen-ch05-10-88-ex",
      "subject": "농업유전학",
      "chapter": 5,
      "topic": "연관·재조합·유전자지도",
@@ -6124,7 +6949,7 @@
      "source": "2019-Q40"
     },
     {
-     "id": "gen-ch03-20-36-ex",
+     "id": "gen-ch03-20-39-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -6142,7 +6967,7 @@
      "source": "2019-Q41"
     },
     {
-     "id": "gen-ch03-21-37-ex",
+     "id": "gen-ch03-21-40-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -6160,7 +6985,7 @@
      "source": "2019-Q42"
     },
     {
-     "id": "gen-ch03-22-38-ex",
+     "id": "gen-ch03-22-41-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -6178,7 +7003,7 @@
      "source": "2019-Q43"
     },
     {
-     "id": "gen-ch03-23-39-ex",
+     "id": "gen-ch03-23-42-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -6196,7 +7021,7 @@
      "source": "2019-Q44"
     },
     {
-     "id": "gen-ch04-26-67-ex",
+     "id": "gen-ch04-26-73-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -6214,7 +7039,7 @@
      "source": "2019-Q45"
     },
     {
-     "id": "gen-ch03-24-40-ex",
+     "id": "gen-ch03-24-43-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -6232,7 +7057,7 @@
      "source": "2019-Q46"
     },
     {
-     "id": "gen-ch04-27-68-ex",
+     "id": "gen-ch04-27-74-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -6250,7 +7075,7 @@
      "source": "2019-Q47"
     },
     {
-     "id": "gen-ch03-25-41-ex",
+     "id": "gen-ch03-25-44-ex",
      "subject": "농업유전학",
      "chapter": 3,
      "topic": "멘델의 법칙",
@@ -6268,7 +7093,7 @@
      "source": "2019-Q48"
     },
     {
-     "id": "gen-ch04-28-69-ex",
+     "id": "gen-ch04-28-75-ex",
      "subject": "농업유전학",
      "chapter": 4,
      "topic": "유전자 상호작용",
@@ -6286,7 +7111,7 @@
      "source": "2019-Q49"
     },
     {
-     "id": "gen-ch06-8-89-ex",
+     "id": "gen-ch06-8-101-ex",
      "subject": "농업유전학",
      "chapter": 6,
      "topic": "세포질 유전",
@@ -6304,7 +7129,7 @@
      "source": "2019-Q50"
     },
     {
-     "id": "gen-ch05-11-80-ex",
+     "id": "gen-ch05-11-89-ex",
      "subject": "농업유전학",
      "chapter": 5,
      "topic": "연관·재조합·유전자지도",
@@ -6322,7 +7147,7 @@
      "source": "2019-Q51"
     },
     {
-     "id": "gen-ch05-12-81-ex",
+     "id": "gen-ch05-12-90-ex",
      "subject": "농업유전학",
      "chapter": 5,
      "topic": "연관·재조합·유전자지도",
@@ -6340,7 +7165,7 @@
      "source": "2019-Q52"
     },
     {
-     "id": "gen-ch07-10-100-ex",
+     "id": "gen-ch07-10-115-ex",
      "subject": "농업유전학",
      "chapter": 7,
      "topic": "염색체 변화",
@@ -6358,7 +7183,7 @@
      "source": "2019-Q53"
     },
     {
-     "id": "gen-ch07-11-101-ex",
+     "id": "gen-ch07-11-116-ex",
      "subject": "농업유전학",
      "chapter": 7,
      "topic": "염색체 변화",
@@ -6376,7 +7201,7 @@
      "source": "2019-Q54"
     },
     {
-     "id": "gen-ch07-12-102-ex",
+     "id": "gen-ch07-12-117-ex",
      "subject": "농업유전학",
      "chapter": 7,
      "topic": "염색체 변화",
@@ -6394,7 +7219,7 @@
      "source": "2019-Q55"
     },
     {
-     "id": "gen-ch10-8-112-ex",
+     "id": "gen-ch10-8-138-ex",
      "subject": "농업유전학",
      "chapter": 10,
      "topic": "유전물질 구조(DNA)",
@@ -6412,7 +7237,7 @@
      "source": "2019-Q56"
     },
     {
-     "id": "gen-ch10-9-113-ex",
+     "id": "gen-ch10-9-139-ex",
      "subject": "농업유전학",
      "chapter": 10,
      "topic": "유전물질 구조(DNA)",
@@ -6430,7 +7255,7 @@
      "source": "2019-Q57"
     },
     {
-     "id": "gen-ch10-10-114-ex",
+     "id": "gen-ch10-10-140-ex",
      "subject": "농업유전학",
      "chapter": 10,
      "topic": "유전물질 구조(DNA)",
@@ -6448,7 +7273,7 @@
      "source": "2019-Q58"
     },
     {
-     "id": "gen-ch11-8-122-ex",
+     "id": "gen-ch11-8-151-ex",
      "subject": "농업유전학",
      "chapter": 11,
      "topic": "유전자 기능·발현",
@@ -6466,7 +7291,7 @@
      "source": "2019-Q59"
     },
     {
-     "id": "gen-ch11-9-123-ex",
+     "id": "gen-ch11-9-152-ex",
      "subject": "농업유전학",
      "chapter": 11,
      "topic": "유전자 기능·발현",
@@ -6484,7 +7309,7 @@
      "source": "2019-Q60"
     },
     {
-     "id": "gen-ch11-10-124-ex",
+     "id": "gen-ch11-10-153-ex",
      "subject": "농업유전학",
      "chapter": 11,
      "topic": "유전자 기능·발현",
@@ -6502,7 +7327,7 @@
      "source": "2019-Q61"
     },
     {
-     "id": "gen-ch13-6-135-ex",
+     "id": "gen-ch13-6-167-ex",
      "subject": "농업유전학",
      "chapter": 13,
      "topic": "돌연변이",
@@ -6520,7 +7345,7 @@
      "source": "2019-Q62"
     },
     {
-     "id": "gen-ch14-6-141-ex",
+     "id": "gen-ch14-6-173-ex",
      "subject": "농업유전학",
      "chapter": 14,
      "topic": "트랜스포존",
@@ -6538,7 +7363,7 @@
      "source": "2019-Q63"
     },
     {
-     "id": "gen-ch14-7-142-ex",
+     "id": "gen-ch14-7-174-ex",
      "subject": "농업유전학",
      "chapter": 14,
      "topic": "트랜스포존",
@@ -6556,7 +7381,7 @@
      "source": "2019-Q64"
     },
     {
-     "id": "gen-ch15-8-150-ex",
+     "id": "gen-ch15-8-185-ex",
      "subject": "농업유전학",
      "chapter": 15,
      "topic": "유전자 테크놀로지",
@@ -6574,7 +7399,7 @@
      "source": "2019-Q65"
     },
     {
-     "id": "gen-ch15-9-151-ex",
+     "id": "gen-ch15-9-186-ex",
      "subject": "농업유전학",
      "chapter": 15,
      "topic": "유전자 테크놀로지",
@@ -6592,7 +7417,7 @@
      "source": "2019-Q66"
     },
     {
-     "id": "gen-ch06-9-90-ex",
+     "id": "gen-ch06-9-102-ex",
      "subject": "농업유전학",
      "chapter": 6,
      "topic": "세포질 유전",
@@ -6610,7 +7435,7 @@
      "source": "2019-Q67"
     },
     {
-     "id": "gen-ch16-7-158-ex",
+     "id": "gen-ch16-7-195-ex",
      "subject": "농업유전학",
      "chapter": 16,
      "topic": "양적 유전",
@@ -6628,7 +7453,7 @@
      "source": "2019-Q68"
     },
     {
-     "id": "gen-ch16-8-159-ex",
+     "id": "gen-ch16-8-196-ex",
      "subject": "농업유전학",
      "chapter": 16,
      "topic": "양적 유전",
@@ -6646,7 +7471,7 @@
      "source": "2019-Q69"
     },
     {
-     "id": "gen-ch17-9-168-ex",
+     "id": "gen-ch17-9-208-ex",
      "subject": "농업유전학",
      "chapter": 17,
      "topic": "집단유전",
